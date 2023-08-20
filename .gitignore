@@ -12,10 +12,16 @@ out/
 
 # Node.js
 node_modules/
+dist/
+dist-ssr/
+coverage/
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 .yarnrc
 .yarn
-.pnp.*
-.pnp.js
+.pnp*
+
+# Other
+*.local
+.env*
