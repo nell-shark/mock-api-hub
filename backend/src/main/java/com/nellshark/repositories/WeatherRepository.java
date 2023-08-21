@@ -1,13 +1,13 @@
 package com.nellshark.repositories;
 
-import com.nellshark.models.User;
+import com.nellshark.models.Weather;
 import java.util.List;
 import org.springframework.stereotype.Repository;
 
 @Repository
-public class UserRepository extends AbstractGenericRepository<User> {
+public class WeatherRepository extends AbstractGenericRepository<Weather> {
 
-  public UserRepository() {
+  public WeatherRepository() {
     super(List.of());
   }
 }

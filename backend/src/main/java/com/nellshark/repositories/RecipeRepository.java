@@ -1,13 +1,13 @@
 package com.nellshark.repositories;
 
-import com.nellshark.models.User;
+import com.nellshark.models.Recipe;
 import java.util.List;
 import org.springframework.stereotype.Repository;
 
 @Repository
-public class UserRepository extends AbstractGenericRepository<User> {
+public class RecipeRepository extends AbstractGenericRepository<Recipe> {
 
-  public UserRepository() {
+  public RecipeRepository() {
     super(List.of());
   }
 }
