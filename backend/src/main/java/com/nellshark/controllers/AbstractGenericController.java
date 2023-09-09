@@ -18,7 +18,7 @@ public abstract class AbstractGenericController<T> {
   }
 
   @GetMapping
-  public ResponseEntity<List<T>> getAll() {
-    return ResponseEntity.ok(service.getAll());
+  public ResponseEntity<List<T>> getAllEntities() {
+    return ResponseEntity.ok(service.getAllEntities());
   }
 }

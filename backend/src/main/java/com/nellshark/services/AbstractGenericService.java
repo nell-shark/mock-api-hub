@@ -15,7 +15,7 @@ public abstract class AbstractGenericService<T> {
     return repository;
   }
 
-  public List<T> getAll() {
+  public List<T> getAllEntities() {
     return repository.findAll();
   }
 }
