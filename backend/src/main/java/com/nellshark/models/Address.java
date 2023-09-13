@@ -4,7 +4,6 @@ import jakarta.persistence.Column;
 import jakarta.persistence.Entity;
 import jakarta.persistence.Id;
 import jakarta.persistence.Table;
-import java.util.Objects;
 
 @Table(name = "addresses")
 @Entity
@@ -14,8 +13,8 @@ public class Address {
   @Column(name = "id", nullable = false, updatable = false)
   private Long id;
 
-  @Column(name = "address", nullable = false, updatable = false)
-  private String address;
+  @Column(name = "street", nullable = false, updatable = false)
+  private String street;
 
   @Column(name = "city", nullable = false, updatable = false)
   private String city;
@@ -29,9 +28,9 @@ public class Address {
   public Address() {
   }
 
-  public Address(Long id, String address, String city, String country, Integer zipcode) {
+  public Address(Long id, String street, String city, String country, Integer zipcode) {
     this.id = id;
-    this.address = address;
+    this.street = street;
     this.city = city;
     this.country = country;
     this.zipcode = zipcode;
@@ -45,12 +44,12 @@ public class Address {
     this.id = id;
   }
 
-  public String getAddress() {
-    return address;
+  public String getStreet() {
+    return street;
   }
 
-  public void setAddress(String address) {
-    this.address = address;
+  public void setStreet(String street) {
+    this.street = street;
   }
 
   public String getCity() {
@@ -78,31 +77,10 @@ public class Address {
   }
 
   @Override
-  public int hashCode() {
-    return Objects.hash(id, address, city, country, zipcode);
-  }
-
-  @Override
-  public boolean equals(Object o) {
-    if (this == o) {
-      return true;
-    }
-    if (o == null || getClass() != o.getClass()) {
-      return false;
-    }
-    Address address1 = (Address) o;
-    return Objects.equals(id, address1.id)
-        && Objects.equals(address, address1.address)
-        && Objects.equals(city, address1.city)
-        && Objects.equals(country, address1.country)
-        && Objects.equals(zipcode, address1.zipcode);
-  }
-
-  @Override
   public String toString() {
     return "Address[" +
         "id=" + id + ", " +
-        "address=" + address + ", " +
+        "address=" + street + ", " +
         "city=" + city + ", " +
         "country=" + country + ", " +
         "zipcode=" + zipcode + ']';
