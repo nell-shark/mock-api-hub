@@ -1,13 +1,10 @@
 package com.nellshark.repositories;
 
 import com.nellshark.models.Project;
-import java.util.List;
+import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 
 @Repository
-public class ProjectRepository extends AbstractGenericRepository<Project> {
+public interface ProjectRepository extends JpaRepository<Project, Long> {
 
-  public ProjectRepository() {
-    super(List.of());
-  }
 }

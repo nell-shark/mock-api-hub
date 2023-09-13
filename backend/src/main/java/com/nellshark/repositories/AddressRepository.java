@@ -1,13 +1,10 @@
 package com.nellshark.repositories;
 
 import com.nellshark.models.Address;
-import java.util.List;
+import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 
 @Repository
-public class AddressRepository extends AbstractGenericRepository<Address> {
+public interface AddressRepository extends JpaRepository<Address, Long> {
 
-  public AddressRepository() {
-    super(List.of(new Address(1L, "12A", "New York", "USA", 12345)));
-  }
 }

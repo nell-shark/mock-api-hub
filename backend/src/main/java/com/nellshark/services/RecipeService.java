@@ -1,13 +1,14 @@
 package com.nellshark.services;
 
-import com.nellshark.models.Recipe;
 import com.nellshark.repositories.RecipeRepository;
 import org.springframework.stereotype.Service;
 
 @Service
-public class RecipeService extends AbstractGenericService<Recipe> {
+public class RecipeService {
+
+  private final RecipeRepository recipeRepository;
 
   public RecipeService(RecipeRepository recipeRepository) {
-    super(recipeRepository);
+    this.recipeRepository = recipeRepository;
   }
 }

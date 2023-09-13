@@ -1,14 +1,11 @@
 package com.nellshark.repositories;
 
 import com.nellshark.models.Todo;
-import java.util.List;
+import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 
 
 @Repository
-public class TodoRepository extends AbstractGenericRepository<Todo> {
+public interface TodoRepository extends JpaRepository<Todo, Long> {
 
-  public TodoRepository() {
-    super(List.of(new Todo(1L, "Todo", false)));
-  }
 }

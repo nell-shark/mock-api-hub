@@ -1,13 +1,10 @@
 package com.nellshark.repositories;
 
 import com.nellshark.models.Post;
-import java.util.List;
+import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 
 @Repository
-public class PostRepository extends AbstractGenericRepository<Post> {
+public interface PostRepository extends JpaRepository<Post, Long> {
 
-  public PostRepository() {
-    super(List.of());
-  }
 }

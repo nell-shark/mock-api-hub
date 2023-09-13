@@ -1,13 +1,10 @@
 package com.nellshark.repositories;
 
 import com.nellshark.models.Order;
-import java.util.List;
+import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 
 @Repository
-public class OrderRepository extends AbstractGenericRepository<Order> {
+public interface OrderRepository extends JpaRepository<Order, Long> {
 
-  public OrderRepository() {
-    super(List.of());
-  }
 }

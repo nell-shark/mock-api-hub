@@ -1,13 +1,14 @@
 package com.nellshark.services;
 
-import com.nellshark.models.Course;
 import com.nellshark.repositories.CourseRepository;
 import org.springframework.stereotype.Service;
 
 @Service
-public class CourseService extends AbstractGenericService<Course> {
+public class CourseService {
+
+  private final CourseRepository courseRepository;
 
   public CourseService(CourseRepository courseRepository) {
-    super(courseRepository);
+    this.courseRepository = courseRepository;
   }
 }

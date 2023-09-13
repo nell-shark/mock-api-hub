@@ -1,13 +1,10 @@
 package com.nellshark.repositories;
 
 import com.nellshark.models.Event;
-import java.util.List;
+import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 
 @Repository
-public class EventRepository extends AbstractGenericRepository<Event> {
+public interface EventRepository extends JpaRepository<Event, Long> {
 
-  public EventRepository() {
-    super(List.of(new Event(1L)));
-  }
 }

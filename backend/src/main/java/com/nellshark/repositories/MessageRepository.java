@@ -1,13 +1,10 @@
 package com.nellshark.repositories;
 
 import com.nellshark.models.Message;
-import java.util.List;
+import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 
 @Repository
-public class MessageRepository extends AbstractGenericRepository<Message> {
+public interface MessageRepository extends JpaRepository<Message, Long> {
 
-  public MessageRepository() {
-    super(List.of(new Message(1L)));
-  }
 }

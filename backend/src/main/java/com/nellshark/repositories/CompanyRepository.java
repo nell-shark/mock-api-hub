@@ -1,13 +1,10 @@
 package com.nellshark.repositories;
 
 import com.nellshark.models.Company;
-import java.util.List;
+import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 
 @Repository
-public class CompanyRepository extends AbstractGenericRepository<Company> {
+public interface CompanyRepository extends JpaRepository<Company, Long> {
 
-  public CompanyRepository() {
-    super(List.of(new Company(1L)));
-  }
 }

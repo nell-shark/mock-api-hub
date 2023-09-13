@@ -1,13 +1,14 @@
 package com.nellshark.services;
 
-import com.nellshark.models.Post;
 import com.nellshark.repositories.PostRepository;
 import org.springframework.stereotype.Service;
 
 @Service
-public class PostService extends AbstractGenericService<Post> {
+public class PostService {
+
+  private final PostRepository postRepository;
 
   public PostService(PostRepository postRepository) {
-    super(postRepository);
+    this.postRepository = postRepository;
   }
 }

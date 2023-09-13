@@ -1,13 +1,10 @@
 package com.nellshark.repositories;
 
 import com.nellshark.models.Employee;
-import java.util.List;
+import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 
 @Repository
-public class EmployeeRepository extends AbstractGenericRepository<Employee> {
+public interface EmployeeRepository extends JpaRepository<Employee, Long> {
 
-  public EmployeeRepository() {
-    super(List.of(new Employee(1L)));
-  }
 }

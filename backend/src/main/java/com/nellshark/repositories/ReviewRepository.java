@@ -1,13 +1,10 @@
 package com.nellshark.repositories;
 
 import com.nellshark.models.Review;
-import java.util.List;
+import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 
 @Repository
-public class ReviewRepository extends AbstractGenericRepository<Review> {
+public interface ReviewRepository extends JpaRepository<Review, Long> {
 
-  public ReviewRepository() {
-    super(List.of());
-  }
 }

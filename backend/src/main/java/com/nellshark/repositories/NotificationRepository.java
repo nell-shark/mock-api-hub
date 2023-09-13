@@ -1,13 +1,10 @@
 package com.nellshark.repositories;
 
 import com.nellshark.models.Notification;
-import java.util.List;
+import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 
 @Repository
-public class NotificationRepository extends AbstractGenericRepository<Notification> {
+public interface NotificationRepository extends JpaRepository<Notification, Long> {
 
-  public NotificationRepository() {
-    super(List.of());
-  }
 }

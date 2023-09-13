@@ -1,13 +1,10 @@
 package com.nellshark.repositories;
 
 import com.nellshark.models.Recipe;
-import java.util.List;
+import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 
 @Repository
-public class RecipeRepository extends AbstractGenericRepository<Recipe> {
+public interface RecipeRepository extends JpaRepository<Recipe, Long> {
 
-  public RecipeRepository() {
-    super(List.of());
-  }
 }
