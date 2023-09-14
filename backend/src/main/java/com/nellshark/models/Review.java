@@ -10,7 +10,6 @@ import java.time.LocalDate;
 @Entity
 public class Review {
 
-  //  {id, productId, userId, rating, date, body, helpfulVotes}
   @Id
   @Column(name = "id", nullable = false, updatable = false)
   private Long id;

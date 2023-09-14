@@ -9,7 +9,6 @@ import jakarta.persistence.Table;
 @Entity
 public class Comment {
 
-  //  {id, text, email, postId, userId}
   @Id
   @Column(name = "id", nullable = false, updatable = false)
   private Long id;
