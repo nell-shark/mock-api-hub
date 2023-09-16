@@ -1,3 +1,3 @@
 export function App() {
-  return <p>React App</p>;
+  return <p className="font-bold">React App</p>;
 }
