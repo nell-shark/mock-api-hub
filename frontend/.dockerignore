@@ -1,0 +1,9 @@
+.vscode
+.dockerignore
+Dockerfile
+build
+dist
+node_modules
+.prettierrc
+*.iml
+*.env
