@@ -19,21 +19,31 @@ public class Address {
   @Column(name = "city", nullable = false, updatable = false)
   private String city;
 
+  @Column(name = "countryCode", nullable = false, updatable = false)
+  private String countryCode;
+
   @Column(name = "country", nullable = false, updatable = false)
   private String country;
 
-  @Column(name = "zipcode", nullable = false, updatable = false)
-  private Integer zipcode;
+  @Column(name = "postCode", nullable = false, updatable = false)
+  private String postCode;
 
   public Address() {
   }
 
-  public Address(Long id, String street, String city, String country, Integer zipcode) {
+  public Address(
+      Long id,
+      String street,
+      String city,
+      String countryCode,
+      String country,
+      String postCode) {
     this.id = id;
     this.street = street;
     this.city = city;
+    this.countryCode = countryCode;
     this.country = country;
-    this.zipcode = zipcode;
+    this.postCode = postCode;
   }
 
   public Long getId() {
@@ -60,6 +70,15 @@ public class Address {
     this.city = city;
   }
 
+
+  public String getCountryCode() {
+    return countryCode;
+  }
+
+  public void setCountryCode(String countryCode) {
+    this.countryCode = countryCode;
+  }
+
   public String getCountry() {
     return country;
   }
@@ -68,21 +87,23 @@ public class Address {
     this.country = country;
   }
 
-  public Integer getZipcode() {
-    return zipcode;
+  public String getPostCode() {
+    return postCode;
   }
 
-  public void setZipcode(Integer zipcode) {
-    this.zipcode = zipcode;
+  public void setPostCode(String postCode) {
+    this.postCode = postCode;
   }
 
   @Override
   public String toString() {
-    return "Address[" +
-        "id=" + id + ", " +
-        "address=" + street + ", " +
-        "city=" + city + ", " +
-        "country=" + country + ", " +
-        "zipcode=" + zipcode + ']';
+    return "Address{" +
+        "id=" + id +
+        ", street='" + street + '\'' +
+        ", city='" + city + '\'' +
+        ", countryCode='" + countryCode + '\'' +
+        ", country='" + country + '\'' +
+        ", postCode='" + postCode + '\'' +
+        '}';
   }
 }
