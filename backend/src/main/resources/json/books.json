@@ -1,0 +1,902 @@
+[
+    {
+        "id": 1,
+        "pages": 320,
+        "title": "The Catcher in the Rye",
+        "author": "J.D. Salinger",
+        "published": 1951,
+        "language": "English",
+        "description": "A classic novel about the teenage angst and rebellion of Holden Caulfield"
+    },
+    {
+        "id": 2,
+        "pages": 384,
+        "title": "To Kill a Mockingbird",
+        "author": "Harper Lee",
+        "published": 1960,
+        "language": "English",
+        "description": "A powerful story of racial injustice and moral growth in the American South"
+    },
+    {
+        "id": 3,
+        "pages": 416,
+        "title": "1984",
+        "author": "George Orwell",
+        "published": 1949,
+        "language": "English",
+        "description": "A dystopian novel that explores the consequences of totalitarianism and surveillance"
+    },
+    {
+        "id": 4,
+        "pages": 288,
+        "title": "Pride and Prejudice",
+        "author": "Jane Austen",
+        "published": 1813,
+        "language": "English",
+        "description": "A classic romance novel featuring the independent Elizabeth Bennet and the proud Mr. Darcy"
+    },
+    {
+        "id": 5,
+        "pages": 256,
+        "title": "One Hundred Years of Solitude",
+        "author": "Gabriel García Márquez",
+        "published": 1967,
+        "language": "Spanish",
+        "description": "A magical realist masterpiece chronicling the Buendía family's seven generations in Macondo"
+    },
+    {
+        "id": 6,
+        "pages": 432,
+        "title": "The Great Gatsby",
+        "author": "F. Scott Fitzgerald",
+        "published": 1925,
+        "language": "English",
+        "description": "A novel about the American Dream and the decadence of the Roaring Twenties"
+    },
+    {
+        "id": 7,
+        "pages": 336,
+        "title": "Brave New World",
+        "author": "Aldous Huxley",
+        "published": 1932,
+        "language": "English",
+        "description": "A dystopian vision of a future society where happiness is controlled and conformity is enforced"
+    },
+    {
+        "id": 8,
+        "pages": 400,
+        "title": "The Lord of the Rings",
+        "author": "J.R.R. Tolkien",
+        "published": 1954,
+        "language": "English",
+        "description": "An epic fantasy trilogy following the quest to destroy the One Ring and save Middle-earth"
+    },
+    {
+        "id": 9,
+        "pages": 368,
+        "title": "The Hobbit",
+        "author": "J.R.R. Tolkien",
+        "published": 1937,
+        "language": "English",
+        "description": "A classic fantasy adventure about Bilbo Baggins' journey to the Lonely Mountain"
+    },
+    {
+        "id": 10,
+        "pages": 288,
+        "title": "Fahrenheit 451",
+        "author": "Ray Bradbury",
+        "published": 1953,
+        "language": "English",
+        "description": "A dystopian tale of a future society where books are banned and burned"
+    },
+    {
+        "id": 11,
+        "pages": 624,
+        "title": "War and Peace",
+        "author": "Leo Tolstoy",
+        "published": 1869,
+        "language": "Russian",
+        "description": "A monumental novel that explores the lives of Russian aristocrats during the Napoleonic era"
+    },
+    {
+        "id": 12,
+        "pages": 352,
+        "title": "Moby-Dick",
+        "author": "Herman Melville",
+        "published": 1851,
+        "language": "English",
+        "description": "A seafaring adventure centered on Captain Ahab's quest for the elusive white whale"
+    },
+    {
+        "id": 13,
+        "pages": 368,
+        "title": "The Odyssey",
+        "author": "Homer",
+        "published": -800,
+        "language": "Ancient Greek",
+        "description": "An ancient Greek epic poem recounting Odysseus' journey home from the Trojan War"
+    },
+    {
+        "id": 14,
+        "pages": 336,
+        "title": "The Hunger Games",
+        "author": "Suzanne Collins",
+        "published": 2008,
+        "language": "English",
+        "description": "A dystopian series where teenagers are forced to compete in a televised fight to the death"
+    },
+    {
+        "id": 15,
+        "pages": 352,
+        "title": "The Alchemist",
+        "author": "Paulo Coelho",
+        "published": 1988,
+        "language": "Portuguese",
+        "description": "A philosophical novel about a shepherd's journey to discover his personal legend"
+    },
+    {
+        "id": 16,
+        "pages": 304,
+        "title": "The Shining",
+        "author": "Stephen King",
+        "published": 1977,
+        "language": "English",
+        "description": "A psychological horror novel set in an isolated hotel with a haunted history"
+    },
+    {
+        "id": 17,
+        "pages": 336,
+        "title": "The Road",
+        "author": "Cormac McCarthy",
+        "published": 2006,
+        "language": "English",
+        "description": "A post-apocalyptic tale of a father and son's journey through a desolate wasteland"
+    },
+    {
+        "id": 18,
+        "pages": 416,
+        "title": "The Hitchhiker's Guide to the Galaxy",
+        "author": "Douglas Adams",
+        "published": 1979,
+        "language": "English",
+        "description": "A comedic science fiction series about the misadventures of Arthur Dent in space"
+    },
+    {
+        "id": 19,
+        "pages": 368,
+        "title": "The Girl with the Dragon Tattoo",
+        "author": "Stieg Larsson",
+        "published": 2005,
+        "language": "Swedish",
+        "description": "A mystery thriller featuring journalist Mikael Blomkvist and hacker Lisbeth Salander"
+    },
+    {
+        "id": 20,
+        "pages": 256,
+        "title": "The Road Not Taken",
+        "author": "Robert Frost",
+        "published": 1916,
+        "language": "English",
+        "description": "A collection of poems, including the famous title poem about life choices"
+    },
+    {
+        "id": 21,
+        "pages": 384,
+        "title": "The Martian",
+        "author": "Andy Weir",
+        "published": 2011,
+        "language": "English",
+        "description": "A science fiction novel about an astronaut stranded on Mars and his struggle for survival"
+    },
+    {
+        "id": 22,
+        "pages": 352,
+        "title": "The Da Vinci Code",
+        "author": "Dan Brown",
+        "published": 2003,
+        "language": "English",
+        "description": "A thriller that follows Robert Langdon's quest to unravel a religious mystery"
+    },
+    {
+        "id": 23,
+        "pages": 464,
+        "title": "The Road Less Traveled",
+        "author": "M. Scott Peck",
+        "published": 1978,
+        "language": "English",
+        "description": "A self-help book exploring the journey to spiritual growth and fulfillment"
+    },
+    {
+        "id": 24,
+        "pages": 256,
+        "title": "The Sun Also Rises",
+        "author": "Ernest Hemingway",
+        "published": 1926,
+        "language": "English",
+        "description": "A novel set in the aftermath of World War I, depicting the Lost Generation"
+    },
+    {
+        "id": 25,
+        "pages": 304,
+        "title": "The Secret Garden",
+        "author": "Frances Hodgson Burnett",
+        "published": 1911,
+        "language": "English",
+        "description": "A children's novel about the healing power of nature and friendship"
+    },
+    {
+        "id": 26,
+        "pages": 368,
+        "title": "The Color Purple",
+        "author": "Alice Walker",
+        "published": 1982,
+        "language": "English",
+        "description": "A novel exploring the lives and struggles of African American women in the Southern United States"
+    },
+    {
+        "id": 27,
+        "pages": 448,
+        "title": "The Picture of Dorian Gray",
+        "author": "Oscar Wilde",
+        "published": 1890,
+        "language": "English",
+        "description": "A novel that examines the consequences of a man's moral decay and obsession with youth"
+    },
+    {
+        "id": 28,
+        "pages": 320,
+        "title": "The Name of the Wind",
+        "author": "Patrick Rothfuss",
+        "published": 2007,
+        "language": "English",
+        "description": "The first book in a fantasy series chronicling the life of Kvothe, a gifted musician and magician"
+    },
+    {
+        "id": 29,
+        "pages": 400,
+        "title": "The Book Thief",
+        "author": "Markus Zusak",
+        "published": 2005,
+        "language": "English",
+        "description": "A novel narrated by Death, featuring a young girl's experiences in Nazi Germany"
+    },
+    {
+        "id": 30,
+        "pages": 336,
+        "title": "The Brothers Karamazov",
+        "author": "Fyodor Dostoevsky",
+        "published": 1880,
+        "language": "Russian",
+        "description": "A philosophical novel that explores morality, faith, and the nature of evil"
+    },
+    {
+        "id": 31,
+        "pages": 256,
+        "title": "The Old Man and the Sea",
+        "author": "Ernest Hemingway",
+        "published": 1952,
+        "language": "English",
+        "description": "A novella about an aging Cuban fisherman's epic battle with a giant marlin"
+    },
+    {
+        "id": 32,
+        "pages": 368,
+        "title": "The Chronicles of Narnia",
+        "author": "C.S. Lewis",
+        "published": 1950,
+        "language": "English",
+        "description": "A fantasy series set in the magical world of Narnia, filled with talking animals and mythical creatures"
+    },
+    {
+        "id": 33,
+        "pages": 432,
+        "title": "The Count of Monte Cristo",
+        "author": "Alexandre Dumas",
+        "published": 1844,
+        "language": "French",
+        "description": "An adventure novel of revenge and redemption set in 19th-century France"
+    },
+    {
+        "id": 34,
+        "pages": 352,
+        "title": "The Handmaid's Tale",
+        "author": "Margaret Atwood",
+        "published": 1985,
+        "language": "English",
+        "description": "A dystopian novel depicting a theocratic regime that subjugates women"
+    },
+    {
+        "id": 35,
+        "pages": 336,
+        "title": "The Bell Jar",
+        "author": "Sylvia Plath",
+        "published": 1963,
+        "language": "English",
+        "description": "A semi-autobiographical novel exploring the mental health struggles of its protagonist"
+    },
+    {
+        "id": 36,
+        "pages": 432,
+        "title": "The Sound and the Fury",
+        "author": "William Faulkner",
+        "published": 1929,
+        "language": "English",
+        "description": "A modernist novel that delves into the decline of the Compson family in the American South"
+    },
+    {
+        "id": 37,
+        "pages": 352,
+        "title": "The Grapes of Wrath",
+        "author": "John Steinbeck",
+        "published": 1939,
+        "language": "English",
+        "description": "A novel about the Joad family's journey during the Great Depression"
+    },
+    {
+        "id": 38,
+        "pages": 288,
+        "title": "The Hound of the Baskervilles",
+        "author": "Arthur Conan Doyle",
+        "published": 1902,
+        "language": "English",
+        "description": "A Sherlock Holmes mystery featuring a cursed family and a spectral hound"
+    },
+    {
+        "id": 39,
+        "pages": 416,
+        "title": "The Metamorphosis",
+        "author": "Franz Kafka",
+        "published": 1915,
+        "language": "German",
+        "description": "A surreal novella about Gregor Samsa's transformation into a giant insect"
+    },
+    {
+        "id": 40,
+        "pages": 320,
+        "title": "The Divine Comedy",
+        "author": "Dante Alighieri",
+        "published": 1320,
+        "language": "Italian",
+        "description": "An epic poem that takes readers on a journey through Hell, Purgatory, and Heaven"
+    },
+    {
+        "id": 41,
+        "pages": 352,
+        "title": "The Wind in the Willows",
+        "author": "Kenneth Grahame",
+        "published": 1908,
+        "language": "English",
+        "description": "A children's classic featuring the adventures of Mole, Ratty, Toad, and Badger"
+    },
+    {
+        "id": 42,
+        "pages": 416,
+        "title": "The Stand",
+        "author": "Stephen King",
+        "published": 1978,
+        "language": "English",
+        "description": "A post-apocalyptic novel that follows survivors of a deadly pandemic"
+    },
+    {
+        "id": 43,
+        "pages": 368,
+        "title": "The Silmarillion",
+        "author": "J.R.R. Tolkien",
+        "published": 1977,
+        "language": "English",
+        "description": "A collection of Tolkien's mythopoeic writings set in the world of Middle-earth"
+    },
+    {
+        "id": 44,
+        "pages": 384,
+        "title": "The Kite Runner",
+        "author": "Khaled Hosseini",
+        "published": 2003,
+        "language": "English",
+        "description": "A novel about the friendship between two Afghan boys amidst political turmoil"
+    },
+    {
+        "id": 45,
+        "pages": 336,
+        "title": "The Hobbit",
+        "author": "J.R.R. Tolkien",
+        "published": 1937,
+        "language": "English",
+        "description": "A classic fantasy adventure about Bilbo Baggins' journey to the Lonely Mountain"
+    },
+    {
+        "id": 46,
+        "pages": 288,
+        "title": "The Little Prince",
+        "author": "Antoine de Saint-Exupéry",
+        "published": 1943,
+        "language": "French",
+        "description": "Anti world"
+    },
+    {
+        "id": 47,
+        "pages": 96,
+        "title": "Animal Farm",
+        "author": "George Orwell",
+        "published": 1945,
+        "language": "English",
+        "description": "A satirical novella that allegorically depicts the events leading to the Russian Revolution"
+    },
+    {
+        "id": 48,
+        "pages": 368,
+        "title": "The Odyssey",
+        "author": "Homer",
+        "published": -800,
+        "language": "Ancient Greek",
+        "description": "An ancient Greek epic poem recounting Odysseus' journey home from the Trojan War"
+    },
+    {
+        "id": 49,
+        "pages": 416,
+        "title": "The Girl with the Dragon Tattoo",
+        "author": "Stieg Larsson",
+        "published": 2005,
+        "language": "Swedish",
+        "description": "A mystery thriller featuring journalist Mikael Blomkvist and hacker Lisbeth Salander"
+    },
+    {
+        "id": 50,
+        "pages": 208,
+        "title": "The Stranger",
+        "author": "Albert Camus",
+        "published": 1942,
+        "language": "French",
+        "description": "A philosophical novel exploring the absurdity of life through the character of Meursault"
+    },
+    {
+        "id": 51,
+        "pages": 384,
+        "title": "The Road Less Traveled",
+        "author": "M. Scott Peck",
+        "published": 1978,
+        "language": "English",
+        "description": "A self-help book exploring the journey to spiritual growth and fulfillment"
+    },
+    {
+        "id": 52,
+        "pages": 320,
+        "title": "The Giver",
+        "author": "Lois Lowry",
+        "published": 1993,
+        "language": "English",
+        "description": "A dystopian novel in which a boy learns the truth about his seemingly perfect society"
+    },
+    {
+        "id": 53,
+        "pages": 352,
+        "title": "The Little Prince",
+        "author": "Antoine de Saint-Exupéry",
+        "published": 1943,
+        "language": "French",
+        "description": "A timeless tale of a young prince's adventures and life lessons"
+    },
+    {
+        "id": 54,
+        "pages": 288,
+        "title": "The Iliad",
+        "author": "Homer",
+        "published": -800,
+        "language": "Ancient Greek",
+        "description": "An epic poem narrating the Trojan War and the hero Achilles"
+    },
+    {
+        "id": 55,
+        "pages": 320,
+        "title": "The Three Musketeers",
+        "author": "Alexandre Dumas",
+        "published": 1844,
+        "language": "French",
+        "description": "An adventure novel featuring the swashbuckling Musketeers of the Guard"
+    },
+    {
+        "id": 56,
+        "pages": 368,
+        "title": "The Stand",
+        "author": "Stephen King",
+        "published": 1978,
+        "language": "English",
+        "description": "A post-apocalyptic novel that follows survivors of a deadly pandemic"
+    },
+    {
+        "id": 57,
+        "pages": 272,
+        "title": "The Fault in Our Stars",
+        "author": "John Green",
+        "published": 2012,
+        "language": "English",
+        "description": "A contemporary young adult novel about two teenagers with cancer who fall in love"
+    },
+    {
+        "id": 58,
+        "pages": 368,
+        "title": "The Handmaid's Tale",
+        "author": "Margaret Atwood",
+        "published": 1985,
+        "language": "English",
+        "description": "A dystopian novel depicting a theocratic regime that subjugates women"
+    },
+    {
+        "id": 59,
+        "pages": 368,
+        "title": "The Kite Runner",
+        "author": "Khaled Hosseini",
+        "published": 2003,
+        "language": "English",
+        "description": "A novel about the friendship between two Afghan boys amidst political turmoil"
+    },
+    {
+        "id": 60,
+        "pages": 432,
+        "title": "The Road",
+        "author": "Cormac McCarthy",
+        "published": 2006,
+        "language": "English",
+        "description": "A post-apocalyptic tale of a father and son's journey through a desolate wasteland"
+    },
+    {
+        "id": 61,
+        "pages": 416,
+        "title": "The Divine Comedy",
+        "author": "Dante Alighieri",
+        "published": 1320,
+        "language": "Italian",
+        "description": "An epic poem that takes readers on a journey through Hell, Purgatory, and Heaven"
+    },
+    {
+        "id": 62,
+        "pages": 368,
+        "title": "The Chronicles of Narnia",
+        "author": "C.S. Lewis",
+        "published": 1950,
+        "language": "English",
+        "description": "A fantasy series set in the magical world of Narnia, filled with talking animals and mythical creatures"
+    },
+    {
+        "id": 63,
+        "pages": 320,
+        "title": "The Old Man and the Sea",
+        "author": "Ernest Hemingway",
+        "published": 1952,
+        "language": "English",
+        "description": "A novella about an aging Cuban fisherman's epic battle with a giant marlin"
+    },
+    {
+        "id": 64,
+        "pages": 384,
+        "title": "The Metamorphosis",
+        "author": "Franz Kafka",
+        "published": 1915,
+        "language": "German",
+        "description": "A surreal novella about Gregor Samsa's transformation into a giant insect"
+    },
+    {
+        "id": 65,
+        "pages": 352,
+        "title": "The Alchemist",
+        "author": "Paulo Coelho",
+        "published": 1988,
+        "language": "Portuguese",
+        "description": "A philosophical novel about a shepherd's journey to discover his personal legend"
+    },
+    {
+        "id": 66,
+        "pages": 336,
+        "title": "The Shining",
+        "author": "Stephen King",
+        "published": 1977,
+        "language": "English",
+        "description": "A psychological horror novel set in an isolated hotel with a haunted history"
+    },
+    {
+        "id": 67,
+        "pages": 368,
+        "title": "The Lord of the Rings",
+        "author": "J.R.R",
+        "published": 1999,
+        "language": "English",
+        "description": "History of the another world"
+    },
+    {
+        "id": 68,
+        "pages": 336,
+        "title": "The Road Not Taken",
+        "author": "Robert Frost",
+        "published": 1916,
+        "language": "English",
+        "description": "A collection of poems, including the famous title poem about life choices"
+    },
+    {
+        "id": 69,
+        "pages": 256,
+        "title": "One Hundred Years of Solitude",
+        "author": "Gabriel García Márquez",
+        "published": 1967,
+        "language": "Spanish",
+        "description": "A magical realist masterpiece chronicling the Buendía family's seven generations in Macondo"
+    },
+    {
+        "id": 70,
+        "pages": 400,
+        "title": "Pride and Prejudice",
+        "author": "Jane Austen",
+        "published": 1813,
+        "language": "English",
+        "description": "A classic romance novel featuring the independent Elizabeth Bennet and the proud Mr. Darcy"
+    },
+    {
+        "id": 71,
+        "pages": 416,
+        "title": "1984",
+        "author": "George Orwell",
+        "published": 1949,
+        "language": "English",
+        "description": "A dystopian novel that explores the consequences of totalitarianism and surveillance"
+    },
+    {
+        "id": 72,
+        "pages": 368,
+        "title": "To Kill a Mockingbird",
+        "author": "Harper Lee",
+        "published": 1960,
+        "language": "English",
+        "description": "A powerful story of racial injustice and moral growth in the American South"
+    },
+    {
+        "id": 73,
+        "pages": 320,
+        "title": "The Catcher in the Rye",
+        "author": "J.D. Salinger",
+        "published": 1951,
+        "language": "English",
+        "description": "A classic novel about the teenage angst and rebellion of Holden Caulfield"
+    },
+    {
+        "id": 74,
+        "pages": 384,
+        "title": "The Great Gatsby",
+        "author": "F. Scott Fitzgerald",
+        "published": 1925,
+        "language": "English",
+        "description": "A novel about the American Dream and the decadence of the Roaring Twenties"
+    },
+    {
+        "id": 75,
+        "pages": 400,
+        "title": "Brave New World",
+        "author": "Aldous Huxley",
+        "published": 1932,
+        "language": "English",
+        "description": "A dystopian vision of a future society where happiness is controlled and conformity is enforced"
+    },
+    {
+        "id": 76,
+        "pages": 352,
+        "title": "The Book Thief",
+        "author": "Markus Zusak",
+        "published": 2005,
+        "language": "English",
+        "description": "A novel narrated by Death, featuring a young girl's experiences in Nazi Germany"
+    },
+    {
+        "id": 77,
+        "pages": 400,
+        "title": "The Hobbit",
+        "author": "J.R.R. Tolkien",
+        "published": 1937,
+        "language": "English",
+        "description": "A classic fantasy adventure about Bilbo Baggins' journey to the Lonely Mountain"
+    },
+    {
+        "id": 78,
+        "pages": 320,
+        "title": "Fahrenheit 451",
+        "author": "Ray Bradbury",
+        "published": 1953,
+        "language": "English",
+        "description": "A dystopian tale of a future society where books are banned and burned"
+    },
+    {
+        "id": 79,
+        "pages": 624,
+        "title": "War and Peace",
+        "author": "Leo Tolstoy",
+        "published": 1869,
+        "language": "Russian",
+        "description": "A monumental novel that explores the lives of Russian aristocrats during the Napoleonic era"
+    },
+    {
+        "id": 80,
+        "pages": 352,
+        "title": "Moby-Dick",
+        "author": "Herman Melville",
+        "published": 1851,
+        "language": "English",
+        "description": "A seafaring adventure centered on Captain Ahab's quest for the elusive white whale"
+    },
+    {
+        "id": 81,
+        "pages": 368,
+        "title": "The Odyssey",
+        "author": "Homer",
+        "published": -800,
+        "language": "Ancient Greek",
+        "description": "An ancient Greek epic poem recounting Odysseus' journey home from the Trojan War"
+    },
+    {
+        "id": 82,
+        "pages": 336,
+        "title": "The Hunger Games",
+        "author": "Suzanne Collins",
+        "published": 2008,
+        "language": "English",
+        "description": "A dystopian series where teenagers are forced to compete in a televised fight to the death"
+    },
+    {
+        "id": 83,
+        "pages": 352,
+        "title": "The Alchemist",
+        "author": "Paulo Coelho",
+        "published": 1988,
+        "language": "Portuguese",
+        "description": "A philosophical novel about a shepherd's journey to discover his personal legend"
+    },
+    {
+        "id": 84,
+        "pages": 304,
+        "title": "The Shining",
+        "author": "Stephen King",
+        "published": 1977,
+        "language": "English",
+        "description": "A psychological horror novel set in an isolated hotel with a haunted history"
+    },
+    {
+        "id": 85,
+        "pages": 336,
+        "title": "The Road",
+        "author": "Cormac McCarthy",
+        "published": 2006,
+        "language": "English",
+        "description": "A post-apocalyptic tale of a father and son's journey through a desolate wasteland"
+    },
+    {
+        "id": 86,
+        "pages": 352,
+        "title": "The Hitchhiker's Guide to the Galaxy",
+        "author": "Douglas Adams",
+        "published": 1979,
+        "language": "English",
+        "description": "A comedic science fiction series about the misadventures of Arthur Dent in space"
+    },
+    {
+        "id": 87,
+        "pages": 368,
+        "title": "The Girl with the Dragon Tattoo",
+        "author": "Stieg Larsson",
+        "published": 2005,
+        "language": "Swedish",
+        "description": "A mystery thriller featuring journalist Mikael Blomkvist and hacker Lisbeth Salander"
+    },
+    {
+        "id": 88,
+        "pages": 320,
+        "title": "The Sun Also Rises",
+        "author": "Ernest Hemingway",
+        "published": 1926,
+        "language": "English",
+        "description": "A novel set in the aftermath of World War I, depicting the Lost Generation"
+    },
+    {
+        "id": 89,
+        "pages": 304,
+        "title": "The Secret Garden",
+        "author": "Frances Hodgson Burnett",
+        "published": 1911,
+        "language": "English",
+        "description": "A children's novel about the healing power of nature and friendship"
+    },
+    {
+        "id": 90,
+        "pages": 368,
+        "title": "The Color Purple",
+        "author": "Alice Walker",
+        "published": 1982,
+        "language": "English",
+        "description": "A novel exploring the lives and struggles of African American women in the Southern United States"
+    },
+    {
+        "id": 91,
+        "pages": 448,
+        "title": "The Picture of Dorian Gray",
+        "author": "Oscar Wilde",
+        "published": 1890,
+        "language": "English",
+        "description": "A novel that examines the consequences of a man's moral decay and obsession with youth"
+    },
+    {
+        "id": 92,
+        "pages": 352,
+        "title": "The Name of the Wind",
+        "author": "Patrick Rothfuss",
+        "published": 2007,
+        "language": "English",
+        "description": "The first book in a fantasy series chronicling the life of Kvothe, a gifted musician and magician"
+    },
+    {
+        "id": 93,
+        "pages": 336,
+        "title": "The Book Thief",
+        "author": "Markus Zusak",
+        "published": 2005,
+        "language": "English",
+        "description": "A novel narrated by Death, featuring a young girl's experiences in Nazi Germany"
+    },
+    {
+        "id": 94,
+        "pages": 352,
+        "title": "The Brothers Karamazov",
+        "author": "Fyodor Dostoevsky",
+        "published": 1880,
+        "language": "Russian",
+        "description": "A philosophical novel that explores morality, faith, and the nature of evil"
+    },
+    {
+        "id": 95,
+        "pages": 320,
+        "title": "The Old Man and the Sea",
+        "author": "Ernest Hemingway",
+        "published": 1952,
+        "language": "English",
+        "description": "A novella about an aging Cuban fisherman's epic battle with a giant marlin"
+    },
+    {
+        "id": 96,
+        "pages": 336,
+        "title": "The Chronicles of Narnia",
+        "author": "C.S. Lewis",
+        "published": 1950,
+        "language": "English",
+        "description": "A fantasy series set in the magical world of Narnia, filled with talking animals and mythical creatures"
+    },
+    {
+        "id": 97,
+        "pages": 432,
+        "title": "The Count of Monte Cristo",
+        "author": "Alexandre Dumas",
+        "published": 1844,
+        "language": "French",
+        "description": "An adventure novel of revenge and redemption set in 19th-century France"
+    },
+    {
+        "id": 98,
+        "pages": 352,
+        "title": "The Handmaid's Tale",
+        "author": "Margaret Atwood",
+        "published": 1985,
+        "language": "English",
+        "description": "A dystopian novel depicting a theocratic regime that subjugates women"
+    },
+    {
+        "id": 99,
+        "pages": 336,
+        "title": "The Bell Jar",
+        "author": "Sylvia Plath",
+        "published": 1963,
+        "language": "English",
+        "description": "A semi-autobiographical novel exploring the mental health struggles of its protagonist"
+    },
+    {
+        "id": 100,
+        "pages": 432,
+        "title": "The Sound and the Fury",
+        "author": "William Faulkner",
+        "published": 1929,
+        "language": "English",
+        "description": "A modernist novel that delves into the decline of the Compson family in the American South"
+    }
+]

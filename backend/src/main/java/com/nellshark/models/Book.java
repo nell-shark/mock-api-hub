@@ -4,7 +4,6 @@ import jakarta.persistence.Column;
 import jakarta.persistence.Entity;
 import jakarta.persistence.Id;
 import jakarta.persistence.Table;
-import java.time.LocalDate;
 
 @Table(name = "books")
 @Entity
@@ -17,11 +16,14 @@ public class Book {
   @Column(name = "title", nullable = false, updatable = false)
   private String title;
 
+  @Column(name = "pages", nullable = false, updatable = false)
+  private Long pages;
+
   @Column(name = "author", nullable = false, updatable = false)
   private String author;
 
   @Column(name = "published", nullable = false, updatable = false)
-  private LocalDate published;
+  private Long published;
 
   @Column(name = "language", nullable = false, updatable = false)
   private String language;
@@ -32,10 +34,17 @@ public class Book {
   public Book() {
   }
 
-  public Book(Long id, String title, String author, LocalDate year, String language,
+  public Book(
+      Long id,
+      String title,
+      Long pages,
+      String author,
+      Long published,
+      String language,
       String description) {
     this.id = id;
     this.title = title;
+    this.pages = pages;
     this.author = author;
     this.published = published;
     this.language = language;
@@ -58,6 +67,14 @@ public class Book {
     this.title = title;
   }
 
+  public Long getPages() {
+    return pages;
+  }
+
+  public void setPages(Long pages) {
+    this.pages = pages;
+  }
+
   public String getAuthor() {
     return author;
   }
@@ -66,11 +83,11 @@ public class Book {
     this.author = author;
   }
 
-  public LocalDate getYear() {
+  public Long getPublished() {
     return published;
   }
 
-  public void setYear(LocalDate published) {
+  public void setPublished(Long published) {
     this.published = published;
   }
 
@@ -95,7 +112,8 @@ public class Book {
     return "Book{" +
         "id=" + id +
         ", title='" + title + '\'' +
-        ", author=" + author +
+        ", pages=" + pages +
+        ", author='" + author + '\'' +
         ", published=" + published +
         ", language='" + language + '\'' +
         ", description='" + description + '\'' +

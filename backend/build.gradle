@@ -19,6 +19,8 @@ dependencies {
     testImplementation 'org.springframework.boot:spring-boot-starter-test'
 
     implementation 'com.h2database:h2:2.2.222'
+
+    implementation 'com.google.guava:guava:32.1.2-jre'
 }
 
 tasks.named('test') {
