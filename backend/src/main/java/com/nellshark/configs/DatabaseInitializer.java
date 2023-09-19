@@ -3,9 +3,11 @@ package com.nellshark.configs;
 import com.nellshark.models.Address;
 import com.nellshark.models.Book;
 import com.nellshark.models.Comment;
+import com.nellshark.models.Company;
 import com.nellshark.services.AddressService;
 import com.nellshark.services.BookService;
 import com.nellshark.services.CommentService;
+import com.nellshark.services.CompanyService;
 import com.nellshark.utils.JsonUtils;
 import java.io.File;
 import java.util.List;
@@ -20,20 +22,19 @@ public class DatabaseInitializer implements CommandLineRunner {
 
   private static final Logger logger = LoggerFactory.getLogger(DatabaseInitializer.class);
 
-  private final JsonUtils jsonUtils;
   private final AddressService addressService;
   private final BookService bookService;
   private final CommentService commentService;
+  private final CompanyService companyService;
 
   public DatabaseInitializer(
-      JsonUtils jsonUtils,
       AddressService addressService,
       BookService bookService,
-      CommentService commentService) {
-    this.jsonUtils = jsonUtils;
+      CommentService commentService, CompanyService companyService) {
     this.addressService = addressService;
     this.bookService = bookService;
     this.commentService = commentService;
+    this.companyService = companyService;
   }
 
   @Override
@@ -41,20 +42,19 @@ public class DatabaseInitializer implements CommandLineRunner {
     logger.info("Starting initialization database");
 
     loadAndSaveJsonEntities(
-        "addresses.json", Address.class, addressService::saveAddress
-    );
+        "addresses.json", Address.class, addressService::saveAddress);
     loadAndSaveJsonEntities(
-        "books.json", Book.class, bookService::saveBook
-    );
+        "books.json", Book.class, bookService::saveBook);
     loadAndSaveJsonEntities(
-        "comments.json", Comment.class, commentService::saveComment
-    );
+        "comments.json", Comment.class, commentService::saveComment);
+    loadAndSaveJsonEntities(
+        "companies.json", Company.class, companyService::saveCompany);
   }
 
   private <T> void loadAndSaveJsonEntities(
       String jsonFileName, Class<T> clazz, Consumer<T> saveEntity) {
-    File jsonFile = jsonUtils.getResourceJsonFile(jsonFileName);
-    List<T> entities = jsonUtils.convertJsonFileToEntities(jsonFile, clazz);
+    File jsonFile = JsonUtils.getJsonFileFromResources(jsonFileName);
+    List<T> entities = JsonUtils.convertJsonFileToEntities(jsonFile, clazz);
     entities.forEach(saveEntity);
   }
 }

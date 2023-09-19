@@ -1,0 +1,1052 @@
+[
+  {
+    "id": 1,
+    "name": "ABC Corporation",
+    "industry": "Technology",
+    "foundedYear": 2005,
+    "location": "San Francisco, CA",
+    "website": "www.abccorp.com",
+    "numberOfEmployees": 500,
+    "description": "ABC Corporation is a leading technology company specializing in software development and cloud services."
+  },
+  {
+    "id": 2,
+    "name": "XYZ Inc.",
+    "industry": "Healthcare",
+    "foundedYear": 1990,
+    "location": "New York, NY",
+    "website": "www.xyzinc.com",
+    "numberOfEmployees": 1000,
+    "description": "XYZ Inc. is a healthcare company focused on medical research and patient care."
+  },
+  {
+    "id": 3,
+    "name": "Global Automotive Group",
+    "industry": "Automotive",
+    "foundedYear": 1985,
+    "location": "Detroit, MI",
+    "website": "www.globalauto.com",
+    "numberOfEmployees": 1500,
+    "description": "Global Automotive Group is a multinational corporation specializing in the manufacturing of automobiles."
+  },
+  {
+    "id": 4,
+    "name": "EcoTech Solutions",
+    "industry": "Environmental",
+    "foundedYear": 2010,
+    "location": "Seattle, WA",
+    "website": "www.ecotechsolutions.com",
+    "numberOfEmployees": 200,
+    "description": "EcoTech Solutions is dedicated to providing environmentally friendly solutions and products."
+  },
+  {
+    "id": 5,
+    "name": "Foodie Delights Inc.",
+    "industry": "Food and Beverage",
+    "foundedYear": 2008,
+    "location": "Chicago, IL",
+    "website": "www.foodiedelights.com",
+    "numberOfEmployees": 300,
+    "description": "Foodie Delights Inc. offers a wide range of gourmet food and beverage products."
+  },
+  {
+    "id": 6,
+    "name": "Green Energy Solutions",
+    "industry": "Energy",
+    "foundedYear": 2009,
+    "location": "Austin, TX",
+    "website": "www.greenenergysolutions.com",
+    "numberOfEmployees": 250,
+    "description": "Green Energy Solutions specializes in renewable energy solutions and sustainable practices."
+  },
+  {
+    "id": 7,
+    "name": "InnovateTech Labs",
+    "industry": "Technology",
+    "foundedYear": 2012,
+    "location": "Boston, MA",
+    "website": "www.innovatetechlabs.com",
+    "numberOfEmployees": 800,
+    "description": "InnovateTech Labs is a research and development company at the forefront of technological innovation."
+  },
+  {
+    "id": 8,
+    "name": "Fashion Forward Inc.",
+    "industry": "Fashion",
+    "foundedYear": 1995,
+    "location": "Los Angeles, CA",
+    "website": "www.fashionforward.com",
+    "numberOfEmployees": 600,
+    "description": "Fashion Forward Inc. is a leading fashion retailer known for its trendsetting designs."
+  },
+  {
+    "id": 9,
+    "name": "MediHealth Solutions",
+    "industry": "Healthcare",
+    "foundedYear": 2000,
+    "location": "Houston, TX",
+    "website": "www.medihealthsolutions.com",
+    "numberOfEmployees": 1200,
+    "description": "MediHealth Solutions provides cutting-edge healthcare services and medical technology."
+  },
+  {
+    "id": 10,
+    "name": "GreenTech Innovations",
+    "industry": "Technology",
+    "foundedYear": 2011,
+    "location": "San Jose, CA",
+    "website": "www.greentechinnovations.com",
+    "numberOfEmployees": 400,
+    "description": "GreenTech Innovations focuses on developing environmentally friendly tech solutions."
+  },
+  {
+    "id": 11,
+    "name": "Global Logistics Group",
+    "industry": "Logistics",
+    "foundedYear": 1998,
+    "location": "Atlanta, GA",
+    "website": "www.globallogisticsgroup.com",
+    "numberOfEmployees": 1800,
+    "description": "Global Logistics Group offers comprehensive logistics and supply chain management solutions."
+  },
+  {
+    "id": 12,
+    "name": "BioTech Innovations",
+    "industry": "Biotechnology",
+    "foundedYear": 2007,
+    "location": "San Diego, CA",
+    "website": "www.biotechinnovations.com",
+    "numberOfEmployees": 300,
+    "description": "BioTech Innovations specializes in cutting-edge biotechnology research and development."
+  },
+  {
+    "id": 13,
+    "name": "GreenHaven Resorts",
+    "industry": "Hospitality",
+    "foundedYear": 2015,
+    "location": "Miami, FL",
+    "website": "www.greenhavenresorts.com",
+    "numberOfEmployees": 150,
+    "description": "GreenHaven Resorts offers luxurious eco-friendly accommodations and experiences."
+  },
+  {
+    "id": 14,
+    "name": "FinanceFirst Inc.",
+    "industry": "Finance",
+    "foundedYear": 2003,
+    "location": "New York, NY",
+    "website": "www.financefirst.com",
+    "numberOfEmployees": 900,
+    "description": "FinanceFirst Inc. is a leading financial services provider specializing in investments and wealth management."
+  },
+  {
+    "id": 15,
+    "name": "AeroTech Solutions",
+    "industry": "Aerospace",
+    "foundedYear": 1992,
+    "location": "Seattle, WA",
+    "website": "www.aerotechsolutions.com",
+    "numberOfEmployees": 700,
+    "description": "AeroTech Solutions is a key player in the aerospace industry, manufacturing advanced aircraft components."
+  },
+  {
+    "id": 16,
+    "name": "SolarPower Innovations",
+    "industry": "Energy",
+    "foundedYear": 2013,
+    "location": "Phoenix, AZ",
+    "website": "www.solarpowerinnovations.com",
+    "numberOfEmployees": 220,
+    "description": "SolarPower Innovations is a leading provider of solar energy solutions and renewable power systems."
+  },
+  {
+    "id": 17,
+    "name": "HealthTech Solutions",
+    "industry": "Healthcare",
+    "foundedYear": 2006,
+    "location": "Chicago, IL",
+    "website": "www.healthtechsolutions.com",
+    "numberOfEmployees": 850,
+    "description": "HealthTech Solutions offers healthcare technology products and services to improve patient care."
+  },
+  {
+    "id": 18,
+    "name": "Artisan Craftsmen",
+    "industry": "Art and Crafts",
+    "foundedYear": 1999,
+    "location": "Portland, OR",
+    "website": "www.artisancraftsmen.com",
+    "numberOfEmployees": 75,
+    "description": "Artisan Craftsmen is known for handcrafted, unique art and crafts creations."
+  },
+  {
+    "id": 19,
+    "name": "GreenWave Electronics",
+    "industry": "Electronics",
+    "foundedYear": 2014,
+    "location": "San Jose, CA",
+    "website": "www.greenwaveelectronics.com",
+    "numberOfEmployees": 400,
+    "description": "GreenWave Electronics designs and manufactures environmentally-friendly electronic devices."
+  },
+  {
+    "id": 20,
+    "name": "Precision Auto Parts",
+    "industry": "Automotive",
+    "foundedYear": 1997,
+    "location": "Detroit, MI",
+    "website": "www.precisionautoparts.com",
+    "numberOfEmployees": 300,
+    "description": "Precision Auto Parts specializes in high-quality automotive components and accessories."
+  },
+  {
+    "id": 21,
+    "name": "CleanTech Innovations",
+    "industry": "Technology",
+    "foundedYear": 2010,
+    "location": "San Francisco, CA",
+    "website": "www.cleantechinnovations.com",
+    "numberOfEmployees": 450,
+    "description": "CleanTech Innovations focuses on developing clean and sustainable technology solutions."
+  },
+  {
+    "id": 22,
+    "name": "AquaTech Solutions",
+    "industry": "Environmental",
+    "foundedYear": 2008,
+    "location": "Seattle, WA",
+    "website": "www.aquatechsolutions.com",
+    "numberOfEmployees": 180,
+    "description": "AquaTech Solutions specializes in water purification and environmental conservation."
+  },
+  {
+    "id": 23,
+    "name": "MediaMasters Inc.",
+    "industry": "Media and Entertainment",
+    "foundedYear": 1993,
+    "location": "Los Angeles, CA",
+    "website": "www.mediamasters.com",
+    "numberOfEmployees": 600,
+    "description": "MediaMasters Inc. is a media conglomerate known for its diverse entertainment offerings."
+  },
+  {
+    "id": 24,
+    "name": "EduSolutions",
+    "industry": "Education",
+    "foundedYear": 2001,
+    "location": "Boston, MA",
+    "website": "www.edusolutions.com",
+    "numberOfEmployees": 350,
+    "description": "EduSolutions provides innovative educational technology and services to schools and institutions."
+  },
+  {
+    "id": 25,
+    "name": "BioPharma Research Labs",
+    "industry": "Pharmaceuticals",
+    "foundedYear": 2004,
+    "location": "Cambridge, MA",
+    "website": "www.biopharmaresearchlabs.com",
+    "numberOfEmployees": 900,
+    "description": "BioPharma Research Labs is dedicated to advancing pharmaceutical research and development."
+  },
+  {
+    "id": 26,
+    "name": "GreenTransport Solutions",
+    "industry": "Transportation",
+    "foundedYear": 2012,
+    "location": "Dallas, TX",
+    "website": "www.greentransportsolutions.com",
+    "numberOfEmployees": 280,
+    "description": "GreenTransport Solutions specializes in sustainable transportation solutions and electric vehicles."
+  },
+  {
+    "id": 27,
+    "name": "TechSavvy Innovations",
+    "industry": "Technology",
+    "foundedYear": 2011,
+    "location": "San Jose, CA",
+    "website": "www.techsavvyinnovations.com",
+    "numberOfEmployees": 750,
+    "description": "TechSavvy Innovations is a leader in cutting-edge technology solutions and software development."
+  },
+  {
+    "id": 28,
+    "name": "FoodTech Ventures",
+    "industry": "Food and Beverage",
+    "foundedYear": 2006,
+    "location": "Chicago, IL",
+    "website": "www.foodtechventures.com",
+    "numberOfEmployees": 400,
+    "description": "FoodTech Ventures specializes in food technology and innovation in the culinary industry."
+  },
+  {
+    "id": 29,
+    "name": "GreenBuild Constructions",
+    "industry": "Construction",
+    "foundedYear": 2014,
+    "location": "Denver, CO",
+    "website": "www.greenbuildconstructions.com",
+    "numberOfEmployees": 300,
+    "description": "GreenBuild Constructions focuses on sustainable and eco-friendly construction projects."
+  },
+  {
+    "id": 30,
+    "name": "BioGenetic Solutions",
+    "industry": "Biotechnology",
+    "foundedYear": 2009,
+    "location": "Cambridge, MA",
+    "website": "www.biogeneticsolutions.com",
+    "numberOfEmployees": 550,
+    "description": "BioGenetic Solutions is a leader in genetic research and biotechnology advancements."
+  },
+  {
+    "id": 31,
+    "name": "SolarTech Innovations",
+    "industry": "Energy",
+    "foundedYear": 2010,
+    "location": "Austin, TX",
+    "website": "www.solartechinnovations.com",
+    "numberOfEmployees": 220,
+    "description": "SolarTech Innovations specializes in solar energy solutions and renewable power systems."
+  },
+  {
+    "id": 32,
+    "name": "MediLife Health Systems",
+    "industry": "Healthcare",
+    "foundedYear": 2005,
+    "location": "Philadelphia, PA",
+    "website": "www.medilifehealthsystems.com",
+    "numberOfEmployees": 900,
+    "description": "MediLife Health Systems provides advanced healthcare services and medical technology solutions."
+  },
+  {
+    "id": 33,
+    "name": "Artistry Creations",
+    "industry": "Art and Crafts",
+    "foundedYear": 1997,
+    "location": "Santa Fe, NM",
+    "website": "www.artistrycreations.com",
+    "numberOfEmployees": 80,
+    "description": "Artistry Creations is known for creating unique and handcrafted art pieces."
+  },
+  {
+    "id": 34,
+    "name": "GreenTech Electronics",
+    "industry": "Electronics",
+    "foundedYear": 2013,
+    "location": "San Diego, CA",
+    "website": "www.greentechelectronics.com",
+    "numberOfEmployees": 350,
+    "description": "GreenTech Electronics designs eco-friendly electronic devices and components."
+  },
+  {
+    "id": 35,
+    "name": "AutoTech Innovations",
+    "industry": "Automotive",
+    "foundedYear": 2002,
+    "location": "Detroit, MI",
+    "website": "www.autotechinnovations.com",
+    "numberOfEmployees": 500,
+    "description": "AutoTech Innovations specializes in advanced automotive technology and innovation."
+  },
+  {
+    "id": 31,
+    "name": "SolarTech Innovations",
+    "industry": "Energy",
+    "foundedYear": 2010,
+    "location": "Austin, TX",
+    "website": "www.solartechinnovations.com",
+    "numberOfEmployees": 220,
+    "description": "SolarTech Innovations specializes in solar energy solutions and renewable power systems."
+  },
+  {
+    "id": 32,
+    "name": "MediLife Health Systems",
+    "industry": "Healthcare",
+    "foundedYear": 2005,
+    "location": "Philadelphia, PA",
+    "website": "www.medilifehealthsystems.com",
+    "numberOfEmployees": 900,
+    "description": "MediLife Health Systems provides advanced healthcare services and medical technology solutions."
+  },
+  {
+    "id": 33,
+    "name": "Artistry Creations",
+    "industry": "Art and Crafts",
+    "foundedYear": 1997,
+    "location": "Santa Fe, NM",
+    "website": "www.artistrycreations.com",
+    "numberOfEmployees": 80,
+    "description": "Artistry Creations is known for creating unique and handcrafted art pieces."
+  },
+  {
+    "id": 34,
+    "name": "GreenTech Electronics",
+    "industry": "Electronics",
+    "foundedYear": 2013,
+    "location": "San Diego, CA",
+    "website": "www.greentechelectronics.com",
+    "numberOfEmployees": 350,
+    "description": "GreenTech Electronics designs eco-friendly electronic devices and components."
+  },
+  {
+    "id": 35,
+    "name": "AutoTech Innovations",
+    "industry": "Automotive",
+    "foundedYear": 2002,
+    "location": "Detroit, MI",
+    "website": "www.autotechinnovations.com",
+    "numberOfEmployees": 500,
+    "description": "AutoTech Innovations specializes in advanced automotive technology and innovation."
+  },
+  {
+    "id": 36,
+    "name": "EnviroCare Solutions",
+    "industry": "Environmental",
+    "foundedYear": 2008,
+    "location": "Portland, OR",
+    "website": "www.envirocaresolutions.com",
+    "numberOfEmployees": 220,
+    "description": "EnviroCare Solutions offers eco-friendly products and services for environmental conservation."
+  },
+  {
+    "id": 37,
+    "name": "TechGenius Labs",
+    "industry": "Technology",
+    "foundedYear": 2012,
+    "location": "Seattle, WA",
+    "website": "www.techgeniuslabs.com",
+    "numberOfEmployees": 650,
+    "description": "TechGenius Labs is a technology research and development company known for innovation."
+  },
+  {
+    "id": 38,
+    "name": "Culinary Delights Inc.",
+    "industry": "Food and Beverage",
+    "foundedYear": 2009,
+    "location": "New Orleans, LA",
+    "website": "www.culinarydelights.com",
+    "numberOfEmployees": 400,
+    "description": "Culinary Delights Inc. offers a wide range of gourmet food products and culinary experiences."
+  },
+  {
+    "id": 39,
+    "name": "GreenBuild Innovations",
+    "industry": "Construction",
+    "foundedYear": 2015,
+    "location": "Denver, CO",
+    "website": "www.greenbuildinnovations.com",
+    "numberOfEmployees": 280,
+    "description": "GreenBuild Innovations focuses on sustainable and energy-efficient construction projects."
+  },
+  {
+    "id": 40,
+    "name": "PharmaGen Solutions",
+    "industry": "Pharmaceuticals",
+    "foundedYear": 2006,
+    "location": "Cambridge, MA",
+    "website": "www.pharmagen.com",
+    "numberOfEmployees": 600,
+    "description": "PharmaGen Solutions is a pharmaceutical research company dedicated to improving healthcare."
+  },
+  {
+    "id": 41,
+    "name": "GreenEco Technologies",
+    "industry": "Environmental",
+    "foundedYear": 2010,
+    "location": "San Francisco, CA",
+    "website": "www.greenecotech.com",
+    "numberOfEmployees": 320,
+    "description": "GreenEco Technologies specializes in eco-friendly solutions for a sustainable future."
+  },
+  {
+    "id": 42,
+    "name": "EduInnovate",
+    "industry": "Education",
+    "foundedYear": 2008,
+    "location": "Boston, MA",
+    "website": "www.eduinnovate.com",
+    "numberOfEmployees": 250,
+    "description": "EduInnovate provides innovative educational tools and services for learners of all ages."
+  },
+  {
+    "id": 43,
+    "name": "MediaFusion Studios",
+    "industry": "Media and Entertainment",
+    "foundedYear": 2004,
+    "location": "Los Angeles, CA",
+    "website": "www.mediafusionstudios.com",
+    "numberOfEmployees": 700,
+    "description": "MediaFusion Studios creates compelling content across various media platforms."
+  },
+  {
+    "id": 44,
+    "name": "GreenTech Solutions",
+    "industry": "Technology",
+    "foundedYear": 2011,
+    "location": "Seattle, WA",
+    "website": "www.greentechsolutions.com",
+    "numberOfEmployees": 420,
+    "description": "GreenTech Solutions specializes in developing environmentally conscious tech products."
+  },
+  {
+    "id": 45,
+    "name": "AutoWorks Inc.",
+    "industry": "Automotive",
+    "foundedYear": 1998,
+    "location": "Detroit, MI",
+    "website": "www.autoworks.com",
+    "numberOfEmployees": 550,
+    "description": "AutoWorks Inc. manufactures high-performance automotive components and accessories."
+  },
+  {
+    "id": 46,
+    "name": "GreenPower Innovations",
+    "industry": "Energy",
+    "foundedYear": 2012,
+    "location": "Austin, TX",
+    "website": "www.greenpowerinnovations.com",
+    "numberOfEmployees": 280,
+    "description": "GreenPower Innovations specializes in renewable energy solutions and clean power generation."
+  },
+  {
+    "id": 47,
+    "name": "LifeCare Health Systems",
+    "industry": "Healthcare",
+    "foundedYear": 2007,
+    "location": "Chicago, IL",
+    "website": "www.lifecarehealthsystems.com",
+    "numberOfEmployees": 950,
+    "description": "LifeCare Health Systems provides healthcare services and medical technology for better patient outcomes."
+  },
+  {
+    "id": 48,
+    "name": "Artisans Collective",
+    "industry": "Art and Crafts",
+    "foundedYear": 1996,
+    "location": "Santa Fe, NM",
+    "website": "www.artisanscollective.com",
+    "numberOfEmployees": 85,
+    "description": "Artisans Collective is a hub for talented artists creating unique handcrafted artworks."
+  },
+  {
+    "id": 49,
+    "name": "EcoElectronics Inc.",
+    "industry": "Electronics",
+    "foundedYear": 2015,
+    "location": "San Diego, CA",
+    "website": "www.ecoelectronicsinc.com",
+    "numberOfEmployees": 375,
+    "description": "EcoElectronics Inc. designs eco-conscious electronic devices for a sustainable future."
+  },
+  {
+    "id": 50,
+    "name": "AutoTech Solutions",
+    "industry": "Automotive",
+    "foundedYear": 2003,
+    "location": "Detroit, MI",
+    "website": "www.autotechsolutions.com",
+    "numberOfEmployees": 480,
+    "description": "AutoTech Solutions specializes in advanced automotive technology and vehicle innovation."
+  },
+  {
+    "id": 51,
+    "name": "EnviroTech Solutions",
+    "industry": "Environmental",
+    "foundedYear": 2011,
+    "location": "Portland, OR",
+    "website": "www.envirotechsolutions.com",
+    "numberOfEmployees": 310,
+    "description": "EnviroTech Solutions offers eco-friendly products and services for a sustainable environment."
+  },
+  {
+    "id": 52,
+    "name": "EduTech Innovations",
+    "industry": "Education",
+    "foundedYear": 2009,
+    "location": "Boston, MA",
+    "website": "www.edutechinnovations.com",
+    "numberOfEmployees": 280,
+    "description": "EduTech Innovations provides innovative educational technology solutions for classrooms."
+  },
+  {
+    "id": 53,
+    "name": "MediaHub Studios",
+    "industry": "Media and Entertainment",
+    "foundedYear": 2003,
+    "location": "Los Angeles, CA",
+    "website": "www.mediahubstudios.com",
+    "numberOfEmployees": 720,
+    "description": "MediaHub Studios is a creative studio specializing in media production and content creation."
+  },
+  {
+    "id": 54,
+    "name": "GreenWave Technologies",
+    "industry": "Technology",
+    "foundedYear": 2013,
+    "location": "San Francisco, CA",
+    "website": "www.greenwavetechnologies.com",
+    "numberOfEmployees": 390,
+    "description": "GreenWave Technologies develops innovative technology solutions with an environmental focus."
+  },
+  {
+    "id": 55,
+    "name": "AutoCraft Innovations",
+    "industry": "Automotive",
+    "foundedYear": 2004,
+    "location": "Detroit, MI",
+    "website": "www.autocraftinnovations.com",
+    "numberOfEmployees": 520,
+    "description": "AutoCraft Innovations specializes in cutting-edge automotive technology and vehicle design."
+  },
+  {
+    "id": 56,
+    "name": "GreenGenius Solutions",
+    "industry": "Energy",
+    "foundedYear": 2010,
+    "location": "Austin, TX",
+    "website": "www.greengeniussolutions.com",
+    "numberOfEmployees": 300,
+    "description": "GreenGenius Solutions focuses on renewable energy solutions and sustainable power generation."
+  },
+  {
+    "id": 57,
+    "name": "HealthTech Innovations",
+    "industry": "Healthcare",
+    "foundedYear": 2008,
+    "location": "Chicago, IL",
+    "website": "www.healthtechinnovations.com",
+    "numberOfEmployees": 850,
+    "description": "HealthTech Innovations develops cutting-edge healthcare technology to improve patient care."
+  },
+  {
+    "id": 58,
+    "name": "Craftsmen Collective",
+    "industry": "Art and Crafts",
+    "foundedYear": 1995,
+    "location": "Santa Fe, NM",
+    "website": "www.craftsmencollective.com",
+    "numberOfEmployees": 90,
+    "description": "Craftsmen Collective showcases handcrafted artistry and artisanal creations."
+  },
+  {
+    "id": 59,
+    "name": "EcoTech Electronics",
+    "industry": "Electronics",
+    "foundedYear": 2016,
+    "location": "San Diego, CA",
+    "website": "www.ecotechelectronics.com",
+    "numberOfEmployees": 420,
+    "description": "EcoTech Electronics designs eco-conscious electronic devices for a sustainable world."
+  },
+  {
+    "id": 60,
+    "name": "AutoInnovate Inc.",
+    "industry": "Automotive",
+    "foundedYear": 2005,
+    "location": "Detroit, MI",
+    "website": "www.autoinnovate.com",
+    "numberOfEmployees": 550,
+    "description": "AutoInnovate Inc. specializes in innovative automotive technology and vehicle engineering."
+  },
+  {
+    "id": 61,
+    "name": "GreenEco Innovations",
+    "industry": "Environmental",
+    "foundedYear": 2011,
+    "location": "Portland, OR",
+    "website": "www.greenecoinnovations.com",
+    "numberOfEmployees": 310,
+    "description": "GreenEco Innovations provides eco-friendly solutions for a sustainable environment."
+  },
+  {
+    "id": 62,
+    "name": "EdTech Solutions",
+    "industry": "Education",
+    "foundedYear": 2010,
+    "location": "Boston, MA",
+    "website": "www.edtechsolutions.com",
+    "numberOfEmployees": 290,
+    "description": "EdTech Solutions offers innovative educational technology solutions for schools."
+  },
+  {
+    "id": 63,
+    "name": "MediaCraft Studios",
+    "industry": "Media and Entertainment",
+    "foundedYear": 2005,
+    "location": "Los Angeles, CA",
+    "website": "www.mediacraftstudios.com",
+    "numberOfEmployees": 730,
+    "description": "MediaCraft Studios is a creative hub specializing in media production and content creation."
+  },
+  {
+    "id": 64,
+    "name": "GreenTech Innovations",
+    "industry": "Technology",
+    "foundedYear": 2014,
+    "location": "San Francisco, CA",
+    "website": "www.greentechinnovations.com",
+    "numberOfEmployees": 400,
+    "description": "GreenTech Innovations develops technology solutions with an environmental focus."
+  },
+  {
+    "id": 65,
+    "name": "AutoCraft Inc.",
+    "industry": "Automotive",
+    "foundedYear": 2006,
+    "location": "Detroit, MI",
+    "website": "www.autocraftinc.com",
+    "numberOfEmployees": 590,
+    "description": "AutoCraft Inc. specializes in advanced automotive technology and vehicle design."
+  },
+  {
+    "id": 66,
+    "name": "SunPower Innovations",
+    "industry": "Energy",
+    "foundedYear": 2013,
+    "location": "Austin, TX",
+    "website": "www.sunpowerinnovations.com",
+    "numberOfEmployees": 320,
+    "description": "SunPower Innovations specializes in solar energy solutions and renewable power generation."
+  },
+  {
+    "id": 67,
+    "name": "HealthSolutions Inc.",
+    "industry": "Healthcare",
+    "foundedYear": 2009,
+    "location": "Chicago, IL",
+    "website": "www.healthsolutionsinc.com",
+    "numberOfEmployees": 880,
+    "description": "HealthSolutions Inc. develops innovative healthcare technology to improve patient outcomes."
+  },
+  {
+    "id": 68,
+    "name": "Artisan Works",
+    "industry": "Art and Crafts",
+    "foundedYear": 1994,
+    "location": "Santa Fe, NM",
+    "website": "www.artisanworks.com",
+    "numberOfEmployees": 95,
+    "description": "Artisan Works showcases unique and handcrafted artworks created by skilled artisans."
+  },
+  {
+    "id": 69,
+    "name": "EcoInnovate Electronics",
+    "industry": "Electronics",
+    "foundedYear": 2017,
+    "location": "San Diego, CA",
+    "website": "www.ecoinnovateelectronics.com",
+    "numberOfEmployees": 430,
+    "description": "EcoInnovate Electronics designs eco-conscious electronic devices for a sustainable future."
+  },
+  {
+    "id": 70,
+    "name": "AutoProTech Inc.",
+    "industry": "Automotive",
+    "foundedYear": 2007,
+    "location": "Detroit, MI",
+    "website": "www.autoprotechinc.com",
+    "numberOfEmployees": 560,
+    "description": "AutoProTech Inc. specializes in advanced automotive technology and vehicle safety systems."
+  },
+  {
+    "id": 71,
+    "name": "EcoSolutions Innovations",
+    "industry": "Environmental",
+    "foundedYear": 2012,
+    "location": "Portland, OR",
+    "website": "www.ecosolutionsinnovations.com",
+    "numberOfEmployees": 330,
+    "description": "EcoSolutions Innovations provides eco-friendly solutions for a sustainable environment."
+  },
+  {
+    "id": 72,
+    "name": "EduWave Technologies",
+    "industry": "Education",
+    "foundedYear": 2011,
+    "location": "Boston, MA",
+    "website": "www.eduwavetechnologies.com",
+    "numberOfEmployees": 310,
+    "description": "EduWave Technologies offers innovative educational technology solutions for schools and students."
+  },
+  {
+    "id": 73,
+    "name": "MediaFusion Productions",
+    "industry": "Media and Entertainment",
+    "foundedYear": 2007,
+    "location": "Los Angeles, CA",
+    "website": "www.mediafusionproductions.com",
+    "numberOfEmployees": 750,
+    "description": "MediaFusion Productions specializes in media production and creative content development."
+  },
+  {
+    "id": 74,
+    "name": "EcoTech Innovations",
+    "industry": "Technology",
+    "foundedYear": 2015,
+    "location": "San Francisco, CA",
+    "website": "www.ecotechinnovations.com",
+    "numberOfEmployees": 420,
+    "description": "EcoTech Innovations develops technology solutions with a focus on environmental sustainability."
+  },
+  {
+    "id": 75,
+    "name": "AutoTech Solutions Inc.",
+    "industry": "Automotive",
+    "foundedYear": 2009,
+    "location": "Detroit, MI",
+    "website": "www.autotechsolutionsinc.com",
+    "numberOfEmployees": 600,
+    "description": "AutoTech Solutions Inc. specializes in advanced automotive technology and vehicle engineering."
+  },
+  {
+    "id": 76,
+    "name": "EcoTech Solutions",
+    "industry": "Environmental",
+    "foundedYear": 2013,
+    "location": "Portland, OR",
+    "website": "www.ecotechsolutions.com",
+    "numberOfEmployees": 340,
+    "description": "EcoTech Solutions offers eco-friendly products and services for a sustainable world."
+  },
+  {
+    "id": 77,
+    "name": "EduXcel Innovations",
+    "industry": "Education",
+    "foundedYear": 2010,
+    "location": "Boston, MA",
+    "website": "www.eduxcelinnovations.com",
+    "numberOfEmployees": 330,
+    "description": "EduXcel Innovations provides innovative educational technology solutions for students and educators."
+  },
+  {
+    "id": 78,
+    "name": "MediaNest Studios",
+    "industry": "Media and Entertainment",
+    "foundedYear": 2008,
+    "location": "Los Angeles, CA",
+    "website": "www.medianeststudios.com",
+    "numberOfEmployees": 780,
+    "description": "MediaNest Studios is a creative powerhouse specializing in media production and content creation."
+  },
+  {
+    "id": 79,
+    "name": "EcoElectronix Inc.",
+    "industry": "Electronics",
+    "foundedYear": 2016,
+    "location": "San Diego, CA",
+    "website": "www.ecoelectronixinc.com",
+    "numberOfEmployees": 450,
+    "description": "EcoElectronix Inc. designs eco-conscious electronic devices for a sustainable future."
+  },
+  {
+    "id": 80,
+    "name": "AutoInnovations",
+    "industry": "Automotive",
+    "foundedYear": 2011,
+    "location": "Detroit, MI",
+    "website": "www.autoinnovations.com",
+    "numberOfEmployees": 620,
+    "description": "AutoInnovations specializes in advanced automotive technology and vehicle design."
+  },
+  {
+    "id": 81,
+    "name": "SustainablePower Solutions",
+    "industry": "Energy",
+    "foundedYear": 2014,
+    "location": "Austin, TX",
+    "website": "www.sustainablepowersolutions.com",
+    "numberOfEmployees": 360,
+    "description": "SustainablePower Solutions specializes in renewable energy solutions and clean power generation."
+  },
+  {
+    "id": 82,
+    "name": "HealthTech Innovate",
+    "industry": "Healthcare",
+    "foundedYear": 2012,
+    "location": "Chicago, IL",
+    "website": "www.healthtechinnovate.com",
+    "numberOfEmployees": 900,
+    "description": "HealthTech Innovate develops cutting-edge healthcare technology to enhance patient care."
+  },
+  {
+    "id": 83,
+    "name": "Artisans United",
+    "industry": "Art and Crafts",
+    "foundedYear": 1993,
+    "location": "Santa Fe, NM",
+    "website": "www.artisansunited.com",
+    "numberOfEmployees": 100,
+    "description": "Artisans United showcases unique and handcrafted art pieces created by talented artists."
+  },
+  {
+    "id": 84,
+    "name": "EcoTech Industries",
+    "industry": "Electronics",
+    "foundedYear": 2018,
+    "location": "San Diego, CA",
+    "website": "www.ecotechindustries.com",
+    "numberOfEmployees": 480,
+    "description": "EcoTech Industries designs eco-conscious electronic devices for a sustainable future."
+  },
+  {
+    "id": 85,
+    "name": "AutoTech Innovators",
+    "industry": "Automotive",
+    "foundedYear": 2010,
+    "location": "Detroit, MI",
+    "website": "www.autotechinnovators.com",
+    "numberOfEmployees": 680,
+    "description": "AutoTech Innovators specializes in cutting-edge automotive technology and vehicle innovation."
+  },
+  {
+    "id": 86,
+    "name": "EcoSustain Solutions",
+    "industry": "Environmental",
+    "foundedYear": 2015,
+    "location": "Portland, OR",
+    "website": "www.ecosustainsolutions.com",
+    "numberOfEmployees": 380,
+    "description": "EcoSustain Solutions offers sustainable and eco-friendly products and services."
+  },
+  {
+    "id": 87,
+    "name": "EduTech Innovators",
+    "industry": "Education",
+    "foundedYear": 2013,
+    "location": "Boston, MA",
+    "website": "www.edutechinnovators.com",
+    "numberOfEmployees": 340,
+    "description": "EduTech Innovators provides innovative educational technology solutions for schools and students."
+  },
+  {
+    "id": 88,
+    "name": "MediaFusion Creations",
+    "industry": "Media and Entertainment",
+    "foundedYear": 2006,
+    "location": "Los Angeles, CA",
+    "website": "www.mediafusioncreations.com",
+    "numberOfEmployees": 790,
+    "description": "MediaFusion Creations is a creative studio specializing in media production and content creation."
+  },
+  {
+    "id": 89,
+    "name": "EcoGizmo Electronics",
+    "industry": "Electronics",
+    "foundedYear": 2019,
+    "location": "San Diego, CA",
+    "website": "www.ecogizmoelectronics.com",
+    "numberOfEmployees": 510,
+    "description": "EcoGizmo Electronics designs eco-friendly electronic devices for a sustainable future."
+  },
+  {
+    "id": 90,
+    "name": "AutoCraft Innovate",
+    "industry": "Automotive",
+    "foundedYear": 2012,
+    "location": "Detroit, MI",
+    "website": "www.autocraftinnovate.com",
+    "numberOfEmployees": 720,
+    "description": "AutoCraft Innovate specializes in advanced automotive technology and vehicle engineering."
+  },
+  {
+    "id": 91,
+    "name": "EcoSolutions Tech",
+    "industry": "Environmental",
+    "foundedYear": 2016,
+    "location": "Portland, OR",
+    "website": "www.ecosolutionstech.com",
+    "numberOfEmployees": 400,
+    "description": "EcoSolutions Tech offers eco-friendly solutions for a sustainable and greener future."
+  },
+  {
+    "id": 92,
+    "name": "EduInnovate Tech",
+    "industry": "Education",
+    "foundedYear": 2014,
+    "location": "Boston, MA",
+    "website": "www.eduinnovatetech.com",
+    "numberOfEmployees": 380,
+    "description": "EduInnovate Tech provides innovative educational technology solutions for learning institutions."
+  },
+  {
+    "id": 93,
+    "name": "MediaCraft Innovations",
+    "industry": "Media and Entertainment",
+    "foundedYear": 2009,
+    "location": "Los Angeles, CA",
+    "website": "www.mediacraftinnovations.com",
+    "numberOfEmployees": 810,
+    "description": "MediaCraft Innovations specializes in creative content production and media solutions."
+  },
+  {
+    "id": 94,
+    "name": "EcoElectra Electronics",
+    "industry": "Electronics",
+    "foundedYear": 2020,
+    "location": "San Diego, CA",
+    "website": "www.ecoelectraelectronics.com",
+    "numberOfEmployees": 550,
+    "description": "EcoElectra Electronics designs eco-conscious electronic devices for a sustainable future."
+  },
+  {
+    "id": 95,
+    "name": "AutoTech Innovations Tech",
+    "industry": "Automotive",
+    "foundedYear": 2013,
+    "location": "Detroit, MI",
+    "website": "www.autotechinnovationstech.com",
+    "numberOfEmployees": 760,
+    "description": "AutoTech Innovations Tech specializes in cutting-edge automotive technology and vehicle innovation."
+  },
+  {
+    "id": 96,
+    "name": "EcoFusion Innovations",
+    "industry": "Environmental",
+    "foundedYear": 2017,
+    "location": "Portland, OR",
+    "website": "www.ecofusioninnovations.com",
+    "numberOfEmployees": 420,
+    "description": "EcoFusion Innovations offers sustainable and eco-friendly solutions for a better planet."
+  },
+  {
+    "id": 97,
+    "name": "EdTech Pioneers",
+    "industry": "Education",
+    "foundedYear": 2015,
+    "location": "Boston, MA",
+    "website": "www.edtechpioneers.com",
+    "numberOfEmployees": 390,
+    "description": "EdTech Pioneers provides innovative educational technology solutions for educational institutions."
+  },
+  {
+    "id": 98,
+    "name": "MediaWorks Studios",
+    "industry": "Media and Entertainment",
+    "foundedYear": 2010,
+    "location": "Los Angeles, CA",
+    "website": "www.mediaworksstudios.com",
+    "numberOfEmployees": 850,
+    "description": "MediaWorks Studios is a leading creative studio specializing in media production and content creation."
+  },
+  {
+    "id": 99,
+    "name": "EcoTech Innovations",
+    "industry": "Electronics",
+    "foundedYear": 2021,
+    "location": "San Diego, CA",
+    "website": "www.ecotechinnovations.com",
+    "numberOfEmployees": 590,
+    "description": "EcoTech Innovations develops environmentally conscious electronic devices for a sustainable future."
+  },
+  {
+    "id": 100,
+    "name": "AutoInnovate Tech Solutions",
+    "industry": "Automotive",
+    "foundedYear": 2014,
+    "location": "Detroit, MI",
+    "website": "www.autoinnovatetechsolutions.com",
+    "numberOfEmployees": 800,
+    "description": "AutoInnovate Tech Solutions specializes in advanced automotive technology and vehicle engineering."
+  }
+]

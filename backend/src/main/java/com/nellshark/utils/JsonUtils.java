@@ -6,23 +6,20 @@ import com.nellshark.exceptions.ResourceNotFoundException;
 import java.io.File;
 import java.io.IOException;
 import java.util.List;
+import org.springframework.core.io.DefaultResourceLoader;
 import org.springframework.core.io.Resource;
 import org.springframework.core.io.ResourceLoader;
 import org.springframework.lang.NonNull;
-import org.springframework.stereotype.Component;
 
-@Component
 public final class JsonUtils {
 
-  private final ObjectMapper objectMapper;
-  private final ResourceLoader resourceLoader;
+  private static final ObjectMapper objectMapper = new ObjectMapper();
+  private static final ResourceLoader resourceLoader = new DefaultResourceLoader();
 
-  private JsonUtils(ObjectMapper objectMapper, ResourceLoader resourceLoader) {
-    this.objectMapper = objectMapper;
-    this.resourceLoader = resourceLoader;
+  private JsonUtils() {
   }
 
-  public <T> List<T> convertJsonFileToEntities(
+  public static <T> List<T> convertJsonFileToEntities(
       @NonNull File jsonFile,
       @NonNull Class<T> entityClass) {
 
@@ -37,7 +34,7 @@ public final class JsonUtils {
     }
   }
 
-  public File getResourceJsonFile(String jsonFileName) {
+  public static File getJsonFileFromResources(String jsonFileName) {
     Resource resource = resourceLoader.getResource("classpath:json/" + jsonFileName);
 
     try {

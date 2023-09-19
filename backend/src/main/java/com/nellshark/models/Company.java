@@ -23,13 +23,13 @@ public class Company {
   private Long foundedYear;
 
   @Column(name = "location", nullable = false, updatable = false)
-  private Long location;
+  private String location;
 
   @Column(name = "website", nullable = false, updatable = false)
-  private Long website;
+  private String website;
 
   @Column(name = "description", nullable = false, updatable = false)
-  private Long description;
+  private String description;
 
   @Column(name = "numberOfEmployees", nullable = false, updatable = false)
   private Long numberOfEmployees;
@@ -41,9 +41,9 @@ public class Company {
       String name,
       String industry,
       Long foundedYear,
-      Long location,
-      Long website,
-      Long description,
+      String location,
+      String website,
+      String description,
       Long numberOfEmployees) {
     this.id = id;
     this.name = name;
@@ -87,27 +87,27 @@ public class Company {
     this.foundedYear = foundedYear;
   }
 
-  public Long getLocation() {
+  public String getLocation() {
     return location;
   }
 
-  public void setLocation(Long location) {
+  public void setLocation(String location) {
     this.location = location;
   }
 
-  public Long getWebsite() {
+  public String getWebsite() {
     return website;
   }
 
-  public void setWebsite(Long website) {
+  public void setWebsite(String website) {
     this.website = website;
   }
 
-  public Long getDescription() {
+  public String getDescription() {
     return description;
   }
 
-  public void setDescription(Long description) {
+  public void setDescription(String description) {
     this.description = description;
   }
 
