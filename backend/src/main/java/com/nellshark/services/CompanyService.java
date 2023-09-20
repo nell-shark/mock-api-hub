@@ -4,6 +4,7 @@ import com.nellshark.models.Company;
 import com.nellshark.repositories.CompanyRepository;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
+import org.springframework.lang.NonNull;
 import org.springframework.stereotype.Service;
 
 @Service
@@ -17,8 +18,8 @@ public class CompanyService {
     this.companyRepository = companyRepository;
   }
 
-  public void saveCompany(Company company) {
-    logger.info("Save company: " + company);
+  public void saveCompany(@NonNull Company company) {
+    logger.info("Save company: {}", company);
     companyRepository.save(company);
   }
 }

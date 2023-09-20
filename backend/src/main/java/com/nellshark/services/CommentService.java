@@ -4,6 +4,7 @@ import com.nellshark.models.Comment;
 import com.nellshark.repositories.CommentRepository;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
+import org.springframework.lang.NonNull;
 import org.springframework.stereotype.Service;
 
 @Service
@@ -17,8 +18,8 @@ public class CommentService {
     this.commentRepository = commentRepository;
   }
 
-  public void saveComment(Comment comment) {
-    logger.info("Save comment: " + comment);
+  public void saveComment(@NonNull Comment comment) {
+    logger.info("Save comment: {}", comment);
     commentRepository.save(comment);
   }
 }

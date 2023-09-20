@@ -1,0 +1,1032 @@
+[
+  {
+    "id": 1,
+    "name": "Introduction to Computer Science",
+    "description": "Learn the fundamentals of computer science and programming.",
+    "price": 49.99,
+    "instructor": "John Doe",
+    "duration": "10 weeks",
+    "startDate": "2023-10-01",
+    "endDate": "2023-12-10"
+  },
+  {
+    "id": 2,
+    "name": "Data Analysis with Python",
+    "description": "Master data analysis techniques using Python.",
+    "price": 59.99,
+    "instructor": "Jane Smith",
+    "duration": "8 weeks",
+    "startDate": "2023-11-15",
+    "endDate": "2024-01-10"
+  },
+  {
+    "id": 3,
+    "name": "Web Development Bootcamp",
+    "description": "Become a full-stack web developer in just 12 weeks.",
+    "price": 99.99,
+    "instructor": "Michael Johnson",
+    "duration": "12 weeks",
+    "startDate": "2024-02-05",
+    "endDate": "2024-05-01"
+  },
+  {
+    "id": 4,
+    "name": "Machine Learning Fundamentals",
+    "description": "Learn the basics of machine learning and data science.",
+    "price": 79.99,
+    "instructor": "Emily Brown",
+    "duration": "6 weeks",
+    "startDate": "2024-03-20",
+    "endDate": "2024-04-30"
+  },
+  {
+    "id": 5,
+    "name": "Digital Marketing Masterclass",
+    "description": "Become an expert in digital marketing strategies.",
+    "price": 69.99,
+    "instructor": "David Lee",
+    "duration": "8 weeks",
+    "startDate": "2024-04-10",
+    "endDate": "2024-06-05"
+  },
+  {
+    "id": 6,
+    "name": "Artificial Intelligence Specialization",
+    "description": "Dive deep into AI with specialized courses.",
+    "price": 129.99,
+    "instructor": "Sophia Chen",
+    "duration": "16 weeks",
+    "startDate": "2024-05-15",
+    "endDate": "2024-09-10"
+  },
+  {
+    "id": 7,
+    "name": "Mobile App Development with React Native",
+    "description": "Build cross-platform mobile apps with React Native.",
+    "price": 89.99,
+    "instructor": "Maria Rodriguez",
+    "duration": "10 weeks",
+    "startDate": "2024-06-20",
+    "endDate": "2024-08-30"
+  },
+  {
+    "id": 8,
+    "name": "Advanced JavaScript Programming",
+    "description": "Master advanced JavaScript concepts and techniques.",
+    "price": 59.99,
+    "instructor": "Daniel Turner",
+    "duration": "8 weeks",
+    "startDate": "2024-07-05",
+    "endDate": "2024-08-30"
+  },
+  {
+    "id": 9,
+    "name": "Graphic Design Fundamentals",
+    "description": "Learn the basics of graphic design and visual communication.",
+    "price": 49.99,
+    "instructor": "Olivia Moore",
+    "duration": "6 weeks",
+    "startDate": "2024-08-10",
+    "endDate": "2024-09-20"
+  },
+  {
+    "id": 10,
+    "name": "Business Finance and Investment Strategies",
+    "description": "Learn financial management and investment planning.",
+    "price": 99.99,
+    "instructor": "Robert Johnson",
+    "duration": "12 weeks",
+    "startDate": "2024-09-15",
+    "endDate": "2024-12-05"
+  },
+  {
+    "id": 11,
+    "name": "Ethical Hacking and Cybersecurity",
+    "description": "Become an ethical hacker and enhance cybersecurity.",
+    "price": 119.99,
+    "instructor": "Elena Garcia",
+    "duration": "14 weeks",
+    "startDate": "2024-10-05",
+    "endDate": "2025-01-15"
+  },
+  {
+    "id": 12,
+    "name": "Photography Masterclass",
+    "description": "Unlock the art and techniques of professional photography.",
+    "price": 69.99,
+    "instructor": "William Turner",
+    "duration": "8 weeks",
+    "startDate": "2024-11-01",
+    "endDate": "2025-01-05"
+  },
+  {
+    "id": 13,
+    "name": "Creative Writing Workshop",
+    "description": "Develop your writing skills and unleash your creativity.",
+    "price": 49.99,
+    "instructor": "Sarah Adams",
+    "duration": "6 weeks",
+    "startDate": "2025-01-15",
+    "endDate": "2025-02-25"
+  },
+  {
+    "id": 14,
+    "name": "Art History: From Renaissance to Modernism",
+    "description": "Explore the history of art from the Renaissance to modern times.",
+    "price": 59.99,
+    "instructor": "Thomas Mitchell",
+    "duration": "8 weeks",
+    "startDate": "2025-02-10",
+    "endDate": "2025-04-05"
+  },
+  {
+    "id": 15,
+    "name": "Digital Illustration and Design",
+    "description": "Master digital illustration and graphic design techniques.",
+    "price": 79.99,
+    "instructor": "Emma Watson",
+    "duration": "10 weeks",
+    "startDate": "2025-03-20",
+    "endDate": "2025-05-30"
+  },
+  {
+    "id": 16,
+    "name": "Music Production and Mixing",
+    "description": "Learn the art of music production and audio mixing.",
+    "price": 89.99,
+    "instructor": "Michael Davis",
+    "duration": "12 weeks",
+    "startDate": "2025-04-15",
+    "endDate": "2025-07-05"
+  },
+  {
+    "id": 17,
+    "name": "Environmental Science and Sustainability",
+    "description": "Explore environmental issues and sustainable practices.",
+    "price": 69.99,
+    "instructor": "Linda Carter",
+    "duration": "10 weeks",
+    "startDate": "2025-05-10",
+    "endDate": "2025-07-20"
+  },
+  {
+    "id": 18,
+    "name": "Introduction to Quantum Physics",
+    "description": "Delve into the fascinating world of quantum physics.",
+    "price": 79.99,
+    "instructor": "James Anderson",
+    "duration": "8 weeks",
+    "startDate": "2025-06-01",
+    "endDate": "2025-07-26"
+  },
+  {
+    "id": 19,
+    "name": "Culinary Arts and Gourmet Cooking",
+    "description": "Master the art of gourmet cooking and culinary techniques.",
+    "price": 99.99,
+    "instructor": "Chef Julia Martinez",
+    "duration": "12 weeks",
+    "startDate": "2025-07-10",
+    "endDate": "2025-09-30"
+  },
+  {
+    "id": 20,
+    "name": "Biology: The Science of Life",
+    "description": "Explore the fascinating world of biology and life sciences.",
+    "price": 59.99,
+    "instructor": "Dr. Robert Taylor",
+    "duration": "8 weeks",
+    "startDate": "2025-08-15",
+    "endDate": "2025-10-10"
+  },
+  {
+    "id": 21,
+    "name": "Digital Marketing Analytics",
+    "description": "Analyze and optimize digital marketing campaigns for success.",
+    "price": 69.99,
+    "instructor": "Sophie Anderson",
+    "duration": "10 weeks",
+    "startDate": "2025-09-20",
+    "endDate": "2025-12-05"
+  },
+  {
+    "id": 22,
+    "name": "History of Ancient Civilizations",
+    "description": "Explore the rise and fall of ancient civilizations.",
+    "price": 49.99,
+    "instructor": "Professor Samuel White",
+    "duration": "8 weeks",
+    "startDate": "2026-01-10",
+    "endDate": "2026-03-06"
+  },
+  {
+    "id": 23,
+    "name": "Business Leadership and Management",
+    "description": "Develop leadership skills for effective business management.",
+    "price": 79.99,
+    "instructor": "Laura Adams",
+    "duration": "10 weeks",
+    "startDate": "2026-02-15",
+    "endDate": "2026-04-30"
+  },
+  {
+    "id": 24,
+    "name": "Introduction to Astrophysics",
+    "description": "Delve into the mysteries of the universe and astrophysical phenomena.",
+    "price": 69.99,
+    "instructor": "Dr. Stephen Carter",
+    "duration": "12 weeks",
+    "startDate": "2026-03-20",
+    "endDate": "2026-06-10"
+  },
+  {
+    "id": 25,
+    "name": "Digital Photography and Photo Editing",
+    "description": "Capture stunning photos and enhance them using digital tools.",
+    "price": 59.99,
+    "instructor": "Emma Turner",
+    "duration": "8 weeks",
+    "startDate": "2026-04-15",
+    "endDate": "2026-06-05"
+  },
+  {
+    "id": 26,
+    "name": "Financial Planning and Investment Strategies",
+    "description": "Learn how to plan for a secure financial future and make smart investments.",
+    "price": 89.99,
+    "instructor": "James Smith",
+    "duration": "12 weeks",
+    "startDate": "2026-05-10",
+    "endDate": "2026-08-01"
+  },
+  {
+    "id": 27,
+    "name": "Artificial Intelligence in Healthcare",
+    "description": "Explore AI applications in healthcare and medical research.",
+    "price": 79.99,
+    "instructor": "Dr. Maria Rodriguez",
+    "duration": "10 weeks",
+    "startDate": "2026-06-20",
+    "endDate": "2026-09-05"
+  },
+  {
+    "id": 28,
+    "name": "Advanced Data Analysis with R",
+    "description": "Take your data analysis skills to the next level using R programming.",
+    "price": 69.99,
+    "instructor": "Dr. Richard Baker",
+    "duration": "10 weeks",
+    "startDate": "2026-07-10",
+    "endDate": "2026-09-20"
+  },
+  {
+    "id": 29,
+    "name": "Environmental Conservation and Sustainability",
+    "description": "Learn about conservation and sustainable practices for a greener world.",
+    "price": 59.99,
+    "instructor": "Emily Davis",
+    "duration": "8 weeks",
+    "startDate": "2026-08-15",
+    "endDate": "2026-10-10"
+  },
+  {
+    "id": 30,
+    "name": "Mobile App Design and User Experience",
+    "description": "Design user-friendly mobile apps with a focus on user experience.",
+    "price": 79.99,
+    "instructor": "Sophia Turner",
+    "duration": "12 weeks",
+    "startDate": "2026-09-20",
+    "endDate": "2026-12-10"
+  },
+  {
+    "id": 31,
+    "name": "Neuroscience and Brain Function",
+    "description": "Explore the intricacies of the human brain and neuroscience.",
+    "price": 89.99,
+    "instructor": "Dr. Olivia Mitchell",
+    "duration": "14 weeks",
+    "startDate": "2027-01-15",
+    "endDate": "2027-04-30"
+  },
+  {
+    "id": 32,
+    "name": "Front-End Web Development with React",
+    "description": "Build interactive and responsive web applications with React.",
+    "price": 79.99,
+    "instructor": "John Williams",
+    "duration": "12 weeks",
+    "startDate": "2027-02-10",
+    "endDate": "2027-05-05"
+  },
+  {
+    "id": 33,
+    "name": "Digital Marketing for E-Commerce",
+    "description": "Boost online sales with effective digital marketing strategies.",
+    "price": 69.99,
+    "instructor": "Sarah Parker",
+    "duration": "10 weeks",
+    "startDate": "2027-03-20",
+    "endDate": "2027-06-05"
+  },
+  {
+    "id": 34,
+    "name": "Space Exploration and Astronomy",
+    "description": "Journey through the cosmos and explore the wonders of space.",
+    "price": 99.99,
+    "instructor": "Dr. William Turner",
+    "duration": "14 weeks",
+    "startDate": "2027-04-10",
+    "endDate": "2027-07-20"
+  },
+  {
+    "id": 35,
+    "name": "Advanced Python Programming",
+    "description": "Master advanced Python concepts and coding techniques.",
+    "price": 79.99,
+    "instructor": "Emily White",
+    "duration": "10 weeks",
+    "startDate": "2027-05-15",
+    "endDate": "2027-08-01"
+  },
+  {
+    "id": 36,
+    "name": "Artificial Intelligence in Finance",
+    "description": "Apply AI techniques to financial analysis and investment.",
+    "price": 89.99,
+    "instructor": "Dr. Michael Garcia",
+    "duration": "12 weeks",
+    "startDate": "2027-06-20",
+    "endDate": "2027-09-10"
+  },
+  {
+    "id": 37,
+    "name": "Introduction to Robotics",
+    "description": "Explore the fundamentals of robotics and automation.",
+    "price": 69.99,
+    "instructor": "Dr. Sophia Smith",
+    "duration": "10 weeks",
+    "startDate": "2027-07-10",
+    "endDate": "2027-09-20"
+  },
+  {
+    "id": 38,
+    "name": "Environmental Science and Conservation",
+    "description": "Study environmental issues and conservation strategies.",
+    "price": 59.99,
+    "instructor": "John Davis",
+    "duration": "8 weeks",
+    "startDate": "2027-08-15",
+    "endDate": "2027-10-10"
+  },
+  {
+    "id": 39,
+    "name": "Digital Marketing Analytics",
+    "description": "Analyze and optimize digital marketing campaigns for success.",
+    "price": 69.99,
+    "instructor": "Sophie Anderson",
+    "duration": "10 weeks",
+    "startDate": "2027-09-20",
+    "endDate": "2027-12-05"
+  },
+  {
+    "id": 40,
+    "name": "History of Ancient Civilizations",
+    "description": "Explore the rise and fall of ancient civilizations.",
+    "price": 49.99,
+    "instructor": "Professor Samuel White",
+    "duration": "8 weeks",
+    "startDate": "2028-01-10",
+    "endDate": "2028-03-06"
+  },
+  {
+    "id": 41,
+    "name": "Business Leadership and Management",
+    "description": "Develop leadership skills for effective business management.",
+    "price": 79.99,
+    "instructor": "Laura Adams",
+    "duration": "10 weeks",
+    "startDate": "2028-02-15",
+    "endDate": "2028-04-30"
+  },
+  {
+    "id": 42,
+    "name": "Introduction to Astrophysics",
+    "description": "Delve into the mysteries of the universe and astrophysical phenomena.",
+    "price": 69.99,
+    "instructor": "Dr. Stephen Carter",
+    "duration": "12 weeks",
+    "startDate": "2028-03-20",
+    "endDate": "2028-06-10"
+  },
+  {
+    "id": 43,
+    "name": "Digital Photography and Photo Editing",
+    "description": "Capture stunning photos and enhance them using digital tools.",
+    "price": 59.99,
+    "instructor": "Emma Turner",
+    "duration": "8 weeks",
+    "startDate": "2028-04-15",
+    "endDate": "2028-06-05"
+  },
+  {
+    "id": 44,
+    "name": "Financial Planning and Investment Strategies",
+    "description": "Learn how to plan for a secure financial future and make smart investments.",
+    "price": 89.99,
+    "instructor": "James Smith",
+    "duration": "12 weeks",
+    "startDate": "2028-05-10",
+    "endDate": "2028-08-01"
+  },
+  {
+    "id": 45,
+    "name": "Artificial Intelligence in Healthcare",
+    "description": "Explore AI applications in healthcare and medical research.",
+    "price": 79.99,
+    "instructor": "Dr. Maria Rodriguez",
+    "duration": "10 weeks",
+    "startDate": "2028-06-20",
+    "endDate": "2028-09-05"
+  },
+  {
+    "id": 46,
+    "name": "Advanced Data Analysis with R",
+    "description": "Take your data analysis skills to the next level using R programming.",
+    "price": 69.99,
+    "instructor": "Dr. Richard Baker",
+    "duration": "10 weeks",
+    "startDate": "2028-07-10",
+    "endDate": "2028-09-20"
+  },
+  {
+    "id": 47,
+    "name": "Environmental Conservation and Sustainability",
+    "description": "Study environmental issues and conservation strategies.",
+    "price": 59.99,
+    "instructor": "John Davis",
+    "duration": "8 weeks",
+    "startDate": "2028-08-15",
+    "endDate": "2028-10-10"
+  },
+  {
+    "id": 48,
+    "name": "Mobile App Design and User Experience",
+    "description": "Design user-friendly mobile apps with a focus on user experience.",
+    "price": 79.99,
+    "instructor": "Sophia Turner",
+    "duration": "12 weeks",
+    "startDate": "2028-09-20",
+    "endDate": "2028-12-10"
+  },
+  {
+    "id": 49,
+    "name": "Neuroscience and Brain Function",
+    "description": "Explore the intricacies of the human brain and neuroscience.",
+    "price": 89.99,
+    "instructor": "Dr. Olivia Mitchell",
+    "duration": "14 weeks",
+    "startDate": "2029-01-15",
+    "endDate": "2029-04-30"
+  },
+  {
+    "id": 50,
+    "name": "Front-End Web Development with React",
+    "description": "Build interactive and responsive web applications with React.",
+    "price": 79.99,
+    "instructor": "John Williams",
+    "duration": "12 weeks",
+    "startDate": "2029-02-10",
+    "endDate": "2029-05-05"
+  },
+  {
+    "id": 51,
+    "name": "Digital Marketing for E-Commerce",
+    "description": "Boost online sales with effective digital marketing strategies.",
+    "price": 69.99,
+    "instructor": "Sarah Parker",
+    "duration": "10 weeks",
+    "startDate": "2029-03-20",
+    "endDate": "2029-06-05"
+  },
+  {
+    "id": 52,
+    "name": "Space Exploration and Astronomy",
+    "description": "Journey through the cosmos and explore the wonders of space.",
+    "price": 99.99,
+    "instructor": "Dr. William Turner",
+    "duration": "14 weeks",
+    "startDate": "2029-04-10",
+    "endDate": "2029-07-20"
+  },
+  {
+    "id": 53,
+    "name": "Advanced Python Programming",
+    "description": "Master advanced Python concepts and coding techniques.",
+    "price": 79.99,
+    "instructor": "Emily White",
+    "duration": "10 weeks",
+    "startDate": "2029-05-15",
+    "endDate": "2029-08-01"
+  },
+  {
+    "id": 54,
+    "name": "Artificial Intelligence in Finance",
+    "description": "Apply AI techniques to financial analysis and investment.",
+    "price": 89.99,
+    "instructor": "Dr. Michael Garcia",
+    "duration": "12 weeks",
+    "startDate": "2029-06-20",
+    "endDate": "2029-09-10"
+  },
+  {
+    "id": 55,
+    "name": "Introduction to Robotics",
+    "description": "Explore the fundamentals of robotics and automation.",
+    "price": 69.99,
+    "instructor": "Dr. Sophia Smith",
+    "duration": "10 weeks",
+    "startDate": "2029-07-10",
+    "endDate": "2029-09-20"
+  },
+  {
+    "id": 56,
+    "name": "Environmental Science and Conservation",
+    "description": "Study environmental issues and conservation strategies.",
+    "price": 59.99,
+    "instructor": "John Davis",
+    "duration": "8 weeks",
+    "startDate": "2029-08-15",
+    "endDate": "2029-10-10"
+  },
+  {
+    "id": 57,
+    "name": "Digital Marketing Analytics",
+    "description": "Analyze and optimize digital marketing campaigns for success.",
+    "price": 69.99,
+    "instructor": "Sophie Anderson",
+    "duration": "10 weeks",
+    "startDate": "2029-09-20",
+    "endDate": "2029-12-05"
+  },
+  {
+    "id": 58,
+    "name": "History of Ancient Civilizations",
+    "description": "Explore the rise and fall of ancient civilizations.",
+    "price": 49.99,
+    "instructor": "Professor Samuel White",
+    "duration": "8 weeks",
+    "startDate": "2030-01-10",
+    "endDate": "2030-03-06"
+  },
+  {
+    "id": 59,
+    "name": "Business Leadership and Management",
+    "description": "Develop leadership skills for effective business management.",
+    "price": 79.99,
+    "instructor": "Laura Adams",
+    "duration": "10 weeks",
+    "startDate": "2030-02-15",
+    "endDate": "2030-04-30"
+  },
+  {
+    "id": 60,
+    "name": "Introduction to Astrophysics",
+    "description": "Delve into the mysteries of the universe and astrophysical phenomena.",
+    "price": 69.99,
+    "instructor": "Dr. Stephen Carter",
+    "duration": "12 weeks",
+    "startDate": "2030-03-20",
+    "endDate": "2030-06-10"
+  },
+  {
+    "id": 61,
+    "name": "Digital Photography and Photo Editing",
+    "description": "Capture stunning photos and enhance them using digital tools.",
+    "price": 59.99,
+    "instructor": "Emma Turner",
+    "duration": "8 weeks",
+    "startDate": "2030-04-15",
+    "endDate": "2030-06-05"
+  },
+  {
+    "id": 62,
+    "name": "Financial Planning and Investment Strategies",
+    "description": "Learn how to plan for a secure financial future and make smart investments.",
+    "price": 89.99,
+    "instructor": "James Smith",
+    "duration": "12 weeks",
+    "startDate": "2030-05-10",
+    "endDate": "2030-08-01"
+  },
+  {
+    "id": 63,
+    "name": "Artificial Intelligence in Healthcare",
+    "description": "Explore AI applications in healthcare and medical research.",
+    "price": 79.99,
+    "instructor": "Dr. Maria Rodriguez",
+    "duration": "10 weeks",
+    "startDate": "2030-06-20",
+    "endDate": "2030-09-05"
+  },
+  {
+    "id": 64,
+    "name": "Advanced Data Analysis with R",
+    "description": "Take your data analysis skills to the next level using R programming.",
+    "price": 69.99,
+    "instructor": "Dr. Richard Baker",
+    "duration": "10 weeks",
+    "startDate": "2030-07-10",
+    "endDate": "2030-09-20"
+  },
+  {
+    "id": 65,
+    "name": "Environmental Science and Conservation",
+    "description": "Study environmental issues and conservation strategies.",
+    "price": 59.99,
+    "instructor": "John Davis",
+    "duration": "8 weeks",
+    "startDate": "2030-08-15",
+    "endDate": "2030-10-10"
+  },
+  {
+    "id": 66,
+    "name": "Mobile App Design and User Experience",
+    "description": "Design user-friendly mobile apps with a focus on user experience.",
+    "price": 79.99,
+    "instructor": "Sophia Turner",
+    "duration": "12 weeks",
+    "startDate": "2030-09-20",
+    "endDate": "2030-12-10"
+  },
+  {
+    "id": 67,
+    "name": "Neuroscience and Brain Function",
+    "description": "Explore the intricacies of the human brain and neuroscience.",
+    "price": 89.99,
+    "instructor": "Dr. Olivia Mitchell",
+    "duration": "14 weeks",
+    "startDate": "2031-01-15",
+    "endDate": "2031-04-30"
+  },
+  {
+    "id": 68,
+    "name": "Front-End Web Development with React",
+    "description": "Build interactive and responsive web applications with React.",
+    "price": 79.99,
+    "instructor": "John Williams",
+    "duration": "12 weeks",
+    "startDate": "2031-02-10",
+    "endDate": "2031-05-05"
+  },
+  {
+    "id": 69,
+    "name": "Digital Marketing for E-Commerce",
+    "description": "Boost online sales with effective digital marketing strategies.",
+    "price": 69.99,
+    "instructor": "Sarah Parker",
+    "duration": "10 weeks",
+    "startDate": "2031-03-20",
+    "endDate": "2031-06-05"
+  },
+  {
+    "id": 70,
+    "name": "Space Exploration and Astronomy",
+    "description": "Journey through the cosmos and explore the wonders of space.",
+    "price": 99.99,
+    "instructor": "Dr. William Turner",
+    "duration": "14 weeks",
+    "startDate": "2031-04-10",
+    "endDate": "2031-07-20"
+  },
+  {
+    "id": 71,
+    "name": "Advanced Python Programming",
+    "description": "Master advanced Python concepts and coding techniques.",
+    "price": 79.99,
+    "instructor": "Emily White",
+    "duration": "10 weeks",
+    "startDate": "2031-05-15",
+    "endDate": "2031-08-01"
+  },
+  {
+    "id": 72,
+    "name": "Artificial Intelligence in Finance",
+    "description": "Apply AI techniques to financial analysis and investment.",
+    "price": 89.99,
+    "instructor": "Dr. Michael Garcia",
+    "duration": "12 weeks",
+    "startDate": "2031-06-20",
+    "endDate": "2031-09-10"
+  },
+  {
+    "id": 73,
+    "name": "Introduction to Robotics",
+    "description": "Explore the fundamentals of robotics and automation.",
+    "price": 69.99,
+    "instructor": "Dr. Sophia Smith",
+    "duration": "10 weeks",
+    "startDate": "2031-07-10",
+    "endDate": "2031-09-20"
+  },
+  {
+    "id": 74,
+    "name": "Environmental Science and Conservation",
+    "description": "Study environmental issues and conservation strategies.",
+    "price": 59.99,
+    "instructor": "John Davis",
+    "duration": "8 weeks",
+    "startDate": "2031-08-15",
+    "endDate": "2031-10-10"
+  },
+  {
+    "id": 75,
+    "name": "Digital Marketing Analytics",
+    "description": "Analyze and optimize digital marketing campaigns for success.",
+    "price": 69.99,
+    "instructor": "Sophie Anderson",
+    "duration": "10 weeks",
+    "startDate": "2031-09-20",
+    "endDate": "2031-12-05"
+  },
+  {
+    "id": 76,
+    "name": "History of Ancient Civilizations",
+    "description": "Explore the rise and fall of ancient civilizations.",
+    "price": 49.99,
+    "instructor": "Professor Samuel White",
+    "duration": "8 weeks",
+    "startDate": "2032-01-10",
+    "endDate": "2032-03-06"
+  },
+  {
+    "id": 77,
+    "name": "Business Leadership and Management",
+    "description": "Develop leadership skills for effective business management.",
+    "price": 79.99,
+    "instructor": "Laura Adams",
+    "duration": "10 weeks",
+    "startDate": "2032-02-15",
+    "endDate": "2032-04-30"
+  },
+  {
+    "id": 78,
+    "name": "Introduction to Astrophysics",
+    "description": "Delve into the mysteries of the universe and astrophysical phenomena.",
+    "price": 69.99,
+    "instructor": "Dr. Stephen Carter",
+    "duration": "12 weeks",
+    "startDate": "2032-03-20",
+    "endDate": "2032-06-10"
+  },
+  {
+    "id": 79,
+    "name": "Digital Photography and Photo Editing",
+    "description": "Capture stunning photos and enhance them using digital tools.",
+    "price": 59.99,
+    "instructor": "Emma Turner",
+    "duration": "8 weeks",
+    "startDate": "2032-04-15",
+    "endDate": "2032-06-05"
+  },
+  {
+    "id": 80,
+    "name": "Financial Planning and Investment Strategies",
+    "description": "Learn how to plan for a secure financial future and make smart investments.",
+    "price": 89.99,
+    "instructor": "James Smith",
+    "duration": "12 weeks",
+    "startDate": "2032-05-10",
+    "endDate": "2032-08-01"
+  },
+  {
+    "id": 81,
+    "name": "Artificial Intelligence in Healthcare",
+    "description": "Explore AI applications in healthcare and medical research.",
+    "price": 79.99,
+    "instructor": "Dr. Maria Rodriguez",
+    "duration": "10 weeks",
+    "startDate": "2032-06-20",
+    "endDate": "2032-09-05"
+  },
+  {
+    "id": 79,
+    "name": "Digital Photography and Photo Editing",
+    "description": "Capture stunning photos and enhance them using digital tools.",
+    "price": 59.99,
+    "instructor": "Emma Turner",
+    "duration": "8 weeks",
+    "startDate": "2032-04-15",
+    "endDate": "2032-06-05"
+  },
+  {
+    "id": 80,
+    "name": "Financial Planning and Investment Strategies",
+    "description": "Learn how to plan for a secure financial future and make smart investments.",
+    "price": 89.99,
+    "instructor": "James Smith",
+    "duration": "12 weeks",
+    "startDate": "2032-05-10",
+    "endDate": "2032-08-01"
+  },
+  {
+    "id": 81,
+    "name": "Artificial Intelligence in Healthcare",
+    "description": "Explore AI applications in healthcare and medical research.",
+    "price": 79.99,
+    "instructor": "Dr. Maria Rodriguez",
+    "duration": "10 weeks",
+    "startDate": "2032-06-20",
+    "endDate": "2032-09-05"
+  },
+  {
+    "id": 82,
+    "name": "Advanced Data Analysis with R",
+    "description": "Take your data analysis skills to the next level using R programming.",
+    "price": 69.99,
+    "instructor": "Dr. Richard Baker",
+    "duration": "10 weeks",
+    "startDate": "2032-07-10",
+    "endDate": "2032-09-20"
+  },
+  {
+    "id": 83,
+    "name": "Environmental Science and Conservation",
+    "description": "Study environmental issues and conservation strategies.",
+    "price": 59.99,
+    "instructor": "John Davis",
+    "duration": "8 weeks",
+    "startDate": "2032-08-15",
+    "endDate": "2032-10-10"
+  },
+  {
+    "id": 84,
+    "name": "Mobile App Design and User Experience",
+    "description": "Design user-friendly mobile apps with a focus on user experience.",
+    "price": 79.99,
+    "instructor": "Sophia Turner",
+    "duration": "12 weeks",
+    "startDate": "2032-09-20",
+    "endDate": "2032-12-10"
+  },
+  {
+    "id": 85,
+    "name": "Neuroscience and Brain Function",
+    "description": "Explore the intricacies of the human brain and neuroscience.",
+    "price": 89.99,
+    "instructor": "Dr. Olivia Mitchell",
+    "duration": "14 weeks",
+    "startDate": "2033-01-15",
+    "endDate": "2033-04-30"
+  },
+  {
+    "id": 86,
+    "name": "Front-End Web Development with React",
+    "description": "Build interactive and responsive web applications with React.",
+    "price": 79.99,
+    "instructor": "John Williams",
+    "duration": "12 weeks",
+    "startDate": "2033-02-10",
+    "endDate": "2033-05-05"
+  },
+  {
+    "id": 87,
+    "name": "Digital Marketing for E-Commerce",
+    "description": "Boost online sales with effective digital marketing strategies.",
+    "price": 69.99,
+    "instructor": "Sarah Parker",
+    "duration": "10 weeks",
+    "startDate": "2033-03-20",
+    "endDate": "2033-06-05"
+  },
+  {
+    "id": 88,
+    "name": "Space Exploration and Astronomy",
+    "description": "Journey through the cosmos and explore the wonders of space.",
+    "price": 99.99,
+    "instructor": "Dr. William Turner",
+    "duration": "14 weeks",
+    "startDate": "2033-04-10",
+    "endDate": "2033-07-20"
+  },
+  {
+    "id": 89,
+    "name": "Advanced Python Programming",
+    "description": "Master advanced Python concepts and coding techniques.",
+    "price": 79.99,
+    "instructor": "Emily White",
+    "duration": "10 weeks",
+    "startDate": "2033-05-15",
+    "endDate": "2033-08-01"
+  },
+  {
+    "id": 90,
+    "name": "Artificial Intelligence in Finance",
+    "description": "Apply AI techniques to financial analysis and investment.",
+    "price": 89.99,
+    "instructor": "Dr. Michael Garcia",
+    "duration": "12 weeks",
+    "startDate": "2033-06-20",
+    "endDate": "2033-09-10"
+  },
+  {
+    "id": 91,
+    "name": "Introduction to Robotics",
+    "description": "Explore the fundamentals of robotics and automation.",
+    "price": 69.99,
+    "instructor": "Dr. Sophia Smith",
+    "duration": "10 weeks",
+    "startDate": "2033-07-10",
+    "endDate": "2033-09-20"
+  },
+  {
+    "id": 92,
+    "name": "Environmental Science and Conservation",
+    "description": "Study environmental issues and conservation strategies.",
+    "price": 59.99,
+    "instructor": "John Davis",
+    "duration": "8 weeks",
+    "startDate": "2033-08-15",
+    "endDate": "2033-10-10"
+  },
+  {
+    "id": 93,
+    "name": "Digital Marketing Analytics",
+    "description": "Analyze and optimize digital marketing campaigns for success.",
+    "price": 69.99,
+    "instructor": "Sophie Anderson",
+    "duration": "10 weeks",
+    "startDate": "2033-09-20",
+    "endDate": "2033-12-05"
+  },
+  {
+    "id": 94,
+    "name": "History of Ancient Civilizations",
+    "description": "Explore the rise and fall of ancient civilizations.",
+    "price": 49.99,
+    "instructor": "Professor Samuel White",
+    "duration": "8 weeks",
+    "startDate": "2034-01-10",
+    "endDate": "2034-03-06"
+  },
+  {
+    "id": 95,
+    "name": "Business Leadership and Management",
+    "description": "Develop leadership skills for effective business management.",
+    "price": 79.99,
+    "instructor": "Laura Adams",
+    "duration": "10 weeks",
+    "startDate": "2034-02-15",
+    "endDate": "2034-04-30"
+  },
+  {
+    "id": 96,
+    "name": "Introduction to Astrophysics",
+    "description": "Delve into the mysteries of the universe and astrophysical phenomena.",
+    "price": 69.99,
+    "instructor": "Dr. Stephen Carter",
+    "duration": "12 weeks",
+    "startDate": "2034-03-20",
+    "endDate": "2034-06-10"
+  },
+  {
+    "id": 97,
+    "name": "Digital Photography and Photo Editing",
+    "description": "Capture stunning photos and enhance them using digital tools.",
+    "price": 59.99,
+    "instructor": "Emma Turner",
+    "duration": "8 weeks",
+    "startDate": "2034-04-15",
+    "endDate": "2034-06-05"
+  },
+  {
+    "id": 98,
+    "name": "Financial Planning and Investment Strategies",
+    "description": "Learn how to plan for a secure financial future and make smart investments.",
+    "price": 89.99,
+    "instructor": "James Smith",
+    "duration": "12 weeks",
+    "startDate": "2034-05-10",
+    "endDate": "2034-08-01"
+  },
+  {
+    "id": 99,
+    "name": "Artificial Intelligence in Healthcare",
+    "description": "Explore AI applications in healthcare and medical research.",
+    "price": 79.99,
+    "instructor": "Dr. Maria Rodriguez",
+    "duration": "10 weeks",
+    "startDate": "2034-06-20",
+    "endDate": "2034-09-05"
+  },
+  {
+    "id": 100,
+    "name": "Data Science for Business",
+    "description": "Learn how to apply data science techniques to solve real-world business problems.",
+    "price": 89.99,
+    "instructor": "Dr. Jessica Lee",
+    "duration": "12 weeks",
+    "startDate": "2034-10-15",
+    "endDate": "2035-01-05"
+  }
+]

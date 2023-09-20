@@ -20,7 +20,7 @@ dependencies {
 
     implementation 'com.h2database:h2:2.2.222'
 
-    implementation 'com.google.guava:guava:32.1.2-jre'
+    implementation 'com.fasterxml.jackson.datatype:jackson-datatype-jsr310:2.15.2'
 }
 
 tasks.named('test') {

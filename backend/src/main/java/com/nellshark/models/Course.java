@@ -1,5 +1,8 @@
 package com.nellshark.models;
 
+import static com.fasterxml.jackson.annotation.JsonFormat.Shape.STRING;
+
+import com.fasterxml.jackson.annotation.JsonFormat;
 import jakarta.persistence.Column;
 import jakarta.persistence.Entity;
 import jakarta.persistence.Id;
@@ -26,20 +29,27 @@ public class Course {
   @Column(name = "instructor", nullable = false, updatable = false)
   private String instructor;
 
+  @Column(name = "duration", nullable = false, updatable = false)
+  private String duration;
+
   @Column(name = "startDate", nullable = false, updatable = false)
+  @JsonFormat(shape = STRING, pattern = "yyyy-MM-dd")
   private LocalDate startDate;
 
   @Column(name = "endDate", nullable = false, updatable = false)
+  @JsonFormat(shape = STRING, pattern = "yyyy-MM-dd")
   private LocalDate endDate;
 
   public Course() {
   }
 
-  public Course(Long id,
+  public Course(
+      Long id,
       String name,
       String description,
       Double price,
       String instructor,
+      String duration,
       LocalDate startDate,
       LocalDate endDate) {
     this.id = id;
@@ -47,6 +57,7 @@ public class Course {
     this.description = description;
     this.price = price;
     this.instructor = instructor;
+    this.duration = duration;
     this.startDate = startDate;
     this.endDate = endDate;
   }
@@ -91,6 +102,14 @@ public class Course {
     this.instructor = instructor;
   }
 
+  public String getDuration() {
+    return duration;
+  }
+
+  public void setDuration(String duration) {
+    this.duration = duration;
+  }
+
   public LocalDate getStartDate() {
     return startDate;
   }
@@ -115,6 +134,7 @@ public class Course {
         ", description='" + description + '\'' +
         ", price=" + price +
         ", instructor='" + instructor + '\'' +
+        ", duration='" + duration + '\'' +
         ", startDate=" + startDate +
         ", endDate=" + endDate +
         '}';
