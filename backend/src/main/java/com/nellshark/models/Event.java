@@ -11,7 +11,6 @@ import jakarta.persistence.Id;
 import jakarta.persistence.JoinColumn;
 import jakarta.persistence.Table;
 import java.time.LocalDate;
-import java.util.ArrayList;
 import java.util.List;
 
 @Table(name = "events")
@@ -37,7 +36,7 @@ public class Event {
 
   @ElementCollection
   @CollectionTable(name = "event_speakers", joinColumns = @JoinColumn(name = "event_id"))
-  private List<Speaker> speakers = new ArrayList<>();
+  private List<Speaker> speakers;
 
   public Event() {
   }

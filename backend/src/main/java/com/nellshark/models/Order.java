@@ -1,10 +1,14 @@
 package com.nellshark.models;
 
+import jakarta.persistence.CollectionTable;
 import jakarta.persistence.Column;
+import jakarta.persistence.ElementCollection;
 import jakarta.persistence.Entity;
 import jakarta.persistence.Id;
+import jakarta.persistence.JoinColumn;
 import jakarta.persistence.Table;
 import java.time.LocalDateTime;
+import java.util.List;
 
 @Table(name = "orders")
 @Entity
@@ -20,13 +24,18 @@ public class Order {
   @Column(name = "status", nullable = false, updatable = false)
   private String status;
 
+  @ElementCollection
+  @CollectionTable(name = "order_items", joinColumns = @JoinColumn(name = "order_id"))
+  private List<Item> items;
+
   public Order() {
   }
 
-  public Order(Long id, LocalDateTime timestamp, String status) {
+  public Order(Long id, LocalDateTime timestamp, String status, List<Item> items) {
     this.id = id;
     this.timestamp = timestamp;
     this.status = status;
+    this.items = items;
   }
 
   public Long getId() {
@@ -53,12 +62,21 @@ public class Order {
     this.status = status;
   }
 
+  public List<Item> getItems() {
+    return items;
+  }
+
+  public void setItems(List<Item> items) {
+    this.items = items;
+  }
+
   @Override
   public String toString() {
     return "Order{" +
         "id=" + id +
         ", timestamp=" + timestamp +
         ", status='" + status + '\'' +
+        ", items=" + items +
         '}';
   }
 }
