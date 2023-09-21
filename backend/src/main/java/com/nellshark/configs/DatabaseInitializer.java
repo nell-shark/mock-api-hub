@@ -9,6 +9,7 @@ import com.nellshark.models.Course;
 import com.nellshark.models.Employee;
 import com.nellshark.models.Event;
 import com.nellshark.models.Message;
+import com.nellshark.models.Notification;
 import com.nellshark.services.JsonService;
 import java.io.File;
 import java.util.List;
@@ -46,7 +47,8 @@ public class DatabaseInitializer implements CommandLineRunner {
         "courses.json", Course.class,
         "employees.json", Employee.class,
         "events.json", Event.class,
-        "messages.json", Message.class
+        "messages.json", Message.class,
+        "notifications.json", Notification.class
     );
 
     map.forEach(this::deserializeJsonResourceFile);

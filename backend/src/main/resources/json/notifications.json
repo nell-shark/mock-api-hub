@@ -1,0 +1,702 @@
+[
+  {
+    "id": 1,
+    "title": "New Email",
+    "message": "You have a new email from John Doe.",
+    "timestamp": "2023-09-10T08:00:00Z",
+    "read": false
+  },
+  {
+    "id": 2,
+    "title": "Meeting Reminder",
+    "message": "Don't forget the team meeting at 3 PM.",
+    "timestamp": "2023-09-10T09:30:00Z",
+    "read": false
+  },
+  {
+    "id": 3,
+    "title": "Weather Update",
+    "message": "Today's weather forecast: sunny with a high of 75°F.",
+    "timestamp": "2023-09-10T10:15:00Z",
+    "read": false
+  },
+  {
+    "id": 4,
+    "title": "Task Completed",
+    "message": "Task #123 has been completed successfully.",
+    "timestamp": "2023-09-10T11:20:00Z",
+    "read": true
+  },
+  {
+    "id": 5,
+    "title": "Holidays Announcement",
+    "message": "The company will be closed for holidays next week.",
+    "timestamp": "2023-09-10T12:45:00Z",
+    "read": false
+  },
+  {
+    "id": 6,
+    "title": "New Friend Request",
+    "message": "You have a new friend request from Sarah Smith.",
+    "timestamp": "2023-09-10T14:10:00Z",
+    "read": false
+  },
+  {
+    "id": 7,
+    "title": "Package Shipped",
+    "message": "Your order #456 has been shipped and is on its way.",
+    "timestamp": "2023-09-10T15:25:00Z",
+    "read": false
+  },
+  {
+    "id": 8,
+    "title": "Upcoming Event",
+    "message": "Reminder: The concert you booked tickets for is tomorrow.",
+    "timestamp": "2023-09-10T16:30:00Z",
+    "read": false
+  },
+  {
+    "id": 9,
+    "title": "Payment Received",
+    "message": "You've received a payment of $1000 from Jane Doe.",
+    "timestamp": "2023-09-10T17:45:00Z",
+    "read": true
+  },
+  {
+    "id": 10,
+    "title": "News Update",
+    "message": "Breaking news: Major tech company announces new product.",
+    "timestamp": "2023-09-10T18:20:00Z",
+    "read": false
+  },
+  {
+    "id": 11,
+    "title": "New Blog Post",
+    "message": "Check out our latest blog post on productivity tips.",
+    "timestamp": "2023-09-10T19:05:00Z",
+    "read": false
+  },
+  {
+    "id": 12,
+    "title": "Security Alert",
+    "message": "Unusual login activity detected on your account. Review now.",
+    "timestamp": "2023-09-10T20:30:00Z",
+    "read": false
+  },
+  {
+    "id": 13,
+    "title": "Birthday Reminder",
+    "message": "Don't forget to wish John a happy birthday today!",
+    "timestamp": "2023-09-10T21:15:00Z",
+    "read": false
+  },
+  {
+    "id": 14,
+    "title": "Traffic Update",
+    "message": "Expect heavy traffic on your commute route tomorrow morning.",
+    "timestamp": "2023-09-10T22:40:00Z",
+    "read": false
+  },
+  {
+    "id": 15,
+    "title": "Software Update",
+    "message": "A new software update is available. Install now for new features.",
+    "timestamp": "2023-09-10T23:55:00Z",
+    "read": true
+  },
+  {
+    "id": 16,
+    "title": "Product Sale",
+    "message": "Limited-time sale! Get 20% off on selected items.",
+    "timestamp": "2023-09-11T08:10:00Z",
+    "read": false
+  },
+  {
+    "id": 17,
+    "title": "Appointment Reminder",
+    "message": "Your dentist appointment is scheduled for tomorrow at 2 PM.",
+    "timestamp": "2023-09-11T09:25:00Z",
+    "read": false
+  },
+  {
+    "id": 18,
+    "title": "Package Delivered",
+    "message": "Your package has been successfully delivered to your address.",
+    "timestamp": "2023-09-11T10:35:00Z",
+    "read": true
+  },
+  {
+    "id": 19,
+    "title": "New Podcast Episode",
+    "message": "A new episode of your favorite podcast is now available.",
+    "timestamp": "2023-09-11T11:50:00Z",
+    "read": false
+  },
+  {
+    "id": 20,
+    "title": "Emergency Alert",
+    "message": "Emergency weather alert: Tornado warning in your area. Seek shelter.",
+    "timestamp": "2023-09-11T12:15:00Z",
+    "read": false
+  },
+  {
+    "id": 21,
+    "title": "New Job Opportunity",
+    "message": "A new job opportunity matching your skills is available. Check it out!",
+    "timestamp": "2023-09-11T13:30:00Z",
+    "read": false
+  },
+  {
+    "id": 22,
+    "title": "Social Media Mention",
+    "message": "You've been mentioned in a post by @User123 on Twitter.",
+    "timestamp": "2023-09-11T14:45:00Z",
+    "read": false
+  },
+  {
+    "id": 23,
+    "title": "Payment Reminder",
+    "message": "Friendly reminder: Your monthly utility bill is due soon.",
+    "timestamp": "2023-09-11T15:55:00Z",
+    "read": true
+  },
+  {
+    "id": 24,
+    "title": "Flight Update",
+    "message": "Your flight DL123 has been delayed by one hour. Please check-in accordingly.",
+    "timestamp": "2023-09-11T16:10:00Z",
+    "read": false
+  },
+  {
+    "id": 25,
+    "title": "Newsletter Subscription",
+    "message": "Thank you for subscribing to our newsletter. Here's your welcome message!",
+    "timestamp": "2023-09-11T17:25:00Z",
+    "read": false
+  },
+  {
+    "id": 26,
+    "title": "Package Out for Delivery",
+    "message": "Your package is out for delivery and will arrive today.",
+    "timestamp": "2023-09-11T18:40:00Z",
+    "read": false
+  },
+  {
+    "id": 27,
+    "title": "Health Reminder",
+    "message": "Don't forget to take your daily vitamins and stay hydrated.",
+    "timestamp": "2023-09-11T19:55:00Z",
+    "read": false
+  },
+  {
+    "id": 28,
+    "title": "Social Event Invitation",
+    "message": "You're invited to a social event on Saturday. RSVP now!",
+    "timestamp": "2023-09-11T20:10:00Z",
+    "read": false
+  },
+  {
+    "id": 29,
+    "title": "Password Reset",
+    "message": "A password reset request for your account was initiated. Click to confirm.",
+    "timestamp": "2023-09-11T21:25:00Z",
+    "read": false
+  },
+  {
+    "id": 30,
+    "title": "Important Announcement",
+    "message": "An important announcement from the company CEO is now available for viewing.",
+    "timestamp": "2023-09-11T22:30:00Z",
+    "read": true
+  },
+  {
+    "id": 31,
+    "title": "Friend's Birthday",
+    "message": "It's your friend Lisa's birthday today. Send your wishes!",
+    "timestamp": "2023-09-11T23:45:00Z",
+    "read": false
+  },
+  {
+    "id": 32,
+    "title": "Travel Confirmation",
+    "message": "Your flight booking to Paris has been confirmed. Bon voyage!",
+    "timestamp": "2023-09-12T08:15:00Z",
+    "read": false
+  },
+  {
+    "id": 33,
+    "title": "Product Recall",
+    "message": "Important: A product you purchased has been recalled due to safety concerns.",
+    "timestamp": "2023-09-12T09:30:00Z",
+    "read": true
+  },
+  {
+    "id": 34,
+    "title": "New Message",
+    "message": "You have a new message from your coworker, Mark.",
+    "timestamp": "2023-09-12T10:45:00Z",
+    "read": false
+  },
+  {
+    "id": 35,
+    "title": "Appointment Confirmation",
+    "message": "Your doctor's appointment on Wednesday at 2 PM has been confirmed.",
+    "timestamp": "2023-09-12T11:55:00Z",
+    "read": false
+  },
+  {
+    "id": 36,
+    "title": "Traffic Alert",
+    "message": "Heavy traffic reported on your route. Consider an alternate route.",
+    "timestamp": "2023-09-12T13:10:00Z",
+    "read": false
+  },
+  {
+    "id": 37,
+    "title": "New Article Published",
+    "message": "Check out our latest article: '10 Tips for Healthy Living'.",
+    "timestamp": "2023-09-12T14:25:00Z",
+    "read": false
+  },
+  {
+    "id": 38,
+    "title": "Event Registration",
+    "message": "Registration for the upcoming conference is now open. Secure your spot!",
+    "timestamp": "2023-09-12T15:40:00Z",
+    "read": false
+  },
+  {
+    "id": 39,
+    "title": "Account Activity",
+    "message": "Unusual login activity detected on your account. Review your recent logins.",
+    "timestamp": "2023-09-12T16:55:00Z",
+    "read": true
+  },
+  {
+    "id": 40,
+    "title": "New App Update",
+    "message": "A new version of the app is available. Update now for bug fixes and improvements.",
+    "timestamp": "2023-09-12T17:10:00Z",
+    "read": false
+  },
+  {
+    "id": 41,
+    "title": "New Podcast Release",
+    "message": "A new episode of your favorite podcast is now available for streaming.",
+    "timestamp": "2023-09-12T18:25:00Z",
+    "read": false
+  },
+  {
+    "id": 42,
+    "title": "Task Deadline Reminder",
+    "message": "Reminder: Task #789 is due tomorrow. Don't forget to complete it.",
+    "timestamp": "2023-09-12T19:40:00Z",
+    "read": false
+  },
+  {
+    "id": 43,
+    "title": "Social Media Notification",
+    "message": "You have 5 new notifications on your social media account.",
+    "timestamp": "2023-09-12T20:55:00Z",
+    "read": false
+  },
+  {
+    "id": 44,
+    "title": "Appointment Cancellation",
+    "message": "Your appointment for Friday has been canceled. Please reschedule.",
+    "timestamp": "2023-09-12T21:10:00Z",
+    "read": true
+  },
+  {
+    "id": 45,
+    "title": "Product Review Request",
+    "message": "Share your feedback on your recent purchase and get a chance to win a gift card.",
+    "timestamp": "2023-09-12T22:25:00Z",
+    "read": false
+  },
+  {
+    "id": 46,
+    "title": "Package Delay Notification",
+    "message": "Your package delivery has been delayed by one day due to unforeseen circumstances.",
+    "timestamp": "2023-09-12T23:40:00Z",
+    "read": false
+  },
+  {
+    "id": 47,
+    "title": "Security Alert",
+    "message": "Multiple failed login attempts detected. Secure your account now.",
+    "timestamp": "2023-09-13T08:15:00Z",
+    "read": false
+  },
+  {
+    "id": 48,
+    "title": "Newsletter Subscription Confirmation",
+    "message": "Thank you for subscribing to our newsletter. Here's your confirmation email.",
+    "timestamp": "2023-09-13T09:30:00Z",
+    "read": true
+  },
+  {
+    "id": 49,
+    "title": "Flight Reminder",
+    "message": "Your upcoming flight to New York is tomorrow. Don't forget your boarding pass.",
+    "timestamp": "2023-09-13T10:45:00Z",
+    "read": false
+  },
+  {
+    "id": 50,
+    "title": "Job Interview Invitation",
+    "message": "Congratulations! You've been invited for a job interview next week.",
+    "timestamp": "2023-09-13T11:55:00Z",
+    "read": false
+  },
+  {
+    "id": 51,
+    "title": "Product Launch",
+    "message": "We're excited to announce the launch of our new product line. Check it out!",
+    "timestamp": "2023-09-13T13:10:00Z",
+    "read": false
+  },
+  {
+    "id": 52,
+    "title": "Weather Alert",
+    "message": "Severe weather warning: Expect heavy rain and possible flooding in your area.",
+    "timestamp": "2023-09-13T14:25:00Z",
+    "read": false
+  },
+  {
+    "id": 53,
+    "title": "Package Delivered",
+    "message": "Your recent online order has been successfully delivered to your doorstep.",
+    "timestamp": "2023-09-13T15:40:00Z",
+    "read": true
+  },
+  {
+    "id": 54,
+    "title": "New Blog Post",
+    "message": "Read our latest blog post on 'Top Travel Destinations for 2023'.",
+    "timestamp": "2023-09-13T16:55:00Z",
+    "read": false
+  },
+  {
+    "id": 55,
+    "title": "Emergency Alert",
+    "message": "Emergency evacuation drill scheduled for this Saturday. Be prepared.",
+    "timestamp": "2023-09-13T17:10:00Z",
+    "read": false
+  },
+  {
+    "id": 56,
+    "title": "New Friend Request",
+    "message": "You have a new friend request from Mike Johnson.",
+    "timestamp": "2023-09-13T18:25:00Z",
+    "read": false
+  },
+  {
+    "id": 57,
+    "title": "Payment Received",
+    "message": "You've received a payment of $500 from Alex Davis.",
+    "timestamp": "2023-09-13T19:40:00Z",
+    "read": false
+  },
+  {
+    "id": 58,
+    "title": "Holiday Reminder",
+    "message": "Plan your holidays! Book your vacation now for exclusive discounts.",
+    "timestamp": "2023-09-13T20:55:00Z",
+    "read": false
+  },
+  {
+    "id": 59,
+    "title": "Appointment Update",
+    "message": "Your dentist appointment has been rescheduled to next Monday.",
+    "timestamp": "2023-09-13T21:10:00Z",
+    "read": true
+  },
+  {
+    "id": 60,
+    "title": "News Alert",
+    "message": "Breaking news: Stock market hits an all-time high.",
+    "timestamp": "2023-09-13T22:25:00Z",
+    "read": false
+  },
+  {
+    "id": 61,
+    "title": "New Product Arrival",
+    "message": "Check out our latest product arrivals in-store and online!",
+    "timestamp": "2023-09-14T08:15:00Z",
+    "read": false
+  },
+  {
+    "id": 62,
+    "title": "Task Reminder",
+    "message": "Task #234 is due today. Ensure it's completed by the end of the day.",
+    "timestamp": "2023-09-14T09:30:00Z",
+    "read": false
+  },
+  {
+    "id": 63,
+    "title": "Social Media Mention",
+    "message": "You've been mentioned in a post by @User456 on Instagram.",
+    "timestamp": "2023-09-14T10:45:00Z",
+    "read": false
+  },
+  {
+    "id": 64,
+    "title": "Flight Cancellation",
+    "message": "Unfortunately, your flight has been canceled due to adverse weather conditions.",
+    "timestamp": "2023-09-14T11:55:00Z",
+    "read": true
+  },
+  {
+    "id": 65,
+    "title": "Product Review Request",
+    "message": "Share your thoughts on your recent purchase and help us improve our products.",
+    "timestamp": "2023-09-14T12:10:00Z",
+    "read": false
+  },
+  {
+    "id": 66,
+    "title": "Product Sale",
+    "message": "Flash sale! Get up to 50% off on selected items this weekend.",
+    "timestamp": "2023-09-14T13:25:00Z",
+    "read": false
+  },
+  {
+    "id": 67,
+    "title": "Event Reminder",
+    "message": "Don't forget about the charity event you volunteered for on Saturday.",
+    "timestamp": "2023-09-14T14:40:00Z",
+    "read": false
+  },
+  {
+    "id": 68,
+    "title": "Account Alert",
+    "message": "Your bank account balance is below the minimum required amount. Take action.",
+    "timestamp": "2023-09-14T15:55:00Z",
+    "read": false
+  },
+  {
+    "id": 69,
+    "title": "Meeting Invitation",
+    "message": "You've been invited to attend an important project kickoff meeting on Monday.",
+    "timestamp": "2023-09-14T16:10:00Z",
+    "read": true
+  },
+  {
+    "id": 70,
+    "title": "Newsletter Subscription",
+    "message": "Welcome to our weekly newsletter! Here's your first edition.",
+    "timestamp": "2023-09-14T17:25:00Z",
+    "read": false
+  },
+  {
+    "id": 71,
+    "title": "New Job Opportunity",
+    "message": "A new job opening that matches your skills is available. Apply now!",
+    "timestamp": "2023-09-14T18:40:00Z",
+    "read": false
+  },
+  {
+    "id": 72,
+    "title": "Traffic Update",
+    "message": "Traffic congestion is expected on your route during rush hour. Plan accordingly.",
+    "timestamp": "2023-09-14T19:55:00Z",
+    "read": false
+  },
+  {
+    "id": 73,
+    "title": "Appointment Confirmation",
+    "message": "Your upcoming doctor's appointment has been confirmed for Thursday.",
+    "timestamp": "2023-09-14T20:10:00Z",
+    "read": false
+  },
+  {
+    "id": 74,
+    "title": "Password Reset",
+    "message": "A password reset request for your account was initiated. Confirm your identity.",
+    "timestamp": "2023-09-14T21:25:00Z",
+    "read": true
+  },
+  {
+    "id": 75,
+    "title": "Important Announcement",
+    "message": "An important announcement regarding office renovations. Check it out!",
+    "timestamp": "2023-09-14T22:30:00Z",
+    "read": false
+  },
+  {
+    "id": 76,
+    "title": "Friend's Birthday Reminder",
+    "message": "It's your friend Sarah's birthday today. Send her your best wishes!",
+    "timestamp": "2023-09-15T08:15:00Z",
+    "read": false
+  },
+  {
+    "id": 77,
+    "title": "Travel Confirmation",
+    "message": "Your flight to London is confirmed for next week. Safe travels!",
+    "timestamp": "2023-09-15T09:30:00Z",
+    "read": false
+  },
+  {
+    "id": 78,
+    "title": "Product Recall Notice",
+    "message": "Urgent: A product you purchased has been recalled due to safety issues. Take action.",
+    "timestamp": "2023-09-15T10:45:00Z",
+    "read": true
+  },
+  {
+    "id": 79,
+    "title": "New Message",
+    "message": "You have a new message from your colleague, Emily.",
+    "timestamp": "2023-09-15T11:55:00Z",
+    "read": false
+  },
+  {
+    "id": 80,
+    "title": "Appointment Confirmation",
+    "message": "Your dentist appointment for next month has been confirmed.",
+    "timestamp": "2023-09-15T12:10:00Z",
+    "read": false
+  },
+  {
+    "id": 81,
+    "title": "Traffic Alert",
+    "message": "Traffic is unusually heavy on your usual route. Consider an alternate route if possible.",
+    "timestamp": "2023-09-15T13:25:00Z",
+    "read": false
+  },
+  {
+    "id": 82,
+    "title": "New Blog Post",
+    "message": "Explore our latest blog post on 'Healthy Eating Habits'.",
+    "timestamp": "2023-09-15T14:40:00Z",
+    "read": false
+  },
+  {
+    "id": 83,
+    "title": "Event Registration",
+    "message": "Registration is now open for the upcoming tech conference. Reserve your spot!",
+    "timestamp": "2023-09-15T15:55:00Z",
+    "read": false
+  },
+  {
+    "id": 84,
+    "title": "Account Activity",
+    "message": "Unusual activity detected on your bank account. Review your transactions.",
+    "timestamp": "2023-09-15T16:10:00Z",
+    "read": true
+  },
+  {
+    "id": 85,
+    "title": "New App Update",
+    "message": "A new version of our mobile app is available. Update now for new features.",
+    "timestamp": "2023-09-15T17:25:00Z",
+    "read": false
+  },
+  {
+    "id": 86,
+    "title": "Podcast Update",
+    "message": "A new episode of your favorite podcast is available for streaming.",
+    "timestamp": "2023-09-15T18:40:00Z",
+    "read": false
+  },
+  {
+    "id": 87,
+    "title": "Task Deadline Reminder",
+    "message": "Reminder: Task #567 is due tomorrow. Ensure it's completed on time.",
+    "timestamp": "2023-09-15T19:55:00Z",
+    "read": false
+  },
+  {
+    "id": 88,
+    "title": "Social Media Notification",
+    "message": "You have 10 new notifications on your social media account.",
+    "timestamp": "2023-09-15T20:10:00Z",
+    "read": false
+  },
+  {
+    "id": 89,
+    "title": "Appointment Cancellation",
+    "message": "Your appointment for next week has been canceled. Please reschedule.",
+    "timestamp": "2023-09-15T21:25:00Z",
+    "read": true
+  },
+  {
+    "id": 90,
+    "title": "Product Review Request",
+    "message": "Share your feedback on your recent purchase and enter our giveaway.",
+    "timestamp": "2023-09-15T22:30:00Z",
+    "read": false
+  },
+  {
+    "id": 91,
+    "title": "Package Out for Delivery",
+    "message": "Your package is out for delivery and will arrive today.",
+    "timestamp": "2023-09-16T08:15:00Z",
+    "read": false
+  },
+  {
+    "id": 92,
+    "title": "Health Reminder",
+    "message": "Don't forget to take your daily medication and stay hydrated.",
+    "timestamp": "2023-09-16T09:30:00Z",
+    "read": false
+  },
+  {
+    "id": 93,
+    "title": "Social Event Invitation",
+    "message": "You're invited to a social event next Saturday. RSVP now!",
+    "timestamp": "2023-09-16T10:45:00Z",
+    "read": false
+  },
+  {
+    "id": 94,
+    "title": "Password Reset",
+    "message": "A password reset request for your account has been received. Verify your email.",
+    "timestamp": "2023-09-16T11:55:00Z",
+    "read": true
+  },
+  {
+    "id": 95,
+    "title": "Important Announcement",
+    "message": "An important company-wide announcement is now available for viewing.",
+    "timestamp": "2023-09-16T12:10:00Z",
+    "read": false
+  },
+  {
+    "id": 96,
+    "title": "Friend's Birthday Reminder",
+    "message": "It's your friend Mark's birthday today. Send him your best wishes!",
+    "timestamp": "2023-09-16T13:25:00Z",
+    "read": false
+  },
+  {
+    "id": 97,
+    "title": "Travel Confirmation",
+    "message": "Your hotel booking for your upcoming trip is confirmed. Check your itinerary.",
+    "timestamp": "2023-09-16T14:40:00Z",
+    "read": false
+  },
+  {
+    "id": 98,
+    "title": "Product Recall Alert",
+    "message": "Urgent: A product you purchased has been recalled due to safety concerns. Take action.",
+    "timestamp": "2023-09-16T15:55:00Z",
+    "read": true
+  },
+  {
+    "id": 99,
+    "title": "New Message",
+    "message": "You have a new message from your family member, Jane.",
+    "timestamp": "2023-09-16T16:10:00Z",
+    "read": false
+  },
+  {
+    "id": 100,
+    "title": "Appointment Confirmation",
+    "message": "Your appointment with your therapist has been confirmed for next week.",
+    "timestamp": "2023-09-16T17:25:00Z",
+    "read": false
+  }
+]
