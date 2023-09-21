@@ -18,7 +18,7 @@ public class Post {
   private String title;
 
   @Column(name = "content", nullable = false, updatable = false)
-  private Long content;
+  private String content;
 
   @Column(name = "authorId", nullable = false, updatable = false)
   private Long authorId;
@@ -34,7 +34,7 @@ public class Post {
 
   public Post(Long id,
       String title,
-      Long content,
+      String content,
       Long authorId,
       LocalDateTime timestamp,
       Long likes) {
@@ -62,11 +62,11 @@ public class Post {
     this.title = title;
   }
 
-  public Long getContent() {
+  public String getContent() {
     return content;
   }
 
-  public void setContent(Long content) {
+  public void setContent(String content) {
     this.content = content;
   }
 
