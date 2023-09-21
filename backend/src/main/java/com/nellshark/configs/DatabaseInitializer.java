@@ -6,20 +6,22 @@ import com.nellshark.models.Comment;
 import com.nellshark.models.Company;
 import com.nellshark.models.Course;
 import com.nellshark.models.Employee;
-import com.nellshark.services.AddressService;
-import com.nellshark.services.BookService;
-import com.nellshark.services.CommentService;
-import com.nellshark.services.CompanyService;
-import com.nellshark.services.CourseService;
-import com.nellshark.services.EmployeeService;
+import com.nellshark.models.Event;
+import com.nellshark.repositories.AddressRepository;
+import com.nellshark.repositories.BookRepository;
+import com.nellshark.repositories.CommentRepository;
+import com.nellshark.repositories.CompanyRepository;
+import com.nellshark.repositories.CourseRepository;
+import com.nellshark.repositories.EmployeeRepository;
+import com.nellshark.repositories.EventRepository;
 import com.nellshark.services.JsonService;
 import java.io.File;
 import java.util.List;
-import java.util.function.Consumer;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.context.annotation.Configuration;
+import org.springframework.data.jpa.repository.JpaRepository;
 
 @Configuration
 public class DatabaseInitializer implements CommandLineRunner {
@@ -27,28 +29,31 @@ public class DatabaseInitializer implements CommandLineRunner {
   private static final Logger logger = LoggerFactory.getLogger(DatabaseInitializer.class);
 
   private final JsonService jsonService;
-  private final AddressService addressService;
-  private final BookService bookService;
-  private final CommentService commentService;
-  private final CompanyService companyService;
-  private final CourseService courseService;
-  private final EmployeeService employeeService;
+  private final AddressRepository addressRepository;
+  private final BookRepository bookRepository;
+  private final CommentRepository commentRepository;
+  private final CompanyRepository companyRepository;
+  private final CourseRepository courseRepository;
+  private final EmployeeRepository employeeRepository;
+  private final EventRepository eventRepository;
 
   public DatabaseInitializer(
       JsonService jsonService,
-      AddressService addressService,
-      BookService bookService,
-      CommentService commentService,
-      CompanyService companyService,
-      CourseService courseService,
-      EmployeeService employeeService) {
+      AddressRepository addressRepository,
+      BookRepository bookRepository,
+      CommentRepository commentRepository,
+      CompanyRepository companyRepository,
+      CourseRepository courseRepository,
+      EmployeeRepository employeeRepository,
+      EventRepository eventRepository) {
     this.jsonService = jsonService;
-    this.addressService = addressService;
-    this.bookService = bookService;
-    this.commentService = commentService;
-    this.companyService = companyService;
-    this.courseService = courseService;
-    this.employeeService = employeeService;
+    this.addressRepository = addressRepository;
+    this.bookRepository = bookRepository;
+    this.commentRepository = commentRepository;
+    this.companyRepository = companyRepository;
+    this.courseRepository = courseRepository;
+    this.employeeRepository = employeeRepository;
+    this.eventRepository = eventRepository;
   }
 
   @Override
@@ -58,46 +63,52 @@ public class DatabaseInitializer implements CommandLineRunner {
     loadAndSaveJsonEntities(
         "addresses.json",
         Address.class,
-        addressService::saveAddress
+        addressRepository
     );
 
     loadAndSaveJsonEntities(
         "books.json",
         Book.class,
-        bookService::saveBook
+        bookRepository
     );
 
     loadAndSaveJsonEntities(
         "comments.json",
         Comment.class,
-        commentService::saveComment
+        commentRepository
     );
 
     loadAndSaveJsonEntities(
         "companies.json",
         Company.class,
-        companyService::saveCompany
+        companyRepository
     );
 
     loadAndSaveJsonEntities(
         "courses.json",
         Course.class,
-        courseService::saveCourse
+        courseRepository
     );
 
     loadAndSaveJsonEntities(
         "employees.json",
         Employee.class,
-        employeeService::saveEmployee
+        employeeRepository
+    );
+
+    loadAndSaveJsonEntities(
+        "events.json",
+        Event.class,
+        eventRepository
     );
   }
 
   private <T> void loadAndSaveJsonEntities(
-      String jsonFileName, Class<T> clazz, Consumer<T> saveEntity) {
+      String jsonFileName, Class<T> clazz, JpaRepository<T, ?> repository) {
     logger.info("Deserialize json file '{}' to entities : {}", jsonFileName, clazz);
 
     File jsonFile = jsonService.getJsonFileFromResources(jsonFileName);
     List<T> entities = jsonService.convertJsonFileToEntities(jsonFile, clazz);
-    entities.forEach(saveEntity);
+    repository.saveAll(entities);
   }
 }
