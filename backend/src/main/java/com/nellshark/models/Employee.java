@@ -29,7 +29,7 @@ public class Employee {
   private String department;
 
   @Column(name = "position", nullable = false, updatable = false)
-  private Long position;
+  private String position;
 
   public Employee() {
   }
@@ -40,7 +40,7 @@ public class Employee {
       Long salary,
       String email,
       String department,
-      Long position) {
+      String position) {
     this.id = id;
     this.firstName = firstName;
     this.lastName = lastName;
@@ -98,11 +98,11 @@ public class Employee {
     this.department = department;
   }
 
-  public Long getPosition() {
+  public String getPosition() {
     return position;
   }
 
-  public void setPosition(Long position) {
+  public void setPosition(String position) {
     this.position = position;
   }
 

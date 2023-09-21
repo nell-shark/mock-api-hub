@@ -5,11 +5,13 @@ import com.nellshark.models.Book;
 import com.nellshark.models.Comment;
 import com.nellshark.models.Company;
 import com.nellshark.models.Course;
+import com.nellshark.models.Employee;
 import com.nellshark.services.AddressService;
 import com.nellshark.services.BookService;
 import com.nellshark.services.CommentService;
 import com.nellshark.services.CompanyService;
 import com.nellshark.services.CourseService;
+import com.nellshark.services.EmployeeService;
 import com.nellshark.services.JsonService;
 import java.io.File;
 import java.util.List;
@@ -30,19 +32,23 @@ public class DatabaseInitializer implements CommandLineRunner {
   private final CommentService commentService;
   private final CompanyService companyService;
   private final CourseService courseService;
+  private final EmployeeService employeeService;
 
   public DatabaseInitializer(
       JsonService jsonService,
       AddressService addressService,
       BookService bookService,
       CommentService commentService,
-      CompanyService companyService, CourseService courseService) {
+      CompanyService companyService,
+      CourseService courseService,
+      EmployeeService employeeService) {
     this.jsonService = jsonService;
     this.addressService = addressService;
     this.bookService = bookService;
     this.commentService = commentService;
     this.companyService = companyService;
     this.courseService = courseService;
+    this.employeeService = employeeService;
   }
 
   @Override
@@ -50,15 +56,40 @@ public class DatabaseInitializer implements CommandLineRunner {
     logger.info("Starting initialization database");
 
     loadAndSaveJsonEntities(
-        "addresses.json", Address.class, addressService::saveAddress);
+        "addresses.json",
+        Address.class,
+        addressService::saveAddress
+    );
+
     loadAndSaveJsonEntities(
-        "books.json", Book.class, bookService::saveBook);
+        "books.json",
+        Book.class,
+        bookService::saveBook
+    );
+
     loadAndSaveJsonEntities(
-        "comments.json", Comment.class, commentService::saveComment);
+        "comments.json",
+        Comment.class,
+        commentService::saveComment
+    );
+
     loadAndSaveJsonEntities(
-        "companies.json", Company.class, companyService::saveCompany);
+        "companies.json",
+        Company.class,
+        companyService::saveCompany
+    );
+
     loadAndSaveJsonEntities(
-        "courses.json", Course.class, courseService::saveCourse);
+        "courses.json",
+        Course.class,
+        courseService::saveCourse
+    );
+
+    loadAndSaveJsonEntities(
+        "employees.json",
+        Employee.class,
+        employeeService::saveEmployee
+    );
   }
 
   private <T> void loadAndSaveJsonEntities(
