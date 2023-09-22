@@ -1,0 +1,1502 @@
+[
+  {
+    "id": 1,
+    "name": "Smartphone X",
+    "description": "A high-end smartphone with advanced features.",
+    "price": 699.99,
+    "currency": "USD",
+    "manufacturer": "TechCo",
+    "category": "Electronics",
+    "availability": true,
+    "dimensions": {
+      "width": 0.35,
+      "height": 5.8,
+      "length": 0.3
+    }
+  },
+  {
+    "id": 2,
+    "name": "Laptop Pro",
+    "description": "Powerful laptop for professional use.",
+    "price": 1299.99,
+    "currency": "USD",
+    "manufacturer": "TechMega",
+    "category": "Computers",
+    "availability": true,
+    "dimensions": {
+      "width": 2.5,
+      "height": 0.7,
+      "length": 12
+    }
+  },
+  {
+    "id": 3,
+    "name": "LED TV 55-inch",
+    "description": "A 4K Ultra HD television with smart features.",
+    "price": 799.99,
+    "currency": "USD",
+    "manufacturer": "ElectroVision",
+    "category": "Electronics",
+    "availability": true,
+    "dimensions": {
+      "width": 23,
+      "height": 28.5,
+      "length": 2
+    }
+  },
+  {
+    "id": 4,
+    "name": "Coffee Maker",
+    "description": "A programmable coffee maker for your daily brew.",
+    "price": 59.99,
+    "currency": "USD",
+    "manufacturer": "KitchenWiz",
+    "category": "Kitchen Appliances",
+    "availability": true,
+    "dimensions": {
+      "width": 5,
+      "height": 12,
+      "length": 8
+    }
+  },
+  {
+    "id": 5,
+    "name": "Fitness Tracker",
+    "description": "A wearable device to monitor your health and fitness.",
+    "price": 49.99,
+    "currency": "USD",
+    "manufacturer": "FitTech",
+    "category": "Fitness",
+    "availability": true,
+    "dimensions": {
+      "width": 0.2,
+      "height": 1,
+      "length": 0.5
+    }
+  },
+  {
+    "id": 6,
+    "name": "Wireless Headphones",
+    "description": "Over-ear headphones with noise-cancellation technology.",
+    "price": 149.99,
+    "currency": "USD",
+    "manufacturer": "SoundTech",
+    "category": "Electronics",
+    "availability": true,
+    "dimensions": {
+      "width": 0.6,
+      "height": 7,
+      "length": 3
+    }
+  },
+  {
+    "id": 7,
+    "name": "Digital Camera",
+    "description": "A high-resolution digital camera for photography enthusiasts.",
+    "price": 699.99,
+    "currency": "USD",
+    "manufacturer": "PhotoGear",
+    "category": "Electronics",
+    "availability": true,
+    "dimensions": {
+      "width": 1.2,
+      "height": 4.5,
+      "length": 3
+    }
+  },
+  {
+    "id": 8,
+    "name": "Gaming Console",
+    "description": "A gaming console with powerful graphics and a vast game library.",
+    "price": 399.99,
+    "currency": "USD",
+    "manufacturer": "GameMaster",
+    "category": "Gaming",
+    "availability": true,
+    "dimensions": {
+      "width": 7,
+      "height": 2.5,
+      "length": 11
+    }
+  },
+  {
+    "id": 9,
+    "name": "Refrigerator",
+    "description": "A spacious refrigerator with advanced cooling features.",
+    "price": 899.99,
+    "currency": "USD",
+    "manufacturer": "CoolTech",
+    "category": "Appliances",
+    "availability": true,
+    "dimensions": {
+      "width": 150,
+      "height": 70,
+      "length": 30
+    }
+  },
+  {
+    "id": 10,
+    "name": "Smart Watch",
+    "description": "A stylish smartwatch with fitness tracking and notifications.",
+    "price": 199.99,
+    "currency": "USD",
+    "manufacturer": "WristGear",
+    "category": "Wearable Tech",
+    "availability": true,
+    "dimensions": {
+      "width": 0.3,
+      "height": 1.2,
+      "length": 0.4
+    }
+  },
+  {
+    "id": 11,
+    "name": "Bluetooth Speaker",
+    "description": "Portable speaker with exceptional sound quality.",
+    "price": 79.99,
+    "currency": "USD",
+    "manufacturer": "SoundWave",
+    "category": "Electronics",
+    "availability": true,
+    "dimensions": {
+      "width": 0.8,
+      "height": 7.5,
+      "length": 3.5
+    }
+  },
+  {
+    "id": 12,
+    "name": "Cordless Drill",
+    "description": "Powerful cordless drill for DIY projects.",
+    "price": 129.99,
+    "currency": "USD",
+    "manufacturer": "ToolPro",
+    "category": "Tools",
+    "availability": true,
+    "dimensions": {
+      "width": 4,
+      "height": 10,
+      "length": 3
+    }
+  },
+  {
+    "id": 13,
+    "name": "Home Security Camera",
+    "description": "Wireless security camera with night vision.",
+    "price": 89.99,
+    "currency": "USD",
+    "manufacturer": "SecureTech",
+    "category": "Home Security",
+    "availability": true,
+    "dimensions": {
+      "width": 0.5,
+      "height": 5,
+      "length": 3
+    }
+  },
+  {
+    "id": 14,
+    "name": "Ergonomic Office Chair",
+    "description": "Comfortable and adjustable office chair for long hours of work.",
+    "price": 199.99,
+    "currency": "USD",
+    "manufacturer": "OfficeComfort",
+    "category": "Furniture",
+    "availability": true,
+    "dimensions": {
+      "width": 20,
+      "height": 40,
+      "length": 25
+    }
+  },
+  {
+    "id": 15,
+    "name": "Wireless Mouse",
+    "description": "Responsive wireless mouse for computer users.",
+    "price": 29.99,
+    "currency": "USD",
+    "manufacturer": "TechMouse",
+    "category": "Computers",
+    "availability": true,
+    "dimensions": {
+      "width": 0.1,
+      "height": 1.2,
+      "length": 2
+    }
+  },
+  {
+    "id": 16,
+    "name": "Air Purifier",
+    "description": "HEPA filter air purifier for clean indoor air.",
+    "price": 149.99,
+    "currency": "USD",
+    "manufacturer": "CleanAir",
+    "category": "Home Appliances",
+    "availability": true,
+    "dimensions": {
+      "width": 10,
+      "height": 18,
+      "length": 10
+    }
+  },
+  {
+    "id": 17,
+    "name": "Toaster Oven",
+    "description": "Compact toaster oven for quick cooking.",
+    "price": 49.99,
+    "currency": "USD",
+    "manufacturer": "KitchenMaster",
+    "category": "Kitchen Appliances",
+    "availability": true,
+    "dimensions": {
+      "width": 7,
+      "height": 10,
+      "length": 12
+    }
+  },
+  {
+    "id": 18,
+    "name": "Mountain Bike",
+    "description": "Durable mountain bike for off-road adventures.",
+    "price": 499.99,
+    "currency": "USD",
+    "manufacturer": "TrailBlazer",
+    "category": "Sports & Outdoors",
+    "availability": true,
+    "dimensions": {
+      "width": 30,
+      "height": 42,
+      "length": 10
+    }
+  },
+  {
+    "id": 19,
+    "name": "Steam Iron",
+    "description": "High-performance steam iron for wrinkle-free clothes.",
+    "price": 39.99,
+    "currency": "USD",
+    "manufacturer": "IronTech",
+    "category": "Home Appliances",
+    "availability": true,
+    "dimensions": {
+      "width": 3,
+      "height": 6,
+      "length": 4
+    }
+  },
+  {
+    "id": 20,
+    "name": "Smart Doorbell",
+    "description": "Video doorbell with motion detection and smartphone connectivity.",
+    "price": 129.99,
+    "currency": "USD",
+    "manufacturer": "DoorGuard",
+    "category": "Home Security",
+    "availability": true,
+    "dimensions": {
+      "width": 0.5,
+      "height": 5,
+      "length": 1
+    }
+  },
+  {
+    "id": 21,
+    "name": "Robot Vacuum Cleaner",
+    "description": "Smart vacuum cleaner for effortless cleaning.",
+    "price": 249.99,
+    "currency": "USD",
+    "manufacturer": "CleanBots",
+    "category": "Home Appliances",
+    "availability": true,
+    "dimensions": {
+      "width": 6,
+      "height": 3,
+      "length": 12
+    }
+  },
+  {
+    "id": 22,
+    "name": "Yoga Mat",
+    "description": "High-quality yoga mat for comfortable workouts.",
+    "price": 29.99,
+    "currency": "USD",
+    "manufacturer": "YogaGear",
+    "category": "Fitness",
+    "availability": true,
+    "dimensions": {
+      "width": 2,
+      "height": 0.2,
+      "length": 6
+    }
+  },
+  {
+    "id": 23,
+    "name": "Wireless Router",
+    "description": "Fast and reliable wireless router for home network.",
+    "price": 79.99,
+    "currency": "USD",
+    "manufacturer": "NetConnect",
+    "category": "Electronics",
+    "availability": true,
+    "dimensions": {
+      "width": 1,
+      "height": 2,
+      "length": 6
+    }
+  },
+  {
+    "id": 24,
+    "name": "Car Vacuum Cleaner",
+    "description": "Portable vacuum cleaner for your car interior.",
+    "price": 34.99,
+    "currency": "USD",
+    "manufacturer": "AutoClean",
+    "category": "Automotive",
+    "availability": true,
+    "dimensions": {
+      "width": 2,
+      "height": 5,
+      "length": 3
+    }
+  },
+  {
+    "id": 25,
+    "name": "Bluetooth Earbuds",
+    "description": "Wireless earbuds for music and calls on the go.",
+    "price": 79.99,
+    "currency": "USD",
+    "manufacturer": "SoundPods",
+    "category": "Electronics",
+    "availability": true,
+    "dimensions": {
+      "width": 0.1,
+      "height": 1.5,
+      "length": 1
+    }
+  },
+  {
+    "id": 26,
+    "name": "Electric Kettle",
+    "description": "Fast-boiling electric kettle for your kitchen.",
+    "price": 34.99,
+    "currency": "USD",
+    "manufacturer": "QuickHeat",
+    "category": "Kitchen Appliances",
+    "availability": true,
+    "dimensions": {
+      "width": 2,
+      "height": 9,
+      "length": 6
+    }
+  },
+  {
+    "id": 27,
+    "name": "Hiking Backpack",
+    "description": "Durable hiking backpack with multiple compartments.",
+    "price": 79.99,
+    "currency": "USD",
+    "manufacturer": "TrailHike",
+    "category": "Outdoor Gear",
+    "availability": true,
+    "dimensions": {
+      "width": 3.5,
+      "height": 20,
+      "length": 10
+    }
+  },
+  {
+    "id": 28,
+    "name": "Gourmet Coffee Beans",
+    "description": "Premium coffee beans for the coffee connoisseur.",
+    "price": 19.99,
+    "currency": "USD",
+    "manufacturer": "CoffeeDeluxe",
+    "category": "Food & Beverage",
+    "availability": true,
+    "dimensions": {
+      "width": 1,
+      "height": 7,
+      "length": 3
+    }
+  },
+  {
+    "id": 29,
+    "name": "Bluetooth Keyboard",
+    "description": "Compact Bluetooth keyboard for tablets and smartphones.",
+    "price": 39.99,
+    "currency": "USD",
+    "manufacturer": "TechKey",
+    "category": "Electronics",
+    "availability": true,
+    "dimensions": {
+      "width": 0.5,
+      "height": 0.3,
+      "length": 9
+    }
+  },
+  {
+    "id": 30,
+    "name": "Electric Toothbrush",
+    "description": "Rechargeable electric toothbrush for superior dental care.",
+    "price": 49.99,
+    "currency": "USD",
+    "manufacturer": "DentalCare",
+    "category": "Personal Care",
+    "availability": true,
+    "dimensions": {
+      "width": 0.3,
+      "height": 9,
+      "length": 1
+    }
+  },
+  {
+    "id": 31,
+    "name": "Blender",
+    "description": "High-speed blender for smoothies and food processing.",
+    "price": 69.99,
+    "currency": "USD",
+    "manufacturer": "BlendMaster",
+    "category": "Kitchen Appliances",
+    "availability": true,
+    "dimensions": {
+      "width": 4,
+      "height": 15,
+      "length": 7
+    }
+  },
+  {
+    "id": 32,
+    "name": "Gaming Mouse",
+    "description": "Precision gaming mouse with customizable RGB lighting.",
+    "price": 49.99,
+    "currency": "USD",
+    "manufacturer": "GameTech",
+    "category": "Gaming",
+    "availability": true,
+    "dimensions": {
+      "width": 0.2,
+      "height": 1.5,
+      "length": 4
+    }
+  },
+  {
+    "id": 33,
+    "name": "Desk Lamp",
+    "description": "LED desk lamp with adjustable brightness and color temperature.",
+    "price": 29.99,
+    "currency": "USD",
+    "manufacturer": "LightTech",
+    "category": "Home Office",
+    "availability": true,
+    "dimensions": {
+      "width": 1,
+      "height": 16,
+      "length": 5
+    }
+  },
+  {
+    "id": 34,
+    "name": "Digital Bathroom Scale",
+    "description": "Accurate digital scale for tracking your width.",
+    "price": 24.99,
+    "currency": "USD",
+    "manufacturer": "widthech",
+    "category": "Personal Care",
+    "availability": true,
+    "dimensions": {
+      "width": 3,
+      "height": 1,
+      "length": 12
+    }
+  },
+  {
+    "id": 35,
+    "name": "Wireless Security System",
+    "description": "Comprehensive wireless security system for your home.",
+    "price": 299.99,
+    "currency": "USD",
+    "manufacturer": "SafeGuard",
+    "category": "Home Security",
+    "availability": true,
+    "dimensions": {
+      "width": 5,
+      "height": 8,
+      "length": 5
+    }
+  },
+  {
+    "id": 36,
+    "name": "Electric Shaver",
+    "description": "Rechargeable electric shaver for a close shave.",
+    "price": 59.99,
+    "currency": "USD",
+    "manufacturer": "SmoothShave",
+    "category": "Personal Care",
+    "availability": true,
+    "dimensions": {
+      "width": 0.4,
+      "height": 6,
+      "length": 2
+    }
+  },
+  {
+    "id": 37,
+    "name": "Portable Power Bank",
+    "description": "High-capacity power bank for charging devices on the go.",
+    "price": 39.99,
+    "currency": "USD",
+    "manufacturer": "PowerUp",
+    "category": "Electronics",
+    "availability": true,
+    "dimensions": {
+      "width": 0.3,
+      "height": 4,
+      "length": 2
+    }
+  },
+  {
+    "id": 38,
+    "name": "Cookware Set",
+    "description": "Complete cookware set for your kitchen needs.",
+    "price": 129.99,
+    "currency": "USD",
+    "manufacturer": "ChefMaster",
+    "category": "Kitchen Appliances",
+    "availability": true,
+    "dimensions": {
+      "width": 10,
+      "height": 10,
+      "length": 10
+    }
+  },
+  {
+    "id": 39,
+    "name": "Wireless Charging Pad",
+    "description": "Qi-compatible wireless charging pad for smartphones.",
+    "price": 19.99,
+    "currency": "USD",
+    "manufacturer": "ChargeEase",
+    "category": "Electronics",
+    "availability": true,
+    "dimensions": {
+      "width": 0.2,
+      "height": 0.3,
+      "length": 3.5
+    }
+  },
+  {
+    "id": 40,
+    "name": "Resistance Bands Set",
+    "description": "Set of resistance bands for home workouts.",
+    "price": 19.99,
+    "currency": "USD",
+    "manufacturer": "FitGear",
+    "category": "Fitness",
+    "availability": true,
+    "dimensions": {
+      "width": 0.5,
+      "height": 4,
+      "length": 6
+    }
+  },
+  {
+    "id": 41,
+    "name": "Smart Thermostat",
+    "description": "Programmable smart thermostat for energy-efficient heating and cooling.",
+    "price": 129.99,
+    "currency": "USD",
+    "manufacturer": "ClimateControl",
+    "category": "Home Improvement",
+    "availability": true,
+    "dimensions": {
+      "width": 0.7,
+      "height": 4,
+      "length": 1
+    }
+  },
+  {
+    "id": 42,
+    "name": "Electric Scooter",
+    "description": "Foldable electric scooter for convenient urban commuting.",
+    "price": 299.99,
+    "currency": "USD",
+    "manufacturer": "EcoScoot",
+    "category": "Outdoor Gear",
+    "availability": true,
+    "dimensions": {
+      "width": 20,
+      "height": 45,
+      "length": 15
+    }
+  },
+  {
+    "id": 43,
+    "name": "Wireless Surround Sound System",
+    "description": "Immersive wireless surround sound system for home theaters.",
+    "price": 599.99,
+    "currency": "USD",
+    "manufacturer": "AudioMax",
+    "category": "Electronics",
+    "availability": true,
+    "dimensions": {
+      "width": 25,
+      "height": 10,
+      "length": 5
+    }
+  },
+  {
+    "id": 44,
+    "name": "Digital Drawing Tablet",
+    "description": "Graphics tablet for digital artists and illustrators.",
+    "price": 199.99,
+    "currency": "USD",
+    "manufacturer": "ArtTech",
+    "category": "Electronics",
+    "availability": true,
+    "dimensions": {
+      "width": 1.5,
+      "height": 12,
+      "length": 8
+    }
+  },
+  {
+    "id": 45,
+    "name": "Inflatable Kayak",
+    "description": "Inflatable kayak for outdoor water adventures.",
+    "price": 349.99,
+    "currency": "USD",
+    "manufacturer": "AquaSport",
+    "category": "Sports & Outdoors",
+    "availability": true,
+    "dimensions": {
+      "width": 25,
+      "height": 10,
+      "length": 5
+    }
+  },
+  {
+    "id": 46,
+    "name": "Robot Lawn Mower",
+    "description": "Autonomous robot lawn mower for effortless lawn maintenance.",
+    "price": 499.99,
+    "currency": "USD",
+    "manufacturer": "LawnBot",
+    "category": "Home & Garden",
+    "availability": true,
+    "dimensions": {
+      "width": 10,
+      "height": 8,
+      "length": 8
+    }
+  },
+  {
+    "id": 47,
+    "name": "Wireless Gaming Headset",
+    "description": "Wireless gaming headset with surround sound for immersive gameplay.",
+    "price": 129.99,
+    "currency": "USD",
+    "manufacturer": "GamerTech",
+    "category": "Gaming",
+    "availability": true,
+    "dimensions": {
+      "width": 0.5,
+      "height": 8,
+      "length": 7
+    }
+  },
+  {
+    "id": 48,
+    "name": "Smart Home Security Camera System",
+    "description": "Comprehensive smart home security camera system with remote monitoring.",
+    "price": 349.99,
+    "currency": "USD",
+    "manufacturer": "SecureHome",
+    "category": "Home Security",
+    "availability": true,
+    "dimensions": {
+      "width": 2,
+      "height": 6,
+      "length": 4
+    }
+  },
+  {
+    "id": 49,
+    "name": "Electric Standing Desk",
+    "description": "Adjustable electric standing desk for ergonomic workspace.",
+    "price": 349.99,
+    "currency": "USD",
+    "manufacturer": "StandEase",
+    "category": "Office Furniture",
+    "availability": true,
+    "dimensions": {
+      "width": 70,
+      "height": 48,
+      "length": 30
+    }
+  },
+  {
+    "id": 50,
+    "name": "Camping Tent",
+    "description": "Spacious camping tent for outdoor adventures.",
+    "price": 199.99,
+    "currency": "USD",
+    "manufacturer": "CampRover",
+    "category": "Camping & Hiking",
+    "availability": true,
+    "dimensions": {
+      "width": 10,
+      "height": 72,
+      "length": 96
+    }
+  },
+  {
+    "id": 51,
+    "name": "Home Theater Projector",
+    "description": "High-definition home theater projector for cinematic experiences.",
+    "price": 599.99,
+    "currency": "USD",
+    "manufacturer": "CineView",
+    "category": "Electronics",
+    "availability": true,
+    "dimensions": {
+      "width": 8,
+      "height": 6,
+      "length": 10
+    }
+  },
+  {
+    "id": 52,
+    "name": "Instant Pot",
+    "description": "Multi-functional electric pressure cooker for versatile cooking.",
+    "price": 79.99,
+    "currency": "USD",
+    "manufacturer": "CookMaster",
+    "category": "Kitchen Appliances",
+    "availability": true,
+    "dimensions": {
+      "width": 12,
+      "height": 12,
+      "length": 12
+    }
+  },
+  {
+    "id": 53,
+    "name": "Mountain Climbing Gear Set",
+    "description": "Complete gear set for mountain climbing enthusiasts.",
+    "price": 299.99,
+    "currency": "USD",
+    "manufacturer": "SummitGear",
+    "category": "Outdoor Gear",
+    "availability": true,
+    "dimensions": {
+      "width": 15,
+      "height": 24,
+      "length": 12
+    }
+  },
+  {
+    "id": 54,
+    "name": "Smart Lock",
+    "description": "Keyless smart lock for enhanced home security.",
+    "price": 129.99,
+    "currency": "USD",
+    "manufacturer": "LockGuard",
+    "category": "Home Security",
+    "availability": true,
+    "dimensions": {
+      "width": 2,
+      "height": 6,
+      "length": 2
+    }
+  },
+  {
+    "id": 55,
+    "name": "Wireless Charging Stand",
+    "description": "Wireless charging stand for smartphones and smartwatches.",
+    "price": 49.99,
+    "currency": "USD",
+    "manufacturer": "ChargeHub",
+    "category": "Electronics",
+    "availability": true,
+    "dimensions": {
+      "width": 0.3,
+      "height": 4,
+      "length": 3
+    }
+  },
+  {
+    "id": 56,
+    "name": "Outdoor Gas Grill",
+    "description": "Stainless steel gas grill for outdoor cooking.",
+    "price": 399.99,
+    "currency": "USD",
+    "manufacturer": "GrillMaster",
+    "category": "Outdoor Cooking",
+    "availability": true,
+    "dimensions": {
+      "width": 60,
+      "height": 48,
+      "length": 24
+    }
+  },
+  {
+    "id": 57,
+    "name": "Noise-Canceling Headphones",
+    "description": "Premium noise-canceling headphones for immersive music and calls.",
+    "price": 249.99,
+    "currency": "USD",
+    "manufacturer": "SoundBliss",
+    "category": "Electronics",
+    "availability": true,
+    "dimensions": {
+      "width": 0.4,
+      "height": 7,
+      "length": 3
+    }
+  },
+  {
+    "id": 58,
+    "name": "Smart Refrigerator",
+    "description": "Refrigerator with smart features and built-in touchscreen.",
+    "price": 1799.99,
+    "currency": "USD",
+    "manufacturer": "SmartFridge",
+    "category": "Appliances",
+    "availability": true,
+    "dimensions": {
+      "width": 200,
+      "height": 70,
+      "length": 36
+    }
+  },
+  {
+    "id": 59,
+    "name": "Wireless Security Camera",
+    "description": "Wireless security camera with motion detection and two-way audio.",
+    "price": 89.99,
+    "currency": "USD",
+    "manufacturer": "SecureCam",
+    "category": "Home Security",
+    "availability": true,
+    "dimensions": {
+      "width": 0.5,
+      "height": 5,
+      "length": 3
+    }
+  },
+  {
+    "id": 60,
+    "name": "Hybrid Bicycle",
+    "description": "Versatile hybrid bicycle for urban and off-road cycling.",
+    "price": 499.99,
+    "currency": "USD",
+    "manufacturer": "RideMaster",
+    "category": "Cycling",
+    "availability": true,
+    "dimensions": {
+      "width": 28,
+      "height": 40,
+      "length": 10
+    }
+  },
+  {
+    "id": 61,
+    "name": "Digital Piano",
+    "description": "High-quality digital piano with widthed keys for musicians.",
+    "price": 799.99,
+    "currency": "USD",
+    "manufacturer": "PianoCraft",
+    "category": "Musical Instruments",
+    "availability": true,
+    "dimensions": {
+      "width": 40,
+      "height": 36,
+      "length": 18
+    }
+  },
+  {
+    "id": 62,
+    "name": "Smart Coffee Maker",
+    "description": "Coffee maker with app control for brewing the perfect cup.",
+    "price": 89.99,
+    "currency": "USD",
+    "manufacturer": "CoffeeSmart",
+    "category": "Kitchen Appliances",
+    "availability": true,
+    "dimensions": {
+      "width": 5,
+      "height": 12,
+      "length": 8
+    }
+  },
+  {
+    "id": 63,
+    "name": "Fitness Tracker",
+    "description": "Fitness tracker with heart rate monitoring and GPS.",
+    "price": 79.99,
+    "currency": "USD",
+    "manufacturer": "FitTrack",
+    "category": "Wearable Tech",
+    "availability": true,
+    "dimensions": {
+      "width": 0.2,
+      "height": 1,
+      "length": 0.5
+    }
+  },
+  {
+    "id": 64,
+    "name": "Electric Skateboard",
+    "description": "Electric skateboard for fun and efficient urban commuting.",
+    "price": 299.99,
+    "currency": "USD",
+    "manufacturer": "SkateTech",
+    "category": "Outdoor Gear",
+    "availability": true,
+    "dimensions": {
+      "width": 12,
+      "height": 6,
+      "length": 36
+    }
+  },
+  {
+    "id": 65,
+    "name": "Wireless Security Doorbell",
+    "description": "Wireless video doorbell with motion detection and remote access.",
+    "price": 149.99,
+    "currency": "USD",
+    "manufacturer": "DoorSafe",
+    "category": "Home Security",
+    "availability": true,
+    "dimensions": {
+      "width": 0.5,
+      "height": 5,
+      "length": 2
+    }
+  },
+  {
+    "id": 66,
+    "name": "Smart Door Lock",
+    "description": "Keyless entry smart door lock with mobile app control.",
+    "price": 199.99,
+    "currency": "USD",
+    "manufacturer": "LockTech",
+    "category": "Home Security",
+    "availability": true,
+    "dimensions": {
+      "width": 1,
+      "height": 6,
+      "length": 2
+    }
+  },
+  {
+    "id": 67,
+    "name": "Robot Vacuum and Mop",
+    "description": "Robotic vacuum and mop combo for efficient cleaning.",
+    "price": 299.99,
+    "currency": "USD",
+    "manufacturer": "CleanBot Plus",
+    "category": "Home Appliances",
+    "availability": true,
+    "dimensions": {
+      "width": 6.5,
+      "height": 3,
+      "length": 12
+    }
+  },
+  {
+    "id": 68,
+    "name": "Outdoor Hammock",
+    "description": "Durable outdoor hammock for relaxation in nature.",
+    "price": 49.99,
+    "currency": "USD",
+    "manufacturer": "HammockHaven",
+    "category": "Outdoor Gear",
+    "availability": true,
+    "dimensions": {
+      "width": 2.5,
+      "height": 6,
+      "length": 3
+    }
+  },
+  {
+    "id": 69,
+    "name": "Home Theater Soundbar",
+    "description": "High-quality soundbar for enhancing your home theater audio.",
+    "price": 149.99,
+    "currency": "USD",
+    "manufacturer": "SoundBarPro",
+    "category": "Electronics",
+    "availability": true,
+    "dimensions": {
+      "width": 3,
+      "height": 4,
+      "length": 40
+    }
+  },
+  {
+    "id": 70,
+    "name": "Portable Camping Stove",
+    "description": "Compact camping stove for outdoor cooking and backpacking.",
+    "price": 29.99,
+    "currency": "USD",
+    "manufacturer": "CampCook",
+    "category": "Camping & Hiking",
+    "availability": true,
+    "dimensions": {
+      "width": 1,
+      "height": 6,
+      "length": 4
+    }
+  },
+  {
+    "id": 71,
+    "name": "Smart Wi-Fi Router",
+    "description": "High-speed smart Wi-Fi router for seamless internet connectivity.",
+    "price": 129.99,
+    "currency": "USD",
+    "manufacturer": "WiFiz",
+    "category": "Electronics",
+    "availability": true,
+    "dimensions": {
+      "width": 1,
+      "height": 2,
+      "length": 7
+    }
+  },
+  {
+    "id": 72,
+    "name": "Home Gym Equipment Set",
+    "description": "Complete home gym equipment set for a full-body workout.",
+    "price": 599.99,
+    "currency": "USD",
+    "manufacturer": "FitHome",
+    "category": "Fitness",
+    "availability": true,
+    "dimensions": {
+      "width": 250,
+      "height": 84,
+      "length": 48
+    }
+  },
+  {
+    "id": 73,
+    "name": "Digital Camera",
+    "description": "High-resolution digital camera for photography enthusiasts.",
+    "price": 699.99,
+    "currency": "USD",
+    "manufacturer": "PhotoPro",
+    "category": "Electronics",
+    "availability": true,
+    "dimensions": {
+      "width": 1.5,
+      "height": 5,
+      "length": 3
+    }
+  },
+  {
+    "id": 74,
+    "name": "Gaming Console",
+    "description": "Powerful gaming console for console gaming enthusiasts.",
+    "price": 399.99,
+    "currency": "USD",
+    "manufacturer": "GameConsoleX",
+    "category": "Gaming",
+    "availability": true,
+    "dimensions": {
+      "width": 8,
+      "height": 3,
+      "length": 12
+    }
+  },
+  {
+    "id": 75,
+    "name": "Wireless Bluetooth Speaker",
+    "description": "Portable wireless Bluetooth speaker for music on the go.",
+    "price": 49.99,
+    "currency": "USD",
+    "manufacturer": "SoundWave",
+    "category": "Electronics",
+    "availability": true,
+    "dimensions": {
+      "width": 0.5,
+      "height": 4,
+      "length": 4
+    }
+  },
+  {
+    "id": 76,
+    "name": "Smart LED Bulbs",
+    "description": "Smart LED bulbs with color-changing and dimming capabilities.",
+    "price": 19.99,
+    "currency": "USD",
+    "manufacturer": "SmartLights",
+    "category": "Home Improvement",
+    "availability": true,
+    "dimensions": {
+      "width": 0.2,
+      "height": 4,
+      "length": 2
+    }
+  },
+  {
+    "id": 77,
+    "name": "Electric Wine Opener",
+    "description": "Electric wine opener for effortless bottle opening.",
+    "price": 29.99,
+    "currency": "USD",
+    "manufacturer": "WineMaster",
+    "category": "Kitchen Accessories",
+    "availability": true,
+    "dimensions": {
+      "width": 0.5,
+      "height": 10,
+      "length": 3
+    }
+  },
+  {
+    "id": 78,
+    "name": "Hiking Boots",
+    "description": "Durable hiking boots for outdoor adventures.",
+    "price": 79.99,
+    "currency": "USD",
+    "manufacturer": "TrailBlaze",
+    "category": "Outdoor Gear",
+    "availability": true,
+    "dimensions": {
+      "width": 2,
+      "height": 8,
+      "length": 6
+    }
+  },
+  {
+    "id": 79,
+    "name": "Portable Bluetooth Printer",
+    "description": "Portable Bluetooth printer for on-the-go printing.",
+    "price": 99.99,
+    "currency": "USD",
+    "manufacturer": "PrintEasy",
+    "category": "Electronics",
+    "availability": true,
+    "dimensions": {
+      "width": 0.5,
+      "height": 2,
+      "length": 4
+    }
+  },
+  {
+    "id": 80,
+    "name": "Smart Thermostat",
+    "description": "Energy-efficient smart thermostat for climate control.",
+    "price": 149.99,
+    "currency": "USD",
+    "manufacturer": "ClimateControl Pro",
+    "category": "Home Improvement",
+    "availability": true,
+    "dimensions": {
+      "width": 0.7,
+      "height": 4,
+      "length": 1
+    }
+  },
+  {
+    "id": 81,
+    "name": "Smart Security Alarm System",
+    "description": "Comprehensive smart security alarm system with sensors and alerts.",
+    "price": 249.99,
+    "currency": "USD",
+    "manufacturer": "SecureGuard",
+    "category": "Home Security",
+    "availability": true,
+    "dimensions": {
+      "width": 1.5,
+      "height": 6,
+      "length": 3
+    }
+  },
+  {
+    "id": 82,
+    "name": "Electric Bike",
+    "description": "Electric bike for eco-friendly urban commuting.",
+    "price": 799.99,
+    "currency": "USD",
+    "manufacturer": "EcoRide",
+    "category": "Cycling",
+    "availability": true,
+    "dimensions": {
+      "width": 35,
+      "height": 40,
+      "length": 10
+    }
+  },
+  {
+    "id": 83,
+    "name": "Smart Home Hub",
+    "description": "Centralized smart home hub for controlling connected devices.",
+    "price": 129.99,
+    "currency": "USD",
+    "manufacturer": "HomeHub",
+    "category": "Home Automation",
+    "availability": true,
+    "dimensions": {
+      "width": 0.7,
+      "height": 4,
+      "length": 4
+    }
+  },
+  {
+    "id": 84,
+    "name": "Yoga Mat",
+    "description": "High-quality yoga mat for comfortable workouts.",
+    "price": 24.99,
+    "currency": "USD",
+    "manufacturer": "YogaEssentials",
+    "category": "Fitness",
+    "availability": true,
+    "dimensions": {
+      "width": 2,
+      "height": 6,
+      "length": 0.2
+    }
+  },
+  {
+    "id": 85,
+    "name": "Wireless Earbuds",
+    "description": "True wireless earbuds with noise cancellation for immersive audio.",
+    "price": 149.99,
+    "currency": "USD",
+    "manufacturer": "SoundBuds",
+    "category": "Electronics",
+    "availability": true,
+    "dimensions": {
+      "width": 0.1,
+      "height": 1,
+      "length": 1
+    }
+  },
+  {
+    "id": 86,
+    "name": "Digital Camcorder",
+    "description": "High-definition digital camcorder for capturing memories.",
+    "price": 199.99,
+    "currency": "USD",
+    "manufacturer": "CamCine",
+    "category": "Electronics",
+    "availability": true,
+    "dimensions": {
+      "width": 0.8,
+      "height": 5,
+      "length": 3
+    }
+  },
+  {
+    "id": 87,
+    "name": "Smart Home Lighting Kit",
+    "description": "Smart lighting kit for customizable home illumination.",
+    "price": 79.99,
+    "currency": "USD",
+    "manufacturer": "LightSmart",
+    "category": "Home Improvement",
+    "availability": true,
+    "dimensions": {
+      "width": 0.4,
+      "height": 3,
+      "length": 3
+    }
+  },
+  {
+    "id": 88,
+    "name": "Camping Cookware Set",
+    "description": "Compact camping cookware set for outdoor cooking.",
+    "price": 39.99,
+    "currency": "USD",
+    "manufacturer": "CampCook",
+    "category": "Camping & Hiking",
+    "availability": true,
+    "dimensions": {
+      "width": 1,
+      "height": 5,
+      "length": 5
+    }
+  },
+  {
+    "id": 89,
+    "name": "Smart Water Bottle",
+    "description": "Smart water bottle that tracks your daily hydration.",
+    "price": 29.99,
+    "currency": "USD",
+    "manufacturer": "HydraTech",
+    "category": "Fitness",
+    "availability": true,
+    "dimensions": {
+      "width": 0.3,
+      "height": 9,
+      "length": 3
+    }
+  },
+  {
+    "id": 90,
+    "name": "Home Office Desk",
+    "description": "Stylish home office desk for remote work and study.",
+    "price": 149.99,
+    "currency": "USD",
+    "manufacturer": "DeskCraft",
+    "category": "Office Furniture",
+    "availability": true,
+    "dimensions": {
+      "width": 30,
+      "height": 30,
+      "length": 24
+    }
+  },
+  {
+    "id": 91,
+    "name": "Smart Wi-Fi Door Lock",
+    "description": "Keyless smart Wi-Fi door lock with remote access and voice control.",
+    "price": 249.99,
+    "currency": "USD",
+    "manufacturer": "LockTech Pro",
+    "category": "Home Security",
+    "availability": true,
+    "dimensions": {
+      "width": 1.2,
+      "height": 6.5,
+      "length": 2.5
+    }
+  },
+  {
+    "id": 92,
+    "name": "Bluetooth Fitness Scale",
+    "description": "Smart fitness scale that tracks width and body composition.",
+    "price": 49.99,
+    "currency": "USD",
+    "manufacturer": "FitScale",
+    "category": "Fitness",
+    "availability": true,
+    "dimensions": {
+      "width": 3,
+      "height": 1,
+      "length": 1
+    }
+  },
+  {
+    "id": 93,
+    "name": "Wireless Gaming Mouse",
+    "description": "High-precision wireless gaming mouse for gamers.",
+    "price": 59.99,
+    "currency": "USD",
+    "manufacturer": "GamerGear",
+    "category": "Gaming",
+    "availability": true,
+    "dimensions": {
+      "width": 0.2,
+      "height": 4,
+      "length": 2.5
+    }
+  },
+  {
+    "id": 94,
+    "name": "Solar-Powered Garden Lights",
+    "description": "Solar-powered garden lights for outdoor illumination.",
+    "price": 29.99,
+    "currency": "USD",
+    "manufacturer": "SolarGlow",
+    "category": "Outdoor Decor",
+    "availability": true,
+    "dimensions": {
+      "width": 0.2,
+      "height": 12,
+      "length": 3
+    }
+  },
+  {
+    "id": 95,
+    "name": "Portable Bluetooth Speaker",
+    "description": "Waterproof portable Bluetooth speaker for outdoor adventures.",
+    "price": 69.99,
+    "currency": "USD",
+    "manufacturer": "AquaSound",
+    "category": "Electronics",
+    "availability": true,
+    "dimensions": {
+      "width": 0.6,
+      "height": 7,
+      "length": 3
+    }
+  },
+  {
+    "id": 96,
+    "name": "Smart Garden Watering System",
+    "description": "Automated smart garden watering system for efficient plant care.",
+    "price": 129.99,
+    "currency": "USD",
+    "manufacturer": "GreenTech",
+    "category": "Home & Garden",
+    "availability": true,
+    "dimensions": {
+      "width": 1.5,
+      "height": 8,
+      "length": 4
+    }
+  },
+  {
+    "id": 97,
+    "name": "Electric Pressure Washer",
+    "description": "Powerful electric pressure washer for outdoor cleaning tasks.",
+    "price": 199.99,
+    "currency": "USD",
+    "manufacturer": "CleanMaster",
+    "category": "Home Improvement",
+    "availability": true,
+    "dimensions": {
+      "width": 25,
+      "height": 24,
+      "length": 10
+    }
+  },
+  {
+    "id": 98,
+    "name": "Smart Mirror",
+    "description": "Smart mirror with built-in display for fitness and beauty routines.",
+    "price": 399.99,
+    "currency": "USD",
+    "manufacturer": "MirrorTech",
+    "category": "Home & Beauty",
+    "availability": true,
+    "dimensions": {
+      "width": 20,
+      "height": 60,
+      "length": 2
+    }
+  },
+  {
+    "id": 99,
+    "name": "Folding Electric Bike",
+    "description": "Compact folding electric bike for urban commuting and storage.",
+    "price": 549.99,
+    "currency": "USD",
+    "manufacturer": "FoldRide",
+    "category": "Cycling",
+    "availability": true,
+    "dimensions": {
+      "width": 30,
+      "height": 24,
+      "length": 12
+    }
+  },
+  {
+    "id": 100,
+    "name": "Smart Garden Planters",
+    "description": "Smart garden planters with automated watering and monitoring.",
+    "price": 79.99,
+    "currency": "USD",
+    "manufacturer": "PlantTech",
+    "category": "Home & Garden",
+    "availability": true,
+    "dimensions": {
+      "width": 2,
+      "height": 12,
+      "length": 12
+    }
+  }
+]

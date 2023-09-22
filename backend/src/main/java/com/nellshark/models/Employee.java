@@ -31,25 +31,6 @@ public class Employee {
   @Column(name = "position", nullable = false, updatable = false)
   private String position;
 
-  public Employee() {
-  }
-
-  public Employee(Long id,
-      String firstName,
-      String lastName,
-      Long salary,
-      String email,
-      String department,
-      String position) {
-    this.id = id;
-    this.firstName = firstName;
-    this.lastName = lastName;
-    this.salary = salary;
-    this.email = email;
-    this.department = department;
-    this.position = position;
-  }
-
   public Long getId() {
     return id;
   }

@@ -9,15 +9,6 @@ public class Speaker {
   private String topic;
   private String bio;
 
-  public Speaker() {
-  }
-
-  public Speaker(String name, String topic, String bio) {
-    this.name = name;
-    this.topic = topic;
-    this.bio = bio;
-  }
-
   public String getName() {
     return name;
   }

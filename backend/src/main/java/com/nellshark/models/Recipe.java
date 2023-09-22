@@ -22,16 +22,6 @@ public class Recipe {
   @Column(name = "totalTime", nullable = false, updatable = false)
   private Long totalTime;
 
-  public Recipe() {
-  }
-
-  public Recipe(Long id, String name, Long prepTime, Long totalTime) {
-    this.id = id;
-    this.name = name;
-    this.prepTime = prepTime;
-    this.totalTime = totalTime;
-  }
-
   public Long getId() {
     return id;
   }

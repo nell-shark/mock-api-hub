@@ -29,23 +29,6 @@ public class Project {
   @Column(name = "endDate", nullable = false, updatable = false)
   private LocalDate endDate;
 
-  public Project() {
-  }
-
-  public Project(Long id,
-      String name,
-      String description,
-      String status,
-      LocalDate startDate,
-      LocalDate endDate) {
-    this.id = id;
-    this.name = name;
-    this.description = description;
-    this.status = status;
-    this.startDate = startDate;
-    this.endDate = endDate;
-  }
-
   public Long getId() {
     return id;
   }

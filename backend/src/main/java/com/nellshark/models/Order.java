@@ -28,16 +28,6 @@ public class Order {
   @CollectionTable(name = "order_items", joinColumns = @JoinColumn(name = "order_id"))
   private List<Item> items;
 
-  public Order() {
-  }
-
-  public Order(Long id, LocalDateTime timestamp, String status, List<Item> items) {
-    this.id = id;
-    this.timestamp = timestamp;
-    this.status = status;
-    this.items = items;
-  }
-
   public Long getId() {
     return id;
   }

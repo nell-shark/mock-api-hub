@@ -4,15 +4,16 @@ import com.nellshark.exceptions.RepositoryNotFoundException;
 import com.nellshark.models.Address;
 import com.nellshark.models.Book;
 import com.nellshark.models.Comment;
-import com.nellshark.models.Company;
 import com.nellshark.models.Course;
 import com.nellshark.models.Employee;
 import com.nellshark.models.Event;
 import com.nellshark.models.Message;
 import com.nellshark.models.Notification;
 import com.nellshark.models.Post;
+import com.nellshark.models.Product;
 import com.nellshark.services.JsonService;
 import java.io.File;
+import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 import org.slf4j.Logger;
@@ -40,18 +41,17 @@ public class DatabaseInitializer implements CommandLineRunner {
   public void run(String... args) {
     logger.info("Starting initialization database");
 
-    Map<String, Class<?>> map = Map.of(
-        "addresses.json", Address.class,
-        "books.json", Book.class,
-        "comments.json", Comment.class,
-        "companies.json", Company.class,
-        "courses.json", Course.class,
-        "employees.json", Employee.class,
-        "events.json", Event.class,
-        "messages.json", Message.class,
-        "notifications.json", Notification.class,
-        "posts.json", Post.class
-    );
+    Map<String, Class<?>> map = new HashMap<>();
+    map.put("addresses.json", Address.class);
+    map.put("books.json", Book.class);
+    map.put("comments.json", Comment.class);
+    map.put("courses.json", Course.class);
+    map.put("employees.json", Employee.class);
+    map.put("events.json", Event.class);
+    map.put("messages.json", Message.class);
+    map.put("notifications.json", Notification.class);
+    map.put("posts.json", Post.class);
+    map.put("products.json", Product.class);
 
     map.forEach(this::deserializeJsonResourceFile);
   }

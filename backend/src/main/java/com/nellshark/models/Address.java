@@ -28,24 +28,6 @@ public class Address {
   @Column(name = "postCode", nullable = false, updatable = false)
   private String postCode;
 
-  public Address() {
-  }
-
-  public Address(
-      Long id,
-      String street,
-      String city,
-      String countryCode,
-      String country,
-      String postCode) {
-    this.id = id;
-    this.street = street;
-    this.city = city;
-    this.countryCode = countryCode;
-    this.country = country;
-    this.postCode = postCode;
-  }
-
   public Long getId() {
     return id;
   }

@@ -34,27 +34,6 @@ public class Company {
   @Column(name = "numberOfEmployees", nullable = false, updatable = false)
   private Long numberOfEmployees;
 
-  public Company() {
-  }
-
-  public Company(Long id,
-      String name,
-      String industry,
-      Long foundedYear,
-      String location,
-      String website,
-      String description,
-      Long numberOfEmployees) {
-    this.id = id;
-    this.name = name;
-    this.industry = industry;
-    this.foundedYear = foundedYear;
-    this.location = location;
-    this.website = website;
-    this.description = description;
-    this.numberOfEmployees = numberOfEmployees;
-  }
-
   public Long getId() {
     return id;
   }

@@ -31,26 +31,6 @@ public class Book {
   @Column(name = "description", nullable = false, updatable = false)
   private String description;
 
-  public Book() {
-  }
-
-  public Book(
-      Long id,
-      String title,
-      Long pages,
-      String author,
-      Long published,
-      String language,
-      String description) {
-    this.id = id;
-    this.title = title;
-    this.pages = pages;
-    this.author = author;
-    this.published = published;
-    this.language = language;
-    this.description = description;
-  }
-
   public Long getId() {
     return id;
   }

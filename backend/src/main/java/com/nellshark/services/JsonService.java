@@ -38,7 +38,7 @@ public class JsonService {
       );
     } catch (IOException e) {
       throw new JsonDeserializationException(
-          "Error converting JSON file to list: " + jsonFile.getPath(), e);
+          "Error converting JSON file to list of entities: " + jsonFile.getPath(), e);
     }
   }
 

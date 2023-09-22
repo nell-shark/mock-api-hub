@@ -1,6 +1,7 @@
 package com.nellshark.models;
 
 import jakarta.persistence.Column;
+import jakarta.persistence.Embedded;
 import jakarta.persistence.Entity;
 import jakarta.persistence.Id;
 import jakarta.persistence.Table;
@@ -34,26 +35,8 @@ public class Product {
   @Column(name = "availability", nullable = false, updatable = false)
   private Boolean availability;
 
-  public Product() {
-  }
-
-  public Product(Long id,
-      String name,
-      String description,
-      Double price,
-      String currency,
-      String manufacturer,
-      String category,
-      Boolean availability) {
-    this.id = id;
-    this.name = name;
-    this.description = description;
-    this.price = price;
-    this.currency = currency;
-    this.manufacturer = manufacturer;
-    this.category = category;
-    this.availability = availability;
-  }
+  @Embedded
+  private Dimension dimensions;
 
   public Long getId() {
     return id;
@@ -119,6 +102,14 @@ public class Product {
     this.availability = availability;
   }
 
+  public Dimension getDimensions() {
+    return dimensions;
+  }
+
+  public void setDimensions(Dimension dimensions) {
+    this.dimensions = dimensions;
+  }
+
   @Override
   public String toString() {
     return "Product{" +
@@ -130,6 +121,7 @@ public class Product {
         ", manufacturer='" + manufacturer + '\'' +
         ", category='" + category + '\'' +
         ", availability=" + availability +
+        ", dimensions=" + dimensions +
         '}';
   }
 }

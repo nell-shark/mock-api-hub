@@ -23,16 +23,6 @@ public class Todo {
   @Column(name = "timestamp", nullable = false, updatable = false)
   private LocalDateTime timestamp;
 
-  public Todo() {
-  }
-
-  public Todo(Long id, String todo, Boolean completed, LocalDateTime timestamp) {
-    this.id = id;
-    this.todo = todo;
-    this.completed = completed;
-    this.timestamp = timestamp;
-  }
-
   public Long getId() {
     return id;
   }

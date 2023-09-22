@@ -26,17 +26,6 @@ public class Message {
   @Column(name = "content", nullable = false, updatable = false)
   private String content;
 
-  public Message() {
-  }
-
-  public Message(Long id, String sender, String receiver, LocalDateTime timestamp, String content) {
-    this.id = id;
-    this.sender = sender;
-    this.receiver = receiver;
-    this.timestamp = timestamp;
-    this.content = content;
-  }
-
   public Long getId() {
     return id;
   }
