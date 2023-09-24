@@ -1,0 +1,4562 @@
+[
+  {
+    "id": 1,
+    "name": "Spaghetti Carbonara",
+    "instructions": "1. Boil spaghetti until al dente. 2. In a separate pan, cook pancetta until crispy. 3. Whisk eggs, grated Pecorino Romano, and black pepper in a bowl. 4. Drain cooked spaghetti, reserving some pasta water. 5. Combine hot spaghetti with egg mixture and pancetta. 6. Add reserved pasta water as needed for desired consistency. Serve immediately.",
+    "prepTime": "15 minutes",
+    "cookTime": "15 minutes",
+    "totalTime": "30 minutes",
+    "ingredients": [
+      {
+        "ingredientName": "Spaghetti",
+        "quantity": "8 ounces"
+      },
+      {
+        "ingredientName": "Pancetta",
+        "quantity": "4 ounces"
+      },
+      {
+        "ingredientName": "Eggs",
+        "quantity": "2"
+      },
+      {
+        "ingredientName": "Pecorino Romano cheese (grated)",
+        "quantity": "1/2 cup"
+      },
+      {
+        "ingredientName": "Black pepper",
+        "quantity": "1/2 teaspoon"
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "name": "Chicken Alfredo",
+    "instructions": "1. Season chicken breasts with salt, pepper, and garlic powder. 2. Cook chicken in a skillet until no longer pink, then slice it. 3. Cook fettuccine according to package instructions. 4. In a separate pan, melt butter, add minced garlic, heavy cream, and Parmesan cheese. Stir until sauce thickens. 5. Toss cooked pasta and chicken in the Alfredo sauce. 6. Serve hot, garnished with parsley.",
+    "prepTime": "10 minutes",
+    "cookTime": "20 minutes",
+    "totalTime": "30 minutes",
+    "ingredients": [
+      {
+        "ingredientName": "Chicken breasts",
+        "quantity": "2"
+      },
+      {
+        "ingredientName": "Fettuccine pasta",
+        "quantity": "8 ounces"
+      },
+      {
+        "ingredientName": "Butter",
+        "quantity": "1/2 cup"
+      },
+      {
+        "ingredientName": "Heavy cream",
+        "quantity": "1 cup"
+      },
+      {
+        "ingredientName": "Parmesan cheese (grated)",
+        "quantity": "1 cup"
+      },
+      {
+        "ingredientName": "Garlic (minced)",
+        "quantity": "2 cloves"
+      },
+      {
+        "ingredientName": "Salt",
+        "quantity": "1/2 teaspoon"
+      },
+      {
+        "ingredientName": "Pepper",
+        "quantity": "1/4 teaspoon"
+      },
+      {
+        "ingredientName": "Garlic powder",
+        "quantity": "1/2 teaspoon"
+      },
+      {
+        "ingredientName": "Fresh parsley (chopped)",
+        "quantity": "for garnish"
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "name": "Margherita Pizza",
+    "instructions": "1. Preheat your oven to 475°F (245°C). 2. Roll out pizza dough into a circle. 3. Spread tomato sauce evenly over the dough. 4. Arrange fresh basil leaves and sliced tomatoes on top. 5. Sprinkle with mozzarella cheese. 6. Bake for 10-12 minutes or until crust is golden and cheese is bubbly. 7. Slice and serve hot.",
+    "prepTime": "15 minutes",
+    "cookTime": "10-12 minutes",
+    "totalTime": "25-27 minutes",
+    "ingredients": [
+      {
+        "ingredientName": "Pizza dough",
+        "quantity": "1 ball"
+      },
+      {
+        "ingredientName": "Tomato sauce",
+        "quantity": "1/2 cup"
+      },
+      {
+        "ingredientName": "Fresh basil leaves",
+        "quantity": "a handful"
+      },
+      {
+        "ingredientName": "Tomatoes (sliced)",
+        "quantity": "2-3"
+      },
+      {
+        "ingredientName": "Mozzarella cheese (shredded)",
+        "quantity": "1 cup"
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "name": "Beef Stir-Fry",
+    "instructions": "1. Slice beef thinly and marinate in soy sauce, garlic, and ginger. 2. Heat oil in a wok or skillet. 3. Stir-fry beef until browned, then set aside. 4. In the same pan, stir-fry vegetables until tender. 5. Return beef to the pan, add a mixture of soy sauce, oyster sauce, and cornstarch. 6. Stir until sauce thickens. 7. Serve hot with rice.",
+    "prepTime": "20 minutes",
+    "cookTime": "15 minutes",
+    "totalTime": "35 minutes",
+    "ingredients": [
+      {
+        "ingredientName": "Beef (sirloin or flank steak)",
+        "quantity": "1 pound"
+      },
+      {
+        "ingredientName": "Soy sauce",
+        "quantity": "3 tablespoons"
+      },
+      {
+        "ingredientName": "Garlic (minced)",
+        "quantity": "2 cloves"
+      },
+      {
+        "ingredientName": "Ginger (minced)",
+        "quantity": "1 tablespoon"
+      },
+      {
+        "ingredientName": "Vegetable oil",
+        "quantity": "2 tablespoons"
+      },
+      {
+        "ingredientName": "Assorted vegetables (bell peppers, broccoli, carrots)",
+        "quantity": "2 cups, sliced"
+      },
+      {
+        "ingredientName": "Oyster sauce",
+        "quantity": "2 tablespoons"
+      },
+      {
+        "ingredientName": "Cornstarch",
+        "quantity": "1 tablespoon"
+      },
+      {
+        "ingredientName": "Cooked rice",
+        "quantity": "for serving"
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "name": "Chocolate Chip Cookies",
+    "instructions": "1. Preheat oven to 350°F (175°C). 2. In a bowl, cream together butter, white sugar, and brown sugar until smooth. 3. Beat in eggs, one at a time, then stir in vanilla. 4. Dissolve baking soda in hot water. 5. Add salt, flour, chocolate chips, and the baking soda mixture to the dough. 6. Drop dough by rounded tablespoons onto ungreased baking sheets. 7. Bake for 10-12 minutes or until edges are golden brown. 8. Allow cookies to cool on the baking sheet for a few minutes before transferring to a wire rack to cool completely.",
+    "prepTime": "15 minutes",
+    "cookTime": "10-12 minutes per batch",
+    "totalTime": "25-27 minutes",
+    "ingredients": [
+      {
+        "ingredientName": "Butter (softened)",
+        "quantity": "1 cup"
+      },
+      {
+        "ingredientName": "White sugar",
+        "quantity": "1 cup"
+      },
+      {
+        "ingredientName": "Brown sugar (packed)",
+        "quantity": "1 cup"
+      },
+      {
+        "ingredientName": "Eggs",
+        "quantity": "2"
+      },
+      {
+        "ingredientName": "Vanilla extract",
+        "quantity": "1 teaspoon"
+      },
+      {
+        "ingredientName": "Baking soda",
+        "quantity": "1 teaspoon"
+      },
+      {
+        "ingredientName": "Hot water",
+        "quantity": "2 teaspoons"
+      },
+      {
+        "ingredientName": "Salt",
+        "quantity": "1/2 teaspoon"
+      },
+      {
+        "ingredientName": "All-purpose flour",
+        "quantity": "3 cups"
+      },
+      {
+        "ingredientName": "Semi-sweet chocolate chips",
+        "quantity": "2 cups"
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "name": "Caesar Salad",
+    "instructions": "1. Tear Romaine lettuce into bite-sized pieces and place in a large bowl. 2. In a small bowl, whisk together olive oil, lemon juice, garlic, Dijon mustard, and Worcestershire sauce. 3. Pour the dressing over the lettuce and toss to coat. 4. Add croutons and grated Parmesan cheese. 5. Toss again and serve immediately.",
+    "prepTime": "15 minutes",
+    "cookTime": "0 minutes",
+    "totalTime": "15 minutes",
+    "ingredients": [
+      {
+        "ingredientName": "Romaine lettuce",
+        "quantity": "1 head"
+      },
+      {
+        "ingredientName": "Olive oil",
+        "quantity": "1/4 cup"
+      },
+      {
+        "ingredientName": "Lemon juice",
+        "quantity": "2 tablespoons"
+      },
+      {
+        "ingredientName": "Garlic (minced)",
+        "quantity": "1 clove"
+      },
+      {
+        "ingredientName": "Dijon mustard",
+        "quantity": "1 teaspoon"
+      },
+      {
+        "ingredientName": "Worcestershire sauce",
+        "quantity": "1 teaspoon"
+      },
+      {
+        "ingredientName": "Croutons",
+        "quantity": "1 cup"
+      },
+      {
+        "ingredientName": "Parmesan cheese (grated)",
+        "quantity": "1/2 cup"
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "name": "Vegetable Curry",
+    "instructions": "1. Heat oil in a pan and sauté onions until translucent. 2. Add ginger, garlic, and curry paste, and cook for a few minutes. 3. Stir in diced vegetables and cook until slightly tender. 4. Pour in coconut milk and simmer until vegetables are cooked. 5. Season with salt and serve hot with rice or naan.",
+    "prepTime": "15 minutes",
+    "cookTime": "20 minutes",
+    "totalTime": "35 minutes",
+    "ingredients": [
+      {
+        "ingredientName": "Mixed vegetables (e.g., carrots, bell peppers, broccoli)",
+        "quantity": "3 cups, diced"
+      },
+      {
+        "ingredientName": "Onions (chopped)",
+        "quantity": "1 cup"
+      },
+      {
+        "ingredientName": "Ginger (minced)",
+        "quantity": "1 tablespoon"
+      },
+      {
+        "ingredientName": "Garlic (minced)",
+        "quantity": "2 cloves"
+      },
+      {
+        "ingredientName": "Curry paste",
+        "quantity": "2 tablespoons"
+      },
+      {
+        "ingredientName": "Coconut milk",
+        "quantity": "1 can (14 oz)"
+      },
+      {
+        "ingredientName": "Salt",
+        "quantity": "to taste"
+      },
+      {
+        "ingredientName": "Cooked rice or naan",
+        "quantity": "for serving"
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "name": "Caprese Salad",
+    "instructions": "1. Slice fresh tomatoes and mozzarella cheese into 1/4-inch thick slices. 2. Arrange them on a serving platter, alternating between tomato and cheese slices. 3. Tuck fresh basil leaves between the slices. 4. Drizzle extra-virgin olive oil and balsamic vinegar over the salad. 5. Season with salt and freshly ground black pepper. 6. Serve immediately.",
+    "prepTime": "10 minutes",
+    "cookTime": "0 minutes",
+    "totalTime": "10 minutes",
+    "ingredients": [
+      {
+        "ingredientName": "Tomatoes",
+        "quantity": "4 large"
+      },
+      {
+        "ingredientName": "Fresh mozzarella cheese",
+        "quantity": "8 ounces"
+      },
+      {
+        "ingredientName": "Fresh basil leaves",
+        "quantity": "a handful"
+      },
+      {
+        "ingredientName": "Extra-virgin olive oil",
+        "quantity": "2 tablespoons"
+      },
+      {
+        "ingredientName": "Balsamic vinegar",
+        "quantity": "2 tablespoons"
+      },
+      {
+        "ingredientName": "Salt",
+        "quantity": "to taste"
+      },
+      {
+        "ingredientName": "Black pepper",
+        "quantity": "to taste"
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "name": "Beef Tacos",
+    "instructions": "1. In a skillet, cook ground beef until browned. 2. Stir in taco seasoning and water, simmer until thickened. 3. Warm taco shells in the oven. 4. Assemble tacos with beef, shredded lettuce, diced tomatoes, shredded cheese, and sour cream. 5. Serve hot with your favorite salsa.",
+    "prepTime": "10 minutes",
+    "cookTime": "15 minutes",
+    "totalTime": "25 minutes",
+    "ingredients": [
+      {
+        "ingredientName": "Ground beef",
+        "quantity": "1 pound"
+      },
+      {
+        "ingredientName": "Taco seasoning mix",
+        "quantity": "1 packet"
+      },
+      {
+        "ingredientName": "Water",
+        "quantity": "1/2 cup"
+      },
+      {
+        "ingredientName": "Taco shells",
+        "quantity": "12"
+      },
+      {
+        "ingredientName": "Shredded lettuce",
+        "quantity": "2 cups"
+      },
+      {
+        "ingredientName": "Tomatoes (diced)",
+        "quantity": "2"
+      },
+      {
+        "ingredientName": "Shredded cheese",
+        "quantity": "1 cup"
+      },
+      {
+        "ingredientName": "Sour cream",
+        "quantity": "1/2 cup"
+      },
+      {
+        "ingredientName": "Salsa",
+        "quantity": "for serving"
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "name": "Chicken Fajitas",
+    "instructions": "1. Slice chicken breasts into thin strips and season with fajita seasoning. 2. In a skillet, heat oil over medium-high heat and cook chicken until no longer pink. 3. Add sliced bell peppers and onions and cook until they're tender and slightly caramelized. 4. Serve the chicken and vegetable mixture in warm tortillas. 5. Top with salsa, sour cream, and shredded cheese as desired.",
+    "prepTime": "15 minutes",
+    "cookTime": "15 minutes",
+    "totalTime": "30 minutes",
+    "ingredients": [
+      {
+        "ingredientName": "Chicken breasts",
+        "quantity": "2"
+      },
+      {
+        "ingredientName": "Fajita seasoning",
+        "quantity": "2 tablespoons"
+      },
+      {
+        "ingredientName": "Bell peppers (sliced)",
+        "quantity": "2"
+      },
+      {
+        "ingredientName": "Onion (sliced)",
+        "quantity": "1"
+      },
+      {
+        "ingredientName": "Oil",
+        "quantity": "2 tablespoons"
+      },
+      {
+        "ingredientName": "Flour tortillas",
+        "quantity": "8"
+      },
+      {
+        "ingredientName": "Salsa",
+        "quantity": "for serving"
+      },
+      {
+        "ingredientName": "Sour cream",
+        "quantity": "for serving"
+      },
+      {
+        "ingredientName": "Shredded cheese",
+        "quantity": "for serving"
+      }
+    ]
+  },
+  {
+    "id": 11,
+    "name": "Vegetable Lasagna",
+    "instructions": "1. Cook lasagna noodles according to package instructions. 2. In a skillet, sauté onions, garlic, zucchini, and bell peppers until tender. 3. In a separate bowl, mix ricotta cheese, spinach, and an egg. 4. Layer a baking dish with noodles, vegetables, ricotta mixture, and marinara sauce. 5. Repeat layers, ending with marinara sauce and a layer of mozzarella cheese. 6. Bake until bubbly and golden. 7. Let it cool slightly before serving.",
+    "prepTime": "30 minutes",
+    "cookTime": "45 minutes",
+    "totalTime": "75 minutes",
+    "ingredients": [
+      {
+        "ingredientName": "Lasagna noodles",
+        "quantity": "9 sheets"
+      },
+      {
+        "ingredientName": "Onion (chopped)",
+        "quantity": "1"
+      },
+      {
+        "ingredientName": "Garlic (minced)",
+        "quantity": "3 cloves"
+      },
+      {
+        "ingredientName": "Zucchini (sliced)",
+        "quantity": "1"
+      },
+      {
+        "ingredientName": "Bell peppers (sliced)",
+        "quantity": "2"
+      },
+      {
+        "ingredientName": "Ricotta cheese",
+        "quantity": "15 ounces"
+      },
+      {
+        "ingredientName": "Frozen spinach (thawed and drained)",
+        "quantity": "10 ounces"
+      },
+      {
+        "ingredientName": "Egg",
+        "quantity": "1"
+      },
+      {
+        "ingredientName": "Marinara sauce",
+        "quantity": "24 ounces"
+      },
+      {
+        "ingredientName": "Mozzarella cheese (shredded)",
+        "quantity": "2 cups"
+      }
+    ]
+  },
+  {
+    "id": 12,
+    "name": "Mushroom Risotto",
+    "instructions": "1. In a saucepan, warm chicken or vegetable broth over low heat. 2. In a separate pan, sauté diced onions and minced garlic in olive oil until translucent. 3. Add Arborio rice and cook for a few minutes until translucent around the edges. 4. Gradually add warm broth, one ladle at a time, stirring constantly until absorbed. 5. Stir in sliced mushrooms and continue adding broth until the rice is creamy and mushrooms are tender. 6. Finish with grated Parmesan cheese and chopped parsley.",
+    "prepTime": "15 minutes",
+    "cookTime": "30 minutes",
+    "totalTime": "45 minutes",
+    "ingredients": [
+      {
+        "ingredientName": "Arborio rice",
+        "quantity": "1 1/2 cups"
+      },
+      {
+        "ingredientName": "Chicken or vegetable broth",
+        "quantity": "6 cups"
+      },
+      {
+        "ingredientName": "Onion (diced)",
+        "quantity": "1"
+      },
+      {
+        "ingredientName": "Garlic (minced)",
+        "quantity": "3 cloves"
+      },
+      {
+        "ingredientName": "Olive oil",
+        "quantity": "2 tablespoons"
+      },
+      {
+        "ingredientName": "Mushrooms (sliced)",
+        "quantity": "8 ounces"
+      },
+      {
+        "ingredientName": "Parmesan cheese (grated)",
+        "quantity": "1/2 cup"
+      },
+      {
+        "ingredientName": "Fresh parsley (chopped)",
+        "quantity": "2 tablespoons"
+      }
+    ]
+  },
+  {
+    "id": 13,
+    "name": "Classic Beef Stew",
+    "instructions": "1. In a large pot, heat oil and brown beef cubes on all sides. 2. Add onions, carrots, and celery; cook until slightly softened. 3. Stir in garlic, tomato paste, and flour; cook for a few minutes. 4. Pour in beef broth and add thyme and bay leaves. 5. Simmer for 2 hours until beef is tender. 6. Add potatoes and simmer for another 30 minutes. 7. Season with salt and pepper. 8. Serve hot.",
+    "prepTime": "20 minutes",
+    "cookTime": "2 hours 30 minutes",
+    "totalTime": "2 hours 50 minutes",
+    "ingredients": [
+      {
+        "ingredientName": "Beef stew meat (cubed)",
+        "quantity": "2 pounds"
+      },
+      {
+        "ingredientName": "Onions (chopped)",
+        "quantity": "2"
+      },
+      {
+        "ingredientName": "Carrots (sliced)",
+        "quantity": "4"
+      },
+      {
+        "ingredientName": "Celery (sliced)",
+        "quantity": "3 stalks"
+      },
+      {
+        "ingredientName": "Garlic (minced)",
+        "quantity": "3 cloves"
+      },
+      {
+        "ingredientName": "Tomato paste",
+        "quantity": "2 tablespoons"
+      },
+      {
+        "ingredientName": "All-purpose flour",
+        "quantity": "1/4 cup"
+      },
+      {
+        "ingredientName": "Beef broth",
+        "quantity": "6 cups"
+      },
+      {
+        "ingredientName": "Thyme (dried)",
+        "quantity": "1 teaspoon"
+      },
+      {
+        "ingredientName": "Bay leaves",
+        "quantity": "2"
+      },
+      {
+        "ingredientName": "Potatoes (cubed)",
+        "quantity": "4"
+      },
+      {
+        "ingredientName": "Salt",
+        "quantity": "to taste"
+      },
+      {
+        "ingredientName": "Black pepper",
+        "quantity": "to taste"
+      }
+    ]
+  },
+  {
+    "id": 14,
+    "name": "Chicken and Broccoli Alfredo",
+    "instructions": "1. Cook fettuccine pasta according to package instructions. 2. Season chicken breast with salt, pepper, and garlic powder, then cook until no longer pink. Slice it into strips. 3. In a separate pot, steam broccoli until tender. 4. In a saucepan, melt butter and add minced garlic, heavy cream, and grated Parmesan cheese. Stir until the sauce thickens. 5. Combine cooked pasta, chicken, and broccoli in a large serving dish. 6. Pour the Alfredo sauce over the top, toss gently, and serve hot.",
+    "prepTime": "20 minutes",
+    "cookTime": "20 minutes",
+    "totalTime": "40 minutes",
+    "ingredients": [
+      {
+        "ingredientName": "Fettuccine pasta",
+        "quantity": "8 ounces"
+      },
+      {
+        "ingredientName": "Chicken breast",
+        "quantity": "2"
+      },
+      {
+        "ingredientName": "Salt",
+        "quantity": "1/2 teaspoon"
+      },
+      {
+        "ingredientName": "Black pepper",
+        "quantity": "1/4 teaspoon"
+      },
+      {
+        "ingredientName": "Garlic powder",
+        "quantity": "1/2 teaspoon"
+      },
+      {
+        "ingredientName": "Broccoli florets",
+        "quantity": "2 cups"
+      },
+      {
+        "ingredientName": "Butter",
+        "quantity": "1/2 cup"
+      },
+      {
+        "ingredientName": "Garlic (minced)",
+        "quantity": "2 cloves"
+      },
+      {
+        "ingredientName": "Heavy cream",
+        "quantity": "1 cup"
+      },
+      {
+        "ingredientName": "Parmesan cheese (grated)",
+        "quantity": "1 cup"
+      }
+    ]
+  },
+  {
+    "id": 15,
+    "name": "Blueberry Pancakes",
+    "instructions": "1. In a bowl, whisk together flour, sugar, baking powder, and salt. 2. In another bowl, whisk together eggs, milk, and melted butter. 3. Combine wet and dry ingredients and gently fold in fresh blueberries. 4. Heat a griddle or skillet over medium heat and lightly grease it. 5. Pour 1/4 cup of batter onto the griddle for each pancake. 6. Cook until bubbles form on the surface, then flip and cook until golden brown. 7. Serve hot with maple syrup.",
+    "prepTime": "10 minutes",
+    "cookTime": "15 minutes",
+    "totalTime": "25 minutes",
+    "ingredients": [
+      {
+        "ingredientName": "All-purpose flour",
+        "quantity": "1 1/2 cups"
+      },
+      {
+        "ingredientName": "Granulated sugar",
+        "quantity": "2 tablespoons"
+      },
+      {
+        "ingredientName": "Baking powder",
+        "quantity": "2 teaspoons"
+      },
+      {
+        "ingredientName": "Salt",
+        "quantity": "1/2 teaspoon"
+      },
+      {
+        "ingredientName": "Eggs",
+        "quantity": "2"
+      },
+      {
+        "ingredientName": "Milk",
+        "quantity": "1 1/4 cups"
+      },
+      {
+        "ingredientName": "Butter (melted)",
+        "quantity": "3 tablespoons"
+      },
+      {
+        "ingredientName": "Fresh blueberries",
+        "quantity": "1 cup"
+      },
+      {
+        "ingredientName": "Maple syrup",
+        "quantity": "for serving"
+      }
+    ]
+  },
+  {
+    "id": 16,
+    "name": "Spinach and Feta Stuffed Chicken Breast",
+    "instructions": "1. Preheat the oven to 375°F (190°C). 2. Mix spinach, feta cheese, garlic, and olive oil in a bowl. 3. Cut a pocket in each chicken breast and stuff with the spinach and feta mixture. 4. Season chicken with salt, pepper, and paprika. 5. Heat oil in an oven-safe skillet and sear chicken until browned. 6. Transfer skillet to the oven and bake for 20-25 minutes or until chicken is cooked through. 7. Serve hot.",
+    "prepTime": "15 minutes",
+    "cookTime": "25 minutes",
+    "totalTime": "40 minutes",
+    "ingredients": [
+      {
+        "ingredientName": "Boneless, skinless chicken breasts",
+        "quantity": "4"
+      },
+      {
+        "ingredientName": "Fresh spinach (chopped)",
+        "quantity": "2 cups"
+      },
+      {
+        "ingredientName": "Feta cheese (crumbled)",
+        "quantity": "1/2 cup"
+      },
+      {
+        "ingredientName": "Garlic (minced)",
+        "quantity": "2 cloves"
+      },
+      {
+        "ingredientName": "Olive oil",
+        "quantity": "2 tablespoons"
+      },
+      {
+        "ingredientName": "Salt",
+        "quantity": "1/2 teaspoon"
+      },
+      {
+        "ingredientName": "Black pepper",
+        "quantity": "1/4 teaspoon"
+      },
+      {
+        "ingredientName": "Paprika",
+        "quantity": "1/2 teaspoon"
+      },
+      {
+        "ingredientName": "Oil (for searing)",
+        "quantity": "2 tablespoons"
+      }
+    ]
+  },
+  {
+    "id": 17,
+    "name": "Shrimp Scampi",
+    "instructions": "1. Cook linguine pasta according to package instructions. 2. In a skillet, melt butter and add minced garlic. 3. Add shrimp and cook until pink. 4. Stir in white wine, lemon juice, and red pepper flakes. 5. Toss cooked pasta with the shrimp mixture. 6. Sprinkle with chopped parsley and grated Parmesan cheese. 7. Serve hot.",
+    "prepTime": "10 minutes",
+    "cookTime": "10 minutes",
+    "totalTime": "20 minutes",
+    "ingredients": [
+      {
+        "ingredientName": "Linguine pasta",
+        "quantity": "8 ounces"
+      },
+      {
+        "ingredientName": "Butter",
+        "quantity": "1/2 cup"
+      },
+      {
+        "ingredientName": "Garlic (minced)",
+        "quantity": "4 cloves"
+      },
+      {
+        "ingredientName": "Large shrimp (peeled and deveined)",
+        "quantity": "1 pound"
+      },
+      {
+        "ingredientName": "White wine",
+        "quantity": "1/4 cup"
+      },
+      {
+        "ingredientName": "Lemon juice",
+        "quantity": "2 tablespoons"
+      },
+      {
+        "ingredientName": "Red pepper flakes",
+        "quantity": "1/4 teaspoon"
+      },
+      {
+        "ingredientName": "Fresh parsley (chopped)",
+        "quantity": "2 tablespoons"
+      },
+      {
+        "ingredientName": "Parmesan cheese (grated)",
+        "quantity": "1/4 cup"
+      }
+    ]
+  },
+  {
+    "id": 18,
+    "name": "Vegetable Stir-Fry",
+    "instructions": "1. Heat oil in a wok or large skillet over high heat. 2. Add sliced bell peppers, broccoli florets, and snap peas. 3. Stir-fry for a few minutes until vegetables are crisp-tender. 4. In a small bowl, whisk together soy sauce, ginger, garlic, and cornstarch. 5. Pour the sauce over the vegetables and cook until it thickens. 6. Serve hot over cooked rice or noodles.",
+    "prepTime": "15 minutes",
+    "cookTime": "10 minutes",
+    "totalTime": "25 minutes",
+    "ingredients": [
+      {
+        "ingredientName": "Bell peppers (sliced)",
+        "quantity": "2"
+      },
+      {
+        "ingredientName": "Broccoli florets",
+        "quantity": "2 cups"
+      },
+      {
+        "ingredientName": "Snap peas",
+        "quantity": "1 cup"
+      },
+      {
+        "ingredientName": "Oil",
+        "quantity": "2 tablespoons"
+      },
+      {
+        "ingredientName": "Soy sauce",
+        "quantity": "1/4 cup"
+      },
+      {
+        "ingredientName": "Ginger (minced)",
+        "quantity": "1 teaspoon"
+      },
+      {
+        "ingredientName": "Garlic (minced)",
+        "quantity": "2 cloves"
+      },
+      {
+        "ingredientName": "Cornstarch",
+        "quantity": "1 tablespoon"
+      },
+      {
+        "ingredientName": "Cooked rice or noodles",
+        "quantity": "for serving"
+      }
+    ]
+  },
+  {
+    "id": 19,
+    "name": "Tiramisu",
+    "instructions": "1. In a mixing bowl, beat egg yolks and sugar until creamy. 2. Add mascarpone cheese and mix until smooth. 3. In a separate bowl, beat egg whites until stiff peaks form. 4. Gently fold the egg whites into the mascarpone mixture. 5. Dip ladyfingers into coffee and arrange a layer in a serving dish. 6. Spread half of the mascarpone mixture on top. 7. Repeat with another layer of dipped ladyfingers and mascarpone. 8. Refrigerate for at least 4 hours or overnight. 9. Dust with cocoa powder before serving.",
+    "prepTime": "30 minutes",
+    "cookTime": "0 minutes",
+    "totalTime": "4 hours 30 minutes (including chilling time)",
+    "ingredients": [
+      {
+        "ingredientName": "Egg yolks",
+        "quantity": "4"
+      },
+      {
+        "ingredientName": "Granulated sugar",
+        "quantity": "1/2 cup"
+      },
+      {
+        "ingredientName": "Mascarpone cheese",
+        "quantity": "8 ounces"
+      },
+      {
+        "ingredientName": "Egg whites",
+        "quantity": "4"
+      },
+      {
+        "ingredientName": "Ladyfingers",
+        "quantity": "24"
+      },
+      {
+        "ingredientName": "Brewed espresso or strong coffee",
+        "quantity": "1 cup"
+      },
+      {
+        "ingredientName": "Cocoa powder",
+        "quantity": "for dusting"
+      }
+    ]
+  },
+  {
+    "id": 20,
+    "name": "Spaghetti Carbonara",
+    "instructions": "1. Cook spaghetti according to package instructions until al dente. 2. In a bowl, whisk together eggs, grated Pecorino Romano cheese, and black pepper. 3. In a skillet, cook diced pancetta until crispy. 4. Drain cooked spaghetti and immediately toss with the egg and cheese mixture. 5. Add cooked pancetta and toss until well combined. 6. Serve hot with additional Pecorino Romano cheese.",
+    "prepTime": "10 minutes",
+    "cookTime": "10 minutes",
+    "totalTime": "20 minutes",
+    "ingredients": [
+      {
+        "ingredientName": "Spaghetti",
+        "quantity": "12 ounces"
+      },
+      {
+        "ingredientName": "Eggs",
+        "quantity": "2"
+      },
+      {
+        "ingredientName": "Pecorino Romano cheese (grated)",
+        "quantity": "1 cup"
+      },
+      {
+        "ingredientName": "Black pepper",
+        "quantity": "1/2 teaspoon"
+      },
+      {
+        "ingredientName": "Pancetta (diced)",
+        "quantity": "4 ounces"
+      }
+    ]
+  },
+  {
+    "id": 21,
+    "name": "Chicken Noodle Soup",
+    "instructions": "1. In a large pot, heat oil over medium heat. 2. Add diced onions, carrots, and celery; cook until softened. 3. Add chicken broth, diced chicken breast, and season with salt, pepper, and dried thyme. 4. Simmer until chicken is cooked through. 5. Add cooked egg noodles and cook for a few more minutes. 6. Serve hot, garnished with fresh parsley.",
+    "prepTime": "15 minutes",
+    "cookTime": "25 minutes",
+    "totalTime": "40 minutes",
+    "ingredients": [
+      {
+        "ingredientName": "Chicken broth",
+        "quantity": "8 cups"
+      },
+      {
+        "ingredientName": "Chicken breast (diced)",
+        "quantity": "2 cups"
+      },
+      {
+        "ingredientName": "Onion (diced)",
+        "quantity": "1"
+      },
+      {
+        "ingredientName": "Carrots (sliced)",
+        "quantity": "2"
+      },
+      {
+        "ingredientName": "Celery (sliced)",
+        "quantity": "2 stalks"
+      },
+      {
+        "ingredientName": "Salt",
+        "quantity": "1 teaspoon"
+      },
+      {
+        "ingredientName": "Black pepper",
+        "quantity": "1/2 teaspoon"
+      },
+      {
+        "ingredientName": "Dried thyme",
+        "quantity": "1/2 teaspoon"
+      },
+      {
+        "ingredientName": "Egg noodles (cooked)",
+        "quantity": "8 ounces"
+      },
+      {
+        "ingredientName": "Fresh parsley (chopped)",
+        "quantity": "for garnish"
+      }
+    ]
+  },
+  {
+    "id": 22,
+    "name": "Beef and Broccoli Stir-Fry",
+    "instructions": "1. In a bowl, marinate thinly sliced beef in soy sauce, garlic, and ginger for 20 minutes. 2. Heat oil in a wok or skillet over high heat. 3. Stir-fry marinated beef until browned; remove from the pan. 4. In the same pan, stir-fry broccoli florets until tender-crisp. 5. Return beef to the pan, add oyster sauce, and stir until heated through. 6. Serve hot with steamed rice.",
+    "prepTime": "20 minutes",
+    "cookTime": "15 minutes",
+    "totalTime": "35 minutes",
+    "ingredients": [
+      {
+        "ingredientName": "Beef (thinly sliced)",
+        "quantity": "1 pound"
+      },
+      {
+        "ingredientName": "Soy sauce",
+        "quantity": "1/4 cup"
+      },
+      {
+        "ingredientName": "Garlic (minced)",
+        "quantity": "3 cloves"
+      },
+      {
+        "ingredientName": "Ginger (minced)",
+        "quantity": "1 tablespoon"
+      },
+      {
+        "ingredientName": "Oil",
+        "quantity": "2 tablespoons"
+      },
+      {
+        "ingredientName": "Broccoli florets",
+        "quantity": "2 cups"
+      },
+      {
+        "ingredientName": "Oyster sauce",
+        "quantity": "3 tablespoons"
+      },
+      {
+        "ingredientName": "Steamed rice",
+        "quantity": "for serving"
+      }
+    ]
+  },
+  {
+    "id": 23,
+    "name": "Margherita Pizza",
+    "instructions": "1. Preheat your oven to 475°F (245°C). 2. Roll out pizza dough into a thin circle on a floured surface. 3. Place the dough on a pizza stone or baking sheet. 4. Spread a thin layer of tomato sauce over the dough. 5. Arrange fresh mozzarella cheese slices and fresh basil leaves on top. 6. Drizzle with olive oil and sprinkle with salt and black pepper. 7. Bake in the preheated oven for 10-12 minutes or until the crust is golden and the cheese is bubbly. 8. Slice and serve hot.",
+    "prepTime": "15 minutes",
+    "cookTime": "10-12 minutes",
+    "totalTime": "25-27 minutes",
+    "ingredients": [
+      {
+        "ingredientName": "Pizza dough",
+        "quantity": "1 ball"
+      },
+      {
+        "ingredientName": "Tomato sauce",
+        "quantity": "1/2 cup"
+      },
+      {
+        "ingredientName": "Fresh mozzarella cheese (sliced)",
+        "quantity": "4 ounces"
+      },
+      {
+        "ingredientName": "Fresh basil leaves",
+        "quantity": "a handful"
+      },
+      {
+        "ingredientName": "Olive oil",
+        "quantity": "2 tablespoons"
+      },
+      {
+        "ingredientName": "Salt",
+        "quantity": "to taste"
+      },
+      {
+        "ingredientName": "Black pepper",
+        "quantity": "to taste"
+      }
+    ]
+  },
+  {
+    "id": 24,
+    "name": "Chicken and Rice Casserole",
+    "instructions": "1. Preheat your oven to 375°F (190°C). 2. In a large bowl, mix together cooked chicken, cooked rice, cream of chicken soup, sour cream, and shredded cheddar cheese. 3. Season with salt, pepper, and garlic powder. 4. Transfer the mixture to a greased baking dish. 5. Bake for 25-30 minutes or until the casserole is bubbly and cheese is melted. 6. Serve hot.",
+    "prepTime": "15 minutes",
+    "cookTime": "25-30 minutes",
+    "totalTime": "40-45 minutes",
+    "ingredients": [
+      {
+        "ingredientName": "Cooked chicken (shredded)",
+        "quantity": "2 cups"
+      },
+      {
+        "ingredientName": "Cooked rice",
+        "quantity": "2 cups"
+      },
+      {
+        "ingredientName": "Cream of chicken soup",
+        "quantity": "1 can (10.5 oz)"
+      },
+      {
+        "ingredientName": "Sour cream",
+        "quantity": "1 cup"
+      },
+      {
+        "ingredientName": "Shredded cheddar cheese",
+        "quantity": "1 1/2 cups"
+      },
+      {
+        "ingredientName": "Salt",
+        "quantity": "1/2 teaspoon"
+      },
+      {
+        "ingredientName": "Black pepper",
+        "quantity": "1/4 teaspoon"
+      },
+      {
+        "ingredientName": "Garlic powder",
+        "quantity": "1/2 teaspoon"
+      }
+    ]
+  },
+  {
+    "id": 25,
+    "name": "Chocolate Chip Cookies",
+    "instructions": "1. Preheat your oven to 350°F (175°C). 2. In a mixing bowl, cream together softened butter, granulated sugar, and brown sugar until light and fluffy. 3. Beat in eggs, one at a time, then stir in vanilla extract. 4. In a separate bowl, whisk together flour, baking soda, and salt. 5. Gradually add the dry ingredients to the wet ingredients and mix until just combined. 6. Fold in chocolate chips. 7. Drop rounded tablespoons of dough onto ungreased baking sheets. 8. Bake for 10-12 minutes or until edges are golden. 9. Let cool on wire racks.",
+    "prepTime": "15 minutes",
+    "cookTime": "10-12 minutes",
+    "totalTime": "25-27 minutes",
+    "ingredients": [
+      {
+        "ingredientName": "Butter (softened)",
+        "quantity": "1 cup"
+      },
+      {
+        "ingredientName": "Granulated sugar",
+        "quantity": "3/4 cup"
+      },
+      {
+        "ingredientName": "Brown sugar (packed)",
+        "quantity": "3/4 cup"
+      },
+      {
+        "ingredientName": "Eggs",
+        "quantity": "2"
+      },
+      {
+        "ingredientName": "Vanilla extract",
+        "quantity": "1 teaspoon"
+      },
+      {
+        "ingredientName": "All-purpose flour",
+        "quantity": "2 1/4 cups"
+      },
+      {
+        "ingredientName": "Baking soda",
+        "quantity": "1 teaspoon"
+      },
+      {
+        "ingredientName": "Salt",
+        "quantity": "1/2 teaspoon"
+      },
+      {
+        "ingredientName": "Chocolate chips",
+        "quantity": "2 cups"
+      }
+    ]
+  },
+  {
+    "id": 26,
+    "name": "Beef and Vegetable Skewers",
+    "instructions": "1. In a bowl, combine cubed beef, olive oil, garlic, and your choice of seasonings. Marinate for at least 30 minutes. 2. Thread marinated beef, bell peppers, onions, and cherry tomatoes onto skewers. 3. Preheat a grill to medium-high heat. 4. Grill skewers for about 10-12 minutes, turning occasionally, until beef is cooked to your desired level. 5. Serve hot with your favorite dipping sauce.",
+    "prepTime": "20 minutes",
+    "cookTime": "10-12 minutes",
+    "totalTime": "30-32 minutes",
+    "ingredients": [
+      {
+        "ingredientName": "Beef (cubed)",
+        "quantity": "1 pound"
+      },
+      {
+        "ingredientName": "Olive oil",
+        "quantity": "1/4 cup"
+      },
+      {
+        "ingredientName": "Garlic (minced)",
+        "quantity": "3 cloves"
+      },
+      {
+        "ingredientName": "Bell peppers (cut into chunks)",
+        "quantity": "2"
+      },
+      {
+        "ingredientName": "Onions (cut into chunks)",
+        "quantity": "1"
+      },
+      {
+        "ingredientName": "Cherry tomatoes",
+        "quantity": "12"
+      },
+      {
+        "ingredientName": "Salt",
+        "quantity": "1/2 teaspoon"
+      },
+      {
+        "ingredientName": "Black pepper",
+        "quantity": "1/4 teaspoon"
+      },
+      {
+        "ingredientName": "Your choice of seasonings",
+        "quantity": "to taste"
+      }
+    ]
+  },
+  {
+    "id": 27,
+    "name": "Greek Salad",
+    "instructions": "1. In a large salad bowl, combine diced cucumbers, cherry tomatoes, red onion, Kalamata olives, and feta cheese. 2. Drizzle extra-virgin olive oil and red wine vinegar over the salad. 3. Season with dried oregano, salt, and black pepper. 4. Toss everything together until well combined. 5. Serve immediately as a refreshing side dish.",
+    "prepTime": "15 minutes",
+    "cookTime": "0 minutes",
+    "totalTime": "15 minutes",
+    "ingredients": [
+      {
+        "ingredientName": "Cucumbers (diced)",
+        "quantity": "2"
+      },
+      {
+        "ingredientName": "Cherry tomatoes",
+        "quantity": "1 cup"
+      },
+      {
+        "ingredientName": "Red onion (sliced)",
+        "quantity": "1/2"
+      },
+      {
+        "ingredientName": "Kalamata olives",
+        "quantity": "1/2 cup"
+      },
+      {
+        "ingredientName": "Feta cheese (crumbled)",
+        "quantity": "1/2 cup"
+      },
+      {
+        "ingredientName": "Extra-virgin olive oil",
+        "quantity": "2 tablespoons"
+      },
+      {
+        "ingredientName": "Red wine vinegar",
+        "quantity": "2 tablespoons"
+      },
+      {
+        "ingredientName": "Dried oregano",
+        "quantity": "1 teaspoon"
+      },
+      {
+        "ingredientName": "Salt",
+        "quantity": "1/2 teaspoon"
+      },
+      {
+        "ingredientName": "Black pepper",
+        "quantity": "1/4 teaspoon"
+      }
+    ]
+  },
+  {
+    "id": 28,
+    "name": "Chicken Enchiladas",
+    "instructions": "1. Preheat your oven to 350°F (175°C). 2. In a skillet, cook diced chicken until no longer pink. 3. Add diced onions, minced garlic, and taco seasoning; cook until onions are soft. 4. Stir in black beans and corn. 5. Fill flour tortillas with the chicken mixture and roll them up. 6. Place the enchiladas in a baking dish. 7. Pour enchilada sauce over the top and sprinkle with shredded cheese. 8. Bake for 25-30 minutes or until cheese is melted and bubbly. 9. Serve hot with sour cream and chopped cilantro.",
+    "prepTime": "20 minutes",
+    "cookTime": "25-30 minutes",
+    "totalTime": "45-50 minutes",
+    "ingredients": [
+      {
+        "ingredientName": "Chicken breast (diced)",
+        "quantity": "2 cups"
+      },
+      {
+        "ingredientName": "Onion (diced)",
+        "quantity": "1"
+      },
+      {
+        "ingredientName": "Garlic (minced)",
+        "quantity": "2 cloves"
+      },
+      {
+        "ingredientName": "Taco seasoning",
+        "quantity": "1 packet"
+      },
+      {
+        "ingredientName": "Black beans (canned, drained)",
+        "quantity": "1 cup"
+      },
+      {
+        "ingredientName": "Corn (canned, drained)",
+        "quantity": "1 cup"
+      },
+      {
+        "ingredientName": "Flour tortillas",
+        "quantity": "8"
+      },
+      {
+        "ingredientName": "Enchilada sauce",
+        "quantity": "2 cups"
+      },
+      {
+        "ingredientName": "Shredded cheese",
+        "quantity": "1 1/2 cups"
+      },
+      {
+        "ingredientName": "Sour cream",
+        "quantity": "for serving"
+      },
+      {
+        "ingredientName": "Fresh cilantro (chopped)",
+        "quantity": "for garnish"
+      }
+    ]
+  },
+  {
+    "id": 29,
+    "name": "Caprese Salad",
+    "instructions": "1. Arrange sliced tomatoes and fresh mozzarella cheese on a serving platter, alternating them. 2. Tuck fresh basil leaves between the tomato and cheese slices. 3. Drizzle extra-virgin olive oil and balsamic glaze over the top. 4. Season with salt and black pepper. 5. Serve immediately as a light and refreshing appetizer or side dish.",
+    "prepTime": "10 minutes",
+    "cookTime": "0 minutes",
+    "totalTime": "10 minutes",
+    "ingredients": [
+      {
+        "ingredientName": "Tomatoes (sliced)",
+        "quantity": "4"
+      },
+      {
+        "ingredientName": "Fresh mozzarella cheese (sliced)",
+        "quantity": "8 ounces"
+      },
+      {
+        "ingredientName": "Fresh basil leaves",
+        "quantity": "a handful"
+      },
+      {
+        "ingredientName": "Extra-virgin olive oil",
+        "quantity": "2 tablespoons"
+      },
+      {
+        "ingredientName": "Balsamic glaze",
+        "quantity": "2 tablespoons"
+      },
+      {
+        "ingredientName": "Salt",
+        "quantity": "1/4 teaspoon"
+      },
+      {
+        "ingredientName": "Black pepper",
+        "quantity": "1/4 teaspoon"
+      }
+    ]
+  },
+  {
+    "id": 30,
+    "name": "Vegetable Lasagna",
+    "instructions": "1. Preheat your oven to 375°F (190°C). 2. In a skillet, sauté sliced mushrooms, diced bell peppers, and spinach until wilted. 3. In a separate bowl, combine ricotta cheese, egg, grated Parmesan cheese, and dried Italian seasoning. 4. Spread a layer of marinara sauce on the bottom of a baking dish. 5. Layer lasagna noodles, ricotta mixture, sautéed vegetables, and shredded mozzarella cheese. Repeat until all ingredients are used. 6. Finish with a layer of marinara sauce and mozzarella cheese on top. 7. Cover with foil and bake for 30 minutes. 8. Remove the foil and bake for an additional 15 minutes or until the lasagna is bubbly and the cheese is golden. 9. Let it rest for a few minutes before serving.",
+    "prepTime": "30 minutes",
+    "cookTime": "45 minutes",
+    "totalTime": "75 minutes",
+    "ingredients": [
+      {
+        "ingredientName": "Lasagna noodles (cooked)",
+        "quantity": "12 sheets"
+      },
+      {
+        "ingredientName": "Mushrooms (sliced)",
+        "quantity": "8 ounces"
+      },
+      {
+        "ingredientName": "Bell peppers (diced)",
+        "quantity": "2"
+      },
+      {
+        "ingredientName": "Spinach (chopped)",
+        "quantity": "2 cups"
+      },
+      {
+        "ingredientName": "Ricotta cheese",
+        "quantity": "2 cups"
+      },
+      {
+        "ingredientName": "Egg",
+        "quantity": "1"
+      },
+      {
+        "ingredientName": "Parmesan cheese (grated)",
+        "quantity": "1/2 cup"
+      },
+      {
+        "ingredientName": "Dried Italian seasoning",
+        "quantity": "1 teaspoon"
+      },
+      {
+        "ingredientName": "Marinara sauce",
+        "quantity": "3 cups"
+      },
+      {
+        "ingredientName": "Shredded mozzarella cheese",
+        "quantity": "2 cups"
+      }
+    ]
+  },
+  {
+    "id": 31,
+    "name": "Caesar Salad",
+    "instructions": "1. In a large salad bowl, toss torn romaine lettuce leaves with Caesar dressing. 2. Sprinkle with grated Parmesan cheese and croutons. 3. Season with freshly ground black pepper. 4. Serve immediately as a classic side salad.",
+    "prepTime": "10 minutes",
+    "cookTime": "0 minutes",
+    "totalTime": "10 minutes",
+    "ingredients": [
+      {
+        "ingredientName": "Romaine lettuce (torn)",
+        "quantity": "1 head"
+      },
+      {
+        "ingredientName": "Caesar dressing",
+        "quantity": "1/2 cup"
+      },
+      {
+        "ingredientName": "Parmesan cheese (grated)",
+        "quantity": "1/4 cup"
+      },
+      {
+        "ingredientName": "Croutons",
+        "quantity": "1/2 cup"
+      },
+      {
+        "ingredientName": "Black pepper (freshly ground)",
+        "quantity": "to taste"
+      }
+    ]
+  },
+  {
+    "id": 32,
+    "name": "Beef Stroganoff",
+    "instructions": "1. In a large skillet, heat oil over medium-high heat. 2. Add thinly sliced beef and cook until browned. Remove from the skillet. 3. In the same skillet, add chopped onions and cook until translucent. 4. Stir in sliced mushrooms and cook until they release their moisture. 5. Return the beef to the skillet and add beef broth, Worcestershire sauce, and sour cream. 6. Simmer until the sauce thickens. 7. Serve hot over cooked egg noodles.",
+    "prepTime": "15 minutes",
+    "cookTime": "20 minutes",
+    "totalTime": "35 minutes",
+    "ingredients": [
+      {
+        "ingredientName": "Beef (thinly sliced)",
+        "quantity": "1 pound"
+      },
+      {
+        "ingredientName": "Oil",
+        "quantity": "2 tablespoons"
+      },
+      {
+        "ingredientName": "Onions (chopped)",
+        "quantity": "1"
+      },
+      {
+        "ingredientName": "Mushrooms (sliced)",
+        "quantity": "8 ounces"
+      },
+      {
+        "ingredientName": "Beef broth",
+        "quantity": "1 cup"
+      },
+      {
+        "ingredientName": "Worcestershire sauce",
+        "quantity": "1 tablespoon"
+      },
+      {
+        "ingredientName": "Sour cream",
+        "quantity": "1/2 cup"
+      },
+      {
+        "ingredientName": "Egg noodles (cooked)",
+        "quantity": "8 ounces"
+      }
+    ]
+  },
+  {
+    "id": 33,
+    "name": "Caesar Wrap",
+    "instructions": "1. Lay a tortilla flat and spread Caesar dressing over it. 2. Place slices of grilled chicken, romaine lettuce leaves, and grated Parmesan cheese on top. 3. Season with freshly ground black pepper. 4. Fold in the sides of the tortilla and roll it up tightly, securing with toothpicks if needed. 5. Serve as a delicious wrap for lunch or dinner.",
+    "prepTime": "10 minutes",
+    "cookTime": "0 minutes",
+    "totalTime": "10 minutes",
+    "ingredients": [
+      {
+        "ingredientName": "Tortillas",
+        "quantity": "4"
+      },
+      {
+        "ingredientName": "Caesar dressing",
+        "quantity": "1/2 cup"
+      },
+      {
+        "ingredientName": "Grilled chicken slices",
+        "quantity": "2 cups"
+      },
+      {
+        "ingredientName": "Romaine lettuce leaves",
+        "quantity": "2 cups"
+      },
+      {
+        "ingredientName": "Parmesan cheese (grated)",
+        "quantity": "1/2 cup"
+      },
+      {
+        "ingredientName": "Black pepper (freshly ground)",
+        "quantity": "to taste"
+      }
+    ]
+  },
+  {
+    "id": 34,
+    "name": "Thai Green Curry",
+    "instructions": "1. In a large pot, heat coconut oil over medium heat. 2. Add green curry paste and cook for a minute until fragrant. 3. Stir in coconut milk and bring to a simmer. 4. Add sliced chicken, bell peppers, and bamboo shoots. 5. Simmer until chicken is cooked through. 6. Season with fish sauce, sugar, and lime juice. 7. Serve hot over cooked jasmine rice.",
+    "prepTime": "15 minutes",
+    "cookTime": "20 minutes",
+    "totalTime": "35 minutes",
+    "ingredients": [
+      {
+        "ingredientName": "Coconut oil",
+        "quantity": "2 tablespoons"
+      },
+      {
+        "ingredientName": "Green curry paste",
+        "quantity": "3 tablespoons"
+      },
+      {
+        "ingredientName": "Coconut milk",
+        "quantity": "14 ounces"
+      },
+      {
+        "ingredientName": "Chicken breast (sliced)",
+        "quantity": "1 pound"
+      },
+      {
+        "ingredientName": "Bell peppers (sliced)",
+        "quantity": "2"
+      },
+      {
+        "ingredientName": "Bamboo shoots (sliced)",
+        "quantity": "1/2 cup"
+      },
+      {
+        "ingredientName": "Fish sauce",
+        "quantity": "2 tablespoons"
+      },
+      {
+        "ingredientName": "Sugar",
+        "quantity": "1 tablespoon"
+      },
+      {
+        "ingredientName": "Lime juice",
+        "quantity": "2 tablespoons"
+      },
+      {
+        "ingredientName": "Jasmine rice (cooked)",
+        "quantity": "for serving"
+      }
+    ]
+  },
+  {
+    "id": 35,
+    "name": "Guacamole",
+    "instructions": "1. In a bowl, mash ripe avocados with a fork until slightly chunky. 2. Stir in diced tomatoes, minced red onion, chopped cilantro, minced jalapeño (optional), and lime juice. 3. Season with salt and pepper. 4. Serve with tortilla chips or as a topping for tacos.",
+    "prepTime": "10 minutes",
+    "cookTime": "0 minutes",
+    "totalTime": "10 minutes",
+    "ingredients": [
+      {
+        "ingredientName": "Ripe avocados",
+        "quantity": "3"
+      },
+      {
+        "ingredientName": "Tomatoes (diced)",
+        "quantity": "2"
+      },
+      {
+        "ingredientName": "Red onion (minced)",
+        "quantity": "1/4 cup"
+      },
+      {
+        "ingredientName": "Cilantro (chopped)",
+        "quantity": "1/4 cup"
+      },
+      {
+        "ingredientName": "Jalapeño (minced, optional)",
+        "quantity": "1"
+      },
+      {
+        "ingredientName": "Lime juice",
+        "quantity": "2 tablespoons"
+      },
+      {
+        "ingredientName": "Salt",
+        "quantity": "1/2 teaspoon"
+      },
+      {
+        "ingredientName": "Black pepper",
+        "quantity": "1/4 teaspoon"
+      }
+    ]
+  },
+  {
+    "id": 36,
+    "name": "Beef Tacos",
+    "instructions": "1. In a skillet, cook ground beef over medium-high heat until browned. Drain excess fat. 2. Stir in taco seasoning and water, simmering until the mixture thickens. 3. Warm taco shells in the oven or microwave. 4. Assemble tacos by placing a spoonful of the beef mixture into each shell. 5. Top with shredded lettuce, diced tomatoes, shredded cheese, and a dollop of sour cream. 6. Serve hot.",
+    "prepTime": "10 minutes",
+    "cookTime": "15 minutes",
+    "totalTime": "25 minutes",
+    "ingredients": [
+      {
+        "ingredientName": "Ground beef",
+        "quantity": "1 pound"
+      },
+      {
+        "ingredientName": "Taco seasoning",
+        "quantity": "1 packet"
+      },
+      {
+        "ingredientName": "Water",
+        "quantity": "1/2 cup"
+      },
+      {
+        "ingredientName": "Taco shells",
+        "quantity": "12"
+      },
+      {
+        "ingredientName": "Shredded lettuce",
+        "quantity": "2 cups"
+      },
+      {
+        "ingredientName": "Tomatoes (diced)",
+        "quantity": "2"
+      },
+      {
+        "ingredientName": "Shredded cheese",
+        "quantity": "1 cup"
+      },
+      {
+        "ingredientName": "Sour cream",
+        "quantity": "for garnish"
+      }
+    ]
+  },
+  {
+    "id": 37,
+    "name": "Ratatouille",
+    "instructions": "1. Preheat your oven to 375°F (190°C). 2. Slice eggplant, zucchini, and tomatoes into thin rounds. 3. Arrange the sliced vegetables in a circular pattern in a baking dish. 4. Drizzle with olive oil, sprinkle with minced garlic, and season with dried herbs. 5. Bake for 45-50 minutes or until the vegetables are tender and slightly crispy. 6. Serve as a side dish or over cooked pasta.",
+    "prepTime": "15 minutes",
+    "cookTime": "45-50 minutes",
+    "totalTime": "60-65 minutes",
+    "ingredients": [
+      {
+        "ingredientName": "Eggplant (sliced)",
+        "quantity": "1"
+      },
+      {
+        "ingredientName": "Zucchini (sliced)",
+        "quantity": "2"
+      },
+      {
+        "ingredientName": "Tomatoes (sliced)",
+        "quantity": "2"
+      },
+      {
+        "ingredientName": "Olive oil",
+        "quantity": "2 tablespoons"
+      },
+      {
+        "ingredientName": "Garlic (minced)",
+        "quantity": "3 cloves"
+      },
+      {
+        "ingredientName": "Dried herbs (e.g., thyme, rosemary)",
+        "quantity": "1 teaspoon"
+      }
+    ]
+  },
+  {
+    "id": 38,
+    "name": "Shrimp Scampi",
+    "instructions": "1. Cook linguine according to package instructions until al dente. 2. In a skillet, melt butter and add minced garlic. 3. Add shrimp and cook until they turn pink. 4. Stir in white wine, lemon juice, and red pepper flakes. 5. Simmer for a few minutes until the sauce thickens slightly. 6. Toss cooked linguine with the shrimp and sauce. 7. Garnish with chopped parsley and grated Parmesan cheese. 8. Serve hot.",
+    "prepTime": "10 minutes",
+    "cookTime": "10 minutes",
+    "totalTime": "20 minutes",
+    "ingredients": [
+      {
+        "ingredientName": "Linguine",
+        "quantity": "8 ounces"
+      },
+      {
+        "ingredientName": "Butter",
+        "quantity": "1/2 cup"
+      },
+      {
+        "ingredientName": "Garlic (minced)",
+        "quantity": "3 cloves"
+      },
+      {
+        "ingredientName": "Large shrimp (peeled and deveined)",
+        "quantity": "1 pound"
+      },
+      {
+        "ingredientName": "White wine",
+        "quantity": "1/4 cup"
+      },
+      {
+        "ingredientName": "Lemon juice",
+        "quantity": "2 tablespoons"
+      },
+      {
+        "ingredientName": "Red pepper flakes",
+        "quantity": "1/4 teaspoon"
+      },
+      {
+        "ingredientName": "Fresh parsley (chopped)",
+        "quantity": "for garnish"
+      },
+      {
+        "ingredientName": "Parmesan cheese (grated)",
+        "quantity": "for garnish"
+      }
+    ]
+  },
+  {
+    "id": 39,
+    "name": "Beef and Mushroom Pie",
+    "instructions": "1. In a skillet, brown ground beef and diced onions. Drain excess fat. 2. Stir in sliced mushrooms and cook until they release their moisture. 3. Sprinkle with flour and cook for a few minutes. 4. Add beef broth and Worcestershire sauce, simmering until the mixture thickens. 5. Transfer the mixture to a pie dish. 6. Roll out pie crust and place it over the filling. Trim excess crust and make slits on top. 7. Bake at 375°F (190°C) for 30-35 minutes or until the crust is golden. 8. Serve hot.",
+    "prepTime": "15 minutes",
+    "cookTime": "35 minutes",
+    "totalTime": "50 minutes",
+    "ingredients": [
+      {
+        "ingredientName": "Ground beef",
+        "quantity": "1 pound"
+      },
+      {
+        "ingredientName": "Onions (diced)",
+        "quantity": "1"
+      },
+      {
+        "ingredientName": "Mushrooms (sliced)",
+        "quantity": "8 ounces"
+      },
+      {
+        "ingredientName": "All-purpose flour",
+        "quantity": "2 tablespoons"
+      },
+      {
+        "ingredientName": "Beef broth",
+        "quantity": "1 cup"
+      },
+      {
+        "ingredientName": "Worcestershire sauce",
+        "quantity": "1 tablespoon"
+      },
+      {
+        "ingredientName": "Pie crust",
+        "quantity": "1 (store-bought or homemade)"
+      }
+    ]
+  },
+  {
+    "id": 40,
+    "name": "Chicken Fajitas",
+    "instructions": "1. In a bowl, mix together sliced chicken, lime juice, and fajita seasoning. Marinate for at least 15 minutes. 2. Heat oil in a skillet over medium-high heat. 3. Add marinated chicken and cook until no longer pink. Remove from the skillet. 4. In the same skillet, sauté sliced bell peppers and onions until tender. 5. Return chicken to the skillet and toss to combine. 6. Serve hot in tortillas with your favorite toppings.",
+    "prepTime": "15 minutes",
+    "cookTime": "15 minutes",
+    "totalTime": "30 minutes",
+    "ingredients": [
+      {
+        "ingredientName": "Chicken breast (sliced)",
+        "quantity": "1 pound"
+      },
+      {
+        "ingredientName": "Lime juice",
+        "quantity": "2 tablespoons"
+      },
+      {
+        "ingredientName": "Fajita seasoning",
+        "quantity": "2 tablespoons"
+      },
+      {
+        "ingredientName": "Oil",
+        "quantity": "2 tablespoons"
+      },
+      {
+        "ingredientName": "Bell peppers (sliced)",
+        "quantity": "2"
+      },
+      {
+        "ingredientName": "Onions (sliced)",
+        "quantity": "1"
+      },
+      {
+        "ingredientName": "Tortillas",
+        "quantity": "8"
+      },
+      {
+        "ingredientName": "Toppings (e.g., sour cream, salsa, guacamole)",
+        "quantity": "as desired"
+      }
+    ]
+  },
+  {
+    "id": 41,
+    "name": "Spinach and Mushroom Quiche",
+    "instructions": "1. Preheat your oven to 375°F (190°C). 2. In a skillet, sauté sliced mushrooms and minced garlic until tender. Add chopped spinach and cook until wilted. 3. In a mixing bowl, whisk together eggs, milk, salt, pepper, and shredded Swiss cheese. 4. Stir the sautéed vegetables into the egg mixture. 5. Pour the mixture into a prepared pie crust. 6. Bake for 35-40 minutes or until the quiche is set and golden. 7. Let it cool for a few minutes before slicing and serving.",
+    "prepTime": "15 minutes",
+    "cookTime": "35-40 minutes",
+    "totalTime": "50-55 minutes",
+    "ingredients": [
+      {
+        "ingredientName": "Mushrooms (sliced)",
+        "quantity": "8 ounces"
+      },
+      {
+        "ingredientName": "Garlic (minced)",
+        "quantity": "2 cloves"
+      },
+      {
+        "ingredientName": "Spinach (chopped)",
+        "quantity": "2 cups"
+      },
+      {
+        "ingredientName": "Eggs",
+        "quantity": "4"
+      },
+      {
+        "ingredientName": "Milk",
+        "quantity": "1 cup"
+      },
+      {
+        "ingredientName": "Salt",
+        "quantity": "1/2 teaspoon"
+      },
+      {
+        "ingredientName": "Black pepper",
+        "quantity": "1/4 teaspoon"
+      },
+      {
+        "ingredientName": "Swiss cheese (shredded)",
+        "quantity": "1 cup"
+      },
+      {
+        "ingredientName": "Pie crust",
+        "quantity": "1 (store-bought or homemade)"
+      }
+    ]
+  },
+  {
+    "id": 42,
+    "name": "Chicken Alfredo Pasta",
+    "instructions": "1. Cook fettuccine pasta according to package instructions until al dente. 2. In a skillet, cook diced chicken in olive oil until browned and cooked through. 3. Stir in minced garlic and cook for another minute. 4. Reduce heat, pour in heavy cream, and add grated Parmesan cheese. Stir until the sauce thickens. 5. Season with salt, black pepper, and chopped parsley. 6. Toss the cooked pasta in the Alfredo sauce. 7. Serve hot.",
+    "prepTime": "15 minutes",
+    "cookTime": "20 minutes",
+    "totalTime": "35 minutes",
+    "ingredients": [
+      {
+        "ingredientName": "Fettuccine pasta",
+        "quantity": "8 ounces"
+      },
+      {
+        "ingredientName": "Chicken breast (diced)",
+        "quantity": "1 pound"
+      },
+      {
+        "ingredientName": "Olive oil",
+        "quantity": "2 tablespoons"
+      },
+      {
+        "ingredientName": "Garlic (minced)",
+        "quantity": "3 cloves"
+      },
+      {
+        "ingredientName": "Heavy cream",
+        "quantity": "1 cup"
+      },
+      {
+        "ingredientName": "Parmesan cheese (grated)",
+        "quantity": "1 cup"
+      },
+      {
+        "ingredientName": "Salt",
+        "quantity": "1/2 teaspoon"
+      },
+      {
+        "ingredientName": "Black pepper",
+        "quantity": "1/4 teaspoon"
+      },
+      {
+        "ingredientName": "Fresh parsley (chopped)",
+        "quantity": "for garnish"
+      }
+    ]
+  },
+  {
+    "id": 43,
+    "name": "Caesar Chicken Salad",
+    "instructions": "1. Season chicken breasts with salt, pepper, and olive oil. Grill or pan-sear until cooked through. 2. Slice grilled chicken into strips. 3. In a large bowl, toss romaine lettuce with Caesar dressing. 4. Add sliced chicken, croutons, and grated Parmesan cheese. 5. Toss everything together. 6. Serve as a hearty and satisfying salad.",
+    "prepTime": "15 minutes",
+    "cookTime": "15 minutes",
+    "totalTime": "30 minutes",
+    "ingredients": [
+      {
+        "ingredientName": "Chicken breasts",
+        "quantity": "2"
+      },
+      {
+        "ingredientName": "Salt",
+        "quantity": "1/2 teaspoon"
+      },
+      {
+        "ingredientName": "Black pepper",
+        "quantity": "1/4 teaspoon"
+      },
+      {
+        "ingredientName": "Olive oil",
+        "quantity": "2 tablespoons"
+      },
+      {
+        "ingredientName": "Romaine lettuce (torn)",
+        "quantity": "1 head"
+      },
+      {
+        "ingredientName": "Caesar dressing",
+        "quantity": "1/2 cup"
+      },
+      {
+        "ingredientName": "Croutons",
+        "quantity": "1/2 cup"
+      },
+      {
+        "ingredientName": "Parmesan cheese (grated)",
+        "quantity": "1/4 cup"
+      }
+    ]
+  },
+  {
+    "id": 44,
+    "name": "Teriyaki Salmon",
+    "instructions": "1. In a bowl, mix together soy sauce, brown sugar, minced garlic, and grated ginger to make the teriyaki sauce. 2. Place salmon fillets in a shallow dish and pour the teriyaki sauce over them. Marinate for at least 15 minutes. 3. Heat a skillet over medium-high heat, add a bit of oil, and cook salmon fillets for 3-4 minutes per side or until they flake easily. 4. Serve hot with steamed rice and steamed broccoli.",
+    "prepTime": "15 minutes",
+    "cookTime": "8-10 minutes",
+    "totalTime": "23-25 minutes",
+    "ingredients": [
+      {
+        "ingredientName": "Salmon fillets",
+        "quantity": "4"
+      },
+      {
+        "ingredientName": "Soy sauce",
+        "quantity": "1/4 cup"
+      },
+      {
+        "ingredientName": "Brown sugar",
+        "quantity": "1/4 cup"
+      },
+      {
+        "ingredientName": "Garlic (minced)",
+        "quantity": "2 cloves"
+      },
+      {
+        "ingredientName": "Ginger (grated)",
+        "quantity": "1 teaspoon"
+      },
+      {
+        "ingredientName": "Oil",
+        "quantity": "1 tablespoon"
+      },
+      {
+        "ingredientName": "Steamed rice",
+        "quantity": "for serving"
+      },
+      {
+        "ingredientName": "Steamed broccoli",
+        "quantity": "for serving"
+      }
+    ]
+  },
+  {
+    "id": 45,
+    "name": "Strawberry Spinach Salad",
+    "instructions": "1. In a large salad bowl, combine baby spinach leaves, sliced strawberries, and chopped pecans. 2. Drizzle balsamic vinaigrette over the salad. 3. Toss to combine. 4. Serve as a refreshing and light salad.",
+    "prepTime": "10 minutes",
+    "cookTime": "0 minutes",
+    "totalTime": "10 minutes",
+    "ingredients": [
+      {
+        "ingredientName": "Baby spinach leaves",
+        "quantity": "6 cups"
+      },
+      {
+        "ingredientName": "Strawberries (sliced)",
+        "quantity": "1 cup"
+      },
+      {
+        "ingredientName": "Pecans (chopped)",
+        "quantity": "1/2 cup"
+      },
+      {
+        "ingredientName": "Balsamic vinaigrette",
+        "quantity": "1/4 cup"
+      }
+    ]
+  },
+  {
+    "id": 46,
+    "name": "Beef and Broccoli Stir-Fry",
+    "instructions": "1. In a bowl, whisk together soy sauce, brown sugar, minced garlic, and cornstarch to make the sauce. 2. Heat oil in a skillet or wok over high heat. 3. Add thinly sliced beef and stir-fry until browned. Remove from the skillet. 4. In the same skillet, add broccoli florets and a bit of water. Cover and steam for a few minutes until the broccoli is tender. 5. Return the beef to the skillet, pour in the sauce, and cook until the sauce thickens. 6. Serve hot over steamed rice.",
+    "prepTime": "15 minutes",
+    "cookTime": "10 minutes",
+    "totalTime": "25 minutes",
+    "ingredients": [
+      {
+        "ingredientName": "Thinly sliced beef",
+        "quantity": "1 pound"
+      },
+      {
+        "ingredientName": "Soy sauce",
+        "quantity": "1/4 cup"
+      },
+      {
+        "ingredientName": "Brown sugar",
+        "quantity": "1/4 cup"
+      },
+      {
+        "ingredientName": "Garlic (minced)",
+        "quantity": "2 cloves"
+      },
+      {
+        "ingredientName": "Cornstarch",
+        "quantity": "1 tablespoon"
+      },
+      {
+        "ingredientName": "Oil",
+        "quantity": "2 tablespoons"
+      },
+      {
+        "ingredientName": "Broccoli florets",
+        "quantity": "2 cups"
+      },
+      {
+        "ingredientName": "Steamed rice",
+        "quantity": "for serving"
+      }
+    ]
+  },
+  {
+    "id": 47,
+    "name": "Chocolate Chip Cookies",
+    "instructions": "1. Preheat your oven to 350°F (175°C). 2. In a mixing bowl, cream together butter, white sugar, and brown sugar until smooth. 3. Beat in eggs one at a time, then stir in vanilla extract. 4. In a separate bowl, combine flour, baking soda, and salt. Gradually add this dry mixture to the wet ingredients. 5. Stir in chocolate chips. 6. Drop dough by rounded tablespoons onto ungreased baking sheets. 7. Bake for 10-12 minutes or until the edges are golden. 8. Let the cookies cool on the baking sheets for a few minutes before transferring to wire racks to cool completely.",
+    "prepTime": "15 minutes",
+    "cookTime": "10-12 minutes",
+    "totalTime": "25-27 minutes",
+    "ingredients": [
+      {
+        "ingredientName": "Butter (softened)",
+        "quantity": "1 cup"
+      },
+      {
+        "ingredientName": "White sugar",
+        "quantity": "3/4 cup"
+      },
+      {
+        "ingredientName": "Brown sugar (packed)",
+        "quantity": "3/4 cup"
+      },
+      {
+        "ingredientName": "Eggs",
+        "quantity": "2"
+      },
+      {
+        "ingredientName": "Vanilla extract",
+        "quantity": "1 teaspoon"
+      },
+      {
+        "ingredientName": "All-purpose flour",
+        "quantity": "2 1/4 cups"
+      },
+      {
+        "ingredientName": "Baking soda",
+        "quantity": "1 teaspoon"
+      },
+      {
+        "ingredientName": "Salt",
+        "quantity": "1/2 teaspoon"
+      },
+      {
+        "ingredientName": "Chocolate chips",
+        "quantity": "2 cups"
+      }
+    ]
+  },
+  {
+    "id": 48,
+    "name": "Chicken Enchiladas",
+    "instructions": "1. Preheat your oven to 350°F (175°C). 2. In a skillet, cook diced chicken until no longer pink. Stir in minced garlic, diced onions, and diced bell peppers. Cook until the vegetables are tender. 3. Add cumin, chili powder, and tomato sauce. Simmer for a few minutes. 4. Spoon the chicken mixture into tortillas, roll them up, and place them seam-side down in a baking dish. 5. Pour enchilada sauce over the top and sprinkle with shredded cheese. 6. Bake for 20-25 minutes or until the cheese is bubbly and golden. 7. Serve hot with sour cream and chopped cilantro.",
+    "prepTime": "20 minutes",
+    "cookTime": "30 minutes",
+    "totalTime": "50 minutes",
+    "ingredients": [
+      {
+        "ingredientName": "Chicken breast (diced)",
+        "quantity": "1 pound"
+      },
+      {
+        "ingredientName": "Garlic (minced)",
+        "quantity": "2 cloves"
+      },
+      {
+        "ingredientName": "Onions (diced)",
+        "quantity": "1"
+      },
+      {
+        "ingredientName": "Bell peppers (diced)",
+        "quantity": "2"
+      },
+      {
+        "ingredientName": "Cumin",
+        "quantity": "1 teaspoon"
+      },
+      {
+        "ingredientName": "Chili powder",
+        "quantity": "1 teaspoon"
+      },
+      {
+        "ingredientName": "Tomato sauce",
+        "quantity": "1 cup"
+      },
+      {
+        "ingredientName": "Tortillas",
+        "quantity": "8"
+      },
+      {
+        "ingredientName": "Enchilada sauce",
+        "quantity": "2 cups"
+      },
+      {
+        "ingredientName": "Shredded cheese",
+        "quantity": "2 cups"
+      },
+      {
+        "ingredientName": "Sour cream",
+        "quantity": "for serving"
+      },
+      {
+        "ingredientName": "Fresh cilantro (chopped)",
+        "quantity": "for garnish"
+      }
+    ]
+  },
+  {
+    "id": 49,
+    "name": "Tiramisu",
+    "instructions": "1. In a mixing bowl, beat together mascarpone cheese and sugar until smooth. 2. In a separate bowl, whip heavy cream until stiff peaks form. 3. Gently fold the whipped cream into the mascarpone mixture. 4. In a shallow dish, combine brewed coffee and coffee liqueur. 5. Quickly dip ladyfinger cookies into the coffee mixture and layer them in a serving dish. 6. Spread half of the mascarpone mixture over the ladyfingers. 7. Repeat with another layer of dipped ladyfingers and the remaining mascarpone mixture. 8. Dust the top with cocoa powder. 9. Refrigerate for a few hours before serving.",
+    "prepTime": "30 minutes",
+    "cookTime": "0 minutes",
+    "totalTime": "2-3 hours (chilling time)",
+    "ingredients": [
+      {
+        "ingredientName": "Mascarpone cheese",
+        "quantity": "8 ounces"
+      },
+      {
+        "ingredientName": "Sugar",
+        "quantity": "1/2 cup"
+      },
+      {
+        "ingredientName": "Heavy cream",
+        "quantity": "1 cup"
+      },
+      {
+        "ingredientName": "Brewed coffee",
+        "quantity": "1 cup"
+      },
+      {
+        "ingredientName": "Coffee liqueur",
+        "quantity": "2 tablespoons"
+      },
+      {
+        "ingredientName": "Ladyfinger cookies",
+        "quantity": "24"
+      },
+      {
+        "ingredientName": "Cocoa powder",
+        "quantity": "for dusting"
+      }
+    ]
+  },
+  {
+    "id": 50,
+    "name": "Caprese Salad",
+    "instructions": "1. Arrange tomato slices and fresh mozzarella cheese slices on a serving platter. 2. Tuck fresh basil leaves between the tomato and mozzarella slices. 3. Drizzle extra-virgin olive oil and balsamic vinegar over the salad. 4. Season with salt and black pepper to taste. 5. Serve as a refreshing and simple salad.",
+    "prepTime": "10 minutes",
+    "cookTime": "0 minutes",
+    "totalTime": "10 minutes",
+    "ingredients": [
+      {
+        "ingredientName": "Tomatoes (sliced)",
+        "quantity": "4"
+      },
+      {
+        "ingredientName": "Fresh mozzarella cheese (sliced)",
+        "quantity": "8 ounces"
+      },
+      {
+        "ingredientName": "Fresh basil leaves",
+        "quantity": "1/2 cup"
+      },
+      {
+        "ingredientName": "Extra-virgin olive oil",
+        "quantity": "2 tablespoons"
+      },
+      {
+        "ingredientName": "Balsamic vinegar",
+        "quantity": "2 tablespoons"
+      },
+      {
+        "ingredientName": "Salt",
+        "quantity": "to taste"
+      },
+      {
+        "ingredientName": "Black pepper",
+        "quantity": "to taste"
+      }
+    ]
+  },
+  {
+    "id": 51,
+    "name": "Chicken Noodle Soup",
+    "instructions": "1. In a large pot, heat olive oil over medium heat. 2. Add diced onions, carrots, and celery. Sauté until tender. 3. Add chicken broth, diced cooked chicken, and egg noodles. 4. Simmer until the noodles are tender. 5. Season with salt, black pepper, and fresh parsley. 6. Serve hot for a comforting bowl of chicken noodle soup.",
+    "prepTime": "15 minutes",
+    "cookTime": "20 minutes",
+    "totalTime": "35 minutes",
+    "ingredients": [
+      {
+        "ingredientName": "Olive oil",
+        "quantity": "2 tablespoons"
+      },
+      {
+        "ingredientName": "Onions (diced)",
+        "quantity": "1"
+      },
+      {
+        "ingredientName": "Carrots (diced)",
+        "quantity": "2"
+      },
+      {
+        "ingredientName": "Celery (diced)",
+        "quantity": "2 stalks"
+      },
+      {
+        "ingredientName": "Chicken broth",
+        "quantity": "6 cups"
+      },
+      {
+        "ingredientName": "Cooked chicken (diced)",
+        "quantity": "2 cups"
+      },
+      {
+        "ingredientName": "Egg noodles",
+        "quantity": "8 ounces"
+      },
+      {
+        "ingredientName": "Salt",
+        "quantity": "to taste"
+      },
+      {
+        "ingredientName": "Black pepper",
+        "quantity": "to taste"
+      },
+      {
+        "ingredientName": "Fresh parsley (chopped)",
+        "quantity": "for garnish"
+      }
+    ]
+  },
+  {
+    "id": 52,
+    "name": "Spinach and Artichoke Dip",
+    "instructions": "1. In a mixing bowl, combine cream cheese, mayonnaise, grated Parmesan cheese, minced garlic, chopped spinach, and chopped artichoke hearts. 2. Transfer the mixture to a baking dish. 3. Bake at 350°F (175°C) for 25-30 minutes or until bubbly and golden. 4. Serve with tortilla chips, crackers, or sliced baguette.",
+    "prepTime": "10 minutes",
+    "cookTime": "25-30 minutes",
+    "totalTime": "35-40 minutes",
+    "ingredients": [
+      {
+        "ingredientName": "Cream cheese (softened)",
+        "quantity": "8 ounces"
+      },
+      {
+        "ingredientName": "Mayonnaise",
+        "quantity": "1/2 cup"
+      },
+      {
+        "ingredientName": "Parmesan cheese (grated)",
+        "quantity": "1/2 cup"
+      },
+      {
+        "ingredientName": "Garlic (minced)",
+        "quantity": "2 cloves"
+      },
+      {
+        "ingredientName": "Chopped spinach (frozen, thawed, and drained)",
+        "quantity": "10 ounces"
+      },
+      {
+        "ingredientName": "Chopped artichoke hearts (canned, drained)",
+        "quantity": "14 ounces"
+      },
+      {
+        "ingredientName": "Tortilla chips, crackers, or sliced baguette",
+        "quantity": "for serving"
+      }
+    ]
+  },
+  {
+    "id": 53,
+    "name": "Beef Stroganoff",
+    "instructions": "1. In a skillet, cook thinly sliced beef strips in butter until browned. Remove from the skillet. 2. In the same skillet, sauté diced onions and sliced mushrooms until tender. 3. Stir in flour and cook for a minute. 4. Add beef broth, Dijon mustard, and Worcestershire sauce. Simmer until the sauce thickens. 5. Return the beef to the skillet. 6. Stir in sour cream and season with salt and black pepper. 7. Serve hot over cooked egg noodles.",
+    "prepTime": "15 minutes",
+    "cookTime": "20 minutes",
+    "totalTime": "35 minutes",
+    "ingredients": [
+      {
+        "ingredientName": "Thinly sliced beef strips",
+        "quantity": "1 pound"
+      },
+      {
+        "ingredientName": "Butter",
+        "quantity": "2 tablespoons"
+      },
+      {
+        "ingredientName": "Onions (diced)",
+        "quantity": "1"
+      },
+      {
+        "ingredientName": "Mushrooms (sliced)",
+        "quantity": "8 ounces"
+      },
+      {
+        "ingredientName": "All-purpose flour",
+        "quantity": "2 tablespoons"
+      },
+      {
+        "ingredientName": "Beef broth",
+        "quantity": "1 cup"
+      },
+      {
+        "ingredientName": "Dijon mustard",
+        "quantity": "1 tablespoon"
+      },
+      {
+        "ingredientName": "Worcestershire sauce",
+        "quantity": "1 tablespoon"
+      },
+      {
+        "ingredientName": "Sour cream",
+        "quantity": "1/2 cup"
+      },
+      {
+        "ingredientName": "Salt",
+        "quantity": "to taste"
+      },
+      {
+        "ingredientName": "Black pepper",
+        "quantity": "to taste"
+      },
+      {
+        "ingredientName": "Egg noodles (cooked)",
+        "quantity": "for serving"
+      }
+    ]
+  },
+  {
+    "id": 54,
+    "name": "Vegetable Stir-Fry",
+    "instructions": "1. In a wok or large skillet, heat oil over high heat. 2. Add sliced bell peppers, broccoli florets, sliced carrots, and snap peas. Stir-fry for a few minutes until the vegetables are tender-crisp. 3. In a small bowl, mix together soy sauce, honey, minced garlic, and ginger. 4. Pour the sauce over the vegetables and stir-fry for another minute. 5. Serve hot over cooked rice or noodles.",
+    "prepTime": "15 minutes",
+    "cookTime": "10 minutes",
+    "totalTime": "25 minutes",
+    "ingredients": [
+      {
+        "ingredientName": "Oil",
+        "quantity": "2 tablespoons"
+      },
+      {
+        "ingredientName": "Bell peppers (sliced)",
+        "quantity": "2"
+      },
+      {
+        "ingredientName": "Broccoli florets",
+        "quantity": "2 cups"
+      },
+      {
+        "ingredientName": "Carrots (sliced)",
+        "quantity": "2"
+      },
+      {
+        "ingredientName": "Snap peas",
+        "quantity": "1 cup"
+      },
+      {
+        "ingredientName": "Soy sauce",
+        "quantity": "1/4 cup"
+      },
+      {
+        "ingredientName": "Honey",
+        "quantity": "2 tablespoons"
+      },
+      {
+        "ingredientName": "Garlic (minced)",
+        "quantity": "2 cloves"
+      },
+      {
+        "ingredientName": "Ginger (grated)",
+        "quantity": "1 teaspoon"
+      },
+      {
+        "ingredientName": "Cooked rice or noodles",
+        "quantity": "for serving"
+      }
+    ]
+  },
+  {
+    "id": 55,
+    "name": "Blueberry Pancakes",
+    "instructions": "1. In a mixing bowl, combine flour, sugar, baking powder, and salt. 2. In another bowl, whisk together eggs, milk, and melted butter. 3. Pour the wet ingredients into the dry ingredients and stir until just combined. 4. Gently fold in fresh blueberries. 5. Heat a griddle or skillet over medium-high heat and grease with a bit of butter. 6. Pour 1/4 cup portions of batter onto the griddle. 7. Cook until bubbles form on the surface, then flip and cook until golden. 8. Serve hot with maple syrup.",
+    "prepTime": "10 minutes",
+    "cookTime": "10 minutes",
+    "totalTime": "20 minutes",
+    "ingredients": [
+      {
+        "ingredientName": "All-purpose flour",
+        "quantity": "1 1/2 cups"
+      },
+      {
+        "ingredientName": "Sugar",
+        "quantity": "2 tablespoons"
+      },
+      {
+        "ingredientName": "Baking powder",
+        "quantity": "2 teaspoons"
+      },
+      {
+        "ingredientName": "Salt",
+        "quantity": "1/2 teaspoon"
+      },
+      {
+        "ingredientName": "Eggs",
+        "quantity": "2"
+      },
+      {
+        "ingredientName": "Milk",
+        "quantity": "1 1/4 cups"
+      },
+      {
+        "ingredientName": "Butter (melted)",
+        "quantity": "1/4 cup"
+      },
+      {
+        "ingredientName": "Fresh blueberries",
+        "quantity": "1 cup"
+      },
+      {
+        "ingredientName": "Butter (for greasing)",
+        "quantity": "for cooking"
+      },
+      {
+        "ingredientName": "Maple syrup",
+        "quantity": "for serving"
+      }
+    ]
+  },
+  {
+    "id": 56,
+    "name": "Beef Tacos",
+    "instructions": "1. In a skillet, cook ground beef over medium-high heat until browned. Drain excess fat. 2. Stir in taco seasoning and water. Simmer until the mixture thickens. 3. Warm taco shells in the oven or microwave. 4. Fill each taco shell with seasoned beef, shredded lettuce, diced tomatoes, shredded cheese, and sour cream. 5. Serve with salsa and guacamole.",
+    "prepTime": "10 minutes",
+    "cookTime": "15 minutes",
+    "totalTime": "25 minutes",
+    "ingredients": [
+      {
+        "ingredientName": "Ground beef",
+        "quantity": "1 pound"
+      },
+      {
+        "ingredientName": "Taco seasoning",
+        "quantity": "1 packet"
+      },
+      {
+        "ingredientName": "Water",
+        "quantity": "1/4 cup"
+      },
+      {
+        "ingredientName": "Taco shells",
+        "quantity": "8"
+      },
+      {
+        "ingredientName": "Shredded lettuce",
+        "quantity": "2 cups"
+      },
+      {
+        "ingredientName": "Tomatoes (diced)",
+        "quantity": "2"
+      },
+      {
+        "ingredientName": "Shredded cheese",
+        "quantity": "1 cup"
+      },
+      {
+        "ingredientName": "Sour cream",
+        "quantity": "1/2 cup"
+      },
+      {
+        "ingredientName": "Salsa",
+        "quantity": "for serving"
+      },
+      {
+        "ingredientName": "Guacamole",
+        "quantity": "for serving"
+      }
+    ]
+  },
+  {
+    "id": 57,
+    "name": "Caesar Salad Dressing",
+    "instructions": "1. In a blender or food processor, combine mayonnaise, anchovy paste, minced garlic, Dijon mustard, lemon juice, Worcestershire sauce, and grated Parmesan cheese. 2. Blend until smooth. 3. Season with salt and black pepper to taste. 4. Store in the refrigerator until ready to use. 5. Drizzle over romaine lettuce and croutons for a classic Caesar salad.",
+    "prepTime": "5 minutes",
+    "cookTime": "0 minutes",
+    "totalTime": "5 minutes",
+    "ingredients": [
+      {
+        "ingredientName": "Mayonnaise",
+        "quantity": "1/2 cup"
+      },
+      {
+        "ingredientName": "Anchovy paste",
+        "quantity": "1 tablespoon"
+      },
+      {
+        "ingredientName": "Garlic (minced)",
+        "quantity": "2 cloves"
+      },
+      {
+        "ingredientName": "Dijon mustard",
+        "quantity": "1 teaspoon"
+      },
+      {
+        "ingredientName": "Lemon juice",
+        "quantity": "1 tablespoon"
+      },
+      {
+        "ingredientName": "Worcestershire sauce",
+        "quantity": "1 teaspoon"
+      },
+      {
+        "ingredientName": "Parmesan cheese (grated)",
+        "quantity": "1/4 cup"
+      },
+      {
+        "ingredientName": "Salt",
+        "quantity": "to taste"
+      },
+      {
+        "ingredientName": "Black pepper",
+        "quantity": "to taste"
+      }
+    ]
+  },
+  {
+    "id": 58,
+    "name": "Grilled Vegetable Skewers",
+    "instructions": "1. Preheat the grill to medium-high heat. 2. In a bowl, toss together bell peppers, zucchini, cherry tomatoes, red onion, and mushrooms with olive oil, garlic, and your choice of herbs and spices. 3. Thread the marinated vegetables onto skewers. 4. Grill for about 10-12 minutes, turning occasionally, until the vegetables are charred and tender. 5. Serve hot as a flavorful side dish.",
+    "prepTime": "15 minutes",
+    "cookTime": "10-12 minutes",
+    "totalTime": "25-27 minutes",
+    "ingredients": [
+      {
+        "ingredientName": "Bell peppers (cut into chunks)",
+        "quantity": "2"
+      },
+      {
+        "ingredientName": "Zucchini (sliced)",
+        "quantity": "2"
+      },
+      {
+        "ingredientName": "Cherry tomatoes",
+        "quantity": "1 cup"
+      },
+      {
+        "ingredientName": "Red onion (cut into chunks)",
+        "quantity": "1"
+      },
+      {
+        "ingredientName": "Mushrooms",
+        "quantity": "8 ounces"
+      },
+      {
+        "ingredientName": "Olive oil",
+        "quantity": "2 tablespoons"
+      },
+      {
+        "ingredientName": "Garlic (minced)",
+        "quantity": "2 cloves"
+      },
+      {
+        "ingredientName": "Herbs and spices (e.g., rosemary, thyme, paprika)",
+        "quantity": "to taste"
+      },
+      {
+        "ingredientName": "Skewers",
+        "quantity": "for threading"
+      }
+    ]
+  },
+  {
+    "id": 59,
+    "name": "Ratatouille",
+    "instructions": "1. Preheat the oven to 375°F (190°C). 2. In a baking dish, layer thinly sliced zucchini, yellow squash, eggplant, and tomato. 3. Drizzle olive oil over the vegetables and sprinkle with minced garlic and fresh thyme. 4. Season with salt and black pepper. 5. Cover with foil and bake for 30 minutes. 6. Remove the foil and bake for an additional 15-20 minutes until the vegetables are tender. 7. Serve as a delicious side dish.",
+    "prepTime": "15 minutes",
+    "cookTime": "45-50 minutes",
+    "totalTime": "60-65 minutes",
+    "ingredients": [
+      {
+        "ingredientName": "Zucchini (sliced)",
+        "quantity": "2"
+      },
+      {
+        "ingredientName": "Yellow squash (sliced)",
+        "quantity": "2"
+      },
+      {
+        "ingredientName": "Eggplant (sliced)",
+        "quantity": "1"
+      },
+      {
+        "ingredientName": "Tomato (sliced)",
+        "quantity": "2"
+      },
+      {
+        "ingredientName": "Olive oil",
+        "quantity": "2 tablespoons"
+      },
+      {
+        "ingredientName": "Garlic (minced)",
+        "quantity": "2 cloves"
+      },
+      {
+        "ingredientName": "Fresh thyme leaves",
+        "quantity": "1 tablespoon"
+      },
+      {
+        "ingredientName": "Salt",
+        "quantity": "to taste"
+      },
+      {
+        "ingredientName": "Black pepper",
+        "quantity": "to taste"
+      }
+    ]
+  },
+  {
+    "id": 60,
+    "name": "Quinoa Salad with Chickpeas",
+    "instructions": "1. Rinse quinoa under cold water and cook according to package instructions. Let it cool. 2. In a large bowl, combine cooked quinoa, chickpeas, diced cucumbers, cherry tomatoes, red onion, and fresh parsley. 3. In a separate small bowl, whisk together olive oil, lemon juice, garlic, and salt and pepper to taste. 4. Drizzle the dressing over the salad and toss to combine. 5. Serve chilled as a healthy and refreshing salad.",
+    "prepTime": "15 minutes",
+    "cookTime": "15 minutes",
+    "totalTime": "30 minutes",
+    "ingredients": [
+      {
+        "ingredientName": "Quinoa",
+        "quantity": "1 cup"
+      },
+      {
+        "ingredientName": "Chickpeas (canned, drained)",
+        "quantity": "1 can"
+      },
+      {
+        "ingredientName": "Cucumbers (diced)",
+        "quantity": "2"
+      },
+      {
+        "ingredientName": "Cherry tomatoes (halved)",
+        "quantity": "1 cup"
+      },
+      {
+        "ingredientName": "Red onion (diced)",
+        "quantity": "1/2"
+      },
+      {
+        "ingredientName": "Fresh parsley (chopped)",
+        "quantity": "1/4 cup"
+      },
+      {
+        "ingredientName": "Olive oil",
+        "quantity": "1/4 cup"
+      },
+      {
+        "ingredientName": "Lemon juice",
+        "quantity": "2 tablespoons"
+      },
+      {
+        "ingredientName": "Garlic (minced)",
+        "quantity": "2 cloves"
+      },
+      {
+        "ingredientName": "Salt",
+        "quantity": "to taste"
+      },
+      {
+        "ingredientName": "Black pepper",
+        "quantity": "to taste"
+      }
+    ]
+  },
+  {
+    "id": 61,
+    "name": "Baked Salmon with Lemon-Dill Sauce",
+    "instructions": "1. Preheat your oven to 375°F (190°C). 2. Season salmon fillets with salt, black pepper, and a drizzle of olive oil. 3. Bake in the preheated oven for 15-20 minutes or until the salmon flakes easily with a fork. 4. In a small bowl, whisk together mayonnaise, lemon juice, minced garlic, and fresh dill. 5. Drizzle the lemon-dill sauce over the baked salmon fillets. 6. Serve hot with your choice of sides.",
+    "prepTime": "10 minutes",
+    "cookTime": "15-20 minutes",
+    "totalTime": "25-30 minutes",
+    "ingredients": [
+      {
+        "ingredientName": "Salmon fillets",
+        "quantity": "4"
+      },
+      {
+        "ingredientName": "Salt",
+        "quantity": "to taste"
+      },
+      {
+        "ingredientName": "Black pepper",
+        "quantity": "to taste"
+      },
+      {
+        "ingredientName": "Olive oil",
+        "quantity": "for drizzling"
+      },
+      {
+        "ingredientName": "Mayonnaise",
+        "quantity": "1/4 cup"
+      },
+      {
+        "ingredientName": "Lemon juice",
+        "quantity": "2 tablespoons"
+      },
+      {
+        "ingredientName": "Garlic (minced)",
+        "quantity": "1 clove"
+      },
+      {
+        "ingredientName": "Fresh dill (chopped)",
+        "quantity": "1 tablespoon"
+      }
+    ]
+  },
+  {
+    "id": 62,
+    "name": "Shrimp Scampi",
+    "instructions": "1. Cook linguine pasta according to package instructions. Drain and set aside. 2. In a large skillet, melt butter over medium-high heat. Add minced garlic and sauté for a minute. 3. Add shrimp to the skillet and cook until they turn pink, about 2-3 minutes per side. 4. Stir in white wine, lemon juice, and chopped parsley. 5. Season with salt and black pepper. 6. Serve the shrimp and sauce over cooked linguine.",
+    "prepTime": "10 minutes",
+    "cookTime": "10 minutes",
+    "totalTime": "20 minutes",
+    "ingredients": [
+      {
+        "ingredientName": "Linguine pasta",
+        "quantity": "8 ounces"
+      },
+      {
+        "ingredientName": "Butter",
+        "quantity": "4 tablespoons"
+      },
+      {
+        "ingredientName": "Garlic (minced)",
+        "quantity": "4 cloves"
+      },
+      {
+        "ingredientName": "Large shrimp (peeled and deveined)",
+        "quantity": "1 pound"
+      },
+      {
+        "ingredientName": "White wine",
+        "quantity": "1/4 cup"
+      },
+      {
+        "ingredientName": "Lemon juice",
+        "quantity": "2 tablespoons"
+      },
+      {
+        "ingredientName": "Fresh parsley (chopped)",
+        "quantity": "2 tablespoons"
+      },
+      {
+        "ingredientName": "Salt",
+        "quantity": "to taste"
+      },
+      {
+        "ingredientName": "Black pepper",
+        "quantity": "to taste"
+      }
+    ]
+  },
+  {
+    "id": 63,
+    "name": "Butternut Squash Soup",
+    "instructions": "1. Preheat your oven to 375°F (190°C). 2. Cut a butternut squash in half lengthwise and remove the seeds. 3. Place the squash halves on a baking sheet, drizzle with olive oil, and roast for 45 minutes or until tender. 4. Scoop out the flesh. 5. In a large pot, sauté diced onions in butter until translucent. 6. Add the roasted squash, chicken broth, and a pinch of nutmeg. 7. Simmer for 10-15 minutes. 8. Use an immersion blender to puree the soup until smooth. 9. Serve hot with a dollop of sour cream.",
+    "prepTime": "15 minutes",
+    "cookTime": "60 minutes",
+    "totalTime": "75 minutes",
+    "ingredients": [
+      {
+        "ingredientName": "Butternut squash",
+        "quantity": "1"
+      },
+      {
+        "ingredientName": "Olive oil",
+        "quantity": "2 tablespoons"
+      },
+      {
+        "ingredientName": "Butter",
+        "quantity": "2 tablespoons"
+      },
+      {
+        "ingredientName": "Onions (diced)",
+        "quantity": "1"
+      },
+      {
+        "ingredientName": "Chicken broth",
+        "quantity": "4 cups"
+      },
+      {
+        "ingredientName": "Pinch of nutmeg",
+        "quantity": "to taste"
+      },
+      {
+        "ingredientName": "Sour cream",
+        "quantity": "for garnish"
+      }
+    ]
+  },
+  {
+    "id": 64,
+    "name": "Veggie Omelette",
+    "instructions": "1. In a bowl, whisk together eggs, salt, and black pepper. 2. Heat a non-stick skillet over medium heat and add a pat of butter. 3. Pour the whisked eggs into the skillet and let them cook undisturbed for a minute. 4. Add diced bell peppers, diced onions, sliced mushrooms, and shredded cheese to one half of the omelette. 5. Fold the other half over the fillings and cook until the cheese melts and the omelette is golden brown. 6. Slide it onto a plate and serve hot.",
+    "prepTime": "10 minutes",
+    "cookTime": "5 minutes",
+    "totalTime": "15 minutes",
+    "ingredients": [
+      {
+        "ingredientName": "Eggs",
+        "quantity": "3"
+      },
+      {
+        "ingredientName": "Salt",
+        "quantity": "1/4 teaspoon"
+      },
+      {
+        "ingredientName": "Black pepper",
+        "quantity": "1/8 teaspoon"
+      },
+      {
+        "ingredientName": "Butter",
+        "quantity": "1 tablespoon"
+      },
+      {
+        "ingredientName": "Bell peppers (diced)",
+        "quantity": "1/4 cup"
+      },
+      {
+        "ingredientName": "Onions (diced)",
+        "quantity": "1/4 cup"
+      },
+      {
+        "ingredientName": "Mushrooms (sliced)",
+        "quantity": "1/4 cup"
+      },
+      {
+        "ingredientName": "Shredded cheese",
+        "quantity": "1/4 cup"
+      }
+    ]
+  },
+  {
+    "id": 65,
+    "name": "Chicken and Rice Casserole",
+    "instructions": "1. Preheat your oven to 350°F (175°C). 2. In a baking dish, combine cooked rice, diced cooked chicken, frozen peas, diced carrots, and cream of chicken soup. 3. Mix in garlic powder, onion powder, salt, and black pepper. 4. Top with shredded cheddar cheese. 5. Bake for 30 minutes or until the casserole is bubbly and the cheese is golden. 6. Serve hot.",
+    "prepTime": "15 minutes",
+    "cookTime": "30 minutes",
+    "totalTime": "45 minutes",
+    "ingredients": [
+      {
+        "ingredientName": "Cooked rice",
+        "quantity": "2 cups"
+      },
+      {
+        "ingredientName": "Cooked chicken (diced)",
+        "quantity": "2 cups"
+      },
+      {
+        "ingredientName": "Frozen peas",
+        "quantity": "1 cup"
+      },
+      {
+        "ingredientName": "Diced carrots",
+        "quantity": "1 cup"
+      },
+      {
+        "ingredientName": "Cream of chicken soup",
+        "quantity": "1 can"
+      },
+      {
+        "ingredientName": "Garlic powder",
+        "quantity": "1/2 teaspoon"
+      },
+      {
+        "ingredientName": "Onion powder",
+        "quantity": "1/2 teaspoon"
+      },
+      {
+        "ingredientName": "Salt",
+        "quantity": "1/2 teaspoon"
+      },
+      {
+        "ingredientName": "Black pepper",
+        "quantity": "1/4 teaspoon"
+      },
+      {
+        "ingredientName": "Shredded cheddar cheese",
+        "quantity": "1 cup"
+      }
+    ]
+  },
+  {
+    "id": 66,
+    "name": "Tofu and Vegetable Stir-Fry",
+    "instructions": "1. Cut tofu into cubes and press to remove excess moisture. 2. In a wok or large skillet, heat oil over high heat. 3. Add tofu cubes and stir-fry until golden brown. Remove from the skillet and set aside. 4. In the same skillet, add sliced bell peppers, broccoli florets, sliced carrots, and snap peas. Stir-fry until the vegetables are tender-crisp. 5. In a small bowl, mix together soy sauce, ginger, and garlic. 6. Return the tofu to the skillet, pour the sauce over the tofu and vegetables, and stir-fry for another minute. 7. Serve hot over cooked rice.",
+    "prepTime": "20 minutes",
+    "cookTime": "15 minutes",
+    "totalTime": "35 minutes",
+    "ingredients": [
+      {
+        "ingredientName": "Tofu (extra-firm)",
+        "quantity": "14 ounces"
+      },
+      {
+        "ingredientName": "Oil",
+        "quantity": "2 tablespoons"
+      },
+      {
+        "ingredientName": "Bell peppers (sliced)",
+        "quantity": "2"
+      },
+      {
+        "ingredientName": "Broccoli florets",
+        "quantity": "2 cups"
+      },
+      {
+        "ingredientName": "Carrots (sliced)",
+        "quantity": "2"
+      },
+      {
+        "ingredientName": "Snap peas",
+        "quantity": "1 cup"
+      },
+      {
+        "ingredientName": "Soy sauce",
+        "quantity": "1/4 cup"
+      },
+      {
+        "ingredientName": "Ginger (minced)",
+        "quantity": "1 teaspoon"
+      },
+      {
+        "ingredientName": "Garlic (minced)",
+        "quantity": "2 cloves"
+      },
+      {
+        "ingredientName": "Cooked rice",
+        "quantity": "for serving"
+      }
+    ]
+  },
+  {
+    "id": 67,
+    "name": "Classic Meatloaf",
+    "instructions": "1. Preheat your oven to 350°F (175°C). 2. In a large bowl, combine ground beef, breadcrumbs, diced onions, minced garlic, beaten eggs, ketchup, Worcestershire sauce, salt, and black pepper. Mix well. 3. Shape the mixture into a loaf and place it in a baking dish. 4. In a small bowl, mix together ketchup, brown sugar, and mustard. Spread this mixture over the meatloaf. 5. Bake for 1 hour or until the meatloaf is cooked through. 6. Let it rest for a few minutes before slicing. 7. Serve with your favorite sides.",
+    "prepTime": "15 minutes",
+    "cookTime": "60 minutes",
+    "totalTime": "75 minutes",
+    "ingredients": [
+      {
+        "ingredientName": "Ground beef",
+        "quantity": "1 1/2 pounds"
+      },
+      {
+        "ingredientName": "Breadcrumbs",
+        "quantity": "1/2 cup"
+      },
+      {
+        "ingredientName": "Onions (diced)",
+        "quantity": "1/2"
+      },
+      {
+        "ingredientName": "Garlic (minced)",
+        "quantity": "2 cloves"
+      },
+      {
+        "ingredientName": "Eggs (beaten)",
+        "quantity": "2"
+      },
+      {
+        "ingredientName": "Ketchup",
+        "quantity": "1/2 cup"
+      },
+      {
+        "ingredientName": "Worcestershire sauce",
+        "quantity": "1 tablespoon"
+      },
+      {
+        "ingredientName": "Salt",
+        "quantity": "1/2 teaspoon"
+      },
+      {
+        "ingredientName": "Black pepper",
+        "quantity": "1/4 teaspoon"
+      },
+      {
+        "ingredientName": "Brown sugar",
+        "quantity": "2 tablespoons"
+      },
+      {
+        "ingredientName": "Mustard",
+        "quantity": "1 tablespoon"
+      }
+    ]
+  },
+  {
+    "id": 68,
+    "name": "Spinach and Feta Stuffed Chicken Breasts",
+    "instructions": "1. Preheat your oven to 375°F (190°C). 2. In a mixing bowl, combine chopped spinach, crumbled feta cheese, minced garlic, and a pinch of salt and black pepper. 3. Cut a pocket into each chicken breast and stuff with the spinach and feta mixture. 4. Heat olive oil in an oven-safe skillet over medium-high heat. 5. Sear the chicken breasts until golden on both sides. 6. Transfer the skillet to the preheated oven and bake for 20-25 minutes or until the chicken is cooked through. 7. Serve hot.",
+    "prepTime": "15 minutes",
+    "cookTime": "30 minutes",
+    "totalTime": "45 minutes",
+    "ingredients": [
+      {
+        "ingredientName": "Chicken breasts (boneless and skinless)",
+        "quantity": "4"
+      },
+      {
+        "ingredientName": "Chopped spinach (frozen, thawed, and drained)",
+        "quantity": "1 cup"
+      },
+      {
+        "ingredientName": "Feta cheese (crumbled)",
+        "quantity": "1/2 cup"
+      },
+      {
+        "ingredientName": "Garlic (minced)",
+        "quantity": "2 cloves"
+      },
+      {
+        "ingredientName": "Salt",
+        "quantity": "to taste"
+      },
+      {
+        "ingredientName": "Black pepper",
+        "quantity": "to taste"
+      },
+      {
+        "ingredientName": "Olive oil",
+        "quantity": "2 tablespoons"
+      }
+    ]
+  },
+  {
+    "id": 69,
+    "name": "Vegetable Curry",
+    "instructions": "1. Heat oil in a large pot over medium heat. 2. Add diced onions and sauté until translucent. 3. Stir in curry paste, minced ginger, and minced garlic. Cook for a minute. 4. Add diced sweet potatoes, cauliflower florets, and diced bell peppers. Cook for a few minutes. 5. Pour in coconut milk, vegetable broth, and add chickpeas. 6. Simmer until the vegetables are tender. 7. Season with salt, black pepper, and lime juice. 8. Serve hot over cooked rice.",
+    "prepTime": "20 minutes",
+    "cookTime": "30 minutes",
+    "totalTime": "50 minutes",
+    "ingredients": [
+      {
+        "ingredientName": "Oil",
+        "quantity": "2 tablespoons"
+      },
+      {
+        "ingredientName": "Onions (diced)",
+        "quantity": "1"
+      },
+      {
+        "ingredientName": "Curry paste",
+        "quantity": "2 tablespoons"
+      },
+      {
+        "ingredientName": "Ginger (minced)",
+        "quantity": "1 tablespoon"
+      },
+      {
+        "ingredientName": "Garlic (minced)",
+        "quantity": "3 cloves"
+      },
+      {
+        "ingredientName": "Sweet potatoes (diced)",
+        "quantity": "2 cups"
+      },
+      {
+        "ingredientName": "Cauliflower florets",
+        "quantity": "2 cups"
+      },
+      {
+        "ingredientName": "Bell peppers (diced)",
+        "quantity": "2"
+      },
+      {
+        "ingredientName": "Coconut milk",
+        "quantity": "1 can"
+      },
+      {
+        "ingredientName": "Vegetable broth",
+        "quantity": "1 cup"
+      },
+      {
+        "ingredientName": "Chickpeas (canned, drained)",
+        "quantity": "1 can"
+      },
+      {
+        "ingredientName": "Salt",
+        "quantity": "to taste"
+      },
+      {
+        "ingredientName": "Black pepper",
+        "quantity": "to taste"
+      },
+      {
+        "ingredientName": "Lime juice",
+        "quantity": "2 tablespoons"
+      },
+      {
+        "ingredientName": "Cooked rice",
+        "quantity": "for serving"
+      }
+    ]
+  },
+  {
+    "id": 70,
+    "name": "Caprese Salad",
+    "instructions": "1. Slice fresh tomatoes and fresh mozzarella cheese into rounds. 2. Arrange the tomato and mozzarella slices on a serving platter, alternating them. 3. Tuck fresh basil leaves between the tomato and mozzarella slices. 4. Drizzle extra-virgin olive oil and balsamic glaze over the salad. 5. Season with salt and black pepper. 6. Serve as a refreshing appetizer or side dish.",
+    "prepTime": "10 minutes",
+    "cookTime": "0 minutes",
+    "totalTime": "10 minutes",
+    "ingredients": [
+      {
+        "ingredientName": "Fresh tomatoes",
+        "quantity": "4"
+      },
+      {
+        "ingredientName": "Fresh mozzarella cheese",
+        "quantity": "8 ounces"
+      },
+      {
+        "ingredientName": "Fresh basil leaves",
+        "quantity": "1 cup"
+      },
+      {
+        "ingredientName": "Extra-virgin olive oil",
+        "quantity": "2 tablespoons"
+      },
+      {
+        "ingredientName": "Balsamic glaze",
+        "quantity": "2 tablespoons"
+      },
+      {
+        "ingredientName": "Salt",
+        "quantity": "to taste"
+      },
+      {
+        "ingredientName": "Black pepper",
+        "quantity": "to taste"
+      }
+    ]
+  },
+  {
+    "id": 71,
+    "name": "Beef and Broccoli Stir-Fry",
+    "instructions": "1. In a bowl, marinate thinly sliced beef in soy sauce, minced garlic, and cornstarch. Set aside. 2. Heat oil in a wok or large skillet over high heat. 3. Stir-fry marinated beef until browned. Remove from the skillet and set aside. 4. In the same skillet, add broccoli florets and sliced bell peppers. Stir-fry until tender. 5. Return the beef to the skillet, add oyster sauce, and stir-fry for another minute. 6. Serve hot over cooked rice.",
+    "prepTime": "20 minutes",
+    "cookTime": "10 minutes",
+    "totalTime": "30 minutes",
+    "ingredients": [
+      {
+        "ingredientName": "Thinly sliced beef",
+        "quantity": "1 pound"
+      },
+      {
+        "ingredientName": "Soy sauce",
+        "quantity": "1/4 cup"
+      },
+      {
+        "ingredientName": "Garlic (minced)",
+        "quantity": "2 cloves"
+      },
+      {
+        "ingredientName": "Cornstarch",
+        "quantity": "1 tablespoon"
+      },
+      {
+        "ingredientName": "Oil",
+        "quantity": "2 tablespoons"
+      },
+      {
+        "ingredientName": "Broccoli florets",
+        "quantity": "2 cups"
+      },
+      {
+        "ingredientName": "Bell peppers (sliced)",
+        "quantity": "2"
+      },
+      {
+        "ingredientName": "Oyster sauce",
+        "quantity": "2 tablespoons"
+      },
+      {
+        "ingredientName": "Cooked rice",
+        "quantity": "for serving"
+      }
+    ]
+  },
+  {
+    "id": 72,
+    "name": "Avocado and Black Bean Salad",
+    "instructions": "1. In a large bowl, combine black beans, diced avocado, corn kernels, diced tomatoes, red onion, and fresh cilantro. 2. In a small bowl, whisk together lime juice, olive oil, minced garlic, cumin, salt, and black pepper. 3. Pour the dressing over the salad and toss to combine. 4. Serve chilled as a delicious and refreshing salad.",
+    "prepTime": "15 minutes",
+    "cookTime": "0 minutes",
+    "totalTime": "15 minutes",
+    "ingredients": [
+      {
+        "ingredientName": "Black beans (canned, drained and rinsed)",
+        "quantity": "1 can"
+      },
+      {
+        "ingredientName": "Avocado (diced)",
+        "quantity": "2"
+      },
+      {
+        "ingredientName": "Corn kernels (canned or fresh)",
+        "quantity": "1 cup"
+      },
+      {
+        "ingredientName": "Tomatoes (diced)",
+        "quantity": "2"
+      },
+      {
+        "ingredientName": "Red onion (diced)",
+        "quantity": "1/2"
+      },
+      {
+        "ingredientName": "Fresh cilantro (chopped)",
+        "quantity": "1/4 cup"
+      },
+      {
+        "ingredientName": "Lime juice",
+        "quantity": "2 tablespoons"
+      },
+      {
+        "ingredientName": "Olive oil",
+        "quantity": "2 tablespoons"
+      },
+      {
+        "ingredientName": "Garlic (minced)",
+        "quantity": "1 clove"
+      },
+      {
+        "ingredientName": "Cumin",
+        "quantity": "1/2 teaspoon"
+      },
+      {
+        "ingredientName": "Salt",
+        "quantity": "1/2 teaspoon"
+      },
+      {
+        "ingredientName": "Black pepper",
+        "quantity": "1/4 teaspoon"
+      }
+    ]
+  },
+  {
+    "id": 73,
+    "name": "Spaghetti Carbonara",
+    "instructions": "1. Cook spaghetti according to package instructions. Drain and set aside. 2. In a bowl, whisk together eggs, grated Parmesan cheese, minced garlic, and black pepper. Set aside. 3. In a skillet, cook diced bacon until crispy. 4. Remove excess bacon fat and add cooked spaghetti to the skillet. 5. Pour the egg mixture over the spaghetti and toss to combine until the sauce thickens. 6. Serve hot, garnished with additional grated Parmesan cheese and chopped parsley.",
+    "prepTime": "10 minutes",
+    "cookTime": "15 minutes",
+    "totalTime": "25 minutes",
+    "ingredients": [
+      {
+        "ingredientName": "Spaghetti",
+        "quantity": "8 ounces"
+      },
+      {
+        "ingredientName": "Eggs",
+        "quantity": "2"
+      },
+      {
+        "ingredientName": "Grated Parmesan cheese",
+        "quantity": "1/2 cup"
+      },
+      {
+        "ingredientName": "Garlic (minced)",
+        "quantity": "2 cloves"
+      },
+      {
+        "ingredientName": "Black pepper",
+        "quantity": "1/2 teaspoon"
+      },
+      {
+        "ingredientName": "Bacon (diced)",
+        "quantity": "4 slices"
+      },
+      {
+        "ingredientName": "Chopped parsley",
+        "quantity": "for garnish"
+      }
+    ]
+  },
+  {
+    "id": 74,
+    "name": "Chicken Tikka Masala",
+    "instructions": "1. Marinate chicken pieces in a mixture of yogurt, ginger, garlic, and a blend of Indian spices for at least 30 minutes. 2. Grill or pan-fry the marinated chicken until cooked through. Set aside. 3. In a separate pan, sauté diced onions until soft. 4. Stir in tomato sauce, heavy cream, and more spices. Simmer until the sauce thickens. 5. Add the cooked chicken to the sauce and simmer for a few more minutes. 6. Serve hot with naan bread or rice.",
+    "prepTime": "30 minutes",
+    "cookTime": "30 minutes",
+    "totalTime": "60 minutes",
+    "ingredients": [
+      {
+        "ingredientName": "Chicken pieces",
+        "quantity": "1 pound"
+      },
+      {
+        "ingredientName": "Yogurt",
+        "quantity": "1/2 cup"
+      },
+      {
+        "ingredientName": "Ginger (minced)",
+        "quantity": "1 tablespoon"
+      },
+      {
+        "ingredientName": "Garlic (minced)",
+        "quantity": "2 cloves"
+      },
+      {
+        "ingredientName": "Indian spice blend (e.g., garam masala)",
+        "quantity": "2 teaspoons"
+      },
+      {
+        "ingredientName": "Onions (diced)",
+        "quantity": "1"
+      },
+      {
+        "ingredientName": "Tomato sauce",
+        "quantity": "1 can"
+      },
+      {
+        "ingredientName": "Heavy cream",
+        "quantity": "1/2 cup"
+      },
+      {
+        "ingredientName": "Salt",
+        "quantity": "to taste"
+      },
+      {
+        "ingredientName": "Black pepper",
+        "quantity": "to taste"
+      },
+      {
+        "ingredientName": "Naan bread or rice",
+        "quantity": "for serving"
+      }
+    ]
+  },
+  {
+    "id": 75,
+    "name": "Chocolate Chip Cookies",
+    "instructions": "1. Preheat your oven to 350°F (175°C). 2. In a mixing bowl, cream together softened butter, granulated sugar, and brown sugar until smooth. 3. Beat in eggs one at a time, then stir in vanilla extract. 4. In a separate bowl, combine flour, baking soda, and salt. Gradually add this dry mixture to the wet ingredients and mix until just combined. 5. Fold in chocolate chips. 6. Drop rounded tablespoons of dough onto ungreased baking sheets. 7. Bake for 10-12 minutes or until edges are golden. 8. Allow cookies to cool on the baking sheet for a few minutes before transferring to wire racks to cool completely.",
+    "prepTime": "15 minutes",
+    "cookTime": "10-12 minutes",
+    "totalTime": "25-27 minutes",
+    "ingredients": [
+      {
+        "ingredientName": "Butter (softened)",
+        "quantity": "1 cup"
+      },
+      {
+        "ingredientName": "Granulated sugar",
+        "quantity": "3/4 cup"
+      },
+      {
+        "ingredientName": "Brown sugar",
+        "quantity": "3/4 cup"
+      },
+      {
+        "ingredientName": "Eggs",
+        "quantity": "2"
+      },
+      {
+        "ingredientName": "Vanilla extract",
+        "quantity": "1 teaspoon"
+      },
+      {
+        "ingredientName": "All-purpose flour",
+        "quantity": "2 1/4 cups"
+      },
+      {
+        "ingredientName": "Baking soda",
+        "quantity": "1/2 teaspoon"
+      },
+      {
+        "ingredientName": "Salt",
+        "quantity": "1/2 teaspoon"
+      },
+      {
+        "ingredientName": "Chocolate chips",
+        "quantity": "2 cups"
+      }
+    ]
+  },
+  {
+    "id": 76,
+    "name": "Grilled Vegetable Panini",
+    "instructions": "1. Preheat a panini press or grill pan. 2. Brush slices of ciabatta bread with olive oil on one side. 3. Layer grilled vegetables (such as zucchini, red bell peppers, and eggplant) and mozzarella cheese between two slices of bread, oiled side out. 4. Place the sandwich on the panini press or grill pan and cook until the bread is crispy and the cheese is melted. 5. Serve hot with a side salad.",
+    "prepTime": "15 minutes",
+    "cookTime": "5 minutes",
+    "totalTime": "20 minutes",
+    "ingredients": [
+      {
+        "ingredientName": "Ciabatta bread slices",
+        "quantity": "4"
+      },
+      {
+        "ingredientName": "Olive oil",
+        "quantity": "2 tablespoons"
+      },
+      {
+        "ingredientName": "Grilled vegetables (e.g., zucchini, red bell peppers, eggplant)",
+        "quantity": "1 cup"
+      },
+      {
+        "ingredientName": "Mozzarella cheese slices",
+        "quantity": "4"
+      },
+      {
+        "ingredientName": "Side salad",
+        "quantity": "for serving"
+      }
+    ]
+  },
+  {
+    "id": 77,
+    "name": "Tomato Basil Soup",
+    "instructions": "1. In a large pot, heat olive oil over medium heat. 2. Sauté diced onions and minced garlic until soft. 3. Add canned tomatoes, vegetable broth, and fresh basil leaves. 4. Simmer for 20 minutes. 5. Use an immersion blender to puree the soup until smooth. 6. Season with salt and black pepper. 7. Serve hot with a garnish of fresh basil and a drizzle of olive oil.",
+    "prepTime": "10 minutes",
+    "cookTime": "20 minutes",
+    "totalTime": "30 minutes",
+    "ingredients": [
+      {
+        "ingredientName": "Olive oil",
+        "quantity": "2 tablespoons"
+      },
+      {
+        "ingredientName": "Onions (diced)",
+        "quantity": "1"
+      },
+      {
+        "ingredientName": "Garlic (minced)",
+        "quantity": "2 cloves"
+      },
+      {
+        "ingredientName": "Canned tomatoes",
+        "quantity": "1 can"
+      },
+      {
+        "ingredientName": "Vegetable broth",
+        "quantity": "4 cups"
+      },
+      {
+        "ingredientName": "Fresh basil leaves",
+        "quantity": "1/2 cup"
+      },
+      {
+        "ingredientName": "Salt",
+        "quantity": "to taste"
+      },
+      {
+        "ingredientName": "Black pepper",
+        "quantity": "to taste"
+      },
+      {
+        "ingredientName": "Fresh basil (for garnish)",
+        "quantity": "for garnish"
+      }
+    ]
+  },
+  {
+    "id": 78,
+    "name": "Beef and Mushroom Stroganoff",
+    "instructions": "1. In a skillet, heat oil over medium-high heat. 2. Add thinly sliced beef and cook until browned. Remove from the skillet and set aside. 3. In the same skillet, sauté sliced mushrooms and diced onions until tender. 4. Stir in beef broth, sour cream, Dijon mustard, and Worcestershire sauce. 5. Return the cooked beef to the skillet and simmer for a few minutes until heated through. 6. Serve over cooked egg noodles or rice.",
+    "prepTime": "15 minutes",
+    "cookTime": "20 minutes",
+    "totalTime": "35 minutes",
+    "ingredients": [
+      {
+        "ingredientName": "Oil",
+        "quantity": "2 tablespoons"
+      },
+      {
+        "ingredientName": "Thinly sliced beef",
+        "quantity": "1 pound"
+      },
+      {
+        "ingredientName": "Mushrooms (sliced)",
+        "quantity": "8 ounces"
+      },
+      {
+        "ingredientName": "Onions (diced)",
+        "quantity": "1"
+      },
+      {
+        "ingredientName": "Beef broth",
+        "quantity": "1 cup"
+      },
+      {
+        "ingredientName": "Sour cream",
+        "quantity": "1/2 cup"
+      },
+      {
+        "ingredientName": "Dijon mustard",
+        "quantity": "1 tablespoon"
+      },
+      {
+        "ingredientName": "Worcestershire sauce",
+        "quantity": "1 tablespoon"
+      },
+      {
+        "ingredientName": "Cooked egg noodles or rice",
+        "quantity": "for serving"
+      }
+    ]
+  },
+  {
+    "id": 79,
+    "name": "Lemon Garlic Shrimp Pasta",
+    "instructions": "1. Cook your favorite pasta according to package instructions. Drain and set aside. 2. In a skillet, melt butter over medium heat. 3. Add minced garlic and sauté for a minute. 4. Add shrimp and cook until they turn pink, about 2-3 minutes per side. 5. Stir in lemon juice, lemon zest, and chopped fresh parsley. 6. Season with salt and black pepper. 7. Toss the cooked pasta with the shrimp and sauce. 8. Serve hot, garnished with additional parsley.",
+    "prepTime": "10 minutes",
+    "cookTime": "10 minutes",
+    "totalTime": "20 minutes",
+    "ingredients": [
+      {
+        "ingredientName": "Pasta",
+        "quantity": "8 ounces"
+      },
+      {
+        "ingredientName": "Butter",
+        "quantity": "4 tablespoons"
+      },
+      {
+        "ingredientName": "Garlic (minced)",
+        "quantity": "3 cloves"
+      },
+      {
+        "ingredientName": "Shrimp (peeled and deveined)",
+        "quantity": "1 pound"
+      },
+      {
+        "ingredientName": "Lemon juice",
+        "quantity": "2 tablespoons"
+      },
+      {
+        "ingredientName": "Lemon zest",
+        "quantity": "1 teaspoon"
+      },
+      {
+        "ingredientName": "Fresh parsley (chopped)",
+        "quantity": "2 tablespoons"
+      },
+      {
+        "ingredientName": "Salt",
+        "quantity": "to taste"
+      },
+      {
+        "ingredientName": "Black pepper",
+        "quantity": "to taste"
+      }
+    ]
+  },
+  {
+    "id": 80,
+    "name": "Mediterranean Quinoa Salad",
+    "instructions": "1. Cook quinoa according to package instructions. Let it cool. 2. In a large bowl, combine cooked quinoa, diced cucumber, cherry tomatoes, Kalamata olives, red onion, and fresh parsley. 3. In a small bowl, whisk together olive oil, lemon juice, minced garlic, dried oregano, salt, and black pepper. 4. Pour the dressing over the salad and toss to combine. 5. Serve chilled as a refreshing salad or side dish.",
+    "prepTime": "15 minutes",
+    "cookTime": "15 minutes",
+    "totalTime": "30 minutes",
+    "ingredients": [
+      {
+        "ingredientName": "Quinoa",
+        "quantity": "1 cup"
+      },
+      {
+        "ingredientName": "Cucumber (diced)",
+        "quantity": "1"
+      },
+      {
+        "ingredientName": "Cherry tomatoes (halved)",
+        "quantity": "1 cup"
+      },
+      {
+        "ingredientName": "Kalamata olives (pitted and sliced)",
+        "quantity": "1/2 cup"
+      },
+      {
+        "ingredientName": "Red onion (diced)",
+        "quantity": "1/4 cup"
+      },
+      {
+        "ingredientName": "Fresh parsley (chopped)",
+        "quantity": "1/4 cup"
+      },
+      {
+        "ingredientName": "Olive oil",
+        "quantity": "1/4 cup"
+      },
+      {
+        "ingredientName": "Lemon juice",
+        "quantity": "2 tablespoons"
+      },
+      {
+        "ingredientName": "Garlic (minced)",
+        "quantity": "1 clove"
+      },
+      {
+        "ingredientName": "Dried oregano",
+        "quantity": "1 teaspoon"
+      },
+      {
+        "ingredientName": "Salt",
+        "quantity": "1/2 teaspoon"
+      },
+      {
+        "ingredientName": "Black pepper",
+        "quantity": "1/4 teaspoon"
+      }
+    ]
+  },
+  {
+    "id": 81,
+    "name": "Beef and Vegetable Skewers",
+    "instructions": "1. Marinate beef cubes in a mixture of soy sauce, minced garlic, olive oil, and your choice of spices for at least 30 minutes. 2. Thread marinated beef, bell pepper pieces, onion wedges, and cherry tomatoes onto skewers. 3. Grill the skewers until the beef is cooked to your desired doneness and the vegetables are tender. 4. Serve hot with your favorite dipping sauce.",
+    "prepTime": "15 minutes",
+    "cookTime": "10 minutes",
+    "totalTime": "25 minutes",
+    "ingredients": [
+      {
+        "ingredientName": "Beef cubes",
+        "quantity": "1 pound"
+      },
+      {
+        "ingredientName": "Soy sauce",
+        "quantity": "1/4 cup"
+      },
+      {
+        "ingredientName": "Garlic (minced)",
+        "quantity": "2 cloves"
+      },
+      {
+        "ingredientName": "Olive oil",
+        "quantity": "2 tablespoons"
+      },
+      {
+        "ingredientName": "Bell peppers (cut into pieces)",
+        "quantity": "2"
+      },
+      {
+        "ingredientName": "Onion (cut into wedges)",
+        "quantity": "1"
+      },
+      {
+        "ingredientName": "Cherry tomatoes",
+        "quantity": "1 cup"
+      },
+      {
+        "ingredientName": "Your choice of spices",
+        "quantity": "to taste"
+      },
+      {
+        "ingredientName": "Skewers",
+        "quantity": "for threading"
+      },
+      {
+        "ingredientName": "Dipping sauce",
+        "quantity": "for serving"
+      }
+    ]
+  },
+  {
+    "id": 82,
+    "name": "Sweet Potato and Black Bean Enchiladas",
+    "instructions": "1. Preheat your oven to 375°F (190°C). 2. In a skillet, sauté diced sweet potatoes and minced garlic until tender. 3. Stir in drained black beans, corn kernels, diced bell peppers, and a blend of Mexican spices. 4. Warm tortillas and fill them with the sweet potato and black bean mixture. Roll them up and place them in a baking dish. 5. Pour enchilada sauce over the rolled tortillas and sprinkle with shredded cheese. 6. Bake for 20-25 minutes or until the enchiladas are heated through and the cheese is bubbly. 7. Serve with sour cream and fresh cilantro.",
+    "prepTime": "20 minutes",
+    "cookTime": "25 minutes",
+    "totalTime": "45 minutes",
+    "ingredients": [
+      {
+        "ingredientName": "Sweet potatoes (diced)",
+        "quantity": "2 cups"
+      },
+      {
+        "ingredientName": "Garlic (minced)",
+        "quantity": "2 cloves"
+      },
+      {
+        "ingredientName": "Black beans (canned, drained and rinsed)",
+        "quantity": "1 can"
+      },
+      {
+        "ingredientName": "Corn kernels (canned or fresh)",
+        "quantity": "1 cup"
+      },
+      {
+        "ingredientName": "Bell peppers (diced)",
+        "quantity": "2"
+      },
+      {
+        "ingredientName": "Mexican spice blend (e.g., chili powder, cumin)",
+        "quantity": "2 teaspoons"
+      },
+      {
+        "ingredientName": "Tortillas",
+        "quantity": "8"
+      },
+      {
+        "ingredientName": "Enchilada sauce",
+        "quantity": "2 cups"
+      },
+      {
+        "ingredientName": "Shredded cheese (Mexican blend)",
+        "quantity": "1 cup"
+      },
+      {
+        "ingredientName": "Sour cream",
+        "quantity": "for serving"
+      },
+      {
+        "ingredientName": "Fresh cilantro (chopped)",
+        "quantity": "for garnish"
+      }
+    ]
+  },
+  {
+    "id": 83,
+    "name": "Tuna Salad Sandwich",
+    "instructions": "1. In a bowl, mix together canned tuna (drained), mayonnaise, diced celery, diced red onion, and Dijon mustard. 2. Season with salt, black pepper, and lemon juice to taste. 3. Spread the tuna salad on slices of bread. 4. Add lettuce leaves and tomato slices. 5. Top with another slice of bread to make a sandwich. 6. Serve with pickle spears or chips.",
+    "prepTime": "10 minutes",
+    "cookTime": "0 minutes",
+    "totalTime": "10 minutes",
+    "ingredients": [
+      {
+        "ingredientName": "Canned tuna (drained)",
+        "quantity": "2 cans"
+      },
+      {
+        "ingredientName": "Mayonnaise",
+        "quantity": "1/2 cup"
+      },
+      {
+        "ingredientName": "Celery (diced)",
+        "quantity": "1/2 cup"
+      },
+      {
+        "ingredientName": "Red onion (diced)",
+        "quantity": "1/4 cup"
+      },
+      {
+        "ingredientName": "Dijon mustard",
+        "quantity": "2 tablespoons"
+      },
+      {
+        "ingredientName": "Salt",
+        "quantity": "to taste"
+      },
+      {
+        "ingredientName": "Black pepper",
+        "quantity": "to taste"
+      },
+      {
+        "ingredientName": "Lemon juice",
+        "quantity": "2 tablespoons"
+      },
+      {
+        "ingredientName": "Bread slices",
+        "quantity": "8"
+      },
+      {
+        "ingredientName": "Lettuce leaves",
+        "quantity": "for sandwich"
+      },
+      {
+        "ingredientName": "Tomato slices",
+        "quantity": "for sandwich"
+      },
+      {
+        "ingredientName": "Pickle spears or chips",
+        "quantity": "for serving"
+      }
+    ]
+  },
+  {
+    "id": 84,
+    "name": "Beef and Broccoli Noodle Stir-Fry",
+    "instructions": "1. Cook your favorite noodles according to package instructions. Drain and set aside. 2. In a wok or large skillet, heat oil over high heat. 3. Add thinly sliced beef and stir-fry until browned. Remove from the skillet and set aside. 4. In the same skillet, stir-fry broccoli florets until tender-crisp. 5. Combine cooked noodles, cooked beef, and broccoli in the skillet. 6. Pour a mixture of soy sauce, oyster sauce, and sesame oil over the noodles and toss to combine. 7. Serve hot.",
+    "prepTime": "15 minutes",
+    "cookTime": "15 minutes",
+    "totalTime": "30 minutes",
+    "ingredients": [
+      {
+        "ingredientName": "Noodles",
+        "quantity": "8 ounces"
+      },
+      {
+        "ingredientName": "Oil",
+        "quantity": "2 tablespoons"
+      },
+      {
+        "ingredientName": "Thinly sliced beef",
+        "quantity": "1 pound"
+      },
+      {
+        "ingredientName": "Broccoli florets",
+        "quantity": "2 cups"
+      },
+      {
+        "ingredientName": "Soy sauce",
+        "quantity": "1/4 cup"
+      },
+      {
+        "ingredientName": "Oyster sauce",
+        "quantity": "2 tablespoons"
+      },
+      {
+        "ingredientName": "Sesame oil",
+        "quantity": "1 tablespoon"
+      }
+    ]
+  },
+  {
+    "id": 85,
+    "name": "Blueberry Pancakes",
+    "instructions": "1. In a bowl, whisk together flour, sugar, baking powder, and salt. 2. In another bowl, whisk together milk, eggs, and melted butter. 3. Pour the wet ingredients into the dry ingredients and stir until just combined. 4. Gently fold in fresh or frozen blueberries. 5. Heat a griddle or skillet over medium heat and grease with butter or oil. 6. Pour 1/4 cup portions of batter onto the griddle for each pancake. 7. Cook until bubbles form on the surface, then flip and cook until golden brown. 8. Serve with maple syrup and extra blueberries.",
+    "prepTime": "10 minutes",
+    "cookTime": "10 minutes",
+    "totalTime": "20 minutes",
+    "ingredients": [
+      {
+        "ingredientName": "All-purpose flour",
+        "quantity": "1 1/2 cups"
+      },
+      {
+        "ingredientName": "Sugar",
+        "quantity": "2 tablespoons"
+      },
+      {
+        "ingredientName": "Baking powder",
+        "quantity": "2 teaspoons"
+      },
+      {
+        "ingredientName": "Salt",
+        "quantity": "1/2 teaspoon"
+      },
+      {
+        "ingredientName": "Milk",
+        "quantity": "1 1/4 cups"
+      },
+      {
+        "ingredientName": "Eggs",
+        "quantity": "2"
+      },
+      {
+        "ingredientName": "Butter (melted)",
+        "quantity": "2 tablespoons"
+      },
+      {
+        "ingredientName": "Blueberries (fresh or frozen)",
+        "quantity": "1 cup"
+      },
+      {
+        "ingredientName": "Butter or oil",
+        "quantity": "for greasing"
+      },
+      {
+        "ingredientName": "Maple syrup",
+        "quantity": "for serving"
+      }
+    ]
+  },
+  {
+    "id": 86,
+    "name": "Chicken Fajitas",
+    "instructions": "1. In a bowl, mix together sliced chicken breast, lime juice, minced garlic, chili powder, cumin, and paprika. 2. Heat oil in a skillet over medium-high heat. 3. Add the marinated chicken and sliced bell peppers and onions. 4. Stir-fry until the chicken is cooked through and the vegetables are tender. 5. Warm flour tortillas in the skillet or microwave. 6. Serve the chicken and vegetable mixture in tortillas with toppings like sour cream, salsa, and shredded cheese.",
+    "prepTime": "15 minutes",
+    "cookTime": "10 minutes",
+    "totalTime": "25 minutes",
+    "ingredients": [
+      {
+        "ingredientName": "Chicken breast (sliced)",
+        "quantity": "1 pound"
+      },
+      {
+        "ingredientName": "Lime juice",
+        "quantity": "2 tablespoons"
+      },
+      {
+        "ingredientName": "Garlic (minced)",
+        "quantity": "2 cloves"
+      },
+      {
+        "ingredientName": "Chili powder",
+        "quantity": "1 teaspoon"
+      },
+      {
+        "ingredientName": "Cumin",
+        "quantity": "1/2 teaspoon"
+      },
+      {
+        "ingredientName": "Paprika",
+        "quantity": "1/2 teaspoon"
+      },
+      {
+        "ingredientName": "Oil",
+        "quantity": "2 tablespoons"
+      },
+      {
+        "ingredientName": "Bell peppers (sliced)",
+        "quantity": "2"
+      },
+      {
+        "ingredientName": "Onions (sliced)",
+        "quantity": "1"
+      },
+      {
+        "ingredientName": "Flour tortillas",
+        "quantity": "8"
+      },
+      {
+        "ingredientName": "Sour cream",
+        "quantity": "for topping"
+      },
+      {
+        "ingredientName": "Salsa",
+        "quantity": "for topping"
+      },
+      {
+        "ingredientName": "Shredded cheese",
+        "quantity": "for topping"
+      }
+    ]
+  },
+  {
+    "id": 87,
+    "name": "Greek Tzatziki Sauce",
+    "instructions": "1. Grate cucumber and squeeze out excess moisture. 2. In a bowl, combine grated cucumber, Greek yogurt, minced garlic, fresh dill, lemon juice, and olive oil. 3. Mix until well combined. 4. Season with salt and black pepper to taste. 5. Chill in the refrigerator for at least 30 minutes before serving. 6. Serve as a dip for pita bread or as a sauce for grilled meats.",
+    "prepTime": "10 minutes",
+    "cookTime": "0 minutes",
+    "totalTime": "10 minutes",
+    "ingredients": [
+      {
+        "ingredientName": "Cucumber (grated)",
+        "quantity": "1"
+      },
+      {
+        "ingredientName": "Greek yogurt",
+        "quantity": "1 cup"
+      },
+      {
+        "ingredientName": "Garlic (minced)",
+        "quantity": "2 cloves"
+      },
+      {
+        "ingredientName": "Fresh dill (chopped)",
+        "quantity": "2 tablespoons"
+      },
+      {
+        "ingredientName": "Lemon juice",
+        "quantity": "1 tablespoon"
+      },
+      {
+        "ingredientName": "Olive oil",
+        "quantity": "1 tablespoon"
+      },
+      {
+        "ingredientName": "Salt",
+        "quantity": "to taste"
+      },
+      {
+        "ingredientName": "Black pepper",
+        "quantity": "to taste"
+      }
+    ]
+  },
+  {
+    "id": 88,
+    "name": "Spinach and Feta Stuffed Chicken Breast",
+    "instructions": "1. Preheat your oven to 375°F (190°C). 2. In a bowl, combine chopped spinach, crumbled feta cheese, minced garlic, and dried oregano. 3. Cut a pocket into each chicken breast. 4. Stuff each chicken breast with the spinach and feta mixture. 5. Season the chicken breasts with salt and black pepper. 6. Heat oil in an oven-safe skillet over medium-high heat. 7. Sear the chicken breasts until golden brown on both sides. 8. Transfer the skillet to the oven and bake for 20-25 minutes or until the chicken is cooked through. 9. Serve hot.",
+    "prepTime": "15 minutes",
+    "cookTime": "30 minutes",
+    "totalTime": "45 minutes",
+    "ingredients": [
+      {
+        "ingredientName": "Chicken breasts",
+        "quantity": "4"
+      },
+      {
+        "ingredientName": "Chopped spinach",
+        "quantity": "1 cup"
+      },
+      {
+        "ingredientName": "Feta cheese (crumbled)",
+        "quantity": "1/2 cup"
+      },
+      {
+        "ingredientName": "Garlic (minced)",
+        "quantity": "2 cloves"
+      },
+      {
+        "ingredientName": "Dried oregano",
+        "quantity": "1 teaspoon"
+      },
+      {
+        "ingredientName": "Salt",
+        "quantity": "to taste"
+      },
+      {
+        "ingredientName": "Black pepper",
+        "quantity": "to taste"
+      },
+      {
+        "ingredientName": "Oil",
+        "quantity": "2 tablespoons"
+      }
+    ]
+  },
+  {
+    "id": 89,
+    "name": "Creamy Tomato Basil Pasta",
+    "instructions": "1. Cook your favorite pasta according to package instructions. Drain and set aside. 2. In a skillet, heat olive oil over medium heat. 3. Sauté diced onions and minced garlic until soft. 4. Stir in canned crushed tomatoes, heavy cream, fresh basil leaves, and grated Parmesan cheese. 5. Simmer until the sauce thickens. 6. Season with salt and black pepper. 7. Toss the cooked pasta with the creamy tomato basil sauce. 8. Serve hot, garnished with additional fresh basil and grated Parmesan cheese.",
+    "prepTime": "10 minutes",
+    "cookTime": "20 minutes",
+    "totalTime": "30 minutes",
+    "ingredients": [
+      {
+        "ingredientName": "Olive oil",
+        "quantity": "2 tablespoons"
+      },
+      {
+        "ingredientName": "Onions (diced)",
+        "quantity": "1"
+      },
+      {
+        "ingredientName": "Garlic (minced)",
+        "quantity": "2 cloves"
+      },
+      {
+        "ingredientName": "Canned crushed tomatoes",
+        "quantity": "1 can"
+      },
+      {
+        "ingredientName": "Heavy cream",
+        "quantity": "1/2 cup"
+      },
+      {
+        "ingredientName": "Fresh basil leaves (chopped)",
+        "quantity": "1/2 cup"
+      },
+      {
+        "ingredientName": "Grated Parmesan cheese",
+        "quantity": "1/2 cup"
+      },
+      {
+        "ingredientName": "Salt",
+        "quantity": "to taste"
+      },
+      {
+        "ingredientName": "Black pepper",
+        "quantity": "to taste"
+      },
+      {
+        "ingredientName": "Pasta",
+        "quantity": "8 ounces"
+      },
+      {
+        "ingredientName": "Additional fresh basil and grated Parmesan cheese",
+        "quantity": "for garnish"
+      }
+    ]
+  },
+  {
+    "id": 90,
+    "name": "Beef and Vegetable Soup",
+    "instructions": "1. In a large pot, heat oil over medium heat. 2. Sauté diced onions, carrots, and celery until softened. 3. Add cubed beef, minced garlic, and cook until the beef is browned. 4. Stir in beef broth, diced tomatoes, potatoes, and a blend of dried herbs. 5. Simmer for 20-25 minutes or until the vegetables are tender. 6. Season with salt and black pepper to taste. 7. Serve hot with crusty bread.",
+    "prepTime": "15 minutes",
+    "cookTime": "25 minutes",
+    "totalTime": "40 minutes",
+    "ingredients": [
+      {
+        "ingredientName": "Oil",
+        "quantity": "2 tablespoons"
+      },
+      {
+        "ingredientName": "Onions (diced)",
+        "quantity": "1"
+      },
+      {
+        "ingredientName": "Carrots (diced)",
+        "quantity": "2"
+      },
+      {
+        "ingredientName": "Celery (diced)",
+        "quantity": "2 stalks"
+      },
+      {
+        "ingredientName": "Cubed beef",
+        "quantity": "1 pound"
+      },
+      {
+        "ingredientName": "Garlic (minced)",
+        "quantity": "2 cloves"
+      },
+      {
+        "ingredientName": "Beef broth",
+        "quantity": "4 cups"
+      },
+      {
+        "ingredientName": "Diced tomatoes (canned)",
+        "quantity": "1 can"
+      },
+      {
+        "ingredientName": "Potatoes (diced)",
+        "quantity": "2"
+      },
+      {
+        "ingredientName": "Dried herbs (e.g., thyme, rosemary)",
+        "quantity": "1 teaspoon"
+      },
+      {
+        "ingredientName": "Salt",
+        "quantity": "to taste"
+      },
+      {
+        "ingredientName": "Black pepper",
+        "quantity": "to taste"
+      },
+      {
+        "ingredientName": "Crusty bread",
+        "quantity": "for serving"
+      }
+    ]
+  },
+  {
+    "id": 91,
+    "name": "Caprese Salad",
+    "instructions": "1. Slice ripe tomatoes and fresh mozzarella cheese. 2. Arrange the tomato and mozzarella slices on a serving platter, alternating them. 3. Tuck fresh basil leaves between the tomato and mozzarella slices. 4. Drizzle extra virgin olive oil and balsamic vinegar over the salad. 5. Season with salt and black pepper to taste. 6. Serve as a light and refreshing appetizer or side dish.",
+    "prepTime": "10 minutes",
+    "cookTime": "0 minutes",
+    "totalTime": "10 minutes",
+    "ingredients": [
+      {
+        "ingredientName": "Ripe tomatoes",
+        "quantity": "2"
+      },
+      {
+        "ingredientName": "Fresh mozzarella cheese",
+        "quantity": "8 ounces"
+      },
+      {
+        "ingredientName": "Fresh basil leaves",
+        "quantity": "1/2 cup"
+      },
+      {
+        "ingredientName": "Extra virgin olive oil",
+        "quantity": "2 tablespoons"
+      },
+      {
+        "ingredientName": "Balsamic vinegar",
+        "quantity": "1 tablespoon"
+      },
+      {
+        "ingredientName": "Salt",
+        "quantity": "to taste"
+      },
+      {
+        "ingredientName": "Black pepper",
+        "quantity": "to taste"
+      }
+    ]
+  },
+  {
+    "id": 92,
+    "name": "Mushroom Risotto",
+    "instructions": "1. In a saucepan, heat vegetable broth and keep it warm over low heat. 2. In a separate large skillet, melt butter over medium heat. 3. Sauté diced onions until they become translucent. 4. Add Arborio rice and cook, stirring, until the rice is lightly toasted. 5. Pour in white wine and cook until it's mostly absorbed. 6. Begin adding warm vegetable broth, one ladle at a time, stirring constantly and allowing each ladle to be absorbed before adding more. 7. When the rice is creamy and tender, stir in sautéed mushrooms and grated Parmesan cheese. 8. Season with salt and black pepper. 9. Serve hot, garnished with fresh parsley.",
+    "prepTime": "10 minutes",
+    "cookTime": "30 minutes",
+    "totalTime": "40 minutes",
+    "ingredients": [
+      {
+        "ingredientName": "Vegetable broth",
+        "quantity": "4 cups"
+      },
+      {
+        "ingredientName": "Butter",
+        "quantity": "4 tablespoons"
+      },
+      {
+        "ingredientName": "Onions (diced)",
+        "quantity": "1"
+      },
+      {
+        "ingredientName": "Arborio rice",
+        "quantity": "1 1/2 cups"
+      },
+      {
+        "ingredientName": "White wine",
+        "quantity": "1/2 cup"
+      },
+      {
+        "ingredientName": "Mushrooms (sliced and sautéed)",
+        "quantity": "8 ounces"
+      },
+      {
+        "ingredientName": "Grated Parmesan cheese",
+        "quantity": "1/2 cup"
+      },
+      {
+        "ingredientName": "Salt",
+        "quantity": "to taste"
+      },
+      {
+        "ingredientName": "Black pepper",
+        "quantity": "to taste"
+      },
+      {
+        "ingredientName": "Fresh parsley (chopped)",
+        "quantity": "for garnish"
+      }
+    ]
+  },
+  {
+    "id": 93,
+    "name": "Chocolate Banana Smoothie",
+    "instructions": "1. In a blender, combine ripe bananas, cocoa powder, Greek yogurt, honey, and milk. 2. Blend until smooth and creamy. 3. Add ice cubes and blend again until the smoothie is chilled and frothy. 4. Pour into glasses and serve immediately.",
+    "prepTime": "5 minutes",
+    "cookTime": "0 minutes",
+    "totalTime": "5 minutes",
+    "ingredients": [
+      {
+        "ingredientName": "Ripe bananas",
+        "quantity": "2"
+      },
+      {
+        "ingredientName": "Cocoa powder",
+        "quantity": "2 tablespoons"
+      },
+      {
+        "ingredientName": "Greek yogurt",
+        "quantity": "1/2 cup"
+      },
+      {
+        "ingredientName": "Honey",
+        "quantity": "2 tablespoons"
+      },
+      {
+        "ingredientName": "Milk",
+        "quantity": "1 cup"
+      },
+      {
+        "ingredientName": "Ice cubes",
+        "quantity": "1 cup"
+      }
+    ]
+  },
+  {
+    "id": 94,
+    "name": "Baked Salmon with Lemon-Dill Sauce",
+    "instructions": "1. Preheat your oven to 375°F (190°C). 2. Place salmon fillets on a baking sheet lined with parchment paper. 3. Drizzle olive oil over the salmon and season with salt and black pepper. 4. Bake for 15-20 minutes or until the salmon flakes easily with a fork. 5. While the salmon is baking, prepare the lemon-dill sauce by mixing Greek yogurt, lemon juice, minced garlic, fresh dill, and a pinch of salt. 6. Serve the baked salmon with a dollop of lemon-dill sauce and lemon wedges.",
+    "prepTime": "10 minutes",
+    "cookTime": "15-20 minutes",
+    "totalTime": "25-30 minutes",
+    "ingredients": [
+      {
+        "ingredientName": "Salmon fillets",
+        "quantity": "4"
+      },
+      {
+        "ingredientName": "Olive oil",
+        "quantity": "2 tablespoons"
+      },
+      {
+        "ingredientName": "Salt",
+        "quantity": "to taste"
+      },
+      {
+        "ingredientName": "Black pepper",
+        "quantity": "to taste"
+      },
+      {
+        "ingredientName": "Greek yogurt",
+        "quantity": "1/2 cup"
+      },
+      {
+        "ingredientName": "Lemon juice",
+        "quantity": "2 tablespoons"
+      },
+      {
+        "ingredientName": "Garlic (minced)",
+        "quantity": "1 clove"
+      },
+      {
+        "ingredientName": "Fresh dill (chopped)",
+        "quantity": "2 tablespoons"
+      },
+      {
+        "ingredientName": "Lemon wedges",
+        "quantity": "for garnish"
+      }
+    ]
+  },
+  {
+    "id": 95,
+    "name": "Vegetable Curry",
+    "instructions": "1. In a large pot, heat oil over medium heat. 2. Sauté diced onions, minced garlic, and ginger until fragrant. 3. Stir in curry powder, turmeric, and cumin, and cook for a minute. 4. Add diced potatoes, carrots, bell peppers, and cauliflower florets. 5. Pour in coconut milk and vegetable broth. 6. Simmer until the vegetables are tender. 7. Season with salt and black pepper. 8. Serve hot with cooked rice or naan bread.",
+    "prepTime": "15 minutes",
+    "cookTime": "25 minutes",
+    "totalTime": "40 minutes",
+    "ingredients": [
+      {
+        "ingredientName": "Oil",
+        "quantity": "2 tablespoons"
+      },
+      {
+        "ingredientName": "Onions (diced)",
+        "quantity": "1"
+      },
+      {
+        "ingredientName": "Garlic (minced)",
+        "quantity": "2 cloves"
+      },
+      {
+        "ingredientName": "Ginger (minced)",
+        "quantity": "1 tablespoon"
+      },
+      {
+        "ingredientName": "Curry powder",
+        "quantity": "2 tablespoons"
+      },
+      {
+        "ingredientName": "Turmeric",
+        "quantity": "1 teaspoon"
+      },
+      {
+        "ingredientName": "Cumin",
+        "quantity": "1 teaspoon"
+      },
+      {
+        "ingredientName": "Potatoes (diced)",
+        "quantity": "2"
+      },
+      {
+        "ingredientName": "Carrots (diced)",
+        "quantity": "2"
+      },
+      {
+        "ingredientName": "Bell peppers (diced)",
+        "quantity": "2"
+      },
+      {
+        "ingredientName": "Cauliflower florets",
+        "quantity": "2 cups"
+      },
+      {
+        "ingredientName": "Coconut milk",
+        "quantity": "1 can"
+      },
+      {
+        "ingredientName": "Vegetable broth",
+        "quantity": "2 cups"
+      },
+      {
+        "ingredientName": "Salt",
+        "quantity": "to taste"
+      },
+      {
+        "ingredientName": "Black pepper",
+        "quantity": "to taste"
+      },
+      {
+        "ingredientName": "Cooked rice or naan bread",
+        "quantity": "for serving"
+      }
+    ]
+  },
+  {
+    "id": 96,
+    "name": "Quinoa and Black Bean Salad",
+    "instructions": "1. Cook quinoa according to package instructions and let it cool. 2. In a large bowl, combine cooked quinoa, black beans, corn kernels, diced tomatoes, diced red onion, and chopped cilantro. 3. In a small bowl, whisk together olive oil, lime juice, cumin, and chili powder to make the dressing. 4. Pour the dressing over the salad and toss to combine. 5. Season with salt and black pepper to taste. 6. Serve chilled as a refreshing salad.",
+    "prepTime": "15 minutes",
+    "cookTime": "15 minutes",
+    "totalTime": "30 minutes",
+    "ingredients": [
+      {
+        "ingredientName": "Quinoa",
+        "quantity": "1 cup"
+      },
+      {
+        "ingredientName": "Black beans (canned, drained and rinsed)",
+        "quantity": "1 can"
+      },
+      {
+        "ingredientName": "Corn kernels (canned or fresh)",
+        "quantity": "1 cup"
+      },
+      {
+        "ingredientName": "Diced tomatoes",
+        "quantity": "1 cup"
+      },
+      {
+        "ingredientName": "Red onion (diced)",
+        "quantity": "1/2 cup"
+      },
+      {
+        "ingredientName": "Fresh cilantro (chopped)",
+        "quantity": "1/4 cup"
+      },
+      {
+        "ingredientName": "Olive oil",
+        "quantity": "1/4 cup"
+      },
+      {
+        "ingredientName": "Lime juice",
+        "quantity": "2 tablespoons"
+      },
+      {
+        "ingredientName": "Cumin",
+        "quantity": "1/2 teaspoon"
+      },
+      {
+        "ingredientName": "Chili powder",
+        "quantity": "1/2 teaspoon"
+      },
+      {
+        "ingredientName": "Salt",
+        "quantity": "to taste"
+      },
+      {
+        "ingredientName": "Black pepper",
+        "quantity": "to taste"
+      }
+    ]
+  },
+  {
+    "id": 97,
+    "name": "Classic Margherita Pizza",
+    "instructions": "1. Preheat your oven to the highest temperature (usually around 500°F or 260°C). 2. Roll out pizza dough into a round shape. 3. Spread tomato sauce evenly over the dough. 4. Arrange fresh mozzarella cheese slices and fresh basil leaves on top. 5. Drizzle olive oil over the pizza. 6. Bake in the preheated oven for 10-12 minutes or until the crust is golden and the cheese is bubbly. 7. Remove from the oven, sprinkle with a pinch of salt, and serve hot.",
+    "prepTime": "15 minutes",
+    "cookTime": "10-12 minutes",
+    "totalTime": "25-27 minutes",
+    "ingredients": [
+      {
+        "ingredientName": "Pizza dough",
+        "quantity": "1 ball"
+      },
+      {
+        "ingredientName": "Tomato sauce",
+        "quantity": "1/2 cup"
+      },
+      {
+        "ingredientName": "Fresh mozzarella cheese (sliced)",
+        "quantity": "4 ounces"
+      },
+      {
+        "ingredientName": "Fresh basil leaves",
+        "quantity": "a handful"
+      },
+      {
+        "ingredientName": "Olive oil",
+        "quantity": "1 tablespoon"
+      },
+      {
+        "ingredientName": "Salt",
+        "quantity": "a pinch"
+      }
+    ]
+  },
+  {
+    "id": 98,
+    "name": "Thai Green Curry with Chicken",
+    "instructions": "1. In a large pot, heat coconut milk and green curry paste over medium heat. 2. Add sliced chicken, sliced bell peppers, and sliced bamboo shoots. 3. Simmer until the chicken is cooked through and the vegetables are tender. 4. Stir in fish sauce, sugar, and fresh basil leaves. 5. Serve hot with steamed jasmine rice.",
+    "prepTime": "15 minutes",
+    "cookTime": "20 minutes",
+    "totalTime": "35 minutes",
+    "ingredients": [
+      {
+        "ingredientName": "Coconut milk",
+        "quantity": "1 can"
+      },
+      {
+        "ingredientName": "Green curry paste",
+        "quantity": "2 tablespoons"
+      },
+      {
+        "ingredientName": "Chicken (sliced)",
+        "quantity": "1 pound"
+      },
+      {
+        "ingredientName": "Bell peppers (sliced)",
+        "quantity": "2"
+      },
+      {
+        "ingredientName": "Bamboo shoots (sliced)",
+        "quantity": "1 can"
+      },
+      {
+        "ingredientName": "Fish sauce",
+        "quantity": "2 tablespoons"
+      },
+      {
+        "ingredientName": "Sugar",
+        "quantity": "1 tablespoon"
+      },
+      {
+        "ingredientName": "Fresh basil leaves",
+        "quantity": "1/2 cup"
+      },
+      {
+        "ingredientName": "Steamed jasmine rice",
+        "quantity": "for serving"
+      }
+    ]
+  },
+  {
+    "id": 99,
+    "name": "Apple Crisp",
+    "instructions": "1. Preheat your oven to 350°F (175°C). 2. In a large bowl, combine sliced apples, sugar, cinnamon, and lemon juice. 3. Transfer the apple mixture to a baking dish. 4. In a separate bowl, mix oats, flour, brown sugar, and melted butter until crumbly. 5. Sprinkle the oat mixture evenly over the apples. 6. Bake for 40-45 minutes or until the topping is golden brown and the apples are tender. 7. Serve warm with a scoop of vanilla ice cream.",
+    "prepTime": "15 minutes",
+    "cookTime": "40-45 minutes",
+    "totalTime": "55-60 minutes",
+    "ingredients": [
+      {
+        "ingredientName": "Apples (sliced)",
+        "quantity": "6 cups"
+      },
+      {
+        "ingredientName": "Sugar",
+        "quantity": "1/2 cup"
+      },
+      {
+        "ingredientName": "Cinnamon",
+        "quantity": "1 teaspoon"
+      },
+      {
+        "ingredientName": "Lemon juice",
+        "quantity": "1 tablespoon"
+      },
+      {
+        "ingredientName": "Old-fashioned oats",
+        "quantity": "1 cup"
+      },
+      {
+        "ingredientName": "All-purpose flour",
+        "quantity": "1/2 cup"
+      },
+      {
+        "ingredientName": "Brown sugar",
+        "quantity": "1/2 cup"
+      },
+      {
+        "ingredientName": "Butter (melted)",
+        "quantity": "1/2 cup"
+      },
+      {
+        "ingredientName": "Vanilla ice cream",
+        "quantity": "for serving"
+      }
+    ]
+  },
+  {
+    "id": 100,
+    "name": "Caesar Salad with Grilled Chicken",
+    "instructions": "1. Season chicken breasts with salt, black pepper, and olive oil. 2. Grill the chicken until cooked through and grill marks appear, about 6-8 minutes per side. 3. Slice the grilled chicken into thin strips. 4. In a large bowl, toss together romaine lettuce, croutons, grated Parmesan cheese, and Caesar dressing. 5. Top the salad with grilled chicken strips. 6. Serve as a hearty salad.",
+    "prepTime": "10 minutes",
+    "cookTime": "12-16 minutes",
+    "totalTime": "22-26 minutes",
+    "ingredients": [
+      {
+        "ingredientName": "Chicken breasts",
+        "quantity": "2"
+      },
+      {
+        "ingredientName": "Salt",
+        "quantity": "to taste"
+      },
+      {
+        "ingredientName": "Black pepper",
+        "quantity": "to taste"
+      },
+      {
+        "ingredientName": "Olive oil",
+        "quantity": "1 tablespoon"
+      },
+      {
+        "ingredientName": "Romaine lettuce (chopped)",
+        "quantity": "1 head"
+      },
+      {
+        "ingredientName": "Croutons",
+        "quantity": "1 cup"
+      },
+      {
+        "ingredientName": "Grated Parmesan cheese",
+        "quantity": "1/2 cup"
+      },
+      {
+        "ingredientName": "Caesar dressing",
+        "quantity": "1/2 cup"
+      }
+    ]
+  }
+]
