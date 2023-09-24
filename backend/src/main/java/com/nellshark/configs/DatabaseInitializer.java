@@ -13,6 +13,7 @@ import com.nellshark.models.Post;
 import com.nellshark.models.Product;
 import com.nellshark.models.Project;
 import com.nellshark.models.Recipe;
+import com.nellshark.models.Review;
 import com.nellshark.services.JsonService;
 import java.io.File;
 import java.util.HashMap;
@@ -56,6 +57,7 @@ public class DatabaseInitializer implements CommandLineRunner {
     map.put("products.json", Product.class);
     map.put("projects.json", Project.class);
     map.put("recipes.json", Recipe.class);
+    map.put("reviews.json", Review.class);
 
     map.forEach(this::deserializeJsonResourceFile);
   }

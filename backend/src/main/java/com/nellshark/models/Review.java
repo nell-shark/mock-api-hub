@@ -1,5 +1,8 @@
 package com.nellshark.models;
 
+import static com.fasterxml.jackson.annotation.JsonFormat.Shape.STRING;
+
+import com.fasterxml.jackson.annotation.JsonFormat;
 import jakarta.persistence.Column;
 import jakarta.persistence.Entity;
 import jakarta.persistence.Id;
@@ -24,6 +27,7 @@ public class Review {
   private Long rating;
 
   @Column(name = "date", nullable = false, updatable = false)
+  @JsonFormat(shape = STRING, pattern = "yyyy-MM-dd")
   private LocalDate date;
 
   @Column(name = "body", nullable = false, updatable = false)
