@@ -14,6 +14,7 @@ import com.nellshark.models.Product;
 import com.nellshark.models.Project;
 import com.nellshark.models.Recipe;
 import com.nellshark.models.Review;
+import com.nellshark.models.Todo;
 import com.nellshark.services.JsonService;
 import java.io.File;
 import java.util.HashMap;
@@ -31,6 +32,24 @@ import org.springframework.web.context.WebApplicationContext;
 public class DatabaseInitializer implements CommandLineRunner {
 
   private static final Logger logger = LoggerFactory.getLogger(DatabaseInitializer.class);
+  private static final Map<String, Class<?>> ENTITY_MAP = new HashMap<>();
+
+  static {
+    ENTITY_MAP.put("addresses.json", Address.class);
+    ENTITY_MAP.put("books.json", Book.class);
+    ENTITY_MAP.put("comments.json", Comment.class);
+    ENTITY_MAP.put("courses.json", Course.class);
+    ENTITY_MAP.put("employees.json", Employee.class);
+    ENTITY_MAP.put("events.json", Event.class);
+    ENTITY_MAP.put("messages.json", Message.class);
+    ENTITY_MAP.put("notifications.json", Notification.class);
+    ENTITY_MAP.put("posts.json", Post.class);
+    ENTITY_MAP.put("products.json", Product.class);
+    ENTITY_MAP.put("projects.json", Project.class);
+    ENTITY_MAP.put("recipes.json", Recipe.class);
+    ENTITY_MAP.put("reviews.json", Review.class);
+    ENTITY_MAP.put("todos.json", Todo.class);
+  }
 
   private final JsonService jsonService;
   private final WebApplicationContext appContext;
@@ -43,23 +62,7 @@ public class DatabaseInitializer implements CommandLineRunner {
   @Override
   public void run(String... args) {
     logger.info("Starting initialization database");
-
-    Map<String, Class<?>> map = new HashMap<>();
-    map.put("addresses.json", Address.class);
-    map.put("books.json", Book.class);
-    map.put("comments.json", Comment.class);
-    map.put("courses.json", Course.class);
-    map.put("employees.json", Employee.class);
-    map.put("events.json", Event.class);
-    map.put("messages.json", Message.class);
-    map.put("notifications.json", Notification.class);
-    map.put("posts.json", Post.class);
-    map.put("products.json", Product.class);
-    map.put("projects.json", Project.class);
-    map.put("recipes.json", Recipe.class);
-    map.put("reviews.json", Review.class);
-
-    map.forEach(this::deserializeJsonResourceFile);
+    ENTITY_MAP.forEach(this::deserializeJsonResourceFile);
   }
 
   private <T> void deserializeJsonResourceFile(String jsonFileName, Class<T> entityClass) {
@@ -80,7 +83,7 @@ public class DatabaseInitializer implements CommandLineRunner {
     JpaRepository<T, ?> repository = (JpaRepository<T, ?>) repositories
         .getRepositoryFor(entityClass)
         .orElseThrow(() -> new RepositoryNotFoundException(
-            "Can't find repository for entity of type: " + entityClass
+            "Repository not found for entity class: " + entityClass
         ));
     return repository;
   }
