@@ -15,6 +15,7 @@ import com.nellshark.models.Project;
 import com.nellshark.models.Recipe;
 import com.nellshark.models.Review;
 import com.nellshark.models.Todo;
+import com.nellshark.models.User;
 import com.nellshark.services.JsonService;
 import java.io.File;
 import java.util.HashMap;
@@ -49,6 +50,7 @@ public class DatabaseInitializer implements CommandLineRunner {
     ENTITY_MAP.put("recipes.json", Recipe.class);
     ENTITY_MAP.put("reviews.json", Review.class);
     ENTITY_MAP.put("todos.json", Todo.class);
+    ENTITY_MAP.put("users.json", User.class);
   }
 
   private final JsonService jsonService;
