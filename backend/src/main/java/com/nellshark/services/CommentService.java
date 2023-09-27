@@ -1,27 +1,13 @@
 package com.nellshark.services;
 
-import com.nellshark.exceptions.CommentNotFoundException;
 import com.nellshark.models.Comment;
 import com.nellshark.repositories.CommentRepository;
-import org.slf4j.Logger;
-import org.slf4j.LoggerFactory;
 import org.springframework.stereotype.Service;
 
 @Service
-public class CommentService {
-
-  private static final Logger logger = LoggerFactory.getLogger(CommentService.class);
-
-  private final CommentRepository commentRepository;
+public class CommentService extends AbstractGenericService<Comment, Long> {
 
   public CommentService(CommentRepository commentRepository) {
-    this.commentRepository = commentRepository;
-  }
-
-  public Comment getCommentById(Long id) {
-    return commentRepository
-        .findById(id)
-        .orElseThrow(
-            () -> new CommentNotFoundException("Comment with id %s not found".formatted(id)));
+    super(commentRepository);
   }
 }

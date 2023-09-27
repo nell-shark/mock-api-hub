@@ -3,6 +3,7 @@ package com.nellshark.exceptions;
 import static org.springframework.http.HttpStatus.INTERNAL_SERVER_ERROR;
 import static org.springframework.http.HttpStatus.NOT_FOUND;
 
+import jakarta.persistence.EntityNotFoundException;
 import jakarta.servlet.http.HttpServletRequest;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -23,6 +24,7 @@ public class GlobalExceptionHandler {
       CourseNotFoundException.class,
       EmployeeNotFoundException.class,
       EventNotFoundException.class,
+      EntityNotFoundException.class,
       MessageNotFoundException.class,
       NotificationNotFoundException.class,
       OrderNotFoundException.class,
