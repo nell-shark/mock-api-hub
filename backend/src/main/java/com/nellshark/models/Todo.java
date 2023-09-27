@@ -1,5 +1,8 @@
 package com.nellshark.models;
 
+import static com.fasterxml.jackson.annotation.JsonFormat.Shape.STRING;
+
+import com.fasterxml.jackson.annotation.JsonFormat;
 import jakarta.persistence.Column;
 import jakarta.persistence.Entity;
 import jakarta.persistence.Id;
@@ -21,6 +24,7 @@ public class Todo {
   private Boolean completed;
 
   @Column(name = "timestamp", nullable = false, updatable = false)
+  @JsonFormat(shape = STRING)
   private LocalDateTime timestamp;
 
   public Long getId() {

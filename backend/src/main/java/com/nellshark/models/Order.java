@@ -1,9 +1,13 @@
 package com.nellshark.models;
 
+import static com.fasterxml.jackson.annotation.JsonFormat.Shape.STRING;
+
+import com.fasterxml.jackson.annotation.JsonFormat;
 import jakarta.persistence.CollectionTable;
 import jakarta.persistence.Column;
 import jakarta.persistence.ElementCollection;
 import jakarta.persistence.Entity;
+import jakarta.persistence.FetchType;
 import jakarta.persistence.Id;
 import jakarta.persistence.JoinColumn;
 import jakarta.persistence.Table;
@@ -19,12 +23,13 @@ public class Order {
   private Long id;
 
   @Column(name = "timestamp", nullable = false, updatable = false)
+  @JsonFormat(shape = STRING)
   private LocalDateTime timestamp;
 
   @Column(name = "status", nullable = false, updatable = false)
   private String status;
 
-  @ElementCollection
+  @ElementCollection(fetch = FetchType.EAGER)
   @CollectionTable(name = "order_items", joinColumns = @JoinColumn(name = "order_id"))
   private List<Item> items;
 

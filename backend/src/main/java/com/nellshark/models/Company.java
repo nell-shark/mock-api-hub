@@ -28,11 +28,11 @@ public class Company {
   @Column(name = "website", nullable = false, updatable = false)
   private String website;
 
-  @Column(name = "description", nullable = false, updatable = false)
-  private String description;
-
   @Column(name = "numberOfEmployees", nullable = false, updatable = false)
   private Long numberOfEmployees;
+
+  @Column(name = "description", nullable = false, updatable = false)
+  private String description;
 
   public Long getId() {
     return id;
@@ -82,20 +82,20 @@ public class Company {
     this.website = website;
   }
 
-  public String getDescription() {
-    return description;
-  }
-
-  public void setDescription(String description) {
-    this.description = description;
-  }
-
   public Long getNumberOfEmployees() {
     return numberOfEmployees;
   }
 
   public void setNumberOfEmployees(Long numberOfEmployees) {
     this.numberOfEmployees = numberOfEmployees;
+  }
+
+  public String getDescription() {
+    return description;
+  }
+
+  public void setDescription(String description) {
+    this.description = description;
   }
 
   @Override
@@ -105,10 +105,10 @@ public class Company {
         ", name='" + name + '\'' +
         ", industry='" + industry + '\'' +
         ", foundedYear=" + foundedYear +
-        ", location=" + location +
-        ", website=" + website +
-        ", description=" + description +
+        ", location='" + location + '\'' +
+        ", website='" + website + '\'' +
         ", numberOfEmployees=" + numberOfEmployees +
+        ", description='" + description + '\'' +
         '}';
   }
 }

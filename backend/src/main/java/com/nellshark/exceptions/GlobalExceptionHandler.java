@@ -51,7 +51,7 @@ public class GlobalExceptionHandler {
 
   @ExceptionHandler(Exception.class)
   public ResponseEntity<ApiError> handleException(Exception e, HttpServletRequest request) {
-    logger.warn("{} Occurred: {}", e.getClass().getSimpleName(), e.getMessage());
+    logger.error("{} Occurred: {}", e.getClass().getSimpleName(), e.getMessage());
 
     ApiError apiError = new ApiError(
         INTERNAL_SERVER_ERROR,

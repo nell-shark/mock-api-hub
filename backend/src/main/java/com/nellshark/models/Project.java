@@ -7,6 +7,7 @@ import jakarta.persistence.CollectionTable;
 import jakarta.persistence.Column;
 import jakarta.persistence.ElementCollection;
 import jakarta.persistence.Entity;
+import jakarta.persistence.FetchType;
 import jakarta.persistence.Id;
 import jakarta.persistence.JoinColumn;
 import jakarta.persistence.Table;
@@ -38,7 +39,7 @@ public class Project {
   @JsonFormat(shape = STRING, pattern = "yyyy-MM-dd")
   private LocalDate endDate;
 
-  @ElementCollection
+  @ElementCollection(fetch = FetchType.EAGER)
   @CollectionTable(name = "project_team", joinColumns = @JoinColumn(name = "project_id"))
   private List<Team> team;
 
