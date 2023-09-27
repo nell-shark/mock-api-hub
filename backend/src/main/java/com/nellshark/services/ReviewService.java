@@ -1,5 +1,7 @@
 package com.nellshark.services;
 
+import com.nellshark.exceptions.ReviewNotFoundException;
+import com.nellshark.models.Review;
 import com.nellshark.repositories.ReviewRepository;
 import org.springframework.stereotype.Service;
 
@@ -10,5 +12,12 @@ public class ReviewService {
 
   public ReviewService(ReviewRepository reviewRepository) {
     this.reviewRepository = reviewRepository;
+  }
+
+  public Review getReviewById(Long id) {
+    return reviewRepository
+        .findById(id)
+        .orElseThrow(
+            () -> new ReviewNotFoundException("Review with id %s not found".formatted(id)));
   }
 }

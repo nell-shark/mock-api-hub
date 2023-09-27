@@ -1,5 +1,7 @@
 package com.nellshark.services;
 
+import com.nellshark.exceptions.CommentNotFoundException;
+import com.nellshark.models.Comment;
 import com.nellshark.repositories.CommentRepository;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -14,5 +16,12 @@ public class CommentService {
 
   public CommentService(CommentRepository commentRepository) {
     this.commentRepository = commentRepository;
+  }
+
+  public Comment getCommentById(Long id) {
+    return commentRepository
+        .findById(id)
+        .orElseThrow(
+            () -> new CommentNotFoundException("Comment with id %s not found".formatted(id)));
   }
 }
