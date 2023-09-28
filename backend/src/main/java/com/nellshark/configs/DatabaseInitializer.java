@@ -26,10 +26,10 @@ import java.util.Map;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.boot.CommandLineRunner;
+import org.springframework.context.ApplicationContext;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.repository.support.Repositories;
-import org.springframework.web.context.WebApplicationContext;
 
 @Configuration
 public class DatabaseInitializer implements CommandLineRunner {
@@ -58,9 +58,9 @@ public class DatabaseInitializer implements CommandLineRunner {
   }
 
   private final JsonService jsonService;
-  private final WebApplicationContext appContext;
+  private final ApplicationContext appContext;
 
-  public DatabaseInitializer(JsonService jsonService, WebApplicationContext appContext) {
+  public DatabaseInitializer(JsonService jsonService, ApplicationContext appContext) {
     this.jsonService = jsonService;
     this.appContext = appContext;
   }
