@@ -12,7 +12,7 @@ import org.springframework.web.bind.annotation.PutMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestParam;
 
-public class AbstractGenericController<T, ID> {
+public abstract class AbstractGenericController<T, ID> {
 
   private final AbstractGenericService<T, ID> service;
 
@@ -23,10 +23,10 @@ public class AbstractGenericController<T, ID> {
   @GetMapping
   public ResponseEntity<List<T>> getEntities(
       @RequestParam(required = false) Integer page,
-      @RequestParam(required = false) String sort,
-      @RequestParam(required = false) Integer limit
+      @RequestParam(required = false) Integer size,
+      @RequestParam(required = false) String sort
   ) {
-    List<T> entities = service.getEntities(page, sort, limit);
+    List<T> entities = service.getEntities(page, size, sort);
     return ResponseEntity.ok(entities);
   }
 

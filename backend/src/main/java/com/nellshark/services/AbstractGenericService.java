@@ -1,15 +1,17 @@
 package com.nellshark.services;
 
+import static java.util.Objects.isNull;
+import static java.util.Objects.nonNull;
+
 import jakarta.persistence.EntityNotFoundException;
 import java.util.List;
-import java.util.Objects;
-import java.util.stream.Stream;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
+import org.springframework.data.domain.PageRequest;
 import org.springframework.data.domain.Sort;
 import org.springframework.data.jpa.repository.JpaRepository;
 
-public class AbstractGenericService<T, ID> {
+public abstract class AbstractGenericService<T, ID> {
 
   private static final Logger logger = LoggerFactory.getLogger(AbstractGenericService.class);
 
@@ -19,24 +21,20 @@ public class AbstractGenericService<T, ID> {
     this.repository = repository;
   }
 
-  public List<T> getEntities(Integer page, String sort, Integer limit) {
-    logger.info("Getting entities: page={}, sort={}, limit={}", page, sort, limit);
+  public List<T> getEntities(Integer page, Integer size, String sort) {
+    logger.info("Getting entities: page={}, size={}, sort={}", page, size, sort);
 
-    int pageSize = 10;
+    Sort sorting = isNull(sort) ? Sort.unsorted() : Sort.by(sort);
 
-    Stream<T> stream = Objects.isNull(sort)
-        ? repository.findAll().stream()
-        : repository.findAll(Sort.by(sort)).stream();
-
-    if (Objects.nonNull(page) && page >= 0) {
-      stream = stream.skip(page * pageSize).limit(pageSize);
+    if (isNull(size) && isNull(page)) {
+      return repository.findAll(sorting);
     }
 
-    if (Objects.nonNull(limit) && limit >= 1) {
-      stream = stream.limit(limit);
-    }
+    page = nonNull(page) && page > 1 ? page - 1 : 0;
+    size = nonNull(size) && size > 0 ? size : 10;
 
-    return stream.toList();
+    PageRequest pageRequest = PageRequest.of(page, size, sorting);
+    return repository.findAll(pageRequest).getContent();
   }
 
   public T getEntityById(ID id) {
