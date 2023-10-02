@@ -1,5 +1,6 @@
 # Editor directories and files
 .idea/
+.vscode/
 out/
 *.iml
 *.ipr
@@ -33,3 +34,4 @@ yarn-error.log*
 # Other
 *.local
 .env*
+/backend/bin/
