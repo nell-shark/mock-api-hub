@@ -19,7 +19,6 @@ import com.nellshark.models.Review;
 import com.nellshark.models.Todo;
 import com.nellshark.models.User;
 import com.nellshark.services.JsonService;
-import java.io.File;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
@@ -75,8 +74,8 @@ public class DatabaseInitializer implements CommandLineRunner {
     logger.info("Deserialize json file '{}' to entities: {}", jsonFileName, entityClass);
 
     JpaRepository<T, ?> entityRepository = getRepositoryByEntity(entityClass);
-    File jsonFile = jsonService.getJsonFileFromResources(jsonFileName);
-    List<T> entities = jsonService.convertJsonFileToEntities(jsonFile, entityClass);
+    byte[] jsonBytes = jsonService.getJsonFileBytesFromResources(jsonFileName);
+    List<T> entities = jsonService.convertJsonBytesToEntities(jsonBytes, entityClass);
     entityRepository.saveAll(entities);
   }
 

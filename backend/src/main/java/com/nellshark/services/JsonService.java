@@ -3,8 +3,8 @@ package com.nellshark.services;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.nellshark.exceptions.JsonDeserializationException;
 import com.nellshark.exceptions.ResourceNotFoundException;
-import java.io.File;
 import java.io.IOException;
+import java.io.InputStream;
 import java.util.List;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -12,6 +12,7 @@ import org.springframework.core.io.Resource;
 import org.springframework.core.io.ResourceLoader;
 import org.springframework.lang.NonNull;
 import org.springframework.stereotype.Service;
+import org.springframework.util.FileCopyUtils;
 
 @Service
 public class JsonService {
@@ -26,30 +27,30 @@ public class JsonService {
     this.resourceLoader = resourceLoader;
   }
 
-  public <T> List<T> convertJsonFileToEntities(
-      @NonNull File jsonFile,
+  public <T> List<T> convertJsonBytesToEntities(
+      @NonNull byte[] jsonBytes,
       @NonNull Class<T> entityClass) {
-    logger.info("Convert json file '{}' to List of Entities: {}", jsonFile, entityClass);
+    logger.info("Convert bytes to List of Entities: {}", entityClass);
 
     try {
       return objectMapper.readValue(
-          jsonFile,
+          jsonBytes,
           objectMapper.getTypeFactory().constructCollectionType(List.class, entityClass)
       );
     } catch (IOException e) {
       throw new JsonDeserializationException(
-          "Error converting JSON file to list of entities: " + jsonFile.getPath(), e);
+          "Error converting bytes to list of entities: ", e);
     }
   }
 
-  public File getJsonFileFromResources(@NonNull String jsonFileName) {
+  public byte[] getJsonFileBytesFromResources(@NonNull String jsonFileName) {
     logger.info("Getting resource json file: {}", jsonFileName);
     Resource resource = resourceLoader.getResource("classpath:json/" + jsonFileName);
 
-    try {
-      return resource.getFile();
+    try (InputStream inputStream = resource.getInputStream()) {
+      return FileCopyUtils.copyToByteArray(inputStream);
     } catch (IOException e) {
-      throw new ResourceNotFoundException("Error getting resource json file: " + jsonFileName, e);
+      throw new ResourceNotFoundException("Error reading json resource file: " + jsonFileName, e);
     }
   }
 }

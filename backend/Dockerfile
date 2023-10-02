@@ -1,5 +1,5 @@
 # Build stage
-FROM gradle:8.3.0-jdk20-alpine AS BUILD_STAGE
+FROM gradle:8.3.0-jdk20-alpine AS build
 
 WORKDIR /backend
 
@@ -18,6 +18,8 @@ FROM openjdk:21-oracle
 
 WORKDIR /backend
 
-COPY --from=BUILD_STAGE /backend/build/libs/*.jar ./backend.jar
+COPY --from=build /backend/build/libs/*.jar ./backend.jar
+
+EXPOSE 8080
 
 ENTRYPOINT ["java", "-jar", "backend.jar"]

@@ -4,8 +4,10 @@ WORKDIR /frontend
 
 COPY package.json package-lock.json ./
 
-RUN npm install --silent
+RUN npm install -g typescript
+
+RUN npm install
 
 COPY .  ./
 
-CMD [ "npm", "run", "dev" ]
+RUN npm run build
