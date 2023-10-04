@@ -4,8 +4,8 @@ interface EntityProps {
 
 export function Entity({name}: EntityProps) {
   return (
-    <a href={`/${name}`} className='font-bold text-blue-600 dark:text-blue-500 hover:underline'>
-      /{name}
+    <a href={`/api/v1/${name}`} className='font-bold text-blue-600 dark:text-blue-500 hover:underline'>
+      {name}
     </a>
   );
 }
