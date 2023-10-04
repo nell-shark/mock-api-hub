@@ -1,4 +1,4 @@
-import { CONTACT_URL, GITHUB_REPO_URL, LICENSE_URL } from '../../data/constants';
+import { CONTACT_URL, GITHUB_REPO_URL, LICENSE_URL } from '@data/constants';
 
 export function Footer() {
   return (

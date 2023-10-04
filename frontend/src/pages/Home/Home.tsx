@@ -1,10 +1,10 @@
-import Logo from '../../assets/logo.svg';
-import { Footer } from '../../components/Footer';
-import { Navbar } from '../../components/Navbar';
-import { ENTITIES } from '../../data/constants';
-import { useTitle } from '../../hooks';
-import { Page } from '../../typings/page';
-import { Entity } from './Entity';
+import Logo from '@assets/logo.svg';
+import { Footer } from '@components/Footer';
+import { Navbar } from '@components/Navbar';
+import { ENTITIES } from '@data/constants';
+import { useTitle } from '@hooks/useTitle';
+import { Page } from '@typings/page';
+import { Entity } from '@pages/Home/Entity';
 
 interface HomeProps extends Page {}
 

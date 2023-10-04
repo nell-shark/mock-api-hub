@@ -1,7 +1,7 @@
-import { useTitle } from '../../hooks';
-import { Page } from '../../typings/page';
-import BackArrow from '../../assets/back-arrow.svg';
-import NotFound4o4 from '../../assets/not-found-404.svg';
+import { useTitle } from '@hooks/useTitle';
+import { Page } from '@typings/page';
+import BackArrow from '@assets/back-arrow.svg';
+import NotFound4o4 from '@assets/not-found-404.svg';
 import { Link } from 'react-router-dom';
 
 interface NotFoundProps extends Page {}

@@ -1,6 +1,6 @@
 import { useState } from 'react';
-import Logo from '../../assets/logo.svg';
-import { CONTACT_URL, GITHUB_REPO_URL, LICENSE_URL } from '../../data/constants';
+import Logo from '@assets/logo.svg';
+import { CONTACT_URL, GITHUB_REPO_URL, LICENSE_URL } from '@data/constants';
 
 export function Navbar() {
   const [isMenuOpen, setIsMenuOpen] = useState<boolean>(false);
