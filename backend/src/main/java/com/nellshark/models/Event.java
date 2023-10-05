@@ -7,6 +7,7 @@ import jakarta.persistence.CollectionTable;
 import jakarta.persistence.Column;
 import jakarta.persistence.ElementCollection;
 import jakarta.persistence.Entity;
+import jakarta.persistence.FetchType;
 import jakarta.persistence.Id;
 import jakarta.persistence.JoinColumn;
 import jakarta.persistence.Table;
@@ -34,7 +35,7 @@ public class Event {
   @Column(name = "description", nullable = false, updatable = false)
   private String description;
 
-  @ElementCollection
+  @ElementCollection(fetch = FetchType.EAGER)
   @CollectionTable(name = "event_speakers", joinColumns = @JoinColumn(name = "event_id"))
   private List<Speaker> speakers;
 

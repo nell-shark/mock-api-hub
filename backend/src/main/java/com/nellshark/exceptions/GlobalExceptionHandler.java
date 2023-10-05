@@ -5,6 +5,7 @@ import static org.springframework.http.HttpStatus.INTERNAL_SERVER_ERROR;
 import static org.springframework.http.HttpStatus.NOT_FOUND;
 
 import jakarta.persistence.EntityNotFoundException;
+import jakarta.servlet.RequestDispatcher;
 import jakarta.servlet.http.HttpServletRequest;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -27,6 +28,23 @@ public class GlobalExceptionHandler {
         NOT_FOUND,
         e.getMessage(),
         request.getRequestURI()
+    );
+
+    return new ResponseEntity<>(apiError, apiError.getStatus());
+  }
+
+  @ExceptionHandler(HandlerNotFoundException.class)
+  public ResponseEntity<ApiError> handleHandlerNotFoundException(
+      HandlerNotFoundException e, HttpServletRequest request) {
+    logger.warn("{} Occurred: {}", e.getClass().getSimpleName(), e.getMessage());
+
+    // Otherwise it will be always "/error"
+    String originalUrl = (String) request.getAttribute(RequestDispatcher.ERROR_REQUEST_URI);
+
+    ApiError apiError = new ApiError(
+        NOT_FOUND,
+        e.getMessage(),
+        originalUrl
     );
 
     return new ResponseEntity<>(apiError, apiError.getStatus());

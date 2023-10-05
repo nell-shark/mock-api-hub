@@ -6,7 +6,7 @@ export function App() {
   return (
     <Routes>
       <Route path='/' element={<Home title={'Mock Api Hub'} />} />
-      <Route path='*' element={<NotFound title={'Not Found'} />} />
+      <Route path='*' element={<NotFound title={'404 Not Found'} />} />
     </Routes>
   );
 }
