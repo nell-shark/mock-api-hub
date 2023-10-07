@@ -1,8 +1,6 @@
 package com.nellshark.services;
 
-import static java.lang.Integer.parseInt;
 import static java.util.Objects.isNull;
-import static java.util.Objects.nonNull;
 import static org.springframework.data.domain.Sort.Direction.ASC;
 import static org.springframework.data.domain.Sort.Direction.DESC;
 
@@ -15,9 +13,11 @@ import jakarta.persistence.criteria.Root;
 import java.lang.reflect.ParameterizedType;
 import java.time.LocalDate;
 import java.time.LocalDateTime;
+import java.time.format.DateTimeParseException;
 import java.util.List;
 import java.util.Map;
 import java.util.Objects;
+import java.util.Optional;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.data.domain.PageRequest;
@@ -52,29 +52,35 @@ public abstract class AbstractGenericService<T, ID> {
   public List<T> getEntities(Map<String, String> filterParams) {
     logger.info("Getting entities of {}: filterParams={}", entityClass, filterParams);
 
-    String _direction = filterParams.remove("direction");
-    Direction direction = isNull(_direction) || !_direction.equalsIgnoreCase(DESC.name())
-        ? ASC
-        : DESC;
+    Optional<String> directionOptional = Optional.ofNullable(filterParams.remove("direction"));
+    Optional<String> sortOptional = Optional.ofNullable(filterParams.remove("sort"));
+    Optional<String> pageOptional = Optional.ofNullable(filterParams.remove("page"));
+    Optional<String> sizeOptional = Optional.ofNullable(filterParams.remove("size"));
 
-    String _sort = filterParams.remove("sort");
-    Sort sort = isNull(_sort)
-        ? Sort.by(direction, "id")
-        : Sort.by(direction, _sort);
+    Direction direction = directionOptional
+        .map(dir -> dir.equalsIgnoreCase("DESC") ? DESC : ASC)
+        .orElse(ASC);
+
+    Sort sort = sortOptional
+        .map(sortBy -> Sort.by(direction, sortBy))
+        .orElse(Sort.by(direction, "id"));
 
     Pageable pageable;
-    String _page = filterParams.remove("page");
-    String _size = filterParams.remove("size");
 
-    if (isNull(_page) && isNull(_size)) {
+    if (pageOptional.isEmpty() && sizeOptional.isEmpty()) {
       pageable = PageRequest.of(0, Integer.MAX_VALUE, sort);
     } else {
-      int page = nonNull(_page) && parseInt(_page) > 1
-          ? parseInt(_page) - 1
-          : 0;
-      int size = nonNull(_size) && parseInt(_size) > 0
-          ? parseInt(_size)
-          : 10;
+      int page = pageOptional
+          .map(Integer::parseInt)
+          .filter(p -> p > 1)
+          .map(p -> p - 1)
+          .orElse(0);
+
+      int size = sizeOptional
+          .map(Integer::parseInt)
+          .filter(s -> s > 0)
+          .orElse(10);
+
       pageable = PageRequest.of(page, size, sort);
     }
 
@@ -103,30 +109,34 @@ public abstract class AbstractGenericService<T, ID> {
       throw new IllegalArgumentException("Cannot cast value to the required type: " + fieldType);
     }
 
-    if (fieldType.isAssignableFrom(Boolean.class)) {
-      return Boolean.valueOf(value);
-    }
+    try {
+      if (fieldType.isAssignableFrom(Boolean.class)) {
+        return Boolean.valueOf(value);
+      }
 
-    if (fieldType.isAssignableFrom(Double.class)) {
-      return Double.valueOf(value);
-    }
+      if (fieldType.isAssignableFrom(Double.class)) {
+        return Double.valueOf(value);
+      }
 
-    if (fieldType.isAssignableFrom(Long.class)) {
-      return Long.valueOf(value);
-    }
+      if (fieldType.isAssignableFrom(Long.class)) {
+        return Long.valueOf(value);
+      }
 
-    if (fieldType.isAssignableFrom(Integer.class)) {
-      return Integer.valueOf(value);
-    }
+      if (fieldType.isAssignableFrom(Integer.class)) {
+        return Integer.valueOf(value);
+      }
 
-    if (fieldType.isAssignableFrom(LocalDateTime.class)) {
-      return LocalDateTime.parse(value);
-    }
+      if (fieldType.isAssignableFrom(LocalDateTime.class)) {
+        return LocalDateTime.parse(value);
+      }
 
-    if (fieldType.isAssignableFrom(LocalDate.class)) {
-      return LocalDate.parse(value);
-    }
+      if (fieldType.isAssignableFrom(LocalDate.class)) {
+        return LocalDate.parse(value);
+      }
 
-    return value;
+      return value;
+    } catch (NumberFormatException | DateTimeParseException e) {
+      throw new IllegalArgumentException("Error casting value to the required type: " + fieldType);
+    }
   }
 }
