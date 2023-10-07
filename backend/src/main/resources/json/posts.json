@@ -3,7 +3,6 @@
     "id": 1,
     "title": "Example Post 1",
     "content": "This is the content of the first post.",
-    "authorId": 51,
     "timestamp": "2023-09-13T10:00:00Z",
     "likes": 25
   },
@@ -11,7 +10,6 @@
     "id": 2,
     "title": "Sample Post 2",
     "content": "Here's another post with some content.",
-    "authorId": 82,
     "timestamp": "2023-09-13T11:30:00Z",
     "likes": 18
   },
@@ -19,7 +17,6 @@
     "id": 3,
     "title": "Post Number 3",
     "content": "This is the third post in our series.",
-    "authorId": 54,
     "timestamp": "2023-09-13T13:45:00Z",
     "likes": 32
   },
@@ -27,7 +24,6 @@
     "id": 4,
     "title": "Fourth Example",
     "content": "Content of the fourth post.",
-    "authorId": 66,
     "timestamp": "2023-09-13T15:15:00Z",
     "likes": 14
   },
@@ -35,7 +31,6 @@
     "id": 5,
     "title": "Post #5",
     "content": "Fifth post content goes here.",
-    "authorId": 10,
     "timestamp": "2023-09-13T16:50:00Z",
     "likes": 27
   },
@@ -43,7 +38,6 @@
     "id": 6,
     "title": "Post Example 6",
     "content": "Sixth post content goes here.",
-    "authorId": 29,
     "timestamp": "2023-09-13T18:20:00Z",
     "likes": 11
   },
@@ -51,7 +45,6 @@
     "id": 7,
     "title": "Lucky Number Seven",
     "content": "The seventh post is here with its content.",
-    "authorId": 66,
     "timestamp": "2023-09-13T20:10:00Z",
     "likes": 36
   },
@@ -59,7 +52,6 @@
     "id": 8,
     "title": "Post Eight",
     "content": "Eighth post's content.",
-    "authorId": 23,
     "timestamp": "2023-09-13T21:55:00Z",
     "likes": 19
   },
@@ -67,7 +59,6 @@
     "id": 9,
     "title": "Ninth Post",
     "content": "Content for post number nine.",
-    "authorId": 62,
     "timestamp": "2023-09-13T23:30:00Z",
     "likes": 42
   },
@@ -75,7 +66,6 @@
     "id": 10,
     "title": "Tenth Example Post",
     "content": "This is the tenth post's content.",
-    "authorId": 3,
     "timestamp": "2023-09-14T01:05:00Z",
     "likes": 15
   },
@@ -83,7 +73,6 @@
     "id": 11,
     "title": "Eleventh Post",
     "content": "Content for the eleventh post.",
-    "authorId": 18,
     "timestamp": "2023-09-14T02:40:00Z",
     "likes": 28
   },
@@ -91,7 +80,6 @@
     "id": 12,
     "title": "Post Number 12",
     "content": "Twelfth post content goes here.",
-    "authorId": 68,
     "timestamp": "2023-09-14T04:15:00Z",
     "likes": 22
   },
@@ -99,7 +87,6 @@
     "id": 13,
     "title": "Lucky 13",
     "content": "The thirteenth post is here with its content.",
-    "authorId": 53,
     "timestamp": "2023-09-14T06:00:00Z",
     "likes": 17
   },
@@ -107,7 +94,6 @@
     "id": 14,
     "title": "Post Fourteen",
     "content": "Content for post number fourteen.",
-    "authorId": 32,
     "timestamp": "2023-09-14T07:45:00Z",
     "likes": 31
   },
@@ -115,7 +101,6 @@
     "id": 15,
     "title": "Fifteenth Example Post",
     "content": "This is the fifteenth post's content.",
-    "authorId": 3,
     "timestamp": "2023-09-14T09:20:00Z",
     "likes": 14
   },
@@ -123,7 +108,6 @@
     "id": 16,
     "title": "Sixteenth Post",
     "content": "Content for the sixteenth post.",
-    "authorId": 86,
     "timestamp": "2023-09-14T10:55:00Z",
     "likes": 23
   },
@@ -131,7 +115,6 @@
     "id": 17,
     "title": "Post Number 17",
     "content": "Seventeenth post content goes here.",
-    "authorId": 51,
     "timestamp": "2023-09-14T12:30:00Z",
     "likes": 18
   },
@@ -139,7 +122,6 @@
     "id": 18,
     "title": "Eighteenth Post",
     "content": "The eighteenth post is here with its content.",
-    "authorId": 31,
     "timestamp": "2023-09-14T14:15:00Z",
     "likes": 29
   },
@@ -147,7 +129,6 @@
     "id": 19,
     "title": "Nineteenth Post",
     "content": "Content for post number nineteen.",
-    "authorId": 72,
     "timestamp": "2023-09-14T15:50:00Z",
     "likes": 12
   },
@@ -155,7 +136,6 @@
     "id": 20,
     "title": "Twentieth Example Post",
     "content": "This is the twentieth post's content.",
-    "authorId": 7,
     "timestamp": "2023-09-14T17:25:00Z",
     "likes": 27
   },
@@ -163,7 +143,6 @@
     "id": 21,
     "title": "Twenty-First Post",
     "content": "Content for the twenty-first post.",
-    "authorId": 90,
     "timestamp": "2023-09-14T19:00:00Z",
     "likes": 33
   },
@@ -171,7 +150,6 @@
     "id": 22,
     "title": "Post Number 22",
     "content": "Twenty-second post content goes here.",
-    "authorId": 21,
     "timestamp": "2023-09-14T20:35:00Z",
     "likes": 15
   },
@@ -179,7 +157,6 @@
     "id": 23,
     "title": "Twenty-Third Post",
     "content": "The twenty-third post is here with its content.",
-    "authorId": 72,
     "timestamp": "2023-09-14T22:10:00Z",
     "likes": 26
   },
@@ -187,7 +164,6 @@
     "id": 24,
     "title": "Twenty-Fourth Post",
     "content": "Content for post number twenty-four.",
-    "authorId": 61,
     "timestamp": "2023-09-14T23:45:00Z",
     "likes": 19
   },
@@ -195,7 +171,6 @@
     "id": 25,
     "title": "Twenty-Fifth Example Post",
     "content": "This is the twenty-fifth post's content.",
-    "authorId": 85,
     "timestamp": "2023-09-15T01:20:00Z",
     "likes": 37
   },
@@ -203,7 +178,6 @@
     "id": 26,
     "title": "Twenty-Sixth Post",
     "content": "Content for the twenty-sixth post.",
-    "authorId": 93,
     "timestamp": "2023-09-15T03:00:00Z",
     "likes": 24
   },
@@ -211,7 +185,6 @@
     "id": 27,
     "title": "Post Number 27",
     "content": "Twenty-seventh post content goes here.",
-    "authorId": 71,
     "timestamp": "2023-09-15T04:35:00Z",
     "likes": 14
   },
@@ -219,7 +192,6 @@
     "id": 28,
     "title": "Twenty-Eighth Post",
     "content": "The twenty-eighth post is here with its content.",
-    "authorId": 52,
     "timestamp": "2023-09-15T06:10:00Z",
     "likes": 32
   },
@@ -227,7 +199,6 @@
     "id": 29,
     "title": "Twenty-Ninth Post",
     "content": "Content for post number twenty-nine.",
-    "authorId": 11,
     "timestamp": "2023-09-15T07:45:00Z",
     "likes": 21
   },
@@ -235,7 +206,6 @@
     "id": 30,
     "title": "Thirtieth Example Post",
     "content": "This is the thirtieth post's content.",
-    "authorId": 65,
     "timestamp": "2023-09-15T09:20:00Z",
     "likes": 28
   },
@@ -243,7 +213,6 @@
     "id": 31,
     "title": "Thirty-First Post",
     "content": "Content for the thirty-first post.",
-    "authorId": 55,
     "timestamp": "2023-09-15T10:55:00Z",
     "likes": 17
   },
@@ -251,7 +220,6 @@
     "id": 32,
     "title": "Post Number 32",
     "content": "Thirty-second post content goes here.",
-    "authorId": 91,
     "timestamp": "2023-09-15T12:30:00Z",
     "likes": 12
   },
@@ -259,7 +227,6 @@
     "id": 33,
     "title": "Thirty-Third Post",
     "content": "The thirty-third post is here with its content.",
-    "authorId": 9,
     "timestamp": "2023-09-15T14:05:00Z",
     "likes": 29
   },
@@ -267,7 +234,6 @@
     "id": 34,
     "title": "Thirty-Fourth Post",
     "content": "Content for post number thirty-four.",
-    "authorId": 4,
     "timestamp": "2023-09-15T15:40:00Z",
     "likes": 22
   },
@@ -275,7 +241,6 @@
     "id": 35,
     "title": "Thirty-Fifth Example Post",
     "content": "This is the thirty-fifth post's content.",
-    "authorId": 7,
     "timestamp": "2023-09-15T17:15:00Z",
     "likes": 31
   },
@@ -283,7 +248,6 @@
     "id": 36,
     "title": "Thirty-Sixth Post",
     "content": "Content for the thirty-sixth post.",
-    "authorId": 73,
     "timestamp": "2023-09-15T18:50:00Z",
     "likes": 18
   },
@@ -291,7 +255,6 @@
     "id": 37,
     "title": "Post Number 37",
     "content": "Thirty-seventh post content goes here.",
-    "authorId": 44,
     "timestamp": "2023-09-15T20:25:00Z",
     "likes": 26
   },
@@ -299,7 +262,6 @@
     "id": 38,
     "title": "Thirty-Eighth Post",
     "content": "The thirty-eighth post is here with its content.",
-    "authorId": 20,
     "timestamp": "2023-09-15T22:00:00Z",
     "likes": 15
   },
@@ -307,7 +269,6 @@
     "id": 39,
     "title": "Thirty-Ninth Post",
     "content": "Content for post number thirty-nine.",
-    "authorId": 61,
     "timestamp": "2023-09-15T23:35:00Z",
     "likes": 33
   },
@@ -315,7 +276,6 @@
     "id": 40,
     "title": "Fortieth Example Post",
     "content": "This is the fortieth post's content.",
-    "authorId": 57,
     "timestamp": "2023-09-16T01:10:00Z",
     "likes": 21
   },
@@ -323,7 +283,6 @@
     "id": 41,
     "title": "Forty-First Post",
     "content": "Content for the forty-first post.",
-    "authorId": 53,
     "timestamp": "2023-09-16T02:45:00Z",
     "likes": 28
   },
@@ -331,7 +290,6 @@
     "id": 42,
     "title": "Post Number 42",
     "content": "Forty-second post content goes here.",
-    "authorId": 69,
     "timestamp": "2023-09-16T04:20:00Z",
     "likes": 19
   },
@@ -339,7 +297,6 @@
     "id": 43,
     "title": "Forty-Third Post",
     "content": "The forty-third post is here with its content.",
-    "authorId": 16,
     "timestamp": "2023-09-16T05:55:00Z",
     "likes": 37
   },
@@ -347,7 +304,6 @@
     "id": 44,
     "title": "Forty-Fourth Post",
     "content": "Content for post number forty-four.",
-    "authorId": 20,
     "timestamp": "2023-09-16T07:30:00Z",
     "likes": 14
   },
@@ -355,7 +311,6 @@
     "id": 45,
     "title": "Forty-Fifth Example Post",
     "content": "This is the forty-fifth post's content.",
-    "authorId": 33,
     "timestamp": "2023-09-16T09:05:00Z",
     "likes": 23
   },
@@ -363,7 +318,6 @@
     "id": 46,
     "title": "Forty-Sixth Post",
     "content": "Content for the forty-sixth post.",
-    "authorId": 35,
     "timestamp": "2023-09-16T10:40:00Z",
     "likes": 31
   },
@@ -371,7 +325,6 @@
     "id": 47,
     "title": "Post Number 47",
     "content": "Forty-seventh post content goes here.",
-    "authorId": 52,
     "timestamp": "2023-09-16T12:15:00Z",
     "likes": 16
   },
@@ -379,7 +332,6 @@
     "id": 48,
     "title": "Forty-Eighth Post",
     "content": "The forty-eighth post is here with its content.",
-    "authorId": 7,
     "timestamp": "2023-09-16T13:50:00Z",
     "likes": 25
   },
@@ -387,7 +339,6 @@
     "id": 49,
     "title": "Forty-Ninth Post",
     "content": "Content for post number forty-nine.",
-    "authorId": 81,
     "timestamp": "2023-09-16T15:25:00Z",
     "likes": 19
   },
@@ -395,7 +346,6 @@
     "id": 50,
     "title": "Fiftieth Example Post",
     "content": "This is the fiftieth post's content.",
-    "authorId": 78,
     "timestamp": "2023-09-16T17:00:00Z",
     "likes": 34
   },
@@ -403,7 +353,6 @@
     "id": 51,
     "title": "Fifty-First Post",
     "content": "Content for the fifty-first post.",
-    "authorId": 31,
     "timestamp": "2023-09-16T18:35:00Z",
     "likes": 27
   },
@@ -411,7 +360,6 @@
     "id": 52,
     "title": "Post Number 52",
     "content": "Fifty-second post content goes here.",
-    "authorId": 89,
     "timestamp": "2023-09-16T20:10:00Z",
     "likes": 22
   },
@@ -419,7 +367,6 @@
     "id": 53,
     "title": "Fifty-Third Post",
     "content": "The fifty-third post is here with its content.",
-    "authorId": 41,
     "timestamp": "2023-09-16T21:45:00Z",
     "likes": 15
   },
@@ -427,7 +374,6 @@
     "id": 54,
     "title": "Fifty-Fourth Post",
     "content": "Content for post number fifty-four.",
-    "authorId": 61,
     "timestamp": "2023-09-16T23:20:00Z",
     "likes": 29
   },
@@ -435,7 +381,6 @@
     "id": 55,
     "title": "Fifty-Fifth Example Post",
     "content": "This is the fifty-fifth post's content.",
-    "authorId": 63,
     "timestamp": "2023-09-17T00:55:00Z",
     "likes": 18
   },
@@ -443,7 +388,6 @@
     "id": 56,
     "title": "Fifty-Sixth Post",
     "content": "Content for the fifty-sixth post.",
-    "authorId": 85,
     "timestamp": "2023-09-17T02:30:00Z",
     "likes": 24
   },
@@ -451,7 +395,6 @@
     "id": 57,
     "title": "Post Number 57",
     "content": "Fifty-seventh post content goes here.",
-    "authorId": 95,
     "timestamp": "2023-09-17T04:05:00Z",
     "likes": 32
   },
@@ -459,7 +402,6 @@
     "id": 58,
     "title": "Fifty-Eighth Post",
     "content": "The fifty-eighth post is here with its content.",
-    "authorId": 91,
     "timestamp": "2023-09-17T05:40:00Z",
     "likes": 20
   },
@@ -467,7 +409,6 @@
     "id": 59,
     "title": "Fifty-Ninth Post",
     "content": "Content for post number fifty-nine.",
-    "authorId": 49,
     "timestamp": "2023-09-17T07:15:00Z",
     "likes": 27
   },
@@ -475,7 +416,6 @@
     "id": 60,
     "title": "Sixtieth Example Post",
     "content": "This is the sixtieth post's content.",
-    "authorId": 21,
     "timestamp": "2023-09-17T08:50:00Z",
     "likes": 19
   },
@@ -483,7 +423,6 @@
     "id": 61,
     "title": "Sixty-First Post",
     "content": "Content for the sixty-first post.",
-    "authorId": 10,
     "timestamp": "2023-09-17T10:25:00Z",
     "likes": 23
   },
@@ -491,7 +430,6 @@
     "id": 62,
     "title": "Post Number 62",
     "content": "Sixty-second post content goes here.",
-    "authorId": 50,
     "timestamp": "2023-09-17T12:00:00Z",
     "likes": 28
   },
@@ -499,7 +437,6 @@
     "id": 63,
     "title": "Sixty-Third Post",
     "content": "The sixty-third post is here with its content.",
-    "authorId": 24,
     "timestamp": "2023-09-17T13:35:00Z",
     "likes": 14
   },
@@ -507,7 +444,6 @@
     "id": 64,
     "title": "Sixty-Fourth Post",
     "content": "Content for post number sixty-four.",
-    "authorId": 83,
     "timestamp": "2023-09-17T15:10:00Z",
     "likes": 31
   },
@@ -515,7 +451,6 @@
     "id": 65,
     "title": "Sixty-Fifth Example Post",
     "content": "This is the sixty-fifth post's content.",
-    "authorId": 29,
     "timestamp": "2023-09-17T16:45:00Z",
     "likes": 22
   },
@@ -523,7 +458,6 @@
     "id": 66,
     "title": "Sixty-Sixth Post",
     "content": "Content for the sixty-sixth post.",
-    "authorId": 63,
     "timestamp": "2023-09-17T18:20:00Z",
     "likes": 17
   },
@@ -531,7 +465,6 @@
     "id": 67,
     "title": "Post Number 67",
     "content": "Sixty-seventh post content goes here.",
-    "authorId": 51,
     "timestamp": "2023-09-17T19:55:00Z",
     "likes": 30
   },
@@ -539,7 +472,6 @@
     "id": 68,
     "title": "Sixty-Eighth Post",
     "content": "The sixty-eighth post is here with its content.",
-    "authorId": 79,
     "timestamp": "2023-09-17T21:30:00Z",
     "likes": 19
   },
@@ -547,7 +479,6 @@
     "id": 69,
     "title": "Sixty-Ninth Post",
     "content": "Content for post number sixty-nine.",
-    "authorId": 58,
     "timestamp": "2023-09-17T23:05:00Z",
     "likes": 25
   },
@@ -555,7 +486,6 @@
     "id": 70,
     "title": "Seventieth Example Post",
     "content": "This is the seventieth post's content.",
-    "authorId": 13,
     "timestamp": "2023-09-18T00:40:00Z",
     "likes": 12
   },
@@ -563,7 +493,6 @@
     "id": 71,
     "title": "Seventy-First Post",
     "content": "Content for the seventy-first post.",
-    "authorId": 44,
     "timestamp": "2023-09-18T02:15:00Z",
     "likes": 26
   },
@@ -571,7 +500,6 @@
     "id": 72,
     "title": "Post Number 72",
     "content": "Seventy-second post content goes here.",
-    "authorId": 8,
     "timestamp": "2023-09-18T03:50:00Z",
     "likes": 14
   },
@@ -579,7 +507,6 @@
     "id": 73,
     "title": "Seventy-Third Post",
     "content": "The seventy-third post is here with its content.",
-    "authorId": 5,
     "timestamp": "2023-09-18T05:25:00Z",
     "likes": 29
   },
@@ -587,7 +514,6 @@
     "id": 74,
     "title": "Seventy-Fourth Post",
     "content": "Content for post number seventy-four.",
-    "authorId": 98,
     "timestamp": "2023-09-18T07:00:00Z",
     "likes": 18
   },
@@ -595,7 +521,6 @@
     "id": 75,
     "title": "Seventy-Fifth Example Post",
     "content": "This is the seventy-fifth post's content.",
-    "authorId": 24,
     "timestamp": "2023-09-18T08:35:00Z",
     "likes": 33
   },
@@ -603,7 +528,6 @@
     "id": 76,
     "title": "Seventy-Sixth Post",
     "content": "Content for the seventy-sixth post.",
-    "authorId": 70,
     "timestamp": "2023-09-18T10:10:00Z",
     "likes": 22
   },
@@ -611,7 +535,6 @@
     "id": 77,
     "title": "Post Number 77",
     "content": "Seventy-seventh post content goes here.",
-    "authorId": 7,
     "timestamp": "2023-09-18T11:45:00Z",
     "likes": 17
   },
@@ -619,7 +542,6 @@
     "id": 78,
     "title": "Seventy-Eighth Post",
     "content": "The seventy-eighth post is here with its content.",
-    "authorId": 89,
     "timestamp": "2023-09-18T13:20:00Z",
     "likes": 28
   },
@@ -627,7 +549,6 @@
     "id": 79,
     "title": "Seventy-Ninth Post",
     "content": "Content for post number seventy-nine.",
-    "authorId": 2,
     "timestamp": "2023-09-18T14:55:00Z",
     "likes": 19
   },
@@ -635,7 +556,6 @@
     "id": 80,
     "title": "Eightieth Example Post",
     "content": "This is the eightieth post's content.",
-    "authorId": 92,
     "timestamp": "2023-09-18T16:30:00Z",
     "likes": 26
   },
@@ -643,7 +563,6 @@
     "id": 81,
     "title": "Eighty-First Post",
     "content": "Content for the eighty-first post.",
-    "authorId": 38,
     "timestamp": "2023-09-18T18:05:00Z",
     "likes": 32
   },
@@ -651,7 +570,6 @@
     "id": 82,
     "title": "Post Number 82",
     "content": "Eighty-second post content goes here.",
-    "authorId": 23,
     "timestamp": "2023-09-18T19:40:00Z",
     "likes": 15
   },
@@ -659,7 +577,6 @@
     "id": 83,
     "title": "Eighty-Third Post",
     "content": "The eighty-third post is here with its content.",
-    "authorId": 99,
     "timestamp": "2023-09-18T21:15:00Z",
     "likes": 23
   },
@@ -667,7 +584,6 @@
     "id": 84,
     "title": "Eighty-Fourth Post",
     "content": "Content for post number eighty-four.",
-    "authorId": 30,
     "timestamp": "2023-09-18T22:50:00Z",
     "likes": 28
   },
@@ -675,7 +591,6 @@
     "id": 85,
     "title": "Eighty-Fifth Example Post",
     "content": "This is the eighty-fifth post's content.",
-    "authorId": 32,
     "timestamp": "2023-09-19T00:25:00Z",
     "likes": 19
   },
@@ -683,7 +598,6 @@
     "id": 86,
     "title": "Eighty-Sixth Post",
     "content": "Content for the eighty-sixth post.",
-    "authorId": 70,
     "timestamp": "2023-09-19T02:00:00Z",
     "likes": 21
   },
@@ -691,7 +605,6 @@
     "id": 87,
     "title": "Post Number 87",
     "content": "Eighty-seventh post content goes here.",
-    "authorId": 77,
     "timestamp": "2023-09-19T03:35:00Z",
     "likes": 27
   },
@@ -699,7 +612,6 @@
     "id": 88,
     "title": "Eighty-Eighth Post",
     "content": "The eighty-eighth post is here with its content.",
-    "authorId": 38,
     "timestamp": "2023-09-19T05:10:00Z",
     "likes": 14
   },
@@ -707,7 +619,6 @@
     "id": 89,
     "title": "Eighty-Ninth Post",
     "content": "Content for post number eighty-nine.",
-    "authorId": 82,
     "timestamp": "2023-09-19T06:45:00Z",
     "likes": 33
   },
@@ -715,7 +626,6 @@
     "id": 90,
     "title": "Ninetieth Example Post",
     "content": "This is the ninetieth post's content.",
-    "authorId": 39,
     "timestamp": "2023-09-19T08:20:00Z",
     "likes": 25
   },
@@ -723,7 +633,6 @@
     "id": 91,
     "title": "Ninety-First Post",
     "content": "Content for the ninety-first post.",
-    "authorId": 28,
     "timestamp": "2023-09-19T09:55:00Z",
     "likes": 16
   },
@@ -731,7 +640,6 @@
     "id": 92,
     "title": "Post Number 92",
     "content": "Ninety-second post content goes here.",
-    "authorId": 37,
     "timestamp": "2023-09-19T11:30:00Z",
     "likes": 28
   },
@@ -739,7 +647,6 @@
     "id": 93,
     "title": "Ninety-Third Post",
     "content": "The ninety-third post is here with its content.",
-    "authorId": 81,
     "timestamp": "2023-09-19T13:05:00Z",
     "likes": 19
   },
@@ -747,7 +654,6 @@
     "id": 94,
     "title": "Ninety-Fourth Post",
     "content": "Content for post number ninety-four.",
-    "authorId": 18,
     "timestamp": "2023-09-19T14:40:00Z",
     "likes": 32
   },
@@ -755,7 +661,6 @@
     "id": 95,
     "title": "Ninety-Fifth Example Post",
     "content": "This is the ninety-fifth post's content.",
-    "authorId": 16,
     "timestamp": "2023-09-19T16:15:00Z",
     "likes": 24
   },
@@ -763,7 +668,6 @@
     "id": 96,
     "title": "Ninety-Sixth Post",
     "content": "Content for the ninety-sixth post.",
-    "authorId": 67,
     "timestamp": "2023-09-19T17:50:00Z",
     "likes": 18
   },
@@ -771,7 +675,6 @@
     "id": 97,
     "title": "Post Number 97",
     "content": "Ninety-seventh post content goes here.",
-    "authorId": 24,
     "timestamp": "2023-09-19T19:25:00Z",
     "likes": 29
   },
@@ -779,7 +682,6 @@
     "id": 98,
     "title": "Ninety-Eighth Post",
     "content": "The ninety-eighth post is here with its content.",
-    "authorId": 88,
     "timestamp": "2023-09-19T21:00:00Z",
     "likes": 22
   },
@@ -787,7 +689,6 @@
     "id": 99,
     "title": "Ninety-Ninth Post",
     "content": "Content for post number ninety-nine.",
-    "authorId": 85,
     "timestamp": "2023-09-19T22:35:00Z",
     "likes": 37
   },
@@ -795,7 +696,6 @@
     "id": 100,
     "title": "Hundredth Example Post",
     "content": "This is the hundredth post's content.",
-    "authorId": 35,
     "timestamp": "2023-09-19T00:10:00Z",
     "likes": 30
   }

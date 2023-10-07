@@ -33,12 +33,16 @@ public abstract class AbstractGenericService<T, ID> {
   private final CustomGenericRepository<T, ID> repository;
   private final Class<T> entityClass;
 
-  // The cast is correct, because we take type of the first generic
-  @SuppressWarnings("unchecked")
   public AbstractGenericService(CustomGenericRepository<T, ID> repository) {
     this.repository = repository;
+    this.entityClass = getEntityClass();
+  }
+
+  // The cast is correct, because we take class type of the first generic
+  @SuppressWarnings("unchecked")
+  private Class<T> getEntityClass() {
     ParameterizedType genericSuperclass = (ParameterizedType) getClass().getGenericSuperclass();
-    this.entityClass = (Class<T>) genericSuperclass.getActualTypeArguments()[0];
+    return (Class<T>) genericSuperclass.getActualTypeArguments()[0];
   }
 
   public T getEntityById(ID id) {
@@ -52,40 +56,36 @@ public abstract class AbstractGenericService<T, ID> {
   public List<T> getEntities(Map<String, String> filterParams) {
     logger.info("Getting entities of {}: filterParams={}", entityClass, filterParams);
 
-    Optional<String> directionOptional = Optional.ofNullable(filterParams.remove("direction"));
-    Optional<String> sortOptional = Optional.ofNullable(filterParams.remove("sort"));
-    Optional<String> pageOptional = Optional.ofNullable(filterParams.remove("page"));
-    Optional<String> sizeOptional = Optional.ofNullable(filterParams.remove("size"));
-
-    Direction direction = directionOptional
+    Direction direction = Optional.ofNullable(filterParams.remove("direction"))
         .map(dir -> dir.equalsIgnoreCase("DESC") ? DESC : ASC)
         .orElse(ASC);
 
-    Sort sort = sortOptional
+    Sort sort = Optional.ofNullable(filterParams.remove("sort"))
         .map(sortBy -> Sort.by(direction, sortBy))
         .orElse(Sort.by(direction, "id"));
 
-    Pageable pageable;
-
-    if (pageOptional.isEmpty() && sizeOptional.isEmpty()) {
-      pageable = PageRequest.of(0, Integer.MAX_VALUE, sort);
-    } else {
-      int page = pageOptional
-          .map(Integer::parseInt)
-          .filter(p -> p > 1)
-          .map(p -> p - 1)
-          .orElse(0);
-
-      int size = sizeOptional
-          .map(Integer::parseInt)
-          .filter(s -> s > 0)
-          .orElse(10);
-
-      pageable = PageRequest.of(page, size, sort);
-    }
+    Optional<String> pageOptional = Optional.ofNullable(filterParams.remove("page"));
+    Optional<String> sizeOptional = Optional.ofNullable(filterParams.remove("size"));
 
     Specification<T> specification = getSpecification(filterParams);
 
+    if (pageOptional.isEmpty() && sizeOptional.isEmpty()) {
+      Pageable pageable = PageRequest.of(0, Integer.MAX_VALUE, sort);
+      return repository.findAll(specification, pageable).getContent();
+    }
+
+    int page = pageOptional
+        .map(Integer::parseInt)
+        .filter(p -> p > 1)
+        .map(p -> p - 1)
+        .orElse(0);
+
+    int size = sizeOptional
+        .map(Integer::parseInt)
+        .filter(s -> s > 0)
+        .orElse(10);
+
+    Pageable pageable = PageRequest.of(page, size, sort);
     return repository.findAll(specification, pageable).getContent();
   }
 
@@ -95,9 +95,17 @@ public abstract class AbstractGenericService<T, ID> {
       Predicate[] predicates = filterParams.entrySet()
           .stream()
           .filter(Objects::nonNull)
-          .map(entry -> criteriaBuilder.equal(
-              root.get(entry.getKey()),
-              castToRequiredType(root.get(entry.getKey()).getJavaType(), entry.getValue())))
+          .map(entry -> {
+            String attributeName = entry.getKey();
+            try {
+              return criteriaBuilder.equal(
+                  root.get(attributeName),
+                  castToRequiredType(root.get(attributeName).getJavaType(), entry.getValue()));
+            } catch (IllegalArgumentException ignored) {
+              return null;
+            }
+          })
+          .filter(Objects::nonNull)
           .toArray(Predicate[]::new);
 
       return criteriaBuilder.and(predicates);

@@ -23,9 +23,6 @@ public class Post {
   @Column(name = "content", nullable = false, updatable = false)
   private String content;
 
-  @Column(name = "authorId", nullable = false, updatable = false)
-  private Long authorId;
-
   @Column(name = "timestamp", nullable = false, updatable = false)
   @JsonFormat(shape = STRING)
   private LocalDateTime timestamp;
@@ -57,14 +54,6 @@ public class Post {
     this.content = content;
   }
 
-  public Long getAuthorId() {
-    return authorId;
-  }
-
-  public void setAuthorId(Long authorId) {
-    this.authorId = authorId;
-  }
-
   public LocalDateTime getTimestamp() {
     return timestamp;
   }
@@ -86,8 +75,7 @@ public class Post {
     return "Post{" +
         "id=" + id +
         ", title='" + title + '\'' +
-        ", content=" + content +
-        ", authorId=" + authorId +
+        ", content='" + content + '\'' +
         ", timestamp=" + timestamp +
         ", likes=" + likes +
         '}';
