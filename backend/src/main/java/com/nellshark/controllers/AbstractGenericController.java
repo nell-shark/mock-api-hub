@@ -2,6 +2,7 @@ package com.nellshark.controllers;
 
 import com.nellshark.services.AbstractGenericService;
 import java.util.List;
+import java.util.Map;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.DeleteMapping;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -22,11 +23,8 @@ public abstract class AbstractGenericController<T, ID> {
 
   @GetMapping
   public ResponseEntity<List<T>> getEntities(
-      @RequestParam(required = false) Integer page,
-      @RequestParam(required = false) Integer size,
-      @RequestParam(required = false) String sort
-  ) {
-    List<T> entities = service.getEntities(page, size, sort);
+      @RequestParam(required = false) Map<String, String> filterParams) {
+    List<T> entities = service.getEntities(filterParams);
     return ResponseEntity.ok(entities);
   }
 
