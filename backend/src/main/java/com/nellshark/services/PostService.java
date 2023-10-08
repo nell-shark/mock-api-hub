@@ -21,7 +21,7 @@ public class PostService extends AbstractGenericService<Post, Long> {
     this.commentService = commentService;
   }
 
-  public List<Comment> getCommentsByPostId(Long postId, Map<String, String> filterParams) {
+  public List<Comment> getCommentsByPostId(Long postId, Map<String, Object> filterParams) {
     logger.info("Getting comments by post id: {}, filterParams={}", postId, filterParams);
     filterParams.put("id", String.valueOf(postId));
     return commentService.getEntities(filterParams);

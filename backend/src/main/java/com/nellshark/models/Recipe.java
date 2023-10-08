@@ -40,6 +40,26 @@ public class Recipe {
   @CollectionTable(name = "recipe_ingredients", joinColumns = @JoinColumn(name = "recipe_id"))
   private List<Ingredient> ingredients;
 
+  public Recipe() {
+  }
+
+  public Recipe(
+      Long id,
+      String name,
+      String instructions,
+      String prepTime,
+      String cookTime,
+      String totalTime,
+      List<Ingredient> ingredients) {
+    this.id = id;
+    this.name = name;
+    this.instructions = instructions;
+    this.prepTime = prepTime;
+    this.cookTime = cookTime;
+    this.totalTime = totalTime;
+    this.ingredients = ingredients;
+  }
+
   public Long getId() {
     return id;
   }

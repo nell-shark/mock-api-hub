@@ -57,11 +57,12 @@ public class DatabaseInitializer implements CommandLineRunner {
   }
 
   private final JsonService jsonService;
-  private final ApplicationContext appContext;
+  private final Repositories repositories;
 
-  public DatabaseInitializer(JsonService jsonService, ApplicationContext appContext) {
+
+  public DatabaseInitializer(JsonService jsonService, ApplicationContext applicationContext) {
     this.jsonService = jsonService;
-    this.appContext = appContext;
+    this.repositories = new Repositories(applicationContext);
   }
 
   @Override
@@ -80,16 +81,14 @@ public class DatabaseInitializer implements CommandLineRunner {
   }
 
   private <T> JpaRepository<T, ?> getRepositoryByEntity(Class<T> entityClass) {
-    Repositories repositories = new Repositories(appContext);
-
     // The cast is correct because we use the 'getRepositoryFor' method
     // with the 'entityClass' parameter
     @SuppressWarnings("unchecked")
-    JpaRepository<T, ?> repository = (JpaRepository<T, ?>) repositories
+    JpaRepository<T, ?> entityRepository = (JpaRepository<T, ?>) repositories
         .getRepositoryFor(entityClass)
         .orElseThrow(() -> new RepositoryNotFoundException(
             "Repository not found for entity class: " + entityClass
         ));
-    return repository;
+    return entityRepository;
   }
 }

@@ -39,6 +39,24 @@ public class Event {
   @CollectionTable(name = "event_speakers", joinColumns = @JoinColumn(name = "event_id"))
   private List<Speaker> speakers;
 
+  public Event() {
+  }
+
+  public Event(
+      Long id,
+      String title,
+      LocalDate date,
+      String location,
+      String description,
+      List<Speaker> speakers) {
+    this.id = id;
+    this.title = title;
+    this.date = date;
+    this.location = location;
+    this.description = description;
+    this.speakers = speakers;
+  }
+
   public Long getId() {
     return id;
   }

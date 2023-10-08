@@ -38,6 +38,30 @@ public class Product {
   @Embedded
   private Dimension dimensions;
 
+  public Product() {
+  }
+
+  public Product(
+      Long id,
+      String name,
+      String description,
+      Double price,
+      String currency,
+      String manufacturer,
+      String category,
+      Boolean availability,
+      Dimension dimensions) {
+    this.id = id;
+    this.name = name;
+    this.description = description;
+    this.price = price;
+    this.currency = currency;
+    this.manufacturer = manufacturer;
+    this.category = category;
+    this.availability = availability;
+    this.dimensions = dimensions;
+  }
+
   public Long getId() {
     return id;
   }

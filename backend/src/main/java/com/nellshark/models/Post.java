@@ -30,6 +30,17 @@ public class Post {
   @Column(name = "likes", nullable = false, updatable = false)
   private Long likes;
 
+  public Post() {
+  }
+
+  public Post(Long id, String title, String content, LocalDateTime timestamp, Long likes) {
+    this.id = id;
+    this.title = title;
+    this.content = content;
+    this.timestamp = timestamp;
+    this.likes = likes;
+  }
+
   public Long getId() {
     return id;
   }

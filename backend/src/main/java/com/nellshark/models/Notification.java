@@ -30,6 +30,22 @@ public class Notification {
   @Column(name = "read", nullable = false, updatable = false)
   private Boolean read;
 
+  public Notification() {
+  }
+
+  public Notification(
+      Long id,
+      String title,
+      String message,
+      LocalDateTime timestamp,
+      Boolean read) {
+    this.id = id;
+    this.title = title;
+    this.message = message;
+    this.timestamp = timestamp;
+    this.read = read;
+  }
+
   public Long getId() {
     return id;
   }

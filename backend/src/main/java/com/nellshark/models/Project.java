@@ -43,6 +43,26 @@ public class Project {
   @CollectionTable(name = "project_team", joinColumns = @JoinColumn(name = "project_id"))
   private List<Team> team;
 
+  public Project() {
+  }
+
+  public Project(
+      Long id,
+      String name,
+      String description,
+      String status,
+      LocalDate startDate,
+      LocalDate endDate,
+      List<Team> team) {
+    this.id = id;
+    this.name = name;
+    this.description = description;
+    this.status = status;
+    this.startDate = startDate;
+    this.endDate = endDate;
+    this.team = team;
+  }
+
   public Long getId() {
     return id;
   }

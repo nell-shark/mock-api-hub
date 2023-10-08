@@ -9,6 +9,15 @@ public class Dimension {
   private Double height;
   private Double length;
 
+  public Dimension() {
+  }
+
+  public Dimension(Double width, Double height, Double length) {
+    this.width = width;
+    this.height = height;
+    this.length = length;
+  }
+
   public Double getWidth() {
     return width;
   }

@@ -38,11 +38,12 @@ public abstract class AbstractGenericService<T, ID> {
     this.entityClass = getEntityClass();
   }
 
-  // The cast is correct, because we take class type of the first generic
-  @SuppressWarnings("unchecked")
   private Class<T> getEntityClass() {
     ParameterizedType genericSuperclass = (ParameterizedType) getClass().getGenericSuperclass();
-    return (Class<T>) genericSuperclass.getActualTypeArguments()[0];
+    // The cast is correct, because we take class type of the first generic
+    @SuppressWarnings("unchecked")
+    Class<T> tClass = (Class<T>) genericSuperclass.getActualTypeArguments()[0];
+    return tClass;
   }
 
   public T getEntityById(ID id) {
@@ -53,19 +54,23 @@ public abstract class AbstractGenericService<T, ID> {
             () -> new EntityNotFoundException("Entity with id %s not found".formatted(id)));
   }
 
-  public List<T> getEntities(Map<String, String> filterParams) {
+  public List<T> getEntities(Map<String, Object> filterParams) {
     logger.info("Getting entities of {}: filterParams={}", entityClass, filterParams);
 
     Direction direction = Optional.ofNullable(filterParams.remove("direction"))
+        .map(String::valueOf)
         .map(dir -> dir.equalsIgnoreCase("DESC") ? DESC : ASC)
         .orElse(ASC);
 
     Sort sort = Optional.ofNullable(filterParams.remove("sort"))
+        .map(String::valueOf)
         .map(sortBy -> Sort.by(direction, sortBy))
         .orElse(Sort.by(direction, "id"));
 
-    Optional<String> pageOptional = Optional.ofNullable(filterParams.remove("page"));
-    Optional<String> sizeOptional = Optional.ofNullable(filterParams.remove("size"));
+    Optional<String> pageOptional = Optional.ofNullable(filterParams.remove("page"))
+        .map(String::valueOf);
+    Optional<String> sizeOptional = Optional.ofNullable(filterParams.remove("size"))
+        .map(String::valueOf);
 
     Specification<T> specification = getSpecification(filterParams);
 
@@ -89,8 +94,8 @@ public abstract class AbstractGenericService<T, ID> {
     return repository.findAll(specification, pageable).getContent();
   }
 
-  public Specification<T> getSpecification(Map<String, String> filterParams) {
-    return (Root<T> root, CriteriaQuery<?> query, CriteriaBuilder criteriaBuilder) -> {
+  public Specification<T> getSpecification(Map<String, Object> filterParams) {
+    return (Root<T> root, CriteriaQuery<?> query, CriteriaBuilder builder) -> {
 
       Predicate[] predicates = filterParams.entrySet()
           .stream()
@@ -98,9 +103,10 @@ public abstract class AbstractGenericService<T, ID> {
           .map(entry -> {
             String attributeName = entry.getKey();
             try {
-              return criteriaBuilder.equal(
-                  root.get(attributeName),
-                  castToRequiredType(root.get(attributeName).getJavaType(), entry.getValue()));
+              return builder.equal(
+                  root.get(attributeName).as(String.class),
+                  castToRequiredType(root.get(attributeName).getJavaType(), entry.getValue())
+              );
             } catch (IllegalArgumentException ignored) {
               return null;
             }
@@ -108,41 +114,41 @@ public abstract class AbstractGenericService<T, ID> {
           .filter(Objects::nonNull)
           .toArray(Predicate[]::new);
 
-      return criteriaBuilder.and(predicates);
+      return builder.and(predicates);
     };
   }
 
-  private Object castToRequiredType(Class<?> fieldType, String value) {
+  private Object castToRequiredType(Class<?> fieldType, Object value) {
     if (isNull(fieldType) || isNull(value)) {
       throw new IllegalArgumentException("Cannot cast value to the required type: " + fieldType);
     }
 
     try {
       if (fieldType.isAssignableFrom(Boolean.class)) {
-        return Boolean.valueOf(value);
+        return Boolean.valueOf(value.toString());
       }
 
       if (fieldType.isAssignableFrom(Double.class)) {
-        return Double.valueOf(value);
+        return Double.valueOf(value.toString());
       }
 
       if (fieldType.isAssignableFrom(Long.class)) {
-        return Long.valueOf(value);
+        return Long.valueOf(value.toString());
       }
 
       if (fieldType.isAssignableFrom(Integer.class)) {
-        return Integer.valueOf(value);
+        return Integer.valueOf(value.toString());
       }
 
       if (fieldType.isAssignableFrom(LocalDateTime.class)) {
-        return LocalDateTime.parse(value);
+        return LocalDateTime.parse(value.toString());
       }
 
       if (fieldType.isAssignableFrom(LocalDate.class)) {
-        return LocalDate.parse(value);
+        return LocalDate.parse(value.toString());
       }
 
-      return value;
+      return value.toString();
     } catch (NumberFormatException | DateTimeParseException e) {
       throw new IllegalArgumentException("Error casting value to the required type: " + fieldType);
     }

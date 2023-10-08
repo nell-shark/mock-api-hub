@@ -40,6 +40,27 @@ public class Course {
   @JsonFormat(shape = STRING, pattern = "yyyy-MM-dd")
   private LocalDate endDate;
 
+  public Course() {
+  }
+
+  public Course(Long id,
+      String name,
+      String description,
+      Double price,
+      String instructor,
+      String duration,
+      LocalDate startDate,
+      LocalDate endDate) {
+    this.id = id;
+    this.name = name;
+    this.description = description;
+    this.price = price;
+    this.instructor = instructor;
+    this.duration = duration;
+    this.startDate = startDate;
+    this.endDate = endDate;
+  }
+
   public Long getId() {
     return id;
   }

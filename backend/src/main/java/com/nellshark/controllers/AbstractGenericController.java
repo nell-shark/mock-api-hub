@@ -23,7 +23,7 @@ public abstract class AbstractGenericController<T, ID> {
 
   @GetMapping
   public ResponseEntity<List<T>> getEntities(
-      @RequestParam(required = false) Map<String, String> filterParams) {
+      @RequestParam(required = false) Map<String, Object> filterParams) {
     List<T> entities = service.getEntities(filterParams);
     return ResponseEntity.ok(entities);
   }

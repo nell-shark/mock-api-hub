@@ -22,6 +22,16 @@ public class Comment {
   @Column(name = "userId", nullable = false, updatable = false)
   private Long userId;
 
+  public Comment() {
+  }
+
+  public Comment(Long id, String text, Long postId, Long userId) {
+    this.id = id;
+    this.text = text;
+    this.postId = postId;
+    this.userId = userId;
+  }
+
   public Long getId() {
     return id;
   }

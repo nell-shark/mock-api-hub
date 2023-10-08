@@ -26,7 +26,7 @@ public class UserController extends AbstractGenericController<User, Long> {
   @GetMapping("/{id}/comments")
   public ResponseEntity<List<Comment>> getCommentsByUserId(
       @PathVariable("id") Long userId,
-      Map<String, String> filterParams
+      Map<String, Object> filterParams
   ) {
     List<Comment> comments = userService.getCommentsByUserId(userId, filterParams);
     return ResponseEntity.ok(comments);
@@ -35,7 +35,7 @@ public class UserController extends AbstractGenericController<User, Long> {
   @GetMapping("/{id}/reviews")
   public ResponseEntity<List<Review>> getReviewsByUserId(
       @PathVariable("id") Long userId,
-      Map<String, String> filterParams
+      Map<String, Object> filterParams
   ) {
     List<Review> reviews = userService.getReviewsByUserId(userId, filterParams);
     return ResponseEntity.ok(reviews);

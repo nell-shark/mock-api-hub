@@ -8,6 +8,14 @@ public class Ingredient {
   private String ingredientName;
   private String quantity;
 
+  public Ingredient() {
+  }
+
+  public Ingredient(String ingredientName, String quantity) {
+    this.ingredientName = ingredientName;
+    this.quantity = quantity;
+  }
+
   public String getIngredientName() {
     return ingredientName;
   }

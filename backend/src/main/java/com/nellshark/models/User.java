@@ -28,6 +28,18 @@ public class User {
   @Column(name = "location", nullable = false, updatable = false)
   private String location;
 
+  public User() {
+  }
+
+  public User(Long id, String username, String email, String password, Long age, String location) {
+    this.id = id;
+    this.username = username;
+    this.email = email;
+    this.password = password;
+    this.age = age;
+    this.location = location;
+  }
+
   public Long getId() {
     return id;
   }

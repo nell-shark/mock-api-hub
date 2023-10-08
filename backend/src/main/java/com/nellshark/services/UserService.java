@@ -26,13 +26,13 @@ public class UserService extends AbstractGenericService<User, Long> {
     this.reviewService = reviewService;
   }
 
-  public List<Comment> getCommentsByUserId(Long userId, Map<String, String> filterParams) {
+  public List<Comment> getCommentsByUserId(Long userId, Map<String, Object> filterParams) {
     logger.info("Getting comments by user id: {}, filterParams={}", userId, filterParams);
     filterParams.put("id", String.valueOf(userId));
     return commentService.getEntities(filterParams);
   }
 
-  public List<Review> getReviewsByUserId(Long userId, Map<String, String> filterParams) {
+  public List<Review> getReviewsByUserId(Long userId, Map<String, Object> filterParams) {
     logger.info("Getting reviews by user id: {}, filterParams={}", userId, filterParams);
     filterParams.put("id", String.valueOf(userId));
     return reviewService.getEntities(filterParams);

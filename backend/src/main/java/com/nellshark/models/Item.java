@@ -8,6 +8,14 @@ public class Item {
   private Long productId;
   private Long quantity;
 
+  public Item() {
+  }
+
+  public Item(Long productId, Long quantity) {
+    this.productId = productId;
+    this.quantity = quantity;
+  }
+
   public Long getProductId() {
     return productId;
   }

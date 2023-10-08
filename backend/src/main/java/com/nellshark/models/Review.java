@@ -36,6 +36,26 @@ public class Review {
   @Column(name = "helpfulVotes", nullable = false, updatable = false)
   private Long helpfulVotes;
 
+  public Review() {
+  }
+
+  public Review(
+      Long id,
+      Long productId,
+      Long userId,
+      Long rating,
+      LocalDate date,
+      String body,
+      Long helpfulVotes) {
+    this.id = id;
+    this.productId = productId;
+    this.userId = userId;
+    this.rating = rating;
+    this.date = date;
+    this.body = body;
+    this.helpfulVotes = helpfulVotes;
+  }
+
   public Long getId() {
     return id;
   }
