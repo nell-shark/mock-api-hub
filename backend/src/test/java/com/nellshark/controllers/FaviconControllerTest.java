@@ -16,7 +16,7 @@ class FaviconControllerTest {
   private MockMvc mockMvc;
 
   @Test
-  public void testReturnNoFavicon() throws Exception {
+  void testReturnNoFavicon() throws Exception {
     mockMvc.perform(get("/favicon.ico")
             .contentType(APPLICATION_JSON))
         .andExpect(status().isOk());

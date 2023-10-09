@@ -1,5 +1,6 @@
 package com.nellshark.controllers;
 
+import static org.mockito.ArgumentMatchers.eq;
 import static org.mockito.Mockito.verify;
 import static org.mockito.Mockito.verifyNoMoreInteractions;
 import static org.mockito.Mockito.when;
@@ -14,13 +15,11 @@ import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.
 import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.status;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
-import com.fasterxml.jackson.datatype.jsr310.JavaTimeModule;
 import com.nellshark.models.Course;
 import com.nellshark.services.CourseService;
 import java.time.LocalDate;
 import java.util.Collections;
 import java.util.List;
-import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.autoconfigure.web.servlet.WebMvcTest;
@@ -38,11 +37,6 @@ class CourseControllerTest {
 
   @MockBean
   private CourseService courseService;
-
-  @BeforeEach
-  void setUp() {
-    objectMapper.registerModule(new JavaTimeModule());
-  }
 
   @Test
   void testGetEntities() throws Exception {
@@ -87,14 +81,14 @@ class CourseControllerTest {
 
     String json = objectMapper.writeValueAsString(entity);
 
-    when(courseService.getEntityById(entity.getId())).thenReturn(entity);
+    when(courseService.getEntityById(eq(entity.getId()))).thenReturn(entity);
 
     mockMvc.perform(get("/api/v1/courses/{id}", entity.getId()))
         .andDo(print())
         .andExpect(status().isOk())
         .andExpect(content().json(json));
 
-    verify(courseService).getEntityById(entity.getId());
+    verify(courseService).getEntityById(eq(entity.getId()));
     verifyNoMoreInteractions(courseService);
   }
 

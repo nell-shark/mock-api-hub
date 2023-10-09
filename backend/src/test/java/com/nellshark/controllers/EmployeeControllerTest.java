@@ -1,5 +1,6 @@
 package com.nellshark.controllers;
 
+import static org.mockito.ArgumentMatchers.eq;
 import static org.mockito.Mockito.verify;
 import static org.mockito.Mockito.verifyNoMoreInteractions;
 import static org.mockito.Mockito.when;
@@ -14,12 +15,10 @@ import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.
 import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.status;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
-import com.fasterxml.jackson.datatype.jsr310.JavaTimeModule;
 import com.nellshark.models.Employee;
 import com.nellshark.services.EmployeeService;
 import java.util.Collections;
 import java.util.List;
-import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.autoconfigure.web.servlet.WebMvcTest;
@@ -37,11 +36,6 @@ class EmployeeControllerTest {
 
   @MockBean
   private EmployeeService employeeService;
-
-  @BeforeEach
-  void setUp() {
-    objectMapper.registerModule(new JavaTimeModule());
-  }
 
   @Test
   void testGetEntities() throws Exception {
@@ -84,14 +78,14 @@ class EmployeeControllerTest {
 
     String json = objectMapper.writeValueAsString(entity);
 
-    when(employeeService.getEntityById(entity.getId())).thenReturn(entity);
+    when(employeeService.getEntityById(eq(entity.getId()))).thenReturn(entity);
 
     mockMvc.perform(get("/api/v1/employees/{id}", entity.getId()))
         .andDo(print())
         .andExpect(status().isOk())
         .andExpect(content().json(json));
 
-    verify(employeeService).getEntityById(entity.getId());
+    verify(employeeService).getEntityById(eq(entity.getId()));
     verifyNoMoreInteractions(employeeService);
   }
 

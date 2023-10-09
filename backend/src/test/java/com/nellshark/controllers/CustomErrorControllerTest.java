@@ -1,5 +1,6 @@
 package com.nellshark.controllers;
 
+import static jakarta.servlet.RequestDispatcher.ERROR_REQUEST_URI;
 import static org.junit.jupiter.api.Assertions.assertTrue;
 import static org.mockito.Mockito.mock;
 import static org.mockito.Mockito.when;
@@ -8,7 +9,6 @@ import static org.springframework.test.web.servlet.result.MockMvcResultHandlers.
 import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.status;
 
 import com.nellshark.exceptions.HandlerNotFoundException;
-import jakarta.servlet.RequestDispatcher;
 import jakarta.servlet.http.HttpServletRequest;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -22,10 +22,10 @@ class CustomErrorControllerTest {
   private MockMvc mockMvc;
 
   @Test
-  public void testHandleError() throws Exception {
+  void testHandleError() throws Exception {
     String errorRequestUri = "/test/error";
     HttpServletRequest request = mock(HttpServletRequest.class);
-    when(request.getAttribute(RequestDispatcher.ERROR_REQUEST_URI)).thenReturn(errorRequestUri);
+    when(request.getAttribute(ERROR_REQUEST_URI)).thenReturn(errorRequestUri);
 
     mockMvc.perform(get("/error"))
         .andDo(print())

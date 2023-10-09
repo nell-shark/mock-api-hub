@@ -1,5 +1,6 @@
 package com.nellshark.controllers;
 
+import static org.mockito.ArgumentMatchers.eq;
 import static org.mockito.Mockito.verify;
 import static org.mockito.Mockito.verifyNoMoreInteractions;
 import static org.mockito.Mockito.when;
@@ -14,13 +15,11 @@ import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.
 import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.status;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
-import com.fasterxml.jackson.datatype.jsr310.JavaTimeModule;
 import com.nellshark.models.Todo;
 import com.nellshark.services.TodoService;
 import java.time.LocalDateTime;
 import java.util.Collections;
 import java.util.List;
-import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.autoconfigure.web.servlet.WebMvcTest;
@@ -38,11 +37,6 @@ class TodoControllerTest {
 
   @MockBean
   private TodoService todoService;
-
-  @BeforeEach
-  void setUp() {
-    objectMapper.registerModule(new JavaTimeModule());
-  }
 
   @Test
   void testGetEntities() throws Exception {
@@ -79,14 +73,14 @@ class TodoControllerTest {
 
     String json = objectMapper.writeValueAsString(entity);
 
-    when(todoService.getEntityById(entity.getId())).thenReturn(entity);
+    when(todoService.getEntityById(eq(entity.getId()))).thenReturn(entity);
 
     mockMvc.perform(get("/api/v1/todos/{id}", entity.getId()))
         .andDo(print())
         .andExpect(status().isOk())
         .andExpect(content().json(json));
 
-    verify(todoService).getEntityById(entity.getId());
+    verify(todoService).getEntityById(eq(entity.getId()));
     verifyNoMoreInteractions(todoService);
   }
 
