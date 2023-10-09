@@ -56,7 +56,7 @@ class CompanyControllerTest {
         "Description"
     );
 
-    String expectedJson = "[" + objectMapper.writeValueAsString(entity) + "]";
+    String json = "[" + objectMapper.writeValueAsString(entity) + "]";
 
     when(companyService.getEntities(Collections.emptyMap())).thenReturn(List.of(entity));
 
@@ -64,7 +64,7 @@ class CompanyControllerTest {
             .contentType(APPLICATION_JSON))
         .andDo(print())
         .andExpect(status().isOk())
-        .andExpect(content().json(expectedJson));
+        .andExpect(content().json(json));
 
     verify(companyService).getEntities(Collections.emptyMap());
     verifyNoMoreInteractions(companyService);
@@ -84,14 +84,14 @@ class CompanyControllerTest {
         "Description"
     );
 
-    String expectedJson = objectMapper.writeValueAsString(entity);
+    String json = objectMapper.writeValueAsString(entity);
 
     when(companyService.getEntityById(entity.getId())).thenReturn(entity);
 
     mockMvc.perform(get("/api/v1/companies/{id}", entity.getId()))
         .andDo(print())
         .andExpect(status().isOk())
-        .andExpect(content().json(expectedJson));
+        .andExpect(content().json(json));
 
     verify(companyService).getEntityById(entity.getId());
     verifyNoMoreInteractions(companyService);

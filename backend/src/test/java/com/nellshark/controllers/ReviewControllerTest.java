@@ -56,7 +56,7 @@ class ReviewControllerTest {
         1L
     );
 
-    String expectedJson = "[" + objectMapper.writeValueAsString(entity) + "]";
+    String json = "[" + objectMapper.writeValueAsString(entity) + "]";
 
     when(reviewService.getEntities(Collections.emptyMap())).thenReturn(List.of(entity));
 
@@ -64,7 +64,7 @@ class ReviewControllerTest {
             .contentType(APPLICATION_JSON))
         .andDo(print())
         .andExpect(status().isOk())
-        .andExpect(content().json(expectedJson));
+        .andExpect(content().json(json));
 
     verify(reviewService).getEntities(Collections.emptyMap());
     verifyNoMoreInteractions(reviewService);
@@ -83,14 +83,14 @@ class ReviewControllerTest {
         1L
     );
 
-    String expectedJson = objectMapper.writeValueAsString(entity);
+    String json = objectMapper.writeValueAsString(entity);
 
     when(reviewService.getEntityById(entity.getId())).thenReturn(entity);
 
     mockMvc.perform(get("/api/v1/reviews/{id}", entity.getId()))
         .andDo(print())
         .andExpect(status().isOk())
-        .andExpect(content().json(expectedJson));
+        .andExpect(content().json(json));
 
     verify(reviewService).getEntityById(entity.getId());
     verifyNoMoreInteractions(reviewService);

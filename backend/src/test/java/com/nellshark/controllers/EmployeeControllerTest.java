@@ -55,7 +55,7 @@ class EmployeeControllerTest {
         "Postion"
     );
 
-    String expectedJson = "[" + objectMapper.writeValueAsString(entity) + "]";
+    String json = "[" + objectMapper.writeValueAsString(entity) + "]";
 
     when(employeeService.getEntities(Collections.emptyMap())).thenReturn(List.of(entity));
 
@@ -63,7 +63,7 @@ class EmployeeControllerTest {
             .contentType(APPLICATION_JSON))
         .andDo(print())
         .andExpect(status().isOk())
-        .andExpect(content().json(expectedJson));
+        .andExpect(content().json(json));
 
     verify(employeeService).getEntities(Collections.emptyMap());
     verifyNoMoreInteractions(employeeService);
@@ -82,14 +82,14 @@ class EmployeeControllerTest {
         "Postion"
     );
 
-    String expectedJson = objectMapper.writeValueAsString(entity);
+    String json = objectMapper.writeValueAsString(entity);
 
     when(employeeService.getEntityById(entity.getId())).thenReturn(entity);
 
     mockMvc.perform(get("/api/v1/employees/{id}", entity.getId()))
         .andDo(print())
         .andExpect(status().isOk())
-        .andExpect(content().json(expectedJson));
+        .andExpect(content().json(json));
 
     verify(employeeService).getEntityById(entity.getId());
     verifyNoMoreInteractions(employeeService);

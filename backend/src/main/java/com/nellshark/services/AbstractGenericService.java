@@ -18,6 +18,7 @@ import java.util.List;
 import java.util.Map;
 import java.util.Objects;
 import java.util.Optional;
+import java.util.regex.Pattern;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.data.domain.PageRequest;
@@ -54,23 +55,29 @@ public abstract class AbstractGenericService<T, ID> {
             () -> new EntityNotFoundException("Entity with id %s not found".formatted(id)));
   }
 
-  public List<T> getEntities(Map<String, Object> filterParams) {
+  public List<T> getEntities(Map<String, String> filterParams) {
     logger.info("Getting entities of {}: filterParams={}", entityClass, filterParams);
 
     Direction direction = Optional.ofNullable(filterParams.remove("direction"))
-        .map(String::valueOf)
         .map(dir -> dir.equalsIgnoreCase("DESC") ? DESC : ASC)
         .orElse(ASC);
 
     Sort sort = Optional.ofNullable(filterParams.remove("sort"))
-        .map(String::valueOf)
         .map(sortBy -> Sort.by(direction, sortBy))
         .orElse(Sort.by(direction, "id"));
 
-    Optional<String> pageOptional = Optional.ofNullable(filterParams.remove("page"))
-        .map(String::valueOf);
-    Optional<String> sizeOptional = Optional.ofNullable(filterParams.remove("size"))
-        .map(String::valueOf);
+    Pattern integerPattern = Pattern.compile("^\\d+$");
+
+    Optional<Integer> pageOptional = Optional.ofNullable(filterParams.remove("page"))
+        .filter(page -> integerPattern.matcher(page).matches())
+        .map(Integer::parseInt)
+        .filter(p -> p > 1)
+        .map(p -> p - 1);
+
+    Optional<Integer> sizeOptional = Optional.ofNullable(filterParams.remove("size"))
+        .filter(size -> integerPattern.matcher(size).matches())
+        .map(Integer::parseInt)
+        .filter(s -> s > 0);
 
     Specification<T> specification = getSpecification(filterParams);
 
@@ -79,24 +86,15 @@ public abstract class AbstractGenericService<T, ID> {
       return repository.findAll(specification, pageable).getContent();
     }
 
-    int page = pageOptional
-        .map(Integer::parseInt)
-        .filter(p -> p > 1)
-        .map(p -> p - 1)
-        .orElse(0);
-
-    int size = sizeOptional
-        .map(Integer::parseInt)
-        .filter(s -> s > 0)
-        .orElse(10);
-
+    int page = pageOptional.orElse(0);
+    int size = sizeOptional.orElse(10);
     Pageable pageable = PageRequest.of(page, size, sort);
+
     return repository.findAll(specification, pageable).getContent();
   }
 
-  public Specification<T> getSpecification(Map<String, Object> filterParams) {
+  private Specification<T> getSpecification(Map<String, String> filterParams) {
     return (Root<T> root, CriteriaQuery<?> query, CriteriaBuilder builder) -> {
-
       Predicate[] predicates = filterParams.entrySet()
           .stream()
           .filter(Objects::nonNull)
@@ -104,7 +102,7 @@ public abstract class AbstractGenericService<T, ID> {
             String attributeName = entry.getKey();
             try {
               return builder.equal(
-                  root.get(attributeName).as(String.class),
+                  root.get(attributeName),
                   castToRequiredType(root.get(attributeName).getJavaType(), entry.getValue())
               );
             } catch (IllegalArgumentException ignored) {
@@ -118,37 +116,37 @@ public abstract class AbstractGenericService<T, ID> {
     };
   }
 
-  private Object castToRequiredType(Class<?> fieldType, Object value) {
+  private Object castToRequiredType(Class<?> fieldType, String value) {
     if (isNull(fieldType) || isNull(value)) {
       throw new IllegalArgumentException("Cannot cast value to the required type: " + fieldType);
     }
 
     try {
       if (fieldType.isAssignableFrom(Boolean.class)) {
-        return Boolean.valueOf(value.toString());
+        return Boolean.valueOf(value);
       }
 
       if (fieldType.isAssignableFrom(Double.class)) {
-        return Double.valueOf(value.toString());
+        return Double.valueOf(value);
       }
 
       if (fieldType.isAssignableFrom(Long.class)) {
-        return Long.valueOf(value.toString());
+        return Long.valueOf(value);
       }
 
       if (fieldType.isAssignableFrom(Integer.class)) {
-        return Integer.valueOf(value.toString());
+        return Integer.valueOf(value);
       }
 
       if (fieldType.isAssignableFrom(LocalDateTime.class)) {
-        return LocalDateTime.parse(value.toString());
+        return LocalDateTime.parse(value);
       }
 
       if (fieldType.isAssignableFrom(LocalDate.class)) {
-        return LocalDate.parse(value.toString());
+        return LocalDate.parse(value);
       }
 
-      return value.toString();
+      return value;
     } catch (NumberFormatException | DateTimeParseException e) {
       throw new IllegalArgumentException("Error casting value to the required type: " + fieldType);
     }

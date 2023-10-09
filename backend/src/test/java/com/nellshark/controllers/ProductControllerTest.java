@@ -59,7 +59,7 @@ class ProductControllerTest {
         dimension
     );
 
-    String expectedJson = "[" + objectMapper.writeValueAsString(entity) + "]";
+    String json = "[" + objectMapper.writeValueAsString(entity) + "]";
 
     when(productService.getEntities(Collections.emptyMap())).thenReturn(List.of(entity));
 
@@ -67,7 +67,7 @@ class ProductControllerTest {
             .contentType(APPLICATION_JSON))
         .andDo(print())
         .andExpect(status().isOk())
-        .andExpect(content().json(expectedJson));
+        .andExpect(content().json(json));
 
     verify(productService).getEntities(Collections.emptyMap());
     verifyNoMoreInteractions(productService);
@@ -89,14 +89,14 @@ class ProductControllerTest {
         dimension
     );
 
-    String expectedJson = objectMapper.writeValueAsString(entity);
+    String json = objectMapper.writeValueAsString(entity);
 
     when(productService.getEntityById(entity.getId())).thenReturn(entity);
 
     mockMvc.perform(get("/api/v1/products/{id}", entity.getId()))
         .andDo(print())
         .andExpect(status().isOk())
-        .andExpect(content().json(expectedJson));
+        .andExpect(content().json(json));
 
     verify(productService).getEntityById(entity.getId());
     verifyNoMoreInteractions(productService);
@@ -183,6 +183,33 @@ class ProductControllerTest {
             .contentType(APPLICATION_JSON))
         .andDo(print())
         .andExpect(status().isOk());
+  }
+
+  @Test
+  void testGetDimensionsByProductId() throws Exception {
+    Dimension dimension = new Dimension(1.0, 2.0, 3.0);
+    Product entity = new Product(
+        1L,
+        "Name",
+        "Description",
+        99.99,
+        "Currency",
+        "Manufacturer",
+        "Category",
+        true,
+        dimension
+    );
+
+    String json = objectMapper.writeValueAsString(dimension);
+    when(productService.getDimensionsByProductId(entity.getId())).thenReturn(dimension);
+
+    mockMvc.perform(get("/api/v1/products/{id}/dimensions", entity.getId()))
+        .andDo(print())
+        .andExpect(status().isOk())
+        .andExpect(content().json(json));
+
+    verify(productService).getDimensionsByProductId(entity.getId());
+    verifyNoMoreInteractions(productService);
   }
 }
 

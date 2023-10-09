@@ -57,7 +57,7 @@ class CourseControllerTest {
         LocalDate.now()
     );
 
-    String expectedJson = "[" + objectMapper.writeValueAsString(entity) + "]";
+    String json = "[" + objectMapper.writeValueAsString(entity) + "]";
 
     when(courseService.getEntities(Collections.emptyMap())).thenReturn(List.of(entity));
 
@@ -65,7 +65,7 @@ class CourseControllerTest {
             .contentType(APPLICATION_JSON))
         .andDo(print())
         .andExpect(status().isOk())
-        .andExpect(content().json(expectedJson));
+        .andExpect(content().json(json));
 
     verify(courseService).getEntities(Collections.emptyMap());
     verifyNoMoreInteractions(courseService);
@@ -85,14 +85,14 @@ class CourseControllerTest {
         LocalDate.now()
     );
 
-    String expectedJson = objectMapper.writeValueAsString(entity);
+    String json = objectMapper.writeValueAsString(entity);
 
     when(courseService.getEntityById(entity.getId())).thenReturn(entity);
 
     mockMvc.perform(get("/api/v1/courses/{id}", entity.getId()))
         .andDo(print())
         .andExpect(status().isOk())
-        .andExpect(content().json(expectedJson));
+        .andExpect(content().json(json));
 
     verify(courseService).getEntityById(entity.getId());
     verifyNoMoreInteractions(courseService);

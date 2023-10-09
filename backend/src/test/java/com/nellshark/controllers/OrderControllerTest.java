@@ -59,7 +59,7 @@ class OrderControllerTest {
         List.of(item)
     );
 
-    String expectedJson = "[" + objectMapper.writeValueAsString(entity) + "]";
+    String json = "[" + objectMapper.writeValueAsString(entity) + "]";
 
     when(orderService.getEntities(Collections.emptyMap())).thenReturn(List.of(entity));
 
@@ -67,7 +67,7 @@ class OrderControllerTest {
             .contentType(APPLICATION_JSON))
         .andDo(print())
         .andExpect(status().isOk())
-        .andExpect(content().json(expectedJson));
+        .andExpect(content().json(json));
 
     verify(orderService).getEntities(Collections.emptyMap());
     verifyNoMoreInteractions(orderService);
@@ -88,14 +88,14 @@ class OrderControllerTest {
         List.of(item)
     );
 
-    String expectedJson = objectMapper.writeValueAsString(entity);
+    String json = objectMapper.writeValueAsString(entity);
 
     when(orderService.getEntityById(entity.getId())).thenReturn(entity);
 
     mockMvc.perform(get("/api/v1/orders/{id}", entity.getId()))
         .andDo(print())
         .andExpect(status().isOk())
-        .andExpect(content().json(expectedJson));
+        .andExpect(content().json(json));
 
     verify(orderService).getEntityById(entity.getId());
     verifyNoMoreInteractions(orderService);
@@ -179,5 +179,33 @@ class OrderControllerTest {
             .contentType(APPLICATION_JSON))
         .andDo(print())
         .andExpect(status().isOk());
+  }
+
+  @Test
+  void testGetItemsByOrderId() throws Exception {
+    Item item = new Item(
+        1L,
+        1L
+    );
+
+    List<Item> items = List.of(item);
+
+    Order entity = new Order(
+        1L,
+        LocalDateTime.now(),
+        "Status",
+        items
+    );
+
+    String json = objectMapper.writeValueAsString(items);
+    when(orderService.getItemsByOrderId(entity.getId())).thenReturn(items);
+
+    mockMvc.perform(get("/api/v1/orders/{id}/items", entity.getId()))
+        .andDo(print())
+        .andExpect(status().isOk())
+        .andExpect(content().json(json));
+
+    verify(orderService).getItemsByOrderId(entity.getId());
+    verifyNoMoreInteractions(orderService);
   }
 }

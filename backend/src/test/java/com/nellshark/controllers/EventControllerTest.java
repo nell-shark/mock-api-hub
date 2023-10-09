@@ -62,7 +62,7 @@ class EventControllerTest {
         List.of(speaker)
     );
 
-    String expectedJson = "[" + objectMapper.writeValueAsString(entity) + "]";
+    String json = "[" + objectMapper.writeValueAsString(entity) + "]";
 
     when(eventService.getEntities(Collections.emptyMap())).thenReturn(List.of(entity));
 
@@ -70,7 +70,7 @@ class EventControllerTest {
             .contentType(APPLICATION_JSON))
         .andDo(print())
         .andExpect(status().isOk())
-        .andExpect(content().json(expectedJson));
+        .andExpect(content().json(json));
 
     verify(eventService).getEntities(Collections.emptyMap());
     verifyNoMoreInteractions(eventService);
@@ -94,14 +94,14 @@ class EventControllerTest {
         List.of(speaker)
     );
 
-    String expectedJson = objectMapper.writeValueAsString(entity);
+    String json = objectMapper.writeValueAsString(entity);
 
     when(eventService.getEntityById(entity.getId())).thenReturn(entity);
 
     mockMvc.perform(get("/api/v1/events/{id}", entity.getId()))
         .andDo(print())
         .andExpect(status().isOk())
-        .andExpect(content().json(expectedJson));
+        .andExpect(content().json(json));
 
     verify(eventService).getEntityById(entity.getId());
     verifyNoMoreInteractions(eventService);
@@ -194,5 +194,36 @@ class EventControllerTest {
             .contentType(APPLICATION_JSON))
         .andDo(print())
         .andExpect(status().isOk());
+  }
+
+  @Test
+  void testGetSpeakersByEventId() throws Exception {
+    Speaker speaker = new Speaker(
+        "Name",
+        "Topic",
+        "bio"
+    );
+
+    List<Speaker> speakers = List.of(speaker);
+
+    Event entity = new Event(
+        1L,
+        "Title",
+        LocalDate.now(),
+        "Location",
+        "Description",
+        speakers
+    );
+
+    String json = objectMapper.writeValueAsString(speakers);
+    when(eventService.getSpeakersByEventId(entity.getId())).thenReturn(speakers);
+
+    mockMvc.perform(get("/api/v1/events/{id}/speakers", entity.getId()))
+        .andDo(print())
+        .andExpect(status().isOk())
+        .andExpect(content().json(json));
+
+    verify(eventService).getSpeakersByEventId(entity.getId());
+    verifyNoMoreInteractions(eventService);
   }
 }

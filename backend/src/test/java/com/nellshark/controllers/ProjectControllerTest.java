@@ -58,7 +58,7 @@ class ProjectControllerTest {
         List.of(team)
     );
 
-    String expectedJson = "[" + objectMapper.writeValueAsString(entity) + "]";
+    String json = "[" + objectMapper.writeValueAsString(entity) + "]";
 
     when(projectService.getEntities(Collections.emptyMap())).thenReturn(List.of(entity));
 
@@ -66,7 +66,7 @@ class ProjectControllerTest {
             .contentType(APPLICATION_JSON))
         .andDo(print())
         .andExpect(status().isOk())
-        .andExpect(content().json(expectedJson));
+        .andExpect(content().json(json));
 
     verify(projectService).getEntities(Collections.emptyMap());
     verifyNoMoreInteractions(projectService);
@@ -86,14 +86,14 @@ class ProjectControllerTest {
         List.of(team)
     );
 
-    String expectedJson = objectMapper.writeValueAsString(entity);
+    String json = objectMapper.writeValueAsString(entity);
 
     when(projectService.getEntityById(entity.getId())).thenReturn(entity);
 
     mockMvc.perform(get("/api/v1/projects/{id}", entity.getId()))
         .andDo(print())
         .andExpect(status().isOk())
-        .andExpect(content().json(expectedJson));
+        .andExpect(content().json(json));
 
     verify(projectService).getEntityById(entity.getId());
     verifyNoMoreInteractions(projectService);
@@ -174,5 +174,30 @@ class ProjectControllerTest {
             .contentType(APPLICATION_JSON))
         .andDo(print())
         .andExpect(status().isOk());
+  }
+
+  @Test
+  void testGetTeamByProjectId() throws Exception {
+    List<Team> team = List.of(new Team("Name", "Role"));
+    Project entity = new Project(
+        1L,
+        "Name",
+        "Description",
+        "Status",
+        LocalDate.now(),
+        LocalDate.now(),
+        team
+    );
+
+    String json = objectMapper.writeValueAsString(team);
+    when(projectService.getTeamByProjectId(entity.getId())).thenReturn(team);
+
+    mockMvc.perform(get("/api/v1/projects/{id}/team", entity.getId()))
+        .andDo(print())
+        .andExpect(status().isOk())
+        .andExpect(content().json(json));
+
+    verify(projectService).getTeamByProjectId(entity.getId());
+    verifyNoMoreInteractions(projectService);
   }
 }

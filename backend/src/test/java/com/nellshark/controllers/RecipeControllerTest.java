@@ -57,7 +57,7 @@ class RecipeControllerTest {
         List.of(ingredient)
     );
 
-    String expectedJson = "[" + objectMapper.writeValueAsString(entity) + "]";
+    String json = "[" + objectMapper.writeValueAsString(entity) + "]";
 
     when(recipeService.getEntities(Collections.emptyMap())).thenReturn(List.of(entity));
 
@@ -65,7 +65,7 @@ class RecipeControllerTest {
             .contentType(APPLICATION_JSON))
         .andDo(print())
         .andExpect(status().isOk())
-        .andExpect(content().json(expectedJson));
+        .andExpect(content().json(json));
 
     verify(recipeService).getEntities(Collections.emptyMap());
     verifyNoMoreInteractions(recipeService);
@@ -85,14 +85,14 @@ class RecipeControllerTest {
         List.of(ingredient)
     );
 
-    String expectedJson = objectMapper.writeValueAsString(entity);
+    String json = objectMapper.writeValueAsString(entity);
 
     when(recipeService.getEntityById(entity.getId())).thenReturn(entity);
 
     mockMvc.perform(get("/api/v1/recipes/{id}", entity.getId()))
         .andDo(print())
         .andExpect(status().isOk())
-        .andExpect(content().json(expectedJson));
+        .andExpect(content().json(json));
 
     verify(recipeService).getEntityById(entity.getId());
     verifyNoMoreInteractions(recipeService);
@@ -173,5 +173,31 @@ class RecipeControllerTest {
             .contentType(APPLICATION_JSON))
         .andDo(print())
         .andExpect(status().isOk());
+  }
+
+  @Test
+  void testGetIngredientsByRecipeId() throws Exception {
+    Ingredient ingredient = new Ingredient("IngredientName", "quantity");
+    List<Ingredient> ingredients = List.of(ingredient);
+    Recipe entity = new Recipe(
+        1L,
+        "Name",
+        "Instructions",
+        "prepTime",
+        "CookTime",
+        "TotalTime",
+        ingredients
+    );
+
+    String json = objectMapper.writeValueAsString(ingredients);
+    when(recipeService.getIngredientsByRecipeId(entity.getId())).thenReturn(ingredients);
+
+    mockMvc.perform(get("/api/v1/recipes/{id}/ingredients", entity.getId()))
+        .andDo(print())
+        .andExpect(status().isOk())
+        .andExpect(content().json(json));
+
+    verify(recipeService).getIngredientsByRecipeId(entity.getId());
+    verifyNoMoreInteractions(recipeService);
   }
 }

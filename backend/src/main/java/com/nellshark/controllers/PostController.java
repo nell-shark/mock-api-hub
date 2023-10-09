@@ -25,7 +25,7 @@ public class PostController extends AbstractGenericController<Post, Long> {
   @GetMapping("/{id}/comments")
   public ResponseEntity<List<Comment>> getCommentsByPostId(
       @PathVariable("id") Long postId,
-      Map<String, Object> filterParams
+      Map<String, String> filterParams
   ) {
     List<Comment> comments = postService.getCommentsByPostId(postId, filterParams);
     return ResponseEntity.ok(comments);

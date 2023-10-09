@@ -55,7 +55,7 @@ class BookControllerTest {
         "Description"
     );
 
-    String expectedJson = "[" + objectMapper.writeValueAsString(entity) + "]";
+    String json = "[" + objectMapper.writeValueAsString(entity) + "]";
 
     when(bookService.getEntities(Collections.emptyMap())).thenReturn(List.of(entity));
 
@@ -63,7 +63,7 @@ class BookControllerTest {
             .contentType(APPLICATION_JSON))
         .andDo(print())
         .andExpect(status().isOk())
-        .andExpect(content().json(expectedJson));
+        .andExpect(content().json(json));
 
     verify(bookService).getEntities(Collections.emptyMap());
     verifyNoMoreInteractions(bookService);
@@ -82,14 +82,14 @@ class BookControllerTest {
         "Description"
     );
 
-    String expectedJson = objectMapper.writeValueAsString(entity);
+    String json = objectMapper.writeValueAsString(entity);
 
     when(bookService.getEntityById(entity.getId())).thenReturn(entity);
 
     mockMvc.perform(get("/api/v1/books/{id}", entity.getId()))
         .andDo(print())
         .andExpect(status().isOk())
-        .andExpect(content().json(expectedJson));
+        .andExpect(content().json(json));
 
     verify(bookService).getEntityById(entity.getId());
     verifyNoMoreInteractions(bookService);

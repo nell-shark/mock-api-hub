@@ -52,7 +52,7 @@ class CommentControllerTest {
         1L
     );
 
-    String expectedJson = "[" + objectMapper.writeValueAsString(entity) + "]";
+    String json = "[" + objectMapper.writeValueAsString(entity) + "]";
 
     when(commentService.getEntities(Collections.emptyMap())).thenReturn(List.of(entity));
 
@@ -60,7 +60,7 @@ class CommentControllerTest {
             .contentType(APPLICATION_JSON))
         .andDo(print())
         .andExpect(status().isOk())
-        .andExpect(content().json(expectedJson));
+        .andExpect(content().json(json));
 
     verify(commentService).getEntities(Collections.emptyMap());
     verifyNoMoreInteractions(commentService);
@@ -76,14 +76,14 @@ class CommentControllerTest {
         1L
     );
 
-    String expectedJson = objectMapper.writeValueAsString(entity);
+    String json = objectMapper.writeValueAsString(entity);
 
     when(commentService.getEntityById(entity.getId())).thenReturn(entity);
 
     mockMvc.perform(get("/api/v1/comments/{id}", entity.getId()))
         .andDo(print())
         .andExpect(status().isOk())
-        .andExpect(content().json(expectedJson));
+        .andExpect(content().json(json));
 
     verify(commentService).getEntityById(entity.getId());
     verifyNoMoreInteractions(commentService);

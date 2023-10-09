@@ -15,6 +15,7 @@ import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.
 
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.fasterxml.jackson.datatype.jsr310.JavaTimeModule;
+import com.nellshark.models.Comment;
 import com.nellshark.models.Post;
 import com.nellshark.services.PostService;
 import java.time.LocalDateTime;
@@ -54,15 +55,14 @@ class PostControllerTest {
         1L
     );
 
-    String expectedJson = "[" + objectMapper.writeValueAsString(entity) + "]";
-
+    String json = "[" + objectMapper.writeValueAsString(entity) + "]";
     when(postService.getEntities(Collections.emptyMap())).thenReturn(List.of(entity));
 
     mockMvc.perform(get("/api/v1/posts")
             .contentType(APPLICATION_JSON))
         .andDo(print())
         .andExpect(status().isOk())
-        .andExpect(content().json(expectedJson));
+        .andExpect(content().json(json));
 
     verify(postService).getEntities(Collections.emptyMap());
     verifyNoMoreInteractions(postService);
@@ -79,14 +79,13 @@ class PostControllerTest {
         1L
     );
 
-    String expectedJson = objectMapper.writeValueAsString(entity);
-
+    String json = objectMapper.writeValueAsString(entity);
     when(postService.getEntityById(entity.getId())).thenReturn(entity);
 
     mockMvc.perform(get("/api/v1/posts/{id}", entity.getId()))
         .andDo(print())
         .andExpect(status().isOk())
-        .andExpect(content().json(expectedJson));
+        .andExpect(content().json(json));
 
     verify(postService).getEntityById(entity.getId());
     verifyNoMoreInteractions(postService);
@@ -158,5 +157,31 @@ class PostControllerTest {
             .contentType(APPLICATION_JSON))
         .andDo(print())
         .andExpect(status().isOk());
+  }
+
+  @Test
+  void testGetCommentsByPostId() throws Exception {
+    Comment comment = new Comment(1L, "Text", 1L, 1L);
+    List<Comment> comments = List.of(comment);
+
+    Post entity = new Post(
+        1L,
+        "Title",
+        "Content",
+        LocalDateTime.now(),
+        1L
+    );
+
+    String json = objectMapper.writeValueAsString(comments);
+    when(postService.getCommentsByPostId(entity.getId(), Collections.emptyMap()))
+        .thenReturn(comments);
+
+    mockMvc.perform(get("/api/v1/posts/{id}/comments", entity.getId()))
+        .andDo(print())
+        .andExpect(status().isOk())
+        .andExpect(content().json(json));
+
+    verify(postService).getCommentsByPostId(entity.getId(), Collections.emptyMap());
+    verifyNoMoreInteractions(postService);
   }
 }

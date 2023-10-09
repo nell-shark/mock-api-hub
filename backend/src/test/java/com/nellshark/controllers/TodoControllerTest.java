@@ -53,7 +53,7 @@ class TodoControllerTest {
         LocalDateTime.now()
     );
 
-    String expectedJson = "[" + objectMapper.writeValueAsString(entity) + "]";
+    String json = "[" + objectMapper.writeValueAsString(entity) + "]";
 
     when(todoService.getEntities(Collections.emptyMap())).thenReturn(List.of(entity));
 
@@ -61,7 +61,7 @@ class TodoControllerTest {
             .contentType(APPLICATION_JSON))
         .andDo(print())
         .andExpect(status().isOk())
-        .andExpect(content().json(expectedJson));
+        .andExpect(content().json(json));
 
     verify(todoService).getEntities(Collections.emptyMap());
     verifyNoMoreInteractions(todoService);
@@ -77,14 +77,14 @@ class TodoControllerTest {
         LocalDateTime.now()
     );
 
-    String expectedJson = objectMapper.writeValueAsString(entity);
+    String json = objectMapper.writeValueAsString(entity);
 
     when(todoService.getEntityById(entity.getId())).thenReturn(entity);
 
     mockMvc.perform(get("/api/v1/todos/{id}", entity.getId()))
         .andDo(print())
         .andExpect(status().isOk())
-        .andExpect(content().json(expectedJson));
+        .andExpect(content().json(json));
 
     verify(todoService).getEntityById(entity.getId());
     verifyNoMoreInteractions(todoService);

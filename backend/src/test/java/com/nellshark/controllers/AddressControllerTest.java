@@ -54,7 +54,7 @@ class AddressControllerTest {
         "PostCode"
     );
 
-    String expectedJson = "[" + objectMapper.writeValueAsString(entity) + "]";
+    String json = "[" + objectMapper.writeValueAsString(entity) + "]";
 
     when(addressService.getEntities(Collections.emptyMap())).thenReturn(List.of(entity));
 
@@ -62,7 +62,7 @@ class AddressControllerTest {
             .contentType(APPLICATION_JSON))
         .andDo(print())
         .andExpect(status().isOk())
-        .andExpect(content().json(expectedJson));
+        .andExpect(content().json(json));
 
     verify(addressService).getEntities(Collections.emptyMap());
     verifyNoMoreInteractions(addressService);
@@ -80,14 +80,14 @@ class AddressControllerTest {
         "PostCode"
     );
 
-    String expectedJson = objectMapper.writeValueAsString(entity);
+    String json = objectMapper.writeValueAsString(entity);
 
     when(addressService.getEntityById(entity.getId())).thenReturn(entity);
 
     mockMvc.perform(get("/api/v1/addresses/{id}", entity.getId()))
         .andDo(print())
         .andExpect(status().isOk())
-        .andExpect(content().json(expectedJson));
+        .andExpect(content().json(json));
 
     verify(addressService).getEntityById(entity.getId());
     verifyNoMoreInteractions(addressService);

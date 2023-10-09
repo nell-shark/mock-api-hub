@@ -54,7 +54,7 @@ class NotificationControllerTest {
         true
     );
 
-    String expectedJson = "[" + objectMapper.writeValueAsString(entity) + "]";
+    String json = "[" + objectMapper.writeValueAsString(entity) + "]";
 
     when(notificationService.getEntities(Collections.emptyMap())).thenReturn(List.of(entity));
 
@@ -62,7 +62,7 @@ class NotificationControllerTest {
             .contentType(APPLICATION_JSON))
         .andDo(print())
         .andExpect(status().isOk())
-        .andExpect(content().json(expectedJson));
+        .andExpect(content().json(json));
 
     verify(notificationService).getEntities(Collections.emptyMap());
     verifyNoMoreInteractions(notificationService);
@@ -79,14 +79,14 @@ class NotificationControllerTest {
         true
     );
 
-    String expectedJson = objectMapper.writeValueAsString(entity);
+    String json = objectMapper.writeValueAsString(entity);
 
     when(notificationService.getEntityById(entity.getId())).thenReturn(entity);
 
     mockMvc.perform(get("/api/v1/notifications/{id}", entity.getId()))
         .andDo(print())
         .andExpect(status().isOk())
-        .andExpect(content().json(expectedJson));
+        .andExpect(content().json(json));
 
     verify(notificationService).getEntityById(entity.getId());
     verifyNoMoreInteractions(notificationService);

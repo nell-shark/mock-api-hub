@@ -54,7 +54,7 @@ class MessageControllerTest {
         "Content"
     );
 
-    String expectedJson = "[" + objectMapper.writeValueAsString(entity) + "]";
+    String json = "[" + objectMapper.writeValueAsString(entity) + "]";
 
     when(messageService.getEntities(Collections.emptyMap())).thenReturn(List.of(entity));
 
@@ -62,7 +62,7 @@ class MessageControllerTest {
             .contentType(APPLICATION_JSON))
         .andDo(print())
         .andExpect(status().isOk())
-        .andExpect(content().json(expectedJson));
+        .andExpect(content().json(json));
 
     verify(messageService).getEntities(Collections.emptyMap());
     verifyNoMoreInteractions(messageService);
@@ -79,14 +79,14 @@ class MessageControllerTest {
         "Content"
     );
 
-    String expectedJson = objectMapper.writeValueAsString(entity);
+    String json = objectMapper.writeValueAsString(entity);
 
     when(messageService.getEntityById(entity.getId())).thenReturn(entity);
 
     mockMvc.perform(get("/api/v1/messages/{id}", entity.getId()))
         .andDo(print())
         .andExpect(status().isOk())
-        .andExpect(content().json(expectedJson));
+        .andExpect(content().json(json));
 
     verify(messageService).getEntityById(entity.getId());
     verifyNoMoreInteractions(messageService);

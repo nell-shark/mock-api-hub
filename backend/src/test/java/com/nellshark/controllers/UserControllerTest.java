@@ -15,8 +15,11 @@ import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.
 
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.fasterxml.jackson.datatype.jsr310.JavaTimeModule;
+import com.nellshark.models.Comment;
+import com.nellshark.models.Review;
 import com.nellshark.models.User;
 import com.nellshark.services.UserService;
+import java.time.LocalDate;
 import java.util.Collections;
 import java.util.List;
 import org.junit.jupiter.api.BeforeEach;
@@ -54,7 +57,7 @@ class UserControllerTest {
         "Location"
     );
 
-    String expectedJson = "[" + objectMapper.writeValueAsString(entity) + "]";
+    String json = "[" + objectMapper.writeValueAsString(entity) + "]";
 
     when(userService.getEntities(Collections.emptyMap())).thenReturn(List.of(entity));
 
@@ -62,7 +65,7 @@ class UserControllerTest {
             .contentType(APPLICATION_JSON))
         .andDo(print())
         .andExpect(status().isOk())
-        .andExpect(content().json(expectedJson));
+        .andExpect(content().json(json));
 
     verify(userService).getEntities(Collections.emptyMap());
     verifyNoMoreInteractions(userService);
@@ -80,14 +83,14 @@ class UserControllerTest {
         "Location"
     );
 
-    String expectedJson = objectMapper.writeValueAsString(entity);
+    String json = objectMapper.writeValueAsString(entity);
 
     when(userService.getEntityById(entity.getId())).thenReturn(entity);
 
     mockMvc.perform(get("/api/v1/users/{id}", entity.getId()))
         .andDo(print())
         .andExpect(status().isOk())
-        .andExpect(content().json(expectedJson));
+        .andExpect(content().json(json));
 
     verify(userService).getEntityById(entity.getId());
     verifyNoMoreInteractions(userService);
@@ -162,5 +165,59 @@ class UserControllerTest {
             .contentType(APPLICATION_JSON))
         .andDo(print())
         .andExpect(status().isOk());
+  }
+
+  @Test
+  void testGetCommentsByUserId() throws Exception {
+    Comment comment = new Comment(1L, "Text", 1L, 1L);
+    List<Comment> comments = List.of(comment);
+    User entity = new User(
+        1L,
+        "Username",
+        "email@google.com",
+        "password",
+        18L,
+        "Location"
+    );
+
+    String json = objectMapper.writeValueAsString(comments);
+    when(userService.getCommentsByUserId(entity.getId(), Collections.emptyMap()))
+        .thenReturn(comments);
+
+    mockMvc.perform(get("/api/v1/users/{id}/comments", entity.getId()))
+        .andDo(print())
+        .andExpect(status().isOk())
+        .andExpect(content().json(json));
+
+    verify(userService).getCommentsByUserId(entity.getId(), Collections.emptyMap());
+    verifyNoMoreInteractions(userService);
+  }
+
+  @Test
+  void testGetReviewsByUserId() throws Exception {
+    Review review = new Review(
+        1L, 1L, 1L, 1L, LocalDate.now(), "Body", 1L
+    );
+    List<Review> reviews = List.of(review);
+    User entity = new User(
+        1L,
+        "Username",
+        "email@google.com",
+        "password",
+        18L,
+        "Location"
+    );
+
+    String json = objectMapper.writeValueAsString(reviews);
+    when(userService.getReviewsByUserId(entity.getId(), Collections.emptyMap()))
+        .thenReturn(reviews);
+
+    mockMvc.perform(get("/api/v1/users/{id}/reviews", entity.getId()))
+        .andDo(print())
+        .andExpect(status().isOk())
+        .andExpect(content().json(json));
+
+    verify(userService).getReviewsByUserId(entity.getId(), Collections.emptyMap());
+    verifyNoMoreInteractions(userService);
   }
 }
