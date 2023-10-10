@@ -71,7 +71,7 @@ public abstract class AbstractGenericService<T, ID> {
     Optional<Integer> pageOptional = Optional.ofNullable(filterParams.remove("page"))
         .filter(page -> integerPattern.matcher(page).matches())
         .map(Integer::parseInt)
-        .filter(p -> p > 1)
+        .filter(p -> p > 0)
         .map(p -> p - 1);
 
     Optional<Integer> sizeOptional = Optional.ofNullable(filterParams.remove("size"))

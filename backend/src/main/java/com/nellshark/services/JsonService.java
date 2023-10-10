@@ -43,7 +43,7 @@ public class JsonService {
     }
   }
 
-  public byte[] getJsonFileBytesFromResources(@NonNull String jsonFileName) {
+  public byte[] getJsonFileBytesFromResource(@NonNull String jsonFileName) {
     logger.info("Getting resource json file: {}", jsonFileName);
     Resource resource = resourceLoader.getResource("classpath:json/" + jsonFileName);
 

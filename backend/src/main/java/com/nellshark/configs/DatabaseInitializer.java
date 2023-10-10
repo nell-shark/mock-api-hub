@@ -75,7 +75,7 @@ public class DatabaseInitializer implements CommandLineRunner {
     logger.info("Deserialize json file '{}' to entities: {}", jsonFileName, entityClass);
 
     JpaRepository<T, ?> entityRepository = getRepositoryByEntity(entityClass);
-    byte[] jsonBytes = jsonService.getJsonFileBytesFromResources(jsonFileName);
+    byte[] jsonBytes = jsonService.getJsonFileBytesFromResource(jsonFileName);
     List<T> entities = jsonService.convertJsonBytesToEntities(jsonBytes, entityClass);
     entityRepository.saveAll(entities);
   }
