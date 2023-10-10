@@ -29,6 +29,9 @@ jobs:
         working-directory: ./backend
         run: ./gradlew clean build --no-daemon
 
+      - name: Upload coverage to Codecov
+        uses: codecov/codecov-action@v3
+
   build-react:
     runs-on: ubuntu-latest
     steps:
