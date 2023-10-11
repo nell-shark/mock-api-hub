@@ -111,7 +111,7 @@ You can install this project locally:
     ```
 3. Run all containers with:
    ```bash
-    docker compose up
+   docker compose up
     ```
 4. If everything goes well, you can start using it:
    ```bash
@@ -125,5 +125,4 @@ the [contributing guidelines](https://github.com/nell-shark/mock-api-hub/blob/ma
 
 ## ⚖️ License
 
-This project is licensed under the *
-*[MIT License](https://github.com/nell-shark/mock-api-hub/blob/master/LICENSE)**.
+This project is licensed under the [MIT License](https://github.com/nell-shark/mock-api-hub/blob/master/LICENSE).
