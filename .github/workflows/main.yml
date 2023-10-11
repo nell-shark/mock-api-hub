@@ -60,13 +60,10 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v4
 
-      - name: Setup SSH
+      - name: Execute ssh commands
         uses: appleboy/ssh-action@v1.0.0
         with:
           host: ${{ secrets.SSH_HOST }}
           username: ${{ secrets.SSH_USERNAME }}
-          key: ${{ secrets.SSH_PRIVATE_KEY }}
-
-      - name: Update Code and Restart Docker Compose
-        run: |
-          ssh ${{ secrets.SSH_USERNAME }}@${{ secrets.SSH_HOST }} "cd /mock-api-hub && git pull && docker compose up -d --build"
+          password: ${{ secrets.SSH_PRIVATE_KEY }}
+          script: cd /mock-api-hub && git pull && docker compose up -d --build
