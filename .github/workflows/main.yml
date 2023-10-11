@@ -1,4 +1,4 @@
-name: Build
+name: Build and deploy
 
 on:
   push:
@@ -53,24 +53,20 @@ jobs:
         working-directory: ./frontend
         run: npm run build
 
-  deploy-to-docker-hub:
-    needs: [ build-react, build-spring-boot ]
+  deploy:
     runs-on: ubuntu-latest
+    needs: [ build-spring-boot, build-react ]
     steps:
       - name: Checkout code
         uses: actions/checkout@v4
 
-      - name: Login to Docker Hub
-        uses: docker/login-action@v3
+      - name: Setup SSH
+        uses: appleboy/ssh-action@v1.0.0
         with:
-          username: ${{ secrets.DOCKERHUB_USERNAME }}
-          password: ${{ secrets.DOCKERHUB_TOKEN }}
+          host: ${{ secrets.SSH_HOST }}
+          username: ${{ secrets.SSH_USERNAME }}
+          key: ${{ secrets.SSH_PRIVATE_KEY }}
 
-      - name: Set up Docker Buildx
-        uses: docker/setup-buildx-action@v3
-
-      - name: Build and push
-        uses: docker/build-push-action@v5
-        with:
-          push: true
-          tags: nellshark/mock-api-hub:latest
+      - name: Update Code and Restart Docker Compose
+        run: |
+          ssh ${{ secrets.SSH_USERNAME }}@${{ secrets.SSH_HOST }} "cd /mock-api-hub && git pull && docker compose up -d --build"
