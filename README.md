@@ -13,9 +13,6 @@
     <a href="https://github.com/nell-shark/mock-api-hub">
       <img src="https://img.shields.io/github/repo-size/nell-shark/mock-api-hub.svg" alt="" />
    </a>
-    <a href="https://github.com/nell-shark/mock-api-hub/graphs/contributors">
-      <img src="https://img.shields.io/github/commit-activity/w/nell-shark/mock-api-hub.svg" alt="" />
-   </a>
     <a href="https://github.com/nell-shark/mock-api-hub/pulls">
       <img src="https://img.shields.io/github/issues-pr-raw/nell-shark/mock-api-hub.svg" alt="" />
    </a> 
@@ -36,9 +33,9 @@
 
 [Introduction](#-introduction) ·
 [Guide](#-guide) ·
-[Installation](#-installation) ·
+[Installation](#%EF%B8%8F-installation) ·
 [Contributing](#-contributing) ·
-[License](#-license)
+[License](#%EF%B8%8F-license)
 
 Made with ❤️ by [NellShark](https://github.com/nell-shark)
 
@@ -55,7 +52,7 @@ This service ensures the simplicity of the development process.
 Fetching data using bash:
 
 ```bash
-   curl http://localhost:80/api/v1/addresses/1
+curl http://localhost:80/api/v1/addresses/1
 ```
 
 Fetching data using JavaScript:
