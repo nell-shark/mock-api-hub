@@ -37,7 +37,7 @@
 [Contributing](#-contributing) ·
 [License](#%EF%B8%8F-license)
 
-Made with ❤️ by [NellShark](https://github.com/nell-shark)
+Made with :heart: by [NellShark](https://github.com/nell-shark)
 
 </strong>
 </div>
@@ -52,13 +52,13 @@ This service ensures the simplicity of the development process.
 Fetching data using bash:
 
 ```bash
-curl http://localhost:80/api/v1/addresses/1
+curl http://localhost/api/v1/addresses/1
 ```
 
 Fetching data using JavaScript:
 
 ```javascript
-fetch('http://localhost:80/api/v1/addresses/1')
+fetch('http://localhost/api/v1/addresses/1')
       .then(response => response.json())
       .then(json => console.log(json))
 ```
@@ -115,7 +115,7 @@ You can install this project locally:
     ```
 4. If everything goes well, you can start using it:
    ```bash
-   curl http://localhost:80/api/v1/addresses
+   curl http://localhost/api/v1/addresses
    ```
 
 ## 🤝 Contributing
