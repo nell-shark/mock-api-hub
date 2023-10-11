@@ -65,5 +65,5 @@ jobs:
         with:
           host: ${{ secrets.SSH_HOST }}
           username: ${{ secrets.SSH_USERNAME }}
-          password: ${{ secrets.SSH_PRIVATE_KEY }}
-          script: cd /mock-api-hub && git pull && docker compose up -d --build
+          key: ${{ secrets.SSH_PRIVATE_KEY }}
+          script: cd /mock-api-hub && git pull --force && docker compose up -d --build
