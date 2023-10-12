@@ -19,7 +19,7 @@
     <a href="https://github.com/nell-shark/mock-api-hub/issues">
       <img src="https://img.shields.io/github/issues-raw/nell-shark/mock-api-hub.svg" alt="" />
    </a>
-    <a href="https://github.com/nell-shark/mock-api-hub">
+    <a href="https://github.com/nell-shark/mock-api-hub/graphs/commit-activity">
       <img src="https://img.shields.io/github/last-commit/nell-shark/mock-api-hub.svg" alt="" />
    </a>
     <a href="https://github.com/nell-shark/mock-api-hub">
@@ -46,6 +46,7 @@ Made with :heart: by [NellShark](https://github.com/nell-shark)
 
 A free simulated API designed to facilitate testing and experimentation.
 This service ensures the simplicity of the development process.
+All data in json format is created using ChatGPT.
 
 ## 📑 Guide
 
@@ -63,7 +64,7 @@ fetch('http://localhost/api/v1/addresses/1')
       .then(json => console.log(json))
 ```
 
-| Resources             | Counts |
+| Resources             | Count  |
 |:----------------------|:------:|
 | /api/v1/addresses     |  100   |
 | /api/v1/books         |  100   |
@@ -98,14 +99,14 @@ fetch('http://localhost/api/v1/addresses/1')
 | DELETE  | /api/v1/addresses/1              |
 
 > **Note**\
-> The server won't actually update the resource, but it will simulate the update as if it did
+> The server won't actually update the resource, but it will simulate the update as if it did.
 
 ## 🛠️ Installation
 
 You can install this project locally:
 
-1. Install **[Docker](https://www.docker.com/)**
-2. Clone this repository
+1. Install **[Docker](https://www.docker.com/)**.
+2. Clone this repository:
     ```bash
     git clone https://github.com/nell-shark/mock-api-hub
     ```

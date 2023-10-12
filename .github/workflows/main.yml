@@ -60,10 +60,13 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v4
 
-      - name: Execute ssh commands
+      - name: Deploy to server via ssh
         uses: appleboy/ssh-action@v1.0.0
         with:
           host: ${{ secrets.SSH_HOST }}
           username: ${{ secrets.SSH_USERNAME }}
           key: ${{ secrets.SSH_PRIVATE_KEY }}
-          script: cd /mock-api-hub && git pull --force && docker compose up -d --build
+          script: |
+            cd /mock-api-hub 
+            && git pull --force 
+            && docker compose up -d --build
