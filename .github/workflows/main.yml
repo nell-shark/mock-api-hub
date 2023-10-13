@@ -45,7 +45,7 @@ jobs:
         uses: docker/build-push-action@v5
         with:
           push: true
-          tags: ${{ env.DOCKERHUB_USERNAME }}/${{ github.event.repository.name }}:latest
+          tags: ${{ env.DOCKERHUB_USERNAME }}/${{ github.event.repository.name }}-backend:latest
           context: ./backend
           file: ./backend/Dockerfile
 
@@ -80,7 +80,7 @@ jobs:
         uses: docker/build-push-action@v5
         with:
           push: true
-          tags: ${{ env.DOCKERHUB_USERNAME }}/${{ github.event.repository.name }}:latest
+          tags: ${{ env.DOCKERHUB_USERNAME }}/${{ github.event.repository.name }}-frontend:latest
           context: ./frontend
           file: ./frontend/Dockerfile
 
