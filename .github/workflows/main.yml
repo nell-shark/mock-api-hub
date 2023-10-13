@@ -81,8 +81,8 @@ jobs:
         with:
           push: true
           tags: ${{ env.DOCKERHUB_USERNAME }}/${{ github.event.repository.name }}:latest
-          context: /frontend
-          file: /frontend/Dockerfile
+          context: ./frontend
+          file: ./frontend/Dockerfile
 
   deploy:
     runs-on: ubuntu-latest
