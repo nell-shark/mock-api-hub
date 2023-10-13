@@ -53,50 +53,50 @@ All data in json format is created using ChatGPT.
 Fetching data using bash:
 
 ```bash
-curl http://localhost/api/v1/addresses/1
+curl https://mock-api-hub.ru/api/v1/addresses/1
 ```
 
 Fetching data using JavaScript:
 
 ```javascript
-fetch('http://localhost/api/v1/addresses/1')
+fetch('https://mock-api-hub.ru/api/v1/addresses/1')
       .then(response => response.json())
       .then(json => console.log(json))
 ```
 
-| Resources             | Count  |
-|:----------------------|:------:|
-| /api/v1/addresses     |  100   |
-| /api/v1/books         |  100   |
-| /api/v1/comments      |  100   |
-| /api/v1/companies     |  100   |
-| /api/v1/courses       |  100   |
-| /api/v1/employees     |  100   |
-| /api/v1/events        |  100   |
-| /api/v1/messages      |  100   |
-| /api/v1/notifications |  100   |
-| /api/v1/orders        |  100   |
-| /api/v1/posts         |  100   |
-| /api/v1/products      |  100   |
-| /api/v1/projects      |  100   |
-| /api/v1/recipes       |  100   |
-| /api/v1/reviews       |  100   |
-| /api/v1/todos         |  100   |
-| /api/v1/users         |  100   |
+| Resources                                                             | Count |
+|:----------------------------------------------------------------------|:-----:|
+| [/api/v1/addresses](https://mock-api-hub.ru/api/v1/addresses)         |  100  |
+| [/api/v1/books](https://mock-api-hub.ru/api/v1/books)                 |  100  |
+| [/api/v1/comments](https://mock-api-hub.ru/api/v1/comments)           |  100  |
+| [/api/v1/companies](https://mock-api-hub.ru/api/v1/companies)         |  100  |
+| [/api/v1/courses](https://mock-api-hub.ru/api/v1/courses)             |  100  |
+| [/api/v1/employees](https://mock-api-hub.ru/api/v1/employees)         |  100  |
+| [/api/v1/events](https://mock-api-hub.ru/api/v1/events)               |  100  |
+| [/api/v1/messages](https://mock-api-hub.ru/api/v1/messages)           |  100  |
+| [/api/v1/notifications](https://mock-api-hub.ru/api/v1/notifications) |  100  |
+| [/api/v1/orders](https://mock-api-hub.ru/api/v1/orders)               |  100  |
+| [/api/v1/posts](https://mock-api-hub.ru/api/v1/posts)                 |  100  |
+| [/api/v1/products](https://mock-api-hub.ru/api/v1/products)           |  100  |
+| [/api/v1/projects](https://mock-api-hub.ru/api/v1/projects)           |  100  |
+| [/api/v1/recipes](https://mock-api-hub.ru/api/v1/recipes)             |  100  |
+| [/api/v1/reviews](https://mock-api-hub.ru/api/v1/reviews)             |  100  |
+| [/api/v1/todos](https://mock-api-hub.ru/api/v1/todos)                 |  100  |
+| [/api/v1/users](https://mock-api-hub.ru/api/v1/users)                 |  100  |
 
-| Methods | Routes                           |
-|---------|:---------------------------------|
-| GET     | /api/v1/addresses                |
-| GET     | /api/v1/addresses/1              |
-| GET     | /api/v1/addresses?page=1         |
-| GET     | /api/v1/addresses?size=5         |
-| GET     | /api/v1/addresses?sort=city      |
-| GET     | /api/v1/addresses?direction=DESC |
-| GET     | /api/v1/addresses?country=China  |
-| POST    | /api/v1/addresses                |
-| PUT     | /api/v1/addresses/1              |
-| PATCH   | /api/v1/addresses/1              |
-| DELETE  | /api/v1/addresses/1              |
+| Methods | Routes                                                                                      |
+|---------|:--------------------------------------------------------------------------------------------|
+| GET     | [/api/v1/addresses](https://mock-api-hub.ru/api/v1/addresses)                               |
+| GET     | [/api/v1/addresses/1](https://mock-api-hub.ru/api/v1/addresses/1)                           |
+| GET     | [/api/v1/addresses?page=1](https://mock-api-hub.ru/api/v1/addresses?page=1)                 |
+| GET     | [/api/v1/addresses?size=5](https://mock-api-hub.ru/api/v1/addresses?size=5)                 |
+| GET     | [/api/v1/addresses?sort=city](https://mock-api-hub.ru/api/v1/addresses?sort=city)           |
+| GET     | [/api/v1/addresses?direction=DESC](https://mock-api-hub.ru/api/v1/addresses?direction=DESC) |
+| GET     | [/api/v1/addresses?country=China ](https://mock-api-hub.ru/api/v1/addresses?country=China ) |
+| POST    | /api/v1/addresses                                                                           |
+| PUT     | /api/v1/addresses/1                                                                         |
+| PATCH   | /api/v1/addresses/1                                                                         |
+| DELETE  | /api/v1/addresses/1                                                                         |
 
 > **Note**\
 > The server won't actually update the resource, but it will simulate the update as if it did.
@@ -126,4 +126,5 @@ the [contributing guidelines](https://github.com/nell-shark/mock-api-hub/blob/ma
 
 ## ⚖️ License
 
-This project is licensed under the [MIT License](https://github.com/nell-shark/mock-api-hub/blob/master/LICENSE).
+This project is licensed under
+the [MIT License](https://github.com/nell-shark/mock-api-hub/blob/master/LICENSE).
