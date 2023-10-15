@@ -97,4 +97,7 @@ jobs:
           host: ${{ secrets.SSH_HOST }}
           username: ${{ secrets.SSH_USERNAME }}
           key: ${{ secrets.SSH_PRIVATE_KEY }}
-          script: cd /mock-api-hub && git reset --hard && docker compose up -d --build
+          script: |
+            cd /mock-api-hub 
+            git reset --hard 
+            docker compose up -d --build
