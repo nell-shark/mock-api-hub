@@ -3,14 +3,13 @@ kind: Service
 metadata:
   name: backend-service
 spec:
-  type: NodePort
+  type: ClusterIP
   selector:
     app: backend
   ports:
     - protocol: TCP
       port: 8080
       targetPort: 8080
-      nodePort: 30100
 ---
 apiVersion: apps/v1
 kind: Deployment
@@ -19,7 +18,7 @@ metadata:
   labels:
     app: backend
 spec:
-  replicas: 2
+  replicas: 1
   selector:
     matchLabels:
       app: backend
