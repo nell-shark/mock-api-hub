@@ -37,7 +37,7 @@
 [Contributing](#-contributing) ·
 [License](#%EF%B8%8F-license)
 
-Made with :heart: by [NellShark](https://github.com/nell-shark)
+Made with :heart:
 
 </strong>
 </div>
