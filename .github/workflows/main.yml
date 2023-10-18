@@ -76,19 +76,29 @@ jobs:
     steps:
       - name: Checkout code
         uses: actions/checkout@v4
-      
-      - name: Configure k8s
-        uses: tale/kubectl-action@v1
-        with: 
-          base64-kube-config: ${{ secrets.KUBE_CONFIG }}
-          kubectl-version: v1.26.6
 
-      - name: Apply new k8s files 
-        run: |
-          kubectl apply -f ./k8s
-          set image deployment frontend-deployment frontend=${{ env.DOCKERHUB_USERNAME }}/${{ github.event.repository.name }}-frontend:${{ env.DOCKER_IMAGE_VERSION }}
-          set image deployment backend-deployment backend=${{ env.DOCKERHUB_USERNAME }}/${{ github.event.repository.name }}-backend:${{ env.DOCKER_IMAGE_VERSION }}
-            
+      - name: Configure k8s
+        uses: actions-hub/kubectl@master
+        env:
+          KUBE_CONFIG: ${{ secrets.KUBE_CONFIG }}
+        
+      - name: Apply files to k8s
+        uses: actions-hub/kubectl@master
+        with:
+          args: 
+            apply -f ./k8s
+
+      - name: Set new frontend image in k8s
+        uses: actions-hub/kubectl@master
+        with:
+          args: set image deployment frontend-deployment frontend=${{ env.DOCKERHUB_USERNAME }}/${{ github.event.repository.name }}-frontend:${{ env.DOCKER_IMAGE_VERSION }}
+
+      - name: Set new backend image in k8s
+        uses: actions-hub/kubectl@master
+        with:
+          args: set image deployment backend-deployment backend=${{ env.DOCKERHUB_USERNAME }}/${{ github.event.repository.name }}-backend:${{ env.DOCKER_IMAGE_VERSION }}
+          
+
       - name: Sleep for 1 minute
         run: sleep 60
 
