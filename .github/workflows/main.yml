@@ -82,7 +82,10 @@ jobs:
         env:
           KUBE_CONFIG: ${{ secrets.KUBE_CONFIG }}
         with:
-          args: apply -f ./k8s
+          args: |
+            apply -f ./k8s
+            set image deployment frontend-deployment frontend=${{ env.DOCKERHUB_USERNAME }}/${{ github.event.repository.name }}-frontend:${{ env.DOCKER_IMAGE_VERSION }}
+            set image deployment backend-deployment backend=${{ env.DOCKERHUB_USERNAME }}/${{ github.event.repository.name }}-backend:${{ env.DOCKER_IMAGE_VERSION }}
             
       - name: Sleep for 1 minute
         run: sleep 60
