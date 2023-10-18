@@ -85,7 +85,7 @@ jobs:
 
       - name: Apply new k8s files 
         run: |
-          apply -f ./k8s
+          kubectl apply -f ./k8s
           set image deployment frontend-deployment frontend=${{ env.DOCKERHUB_USERNAME }}/${{ github.event.repository.name }}-frontend:${{ env.DOCKER_IMAGE_VERSION }}
           set image deployment backend-deployment backend=${{ env.DOCKERHUB_USERNAME }}/${{ github.event.repository.name }}-backend:${{ env.DOCKER_IMAGE_VERSION }}
             
