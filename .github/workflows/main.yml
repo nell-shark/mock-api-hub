@@ -76,15 +76,10 @@ jobs:
     steps:
       - name: Checkout code
         uses: actions/checkout@v4
-
-      - name: Install base64
-        run: sudo apt-get -y install coreutils
       
       - name: Create kubeconfig
-        run: |
-          mkdir ${HOME}/.kube
-          echo ${{ secrets.KUBE_CONFIG }} | base64 --decode > ${HOME}/.kube/config
-          
+        run: echo ${{ secrets.KUBE_CONFIG }} | base64 --decode > ${HOME}/.kube/config
+
       - name: Test k8s
         run: |
           kubectl get pods
