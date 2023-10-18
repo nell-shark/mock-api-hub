@@ -77,12 +77,17 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v4
       
-      - name: Create kubeconfig
-        run: echo ${{ secrets.KUBE_CONFIG }} | base64 --decode > ${HOME}/.kube/config
+      - name: Configure k8s
+        uses: tale/kubectl-action@v1
+        with: 
+          base64-kube-config: ${{ secrets.KUBE_CONFIG }}
+          kubectl-version: v1.26.6
 
-      - name: Test k8s
+      - name: Apply new k8s files 
         run: |
-          kubectl get pods
+          apply -f ./k8s
+          set image deployment frontend-deployment frontend=${{ env.DOCKERHUB_USERNAME }}/${{ github.event.repository.name }}-frontend:${{ env.DOCKER_IMAGE_VERSION }}
+          set image deployment backend-deployment backend=${{ env.DOCKERHUB_USERNAME }}/${{ github.event.repository.name }}-backend:${{ env.DOCKER_IMAGE_VERSION }}
             
       - name: Sleep for 1 minute
         run: sleep 60
