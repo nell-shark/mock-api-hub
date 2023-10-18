@@ -76,12 +76,12 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v4
 
-      - name: Test k8s
+      - name: Deploy to k8s
         uses: actions-hub/kubectl@master
         env:
           KUBE_CONFIG: ${{ secrets.KUBE_CONFIG }}
         with:
-          args: kubectl apply -f ./k8s
+          args: apply -f ./k8s
 
       - name: Sleep for 1 minute
         run: sleep 60
