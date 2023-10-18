@@ -77,12 +77,14 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v4
 
-      - name: Configure k8s
-        uses: tale/kubectl-action@v1
-        with: 
-          base64-kube-config: ${{ secrets.KUBE_CONFIG }}
-          kubectl-version: v1.26.6
-
+      - name: Install base64
+        run: sudo apt-get -y install coreutils
+      
+      - name: Create kubeconfig
+        run: |
+          mkdir ${HOME}/.kube
+          echo ${{ secrets.KUBE_CONFIG }} | base64 --decode > ${HOME}/.kube/config
+          
       - name: Test k8s
         run: |
           kubectl get pods
