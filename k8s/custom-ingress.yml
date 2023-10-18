@@ -1,11 +1,17 @@
 apiVersion: networking.k8s.io/v1
 kind: Ingress
 metadata:
-  name: custom-ingress
-spec:
+  name: minimal-ingress
+  annotations:
+    cert-manager.io/cluster-issuer: "letsencrypt-production"
+spec: 
+  tls:
+  - hosts:
+    - mock-api-hub.ru
+    secretName: secret-tls
   ingressClassName: nginx
   rules:
-  - host: localhost
+  - host: mock-api-hub.ru
     http:
       paths:
       - path: /api

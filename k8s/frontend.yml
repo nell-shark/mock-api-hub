@@ -41,8 +41,8 @@ spec:
           args: [ "while true; do sleep 30; done;" ]    
           resources:
             limits:
-              memory: "256Mi"
-              cpu: "500m"
+              memory: "128Mi"
+              cpu: "100m"
           volumeMounts:
             - name: frontend-build
               mountPath: /build
@@ -51,8 +51,8 @@ spec:
           image: nginx:1.25.2-alpine-slim
           resources:
             limits:
-              memory: "256Mi"
-              cpu: "500m"
+              memory: "128Mi"
+              cpu: "100m"
           ports:
             - containerPort: 80
           volumeMounts:
