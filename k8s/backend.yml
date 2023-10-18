@@ -29,7 +29,7 @@ spec:
     spec:
       containers:
         - name: backend
-          image: nellshark/mock-api-hub-backend
+          image: nellshark/mock-api-hub-backend:${{ env.DOCKER_IMAGE_VERSION }}
           resources:
             limits:
               memory: "256Mi"

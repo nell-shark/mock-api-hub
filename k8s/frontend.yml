@@ -32,7 +32,7 @@ spec:
           emptyDir: {}
       containers:
         - name: frontend
-          image: nellshark/mock-api-hub-frontend
+          image: nellshark/mock-api-hub-frontend:${{ env.DOCKER_IMAGE_VERSION }}
           lifecycle:
             postStart:
               exec:

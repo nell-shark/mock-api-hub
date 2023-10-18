@@ -2,6 +2,7 @@ name: Build and deploy
 
 env:
   DOCKERHUB_USERNAME: nellshark
+  DOCKER_IMAGE_VERSION: ${{ github.run_id }}
 
 on:
   push:
@@ -45,7 +46,7 @@ jobs:
         uses: docker/build-push-action@v5
         with:
           push: true
-          tags: ${{ env.DOCKERHUB_USERNAME }}/${{ github.event.repository.name }}-backend:latest
+          tags: ${{ env.DOCKERHUB_USERNAME }}/${{ github.event.repository.name }}-backend:${{ env.DOCKER_IMAGE_VERSION }}
           context: ./backend
           file: ./backend/Dockerfile
 
@@ -65,7 +66,7 @@ jobs:
         uses: docker/build-push-action@v5
         with:
           push: true
-          tags: ${{ env.DOCKERHUB_USERNAME }}/${{ github.event.repository.name }}-frontend:latest
+          tags: ${{ env.DOCKERHUB_USERNAME }}/${{ github.event.repository.name }}-frontend:${{ env.DOCKER_IMAGE_VERSION }}
           context: ./frontend
           file: ./frontend/Dockerfile
 
@@ -82,7 +83,7 @@ jobs:
           KUBE_CONFIG: ${{ secrets.KUBE_CONFIG }}
         with:
           args: apply -f ./k8s
-
+            
       - name: Sleep for 1 minute
         run: sleep 60
 
